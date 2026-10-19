@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Built-environment hackathons and pitch days, autumn 2026</title>
+<meta name="description" content="Hackathons, startup competitions and ConTech hubs for AEC, ConTech and PropTech. Checked against organizer pages on 19 Oct 2026.">
+<meta property="og:title" content="Built-environment hackathons and pitch days, autumn 2026">
+<meta property="og:description" content="Hackathons, startup competitions and ConTech hubs for AEC, ConTech and PropTech.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --fg:#121212; --bg:#F5F5F5; --muted:#6B6B6B; --line:#E6E6E6; --card:#fff;
+    --orange:#FF621F; --blue:#2447D6; --radius:12px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--bg);color:var(--fg);font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.5}
+  a{color:inherit}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+
+  header{position:relative;overflow:hidden;border-bottom:1px solid var(--line);background-color:var(--bg)}
+  header svg.plan{position:absolute;inset:0;width:100%;height:100%;opacity:.2;pointer-events:none}
+  header::after{content:"";position:absolute;inset:0;pointer-events:none;
+    background:linear-gradient(90deg,var(--bg) 0%,rgba(245,245,245,.9) 38%,rgba(245,245,245,0) 78%)}
+  header .wrap{position:relative;z-index:2;padding-top:56px;padding-bottom:40px}
+  .eyebrow{display:inline-block;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--orange)}
+  h1{font-size:clamp(28px,5vw,44px);line-height:1.1;letter-spacing:-.02em;margin:10px 0 12px;max-width:16em}
+  .lead{color:var(--muted);max-width:40em;margin:0 0 6px;font-size:16px}
+  .stamp{font-size:13px;color:var(--muted);max-width:640px}
+
+  .controls{position:sticky;top:0;z-index:5;background:rgba(245,245,245,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  .controls .wrap{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding-top:12px;padding-bottom:12px}
+  .seg{display:flex;gap:6px;flex-wrap:wrap}
+  .seg button{font:inherit;font-size:13px;font-weight:500;border:1px solid var(--line);background:#fff;color:var(--fg);padding:6px 12px;border-radius:999px;cursor:pointer}
+  .seg button[aria-pressed="true"]{background:var(--fg);color:#fff;border-color:var(--fg)}
+  .search{flex:1;min-width:160px}
+  .search input{width:100%;font:inherit;font-size:14px;padding:8px 12px;border:1px solid var(--line);border-radius:var(--radius);background:#fff}
+  .search input:focus{outline:2px solid var(--orange);outline-offset:1px}
+
+  main{padding:28px 0 56px}
+  section{margin-top:36px}
+  section:first-child{margin-top:0}
+  .sec-head{display:flex;align-items:baseline;gap:10px;margin-bottom:4px}
+  .sec-head h2{font-size:22px;letter-spacing:-.01em;margin:0}
+  .count{font-size:13px;color:var(--muted)}
+  .sec-note{color:var(--muted);font-size:14px;margin:0 0 14px;max-width:46em}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,460px),1fr));gap:14px}
+  .card{display:flex;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px}
+  .date{flex:0 0 88px;text-align:center;border-right:1px solid var(--line);padding-right:14px}
+  .date .d{font-size:20px;font-weight:700;line-height:1.1;letter-spacing:-.02em;white-space:nowrap}
+  .date .m{font-size:11px;font-weight:600;letter-spacing:.08em;color:var(--orange);margin-top:4px;text-transform:uppercase;white-space:nowrap}
+  .body{min-width:0;flex:1}
+  .body h3{font-size:16px;line-height:1.3;margin:0 0 2px}
+  .meta{font-size:13px;color:var(--muted);margin:0 0 8px}
+  .desc{font-size:14px;margin:0 0 10px}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+  .tag{font-size:12px;font-weight:500;padding:3px 9px;border-radius:6px;background:#F0F0F0;color:#333}
+  .tag.o{background:#FFE9DE;color:#B83F00}
+  .tag.b{background:#E4E9FB;color:var(--blue)}
+  .tag.d{background:var(--fg);color:#fff}
+  .link{font-size:13px;font-weight:600;text-decoration:none;border-bottom:1.5px solid var(--orange)}
+  .link:hover{color:var(--orange)}
+  .card.past{opacity:.72}
+  .empty{display:none;text-align:center;color:var(--muted);padding:40px 0}
+  @media (max-width:520px){
+    .card{flex-direction:column;gap:10px}
+    .date{flex:none;display:flex;gap:8px;align-items:baseline;text-align:left;border-right:0;border-bottom:1px solid var(--line);padding:0 0 8px}
+    .date .m{margin-top:0}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <!-- Floor plan: thick walls, door swings, windows, structural axes with bubbles -->
+  <svg class="plan" viewBox="0 0 1200 360" preserveAspectRatio="xMaxYMid slice" fill="none" stroke="#121212" aria-hidden="true">
+    <!-- structural axes (dash-dot) -->
+    <g stroke-width="1.6" stroke-dasharray="30 6 4 6">
+      <path d="M60 32V345M420 32V345M800 32V345M1140 32V345"/>
+      <path d="M30 50H1160M30 200H1160M30 310H1160"/>
+    </g>
+    <!-- axis bubbles -->
+    <g stroke-width="1.6" fill="#F5F5F5">
+      <circle cx="60" cy="18" r="14"/><circle cx="420" cy="18" r="14"/><circle cx="800" cy="18" r="14"/><circle cx="1140" cy="18" r="14"/>
+      <circle cx="1182" cy="50" r="14"/><circle cx="1182" cy="200" r="14"/><circle cx="1182" cy="310" r="14"/>
+    </g>
+    <g fill="#121212" stroke="none" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central">
+      <text x="60" y="18">1</text><text x="420" y="18">2</text><text x="800" y="18">3</text><text x="1140" y="18">4</text>
+      <text x="1182" y="50">A</text><text x="1182" y="200">B</text><text x="1182" y="310">C</text>
+    </g>
+    <!-- exterior walls, 8px -->
+    <g stroke-width="8" stroke-linecap="butt">
+      <path d="M60 50H260M380 50H700M820 50H1140"/>
+      <path d="M60 310H300M390 310H900M1020 310H1140"/>
+      <path d="M60 50V120M60 220V310"/>
+      <path d="M1140 50V70M1140 130V310"/>
+    </g>
+    <!-- interior walls, 5px -->
+    <g stroke-width="5" stroke-linecap="butt">
+      <path d="M420 50V150M420 230V310"/>
+      <path d="M800 50V110M800 190V310"/>
+      <path d="M800 190H1000M1080 190H1140"/>
+      <path d="M60 200H250M330 200H420"/>
+    </g>
+    <!-- windows (thin triple line in the wall opening) -->
+    <g stroke-width="2">
+      <path d="M260 44H380M260 50H380M260 56H380M260 44V56M380 44V56"/>
+      <path d="M700 44H820M700 50H820M700 56H820M700 44V56M820 44V56"/>
+      <path d="M900 304H1020M900 310H1020M900 316H1020M900 304V316M1020 304V316"/>
+      <path d="M54 120V220M60 120V220M66 120V220M54 120H66M54 220H66"/>
+      <path d="M1134 70V130M1140 70V130M1146 70V130M1134 70H1146M1134 130H1146"/>
+    </g>
+    <!-- doors: leaf + swing arc -->
+    <g stroke-width="2">
+      <path d="M420 150H500M500 150A80 80 0 0 1 420 230"/>
+      <path d="M800 110H720M720 110A80 80 0 0 0 800 190"/>
+      <path d="M250 200V120M250 120A80 80 0 0 1 330 200"/>
+      <path d="M1000 190V110M1000 110A80 80 0 0 1 1080 190"/>
+      <path d="M300 310V220M300 220A90 90 0 0 1 390 310"/>
+    </g>
+  </svg>
+  <div class="wrap">
+    <span class="eyebrow">ConTech · PropTech · AEC</span>
+    <h1>Hackathons and pitch days for the built environment, autumn 2026</h1>
+    <p class="lead">A selection of hackathons, startup competitions and pitch days, plus the ConTech hubs and clusters that run them, for architecture, engineering, construction and real estate technology.</p>
+    <p class="stamp">Please check dates and conditions on the organizer's page before registering: organizers may change them. Last checked on 19 Oct 2026.</p>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="wrap">
+    <div class="seg" id="regions" role="group" aria-label="Region">
+      <button data-r="all" aria-pressed="true">All regions</button>
+      <button data-r="Europe" aria-pressed="false">Europe</button>
+      <button data-r="US" aria-pressed="false">US</button>
+      <button data-r="Other" aria-pressed="false">Other</button>
+    </div>
+    <label class="search"><input id="q" type="search" placeholder="Search by name, city, organizer" aria-label="Search events"></label>
+  </div>
+</div>
+
+<main>
+  <div class="wrap" id="app"></div>
+  <div class="wrap"><p class="empty" id="empty">Nothing matches these filters.</p></div>
+</main>
+
+<script>
+/* group: next | pitch | y2027 | hubs | held
+   region: Europe | US | Other
+   tags: [text, kind] kind: o (orange), b (blue), d (dark), "" (neutral) */
+const EVENTS = [
+  /* Hackathons: next weeks */
+  {g:"next",region:"US",start:"2026-10-27",end:"2026-10-27",d:"27",m:"Oct",
+   name:"The Big Build: SE Hackathon",city:"San Francisco, US",org:"NCSEA × AECtech",
+   desc:"One-day vibe-coding hackathon for structural engineers. Solo or in a team, no coding experience needed; teams form on site. Bring a laptop and a Claude or ChatGPT account. Products must be published as open source.",
+   tags:[["In person","o"],["$299 members / $399 others",""],["Free prep sessions 21–22 Oct","b"]],
+   link:"https://www.ncsea.com/summit/hackathon/"},
+
+  {g:"next",region:"Europe",start:"2026-11-05",end:"2026-11-05",d:"5",m:"Nov",
+   name:"Ideation X",city:"Biberach, Germany",org:"Hochschule Biberach",
+   desc:"Three tracks: Future Construction, Future Banking, Future Climate. Aimed at pupils, students, trainees and young professionals. Final pitch of 120 seconds.",
+   tags:[["Free, by application","o"],["€3,000 prizes",""],["Page in German",""]],
+   link:"https://www.hochschule-biberach.de/veranstaltungen/hackathon-ideation-x"},
+
+  {g:"next",region:"Europe",start:"2026-11-12",end:"2026-11-13",d:"12–13",m:"Nov",
+   name:"Hack the Water Graph",city:"Amsterdam, Netherlands",org:"Waterschap Amstel, Gooi en Vecht · Waternet · buildingSMART International",
+   desc:"Two-day hackathon on carbon-aware management of water infrastructure: linked data, knowledge graphs, RDF, JSON-LD, IFC, IDS, bSDD. Students, researchers and professionals; about 90 places, with UvA, TU Delft and HvA.",
+   tags:[["Registration open","o"],["Language: Dutch (per UvA listing)",""]],
+   link:"https://hackthewatergraph.waternet-events.nl/"},
+
+  {g:"next",region:"Europe",start:"2026-11-13",end:"2026-11-13",d:"13",m:"Nov",
+   name:"AEC NL Hackathon",city:"Eindhoven, Netherlands",org:"AEC NL",
+   desc:"Hackathon in Eindhoven. Online kick-off on 29 Oct, hackathon day on 13 Nov.",
+   tags:[["Online kick-off 29 Oct","b"]],
+   link:"https://ehv26hack.tech/"},
+
+  {g:"next",region:"US",start:"2026-11-14",end:"2026-11-15",d:"14–15",m:"Nov",
+   name:"AECtech Hackathon",city:"New York, US",org:"Thornton Tomasetti | CORE studio",
+   desc:"26-hour in-person hackathon at Thornton Tomasetti's downtown offices, part of the AECtech week (9–15 Nov). Open to all levels; teams form on site.",
+   tags:[["In person","o"],["Tickets on Eventbrite",""]],
+   link:"https://www.aectech.us/nyc-hackathon"},
+
+  {g:"next",region:"Europe",start:"2026-11-26",end:"2026-11-27",d:"26–27",m:"Nov",
+   name:"PropTech Pop Up: Best of Breed",city:"Nässjö, Sweden",org:"PropTech Sweden",
+   desc:"Overnight event for founders, CTOs and product managers of B2B software for construction and real estate. Includes a hackathon on real problems presented by property owners; Clima Energy Nordic is the hackathon partner.",
+   tags:[["Application","o"],["Lodging and meals included",""],["Page in Swedish",""]],
+   link:"https://event.proptechsweden.org/propcamp2026"},
+
+  {g:"next",region:"Europe",start:"2026-11-27",end:"2026-11-29",d:"27–29",m:"Nov",
+   name:"Construction Robotics Hackathon",city:"Aachen, Germany",org:"CTRL e.V., RWTH Aachen",
+   desc:"Real industrial robots, sensors and software on four challenge areas: assembly and installation, surface finishing, construction logistics, perception and safety. Teams of 3–5; beginners welcome; English.",
+   tags:[["Apply by 30 Oct","b"],["Free","o"],["Prize pool up to €10,000",""],["Travel support for some",""]],
+   link:"https://ctrl-rwth.de/events/ctrl-hackathon-2026"},
+
+  {g:"next",region:"Europe",start:"2026-12-08",end:"2026-12-10",d:"8–10",m:"Dec",
+   name:"Winter School on Digital Built Environment",city:"Eindhoven, Netherlands",org:"TU Eindhoven with 4TU/14UAS and EC³",
+   desc:"Lectures plus a grand-challenge hackathon on climate-resilience interventions. About 60 places; industry professionals are eligible; teams of 4–6 form on site.",
+   tags:[["Apply by 30 Oct (answer by 6 Nov)","b"],["Free","o"],["English",""]],
+   link:"https://www.4tu.nl/built-environment/Events/DigitalizationEvents/Winter_School_on_Digital_Built_Environment/"},
+
+  /* Startup competitions and pitch days */
+  {g:"pitch",region:"Europe",start:"2026-11-04",end:"2026-11-04",d:"4",m:"Nov",
+   name:"IFM Innovation Challenge",city:"Vienna, Austria",org:"IFM at TU Wien and ÖVI",
+   desc:"Startups present ideas to owners, developers and users at the 19th IFM Congress. The industry audience votes for the winner.",
+   tags:[["Submissions closed 31 Aug","b"]],
+   link:"https://www.tuwien.at/en/mwbw/im/ie/ifm/ifm-congress/innovation-challenge"},
+
+  {g:"pitch",region:"Europe",start:"2026-11-05",end:"2026-11-05",d:"5",m:"Nov",
+   name:"ULI PropTech Innovation Challenge: European winner",city:"Dublin, Ireland (C Change)",org:"ULI Europe Young Leaders",
+   desc:"Fourth edition, theme: resilient business models for real estate. Regional winners pitched on 28 Sep; the overall European winner is announced at ULI Europe C Change.",
+   tags:[["Entries closed","b"],["Watch the result",""]],
+   link:"https://europe.uli.org/2026-proptech-innovation-challenge-launches-to-find-innovative-solutions-for-real-estates-resilience/"},
+
+  {g:"pitch",region:"US",start:"2026-11-09",end:"2026-11-11",d:"9–11",m:"Nov",
+   name:"Construction Startup Competition: US Pitch Day",city:"Las Vegas, US (Trimble Dimensions)",org:"Cemex Ventures, Hilti, Trimble, Caterpillar, Ferrovial, Leonard (VINCI), NOVA (Saint-Gobain), Dysruptek by Haskell, Zacua Ventures, BCA",
+   desc:"10th edition of the construction startup competition. Finalists pitch to corporate partners. Tracks: preconstruction tech, jobsite productivity and building systems, ClimaTech, smart manufacturing and logistics, smart buildings and infrastructure.",
+   tags:[["Open call closed","b"],["Top 30 selected in October",""]],
+   link:"https://constructionstartupcompetition.tech/"},
+
+  {g:"pitch",region:"Europe",start:"2026-11-17",end:"2026-11-17",d:"17",m:"Nov",
+   name:"Construction Startup Competition: European Pitch Day",city:"Helsinki, Finland (Recotech)",org:"Same partner group as the US pitch day",
+   desc:"European pitch day of the same competition, held at Recotech. The organizer's timeline lists the European stage for 16–19 Nov.",
+   tags:[["Open call closed","b"]],
+   link:"https://constructionstartupcompetition.tech/"},
+
+  {g:"pitch",region:"Europe",start:"2026-11-25",end:"2026-11-25",d:"25",m:"Nov",
+   name:"Innovation World Cup finals at BIM World Munich",city:"Munich, Germany",org:"BIM World with the Innovation World Cup series",
+   desc:"Grand pitch finals of the 9th Smart Building / Smart Construction Innovation World Cup on the main stage of BIM World Munich (24–25 Nov). Four categories: planning, construction, operations, environment.",
+   tags:[["Submissions free","o"],["Deadline not published",""]],
+   link:"https://www.bim-world.de/de/bim-town/"},
+
+  /* 2027 */
+  {g:"y2027",region:"Europe",start:"2027-01-01",end:"2027-01-31",d:"Jan",m:"2027",
+   name:"AEC Hackathon Munich",city:"Munich, Germany",org:"AEC Hackathon community",
+   desc:"Listed in the official calendar for January 2027. Organizers plan about 80% experienced professionals and 20% emerging professionals.",
+   tags:[["Exact dates not published","b"]],
+   link:"https://hackaec.com/events/"},
+
+  {g:"y2027",region:"Europe",start:"2027-03-05",end:"2027-03-07",d:"5–7",m:"Mar 2027",
+   name:"AEC Hackathon @ BLOXHUB",city:"Copenhagen, Denmark",org:"BLOXHUB",
+   desc:"Theme: tech and AI for CO2-neutral and thriving cities. 100–150 participants per year; challenges come from industry partners, and you can bring your own.",
+   tags:[["Dates confirmed","o"],["Ticket sales not confirmed","b"]],
+   link:"https://bloxhub.org/aec-hackathon-bloxhub/"},
+
+  /* ConTech hub events */
+  {g:"hubs",region:"Europe",start:"2026-10-29",end:"2026-10-29",d:"29",m:"Oct",
+   name:"ConTech Startup Day 2026",city:"Barcelona, Spain",org:"Barcelona ConTech Hub and Fundació ITeC",
+   desc:"Half-day meeting (09:30–13:00, Col·legi d'Economistes de Catalunya) connecting startups, companies, investment funds, public bodies and technology centres around construction digitalisation. The hub also runs ConTech Space Lab, the first ConTech coworking space in Spain. A conference, not a hackathon.",
+   tags:[["Barcelona ConTech Hub","d"]],
+   link:"https://ecosistemastartup.com/contech-startup-day-2026-llega-a-barcelona-el-29-de-octubre/"},
+
+  /* Held in 2026 */
+  {g:"held",region:"Europe",start:"2026-01-31",end:"2026-02-01",d:"31–1",m:"Jan–Feb 2026",
+   name:"RealTech Hackathon",city:"London, UK",org:"UCL CSRI × PGIM",
+   desc:"AI for property price forecasting and for explaining predictions to real users.",tags:[],link:"https://luma.com/cbgzdo26"},
+  {g:"held",region:"Europe",start:"2026-03-22",end:"2026-03-24",d:"22–24",m:"Mar 2026",
+   name:"openBIM Hackathon",city:"Porto, Portugal",org:"buildingSMART International",
+   desc:"First edition: 47 participants in 9 teams building prototypes on IFC, IDS, BCF and bSDD. Winner: BCF Time Machine.",tags:[],link:"https://www.buildingsmart.org/?p=33503"},
+  {g:"held",region:"Europe",start:"2026-03-27",end:"2026-03-29",d:"27–29",m:"Mar 2026",
+   name:"AEC Hackathon Copenhagen",city:"Copenhagen, Denmark",org:"BLOXHUB",
+   desc:"The 2026 edition of the Copenhagen AEC Hackathon.",tags:[],link:"https://hackaec.com/events/copenhagen_26/"},
+  {g:"held",region:"Europe",d:"",m:"2026",
+   name:"Construction Hackathon, 3rd edition",city:"Brno, Czechia",org:"National Center for Construction 4.0",
+   desc:"Student hackathon at the Festival of Architecture. Theme: building without blueprints, paperless.",tags:[],link:"https://ricaip.eu/events/3rd-annual-construction-hackathon/"},
+  {g:"held",region:"Europe",start:"2026-06-18",end:"2026-06-18",d:"18",m:"Jun 2026",
+   name:"ConStructAI",city:"Würzburg, Germany",org:"CAIRO.thws",
+   desc:"One-day AI hackathon for construction. A follow-up edition with a challenge call was announced; its date is not published.",tags:[],link:"https://www.thws.de/en/research/institutes/cairothws/hackathon/"},
+  {g:"held",region:"Europe",start:"2026-09-05",end:"2026-09-05",d:"5",m:"Sep 2026",
+   name:"Hack the Building",city:"Nottingham, UK",org:"Built in Notts",
+   desc:"One-day PropTech sprint on managed office spaces; code, low-code and AI-assisted prototyping all allowed.",tags:[],link:"https://happeningnext.com/event/hack-the-building-proptech-hackathon-eid1ef0l34shl7a"},
+  {g:"held",region:"US",start:"2026-09-26",end:"2026-09-27",d:"26–27",m:"Sep 2026",
+   name:"Chicago Innovate Hackathon",city:"Chicago, US",org:"Chicago Innovate Tech AEC at Gensler",
+   desc:"Hackathon on a Box: teams build with frontier-class AI running on local hardware, no cloud dependency.",tags:[],link:"https://www.eventbrite.com/e/1996450025770/"},
+  {g:"held",region:"Europe",d:"",m:"2026",
+   name:"Lovable × LangChain PropTech Hackathon",city:"Stockholm, Sweden",org:"LangChain and Lovable, sponsor Brickanta",
+   desc:"One-day hackathon on AI for real estate and construction.",tags:[],link:"https://luma.com/aa543o8t"},
+  {g:"held",region:"Other",d:"",m:"Aug 2026",
+   name:"Smart QS Hackathon and WnCC × Kaya AI",city:"Hong Kong and Bengaluru",org:"Cyberport, HKU and Housing Authority; WnCC and Kaya AI",
+   desc:"AI for quantity surveying in Hong Kong, and construction AI with a Bengaluru finale.",tags:[],link:"https://hku.hk/press/news_detail_29283.html"}
+];
+
+const SECTIONS = [
+  {g:"next",title:"Hackathons, next weeks",note:"Sorted by date. Apply early where a deadline is shown."},
+  {g:"pitch",title:"Startup competitions and pitch days",note:"Developers and investors in real estate mostly run pitch formats rather than hackathons. Most entries are closed, but finals are worth following or attending."},
+  {g:"y2027",title:"Announced for 2027",note:""},
+  {g:"hubs",title:"ConTech hub events",note:""},
+  {g:"held",title:"Already held in 2026",note:"Useful as a pattern for next year's cycle."}
+];
+
+const now = new Date();
+const esc = s => String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const isPast = e => e.end && new Date(e.end+"T23:59:59") < now;
+
+let region = "all", query = "";
+
+function groupOf(e){
+  if(isPast(e) && ["next","pitch","hubs"].includes(e.g)) return "held";
+  return e.g;
+}
+
+function card(e){
+  const past = isPast(e) || groupOf(e)==="held";
+  const tags = (e.tags||[]).map(t=>`<span class="tag ${t[1]||""}">${esc(t[0])}</span>`).join("");
+  const dateBlock = (e.d||e.m) ? `<div class="date"><div class="d">${esc(e.d)}</div><div class="m">${esc(e.m)}</div></div>` : "";
+  return `<article class="card${past?" past":""}">
+    ${dateBlock}
+    <div class="body">
+      <h3>${esc(e.name)}</h3>
+      <p class="meta">${esc(e.city)} · ${esc(e.org)}</p>
+      <p class="desc">${esc(e.desc)}</p>
+      ${tags?`<div class="tags">${tags}</div>`:""}
+      <a class="link" href="${esc(e.link)}" target="_blank" rel="noopener">Organizer page ↗</a>
+    </div></article>`;
+}
+
+function render(){
+  const q = query.trim().toLowerCase();
+  const list = EVENTS.filter(e=>{
+    if(region!=="all" && e.region!==region) return false;
+    if(q && !(e.name+" "+e.city+" "+e.org+" "+e.desc).toLowerCase().includes(q)) return false;
+    return true;
+  });
+  let html = "", total = 0;
+  SECTIONS.forEach(s=>{
+    const items = list.filter(e=>groupOf(e)===s.g)
+      .sort((a,b)=>(a.start||"9999").localeCompare(b.start||"9999"));
+    if(!items.length) return;
+    total += items.length;
+    html += `<section><div class="sec-head"><h2>${esc(s.title)}</h2><span class="count">${items.length}</span></div>
+      ${s.note?`<p class="sec-note">${esc(s.note)}</p>`:""}
+      <div class="grid">${items.map(card).join("")}</div></section>`;
+  });
+  document.getElementById("app").innerHTML = html;
+  document.getElementById("empty").style.display = total ? "none" : "block";
+}
+
+document.getElementById("regions").addEventListener("click",ev=>{
+  const b = ev.target.closest("button"); if(!b) return;
+  region = b.dataset.r;
+  document.querySelectorAll("#regions button").forEach(x=>x.setAttribute("aria-pressed", x===b ? "true":"false"));
+  render();
+});
+document.getElementById("q").addEventListener("input",ev=>{ query = ev.target.value; render(); });
+render();
+</script>
+</body>
+</html>
