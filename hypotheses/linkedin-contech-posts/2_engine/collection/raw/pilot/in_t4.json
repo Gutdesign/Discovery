@@ -1,0 +1,25 @@
+{
+    "companies":  [
+                      "https://www.linkedin.com/company/buildots/",
+                      "https://www.linkedin.com/company/trunktools/",
+                      "https://www.linkedin.com/company/planradar/",
+                      "https://www.linkedin.com/company/specklesystems/",
+                      "https://www.linkedin.com/company/higharc/"
+                  ],
+    "companyBatchMode":  "one_by_one",
+    "jobTitles":  [
+                      "CEO",
+                      "Founder",
+                      "Co-Founder",
+                      "Chief Product Officer",
+                      "Head of Product",
+                      "Product Manager",
+                      "Head of AI",
+                      "AI Lead",
+                      "Chief AI Officer",
+                      "Digital Transformation"
+                  ],
+    "profileScraperMode":  "Short ($4 per 1k)",
+    "maxItemsPerCompany":  5,
+    "maxItems":  25
+}
