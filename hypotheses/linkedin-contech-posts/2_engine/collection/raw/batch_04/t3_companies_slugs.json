@@ -1,0 +1,2214 @@
+[
+ {
+  "id": "11057305",
+  "universalName": "arbnco",
+  "linkedinUrl": "https://www.linkedin.com/company/arbnco/",
+  "name": "arbnco",
+  "tagline": "Accelerate your net-zero journey with our AI-powered platform for Real Estate",
+  "website": "http://arbnco.co.uk",
+  "callToActionUrl": "https://arbnco.co.uk/",
+  "phone": null,
+  "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQHjwfHwmPIJFw/company-logo_400_400/company-logo_400_400/0/1653480193295/arbnco_logo?e=1794441600&v=beta&t=Hye9HvGJgHQHgX6U8JDt9zqlHPFe3qZDYYQKo5ZkiAQ",
+  "foundedOn": {
+   "month": null,
+   "year": 2017,
+   "day": null
+  },
+  "employeeCount": 15,
+  "employeeCountRange": {
+   "start": 51,
+   "end": 200
+  },
+  "followerCount": 2164,
+  "description": "We’re a multi, award-winning PropTech company addressing one of the defining challenges of our time: climate change.\n\nWith a mission to help create a sustainable and efficient built environment, arbnco’s cutting-edge technology and data analytics empower building owners, operators, occupants, and energy suppliers to reduce the environmental impact of operating buildings. arbnco technology helps stakeholders acquire, verify, and analyse the right data systematically and with ease.\n\nEstablished in Scotland, arbnco operates across the US and Europe. We help some of the world’s largest property owners, managing agents, corporate occupiers, and energy utilities continually and iteratively improve and optimise the performance of buildings at scale by identifying energy efficiency and decarbonisation interventions. The platform also helps to manage risk, including that from legislative changes (compliance) and climate change.\n\nWith a focus on data-driven insights and advanced analytics, arbnco provides comprehensive solutions that enable our target market to make informed decisions, comply with energy regulations, optimise energy usage, and contribute to a greener and more sustainable built environment.",
+  "companyType": "Public Company",
+  "locations": [
+   {
+    "country": "GB",
+    "city": "Glasgow",
+    "geographicArea": null,
+    "line1": "Inovo Building, Ground Floor, Suite F",
+    "line2": "121 George Street",
+    "postalCode": "G1 1RD",
+    "headquarter": true,
+    "description": null,
+    "parsed": {
+     "text": "Glasgow, United Kingdom",
+     "countryCode": "GB",
+     "regionCode": null,
+     "country": "UK",
+     "countryFull": "United Kingdom",
+     "state": "Scotland",
+     "city": "Glasgow"
+    }
+   }
+  ],
+  "specialities": [
+   "Software",
+   "Health and Wellbeing",
+   "Retrofitting",
+   "Energy Efficiency",
+   "Indoor Environmental Quality",
+   "Renewable Energy",
+   "Climate Change",
+   "Smart Buildings",
+   "Building Optimisation",
+   "Data Analytics",
+   "PropTech",
+   "Climate Tech",
+   "Decarbonisation",
+   "The Built Environment ",
+   "Carbon Reporting ",
+   "SaaS",
+   "Data Driven Insights",
+   "ESG"
+  ],
+  "industries": [
+   {
+    "id": "4",
+    "name": "Software Development",
+    "urn": "urn:li:fsd_industryV2:4",
+    "title": "Software Development",
+    "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Software Development"
+   }
+  ],
+  "logos": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHjwfHwmPIJFw/company-logo_400_400/company-logo_400_400/0/1653480193295/arbnco_logo?e=1794441600&v=beta&t=Hye9HvGJgHQHgX6U8JDt9zqlHPFe3qZDYYQKo5ZkiAQ",
+    "width": 400,
+    "height": 400
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHjwfHwmPIJFw/company-logo_200_200/company-logo_200_200/0/1653480193295/arbnco_logo?e=1794441600&v=beta&t=NHbNNZNZm2fZPZ3Gy-fl8lp7gq-2KUcuJj3yDUWbRNA",
+    "width": 200,
+    "height": 200
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHjwfHwmPIJFw/company-logo_100_100/company-logo_100_100/0/1653480193295/arbnco_logo?e=1794441600&v=beta&t=PLwmeakEocEq5gSTRW4F0OClf348o6TDe91wnTMHWp0",
+    "width": 100,
+    "height": 100
+   }
+  ],
+  "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQHScmBuV6YffA/company-background_10000/company-background_10000/0/1734107414527/arbnco_cover?e=1793192400&v=beta&t=CRR59WZR-_1OmcRK7IyTBsmsArfEpj7Rb3hrMmA5EPQ",
+  "backgroundCovers": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E1BAQHScmBuV6YffA/company-background_10000/company-background_10000/0/1734107414527/arbnco_cover?e=1793192400&v=beta&t=CRR59WZR-_1OmcRK7IyTBsmsArfEpj7Rb3hrMmA5EPQ",
+    "width": 1128,
+    "height": 191
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E1BAQHScmBuV6YffA/company-background_400/company-background_400/0/1734107414527/arbnco_cover?e=1793192400&v=beta&t=vSFeLalEAg7wAz5XcviAXrEtjT7ftg83voRPo-O6lSQ",
+    "width": 400,
+    "height": 67
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E1BAQHScmBuV6YffA/company-background_200/company-background_200/0/1734107414527/arbnco_cover?e=1793192400&v=beta&t=EzH1_akBm-23Y0SqsWYyiTSs40MGaf1ftTmXCCxGTtU",
+    "width": 200,
+    "height": 33
+   }
+  ],
+  "active": true,
+  "jobSearchUrl": "https://www.linkedin.com/jobs/search?geoId=92000000&f_C=11057305",
+  "pageVerified": false,
+  "pageType": "COMPANY",
+  "showcase": false,
+  "paidCompany": false,
+  "autoGenerated": false,
+  "messagingEnabled": true,
+  "similarOrganizations": [
+   {
+    "id": "93622387",
+    "universalName": "apihs",
+    "linkedinUrl": "https://www.linkedin.com/company/apihs/",
+    "name": "APIHS (Advanced Progressive International Hybrid Solutions)",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQF-JGOtnR9B3A/company-logo_400_400/company-logo_400_400/0/1685111022494/apihs_logo?e=1794441600&v=beta&t=QIXcwVBgwU9MZCy79P4ne12-QARd1QF6CyU_hso-Wkg",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 179,
+    "description": "\nAPIHS est une entreprise spécialisée dans l’innovation et le développement de revêtements liquides de nouvelle génération. Notre mission est de créer des solutions performantes et durables capables d’améliorer la protection, l’efficacité et la longévité des matériaux dans plusieurs secteurs industriels. Grâce à notre département interne de chimie et à notre collaboration étroite avec le CEPROCQ, nous concevons des formulations avancées basées sur des approches scientifiques rigoureuses et sur une vision orientée vers la performance durable.\n\nNous développons des produits biosourcés, des revêtements nanocéramiques, des solutions à base d’eau et des formulations spécialisées conçues pour répondre aux besoins réels du terrain. Chaque produit est conçu pour offrir une résistance accrue, une application simplifiée, une durabilité supérieure et une réduction mesurable de l’impact environnemental. Notre approche vise à remplacer ou améliorer les revêtements traditionnels en proposant des solutions plus efficaces et adaptées aux réalités modernes.\n\nL’innovation est au cœur de notre identité. APIHS investit continuellement dans la recherche, l’optimisation et l’amélioration de ses formulations. Grâce à nos travaux internes en chimie et au soutien des équipes universitaires et scientifiques du CEPROCQ, nous sommes en mesure de faire évoluer nos produits rapidement, de valider nos avancées et de développer des recettes qui anticipent les besoins industriels futurs.\n\nNotre objectif est clair : offrir des revêtements liquides plus performants, plus responsables et mieux adaptés aux défis environnementaux actuels. En misant sur la science, la collaboration et la durabilité, APIHS s’impose comme un acteur essentiel de l’innovation matérielle au Québec et à l’international. Nous bâtissons des solutions qui améliorent la performance des matériaux tout en contribuant à un avenir plus propre et plus durable.\n\nPour découvrir nos travaux, nos solutions ou entamer une collaboration, nou",
+    "industries": [
+     {
+      "id": "48",
+      "name": "Construction",
+      "urn": "urn:li:fsd_industryV2:48",
+      "title": "Construction",
+      "hierarchy": "Construction"
+     }
+    ],
+    "affiliatedPages": []
+   },
+   {
+    "id": "75419051",
+    "universalName": "turkeco-construction-and-energy-inc",
+    "linkedinUrl": "https://www.linkedin.com/company/turkeco-construction-and-energy-inc/",
+    "name": "Turkeco Construction and Energy Inc.",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQHhaz37FtHUAg/company-logo_400_400/company-logo_400_400/0/1630636472757?e=1794441600&v=beta&t=dZ3-2r9rw_q6N9yKgREKqKLcjATCuEsvwZDWTJTSVSI",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 315,
+    "description": "Founded in 2009, with 20 years of civil and environmental engineering expertise, TURKECO works in the real estate sector managing sustainability with clients like municipalities, private sector and NGOs.  Areas we work are:\n\n1)\tSustainability Works in infrastructure projects with our licensed Civil Engineers\n2)\tManaging funded projects by organizations like   AFD, IFC, WB, GIZ, FP7, H2020, WWF and USAID and providing expertise.\n\n3)\tConsulting  to sustainability projects with accredited professionals like P.E. (Civil) and ASHRAE BEMP.\n",
+    "industries": [
+     {
+      "id": "44",
+      "name": "Real Estate",
+      "urn": "urn:li:fsd_industryV2:44",
+      "title": "Real Estate",
+      "hierarchy": "Real Estate and Equipment Rental Services > Real Estate"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQGnEwpyoWeqNg/company-background_10000/company-background_10000/0/1706745116195/turkeco_construction_and_energy_inc_cover?e=1793192400&v=beta&t=NLpZhHOTgOFf84bOCBfhFHGQn_MdM_OPPNLSKb9EA2Q",
+    "affiliatedPages": []
+   },
+   {
+    "id": "11354060",
+    "universalName": "small-data-garden-ltd",
+    "linkedinUrl": "https://www.linkedin.com/company/small-data-garden-ltd/",
+    "name": "Small Data Garden",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQEUdWaxT-RsMg/company-logo_400_400/company-logo_400_400/0/1645520070623/small_data_garden_ltd_logo?e=1794441600&v=beta&t=2Y1ghqhAkM_rJl7X5CaW0AOKuctCdPQ5xIlnFD8ms1g",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 343,
+    "description": "We build IoT solutions for you\n\nWe build you a versatile solution to collect data on your facilities, processes, equipment and environment. We can also manage and analyse data and send intelligent control messages to actuators and automation. Furthermore, we can visualise the data and provide wireless connectivity. We don’t embrace the world, we deliver the building blocks you need, as complete as you want. We make IoT solutions for you, with you!",
+    "industries": [
+     {
+      "id": "3231",
+      "name": "Information Technology & Services",
+      "urn": "urn:li:fsd_industryV2:3231",
+      "title": "Information Technology & Services",
+      "hierarchy": null
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4D1BAQEGQErCXwjOvA/company-background_10000/B4DZcfqK8AGYAU-/0/1748582849857/small_data_garden_ltd_cover?e=1793192400&v=beta&t=vV25nbxO7osCR0ZFRXzbU6N8sKQ-j6oItCQnAbA97Qk",
+    "affiliatedPages": []
+   },
+   {
+    "id": "19138509",
+    "universalName": "women-in-sustainability-leadership-awards-alumnae-group",
+    "linkedinUrl": "https://www.linkedin.com/company/women-in-sustainability-leadership-awards-alumnae-group/",
+    "name": "Women in Sustainability Leadership Awards",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQEXZ-mMe--4Mw/company-logo_400_400/company-logo_400_400/0/1630453904553/women_in_sustainability_leadership_awards_alumnae_group_logo?e=1794441600&v=beta&t=CCp2t3mPQSqUWdUBIozXXHU8VfyE-JbA4iSMmQCbc7o",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 4486,
+    "description": "The mission of the WSLA Alumnae Group is to create a more sustainable world by growing awareness, promoting advancement, and supporting the development of women in sustainability leadership.",
+    "industries": [
+     {
+      "id": "100",
+      "name": "Non-profit Organizations",
+      "urn": "urn:li:fsd_industryV2:100",
+      "title": "Non-profit Organizations",
+      "hierarchy": "Consumer Services > Non-profit Organizations"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/C4D1BAQHY-zRA6xF0DA/company-background_10000/company-background_10000/0/1611242652167/women_in_sustainability_leadership_awards_cover?e=1793192400&v=beta&t=MgQqJexOJq69BvEGTAndxTrfitwuCWTyUKDe0WuxJEg",
+    "affiliatedPages": []
+   },
+   {
+    "id": "9181819",
+    "universalName": "princelet",
+    "linkedinUrl": "https://www.linkedin.com/company/princelet/",
+    "name": "Princelet",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGZHhsx_Kp1tA/company-logo_400_400/B4EZ89InM4JUAY-/0/1783437095983/princelet_logo?e=1794441600&v=beta&t=vVF-Kcd_7P0aERHoJmL6aCbm-NSPX-ToGJXXfZMHFtY",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 476,
+    "description": "Princelet is a boutique corporate finance firm specialising in technology transactions. We equip shareholders with practical financial advice and seamless execution, always with a focus on maximising value.\n\nFor more information, please visit www.princelet.com",
+    "industries": [
+     {
+      "id": "43",
+      "name": "Financial Services",
+      "urn": "urn:li:fsd_industryV2:43",
+      "title": "Financial Services",
+      "hierarchy": "Financial Services"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQEeIvoFCAm-FA/company-background_10000/B4EZlXydqRKQAU-/0/1758114470949/princelet_cover?e=1793192400&v=beta&t=RIR2GyiYljeR-SmjkonIL39PXwjok-jfI4mDMV426KA",
+    "affiliatedPages": []
+   },
+   {
+    "id": "289448",
+    "universalName": "ies-ltd-",
+    "linkedinUrl": "https://www.linkedin.com/company/ies-ltd-/",
+    "name": "IES Ltd.",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGqsEzeuw6q2Q/company-logo_400_400/company-logo_400_400/0/1719256612856/ies_ltd__logo?e=1794441600&v=beta&t=_PyfLCOrl_q3osEroWub2vQUWNTEH9FQL_PccDRn1O8",
+    "employeeCountRange": {
+     "start": 201,
+     "end": 500
+    },
+    "followerCount": 64827,
+    "description": "IES is an innovative company at the forefront of the development and application of powerful software simulation tools and consulting services for architects, engineers and others involved in the design, development and management of truly sustainable buildings.\r\n\r\nIES’ mission is to advance the sustainability of the world’s buildings through the use of integrated building performance modelling technology which more intelligently and assuredly determines the measures required to mitigate climate change and conserve our natural resources for future generations.",
+    "industries": [
+     {
+      "id": "6",
+      "name": "Technology, Information and Internet",
+      "urn": "urn:li:fsd_industryV2:6",
+      "title": "Technology, Information and Internet",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQE0Pj8SgSZ70g/company-background_10000/B4EZuNrxrnHoAU-/0/1767608622224/ies_ltd__cover?e=1793192400&v=beta&t=VbJ7O8bBvZTnA623KWiNx5SiUYSoJ4CtNStfiTanwPU",
+    "affiliatedPages": []
+   },
+   {
+    "id": "36348",
+    "universalName": "morgan-advanced-materials",
+    "linkedinUrl": "https://www.linkedin.com/company/morgan-advanced-materials/",
+    "name": "Morgan Advanced Materials",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQE5wSuGQUj-nQ/company-logo_400_400/B4EZW0XWLXGwAY-/0/1742487774290/morgan_advanced_materials_logo?e=1794441600&v=beta&t=LNxe7WK5cg1vL71WMo7whtTTQ45ZSyh3rhH6ms_0rBY",
+    "employeeCountRange": {
+     "start": 5001,
+     "end": 10000
+    },
+    "followerCount": 71716,
+    "description": "At Morgan Advanced Materials we combine material science, deep application expertise and process excellence to co-design and manufacture mission critical solutions. \n\nThese solutions are at the heart of society’s most essential systems today and they will enable the breakthroughs of tomorrow. \nOur products help people move, build and thrive. We help power human progress, where it matters most.\n\nAs we look to the future, our vision is clear: to become the leading force in our chosen markets. At the heart of this vision is our strategy; unlocking Morgan's potential. With strong foundations built over the last century, we’re setting out a multi-year strategy focused on operational excellence, asset utilisation, and maximising portfolio value. \n\nThe journey ahead is ambitious, but with the right team and a clear roadmap, we’re confident in our ability to unlock our full potential.",
+    "industries": [
+     {
+      "id": "145",
+      "name": "Glass, Ceramics and Concrete Manufacturing",
+      "urn": "urn:li:fsd_industryV2:145",
+      "title": "Glass, Ceramics and Concrete Manufacturing",
+      "hierarchy": "Manufacturing > Glass, Ceramics and Concrete Manufacturing"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQEVv-jpPYeuqA/company-background_10000/B4EZW0eUHxHUAY-/0/1742489600979/morgan_advanced_materials_cover?e=1793192400&v=beta&t=6mEDs5_U6Rdj-2c0Iu202oGvk5EMe5AhZ_9zFqS4ztI",
+    "affiliatedPages": []
+   },
+   {
+    "id": "69035563",
+    "universalName": "cc-informatics",
+    "linkedinUrl": "https://www.linkedin.com/company/cc-informatics/",
+    "name": "CC Informatics",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQGFoKtMfj0yoQ/company-logo_400_400/company-logo_400_400/0/1630646768118/cc_informatics_logo?e=1794441600&v=beta&t=jC4ptlB0LUpGTkm4e-dTj3WFaUrny8467rBIzWXD71A",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 543,
+    "description": "Infrastructure owners need safer, smarter ways to understand the condition of their physical assets, and that’s why they work with CC Informatics. \n\nWe capture comprehensive photographic datasets from hard‑to‑access environments and apply advanced machine‑vision analytics to extract the insight engineers need for maintenance, regulatory compliance and long‑term asset management. \n\nAt the core of our capability is AssetScan, our proprietary machine‑vision technology that turns raw imagery into mapped, measurable deterioration data. Whether on image data that has been captured or provided, AssetScan automatically detects and classifies defects, anchors findings within digital twins, and enables automated change detection across repeat surveys. By replacing the heavy lifting of data processing and feature identification with technology, AssetScan gives clients faster, clearer and more reliable insight, helping engineers make confident maintenance decisions, improve safety outcomes and manage ageing infrastructure with greater consistency and control. \n\nGet in touch with the team here: https://www.cc-info.co.uk/get-in-touch.html",
+    "industries": [
+     {
+      "id": "51",
+      "name": "Civil Engineering",
+      "urn": "urn:li:fsd_industryV2:51",
+      "title": "Civil Engineering",
+      "hierarchy": "Construction > Civil Engineering"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQFkXHxg6-59Og/company-background_10000/B4EaDx5XZxH8AI-/0/1790764743031/cc_informatics_cover?e=1793192400&v=beta&t=dKipCXOzpiMpNNYRVzDY5XDasKFWq7vdENfD5Yndn3o",
+    "affiliatedPages": []
+   },
+   {
+    "id": "100869160",
+    "universalName": "head-for-data",
+    "linkedinUrl": "https://www.linkedin.com/company/head-for-data/",
+    "name": "Head for Data",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFbWHm_HCR5og/company-logo_400_400/B4DZjgvzppGQAY-/0/1756117286451/head_for_data_logo?e=1794441600&v=beta&t=yGTrXx-6bP7B6IoXQaODIczj0wbc4xdbj9NWO1YXfig",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 1475,
+    "description": "Head for Data is a technology partner that helps businesses turn data into growth. With over 50 years of combined experience, our team has built award-winning solutions for SMEs and large organisations alike. We specialise in making data, automation and AI simple, practical and ROI-driven – giving you clarity, efficiency and results without the jargon.",
+    "industries": [
+     {
+      "id": "96",
+      "name": "IT Services and IT Consulting",
+      "urn": "urn:li:fsd_industryV2:96",
+      "title": "IT Services and IT Consulting",
+      "hierarchy": "Professional Services > IT Services and IT Consulting"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4D1BAQGCdNb3up4q0A/company-background_10000/B4DZjgxnXYHYAU-/0/1756117760113/head_for_data_cover?e=1793192400&v=beta&t=DhwaA9Ezu92v1UvvNxX8zCQi9YLy2l7-iszKFp_6yDs",
+    "affiliatedPages": []
+   },
+   {
+    "id": "7253",
+    "universalName": "mott-macdonald",
+    "linkedinUrl": "https://www.linkedin.com/company/mott-macdonald/",
+    "name": "Mott MacDonald",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQHquBl_sJE0lw/company-logo_400_400/B4EZp26jIsJ0AY-/0/1762931651526/mott_macdonald_logo?e=1794441600&v=beta&t=OGCeGnP16jv-yQJvSwUm4qiFGJwqZdk3IU4pmQgG5UY",
+    "employeeCountRange": {
+     "start": 10001,
+     "end": null
+    },
+    "followerCount": 958354,
+    "description": "We are an engineering, management and development consultancy and one of the largest wholly employee-owned firms of our kind. \n\nWe plan, design, deliver and maintain the transport, energy, water, defence and security, and buildings infrastructure that is integral to people's daily lives. \n\nOur core strength is using our expertise to overcome complex challenges to deliver benefits for our clients and the communities they serve.",
+    "industries": [
+     {
+      "id": "51",
+      "name": "Civil Engineering",
+      "urn": "urn:li:fsd_industryV2:51",
+      "title": "Civil Engineering",
+      "hierarchy": "Construction > Civil Engineering"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQFHYPaPOSMyfA/company-background_10000/B4EZvl4sQbHIAY-/0/1769088403062/mott_macdonald_cover?e=1793192400&v=beta&t=nnlO1bIwS-Orb_1U64XT01Sbf35yvEv9TgBeVjUmuTQ",
+    "affiliatedPages": []
+   },
+   {
+    "id": "14167",
+    "universalName": "buro-happold",
+    "linkedinUrl": "https://www.linkedin.com/company/buro-happold/",
+    "name": "Buro Happold",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGcoYyn6Tno-g/company-logo_400_400/company-logo_400_400/0/1690847890911/buro_happold_logo?e=1794441600&v=beta&t=MaovTFE38htvj6pIP9dKJMppYRasWxarPE9WBpOtb5c",
+    "employeeCountRange": {
+     "start": 1001,
+     "end": 5000
+    },
+    "followerCount": 306134,
+    "description": "We are an international, integrated consultancy of engineers, designers and advisers. For over 45 years, we have built an unrivalled reputation by delivering creative, value-led solutions for the benefit of people, places and planet.\n\nDescribed by our clients as 'passionate', 'innovative' and 'collaborative', Buro Happold is synonymous with the delivery of exceptionally complex projects on every continent, working with the world's leading architectural practices and organisations, such as the United Nations, UNESCO and C40 Cities. Through our global community of driven, world-leading engineering, advisory and design professionals, we are acting to address major challenges in an ever-evolving world.",
+    "industries": [
+     {
+      "id": "48",
+      "name": "Construction",
+      "urn": "urn:li:fsd_industryV2:48",
+      "title": "Construction",
+      "hierarchy": "Construction"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQHcn0Vg3E6nZw/company-background_10000/B4EZ2b7LPMI0AU-/0/1776437474994/buro_happold_cover?e=1793192400&v=beta&t=YcOuWKNwMnYVabg1-5cHQWf7x60gpMgB1HvzEfx5VXI",
+    "affiliatedPages": []
+   },
+   {
+    "id": "2314836",
+    "universalName": "gresb",
+    "linkedinUrl": "https://www.linkedin.com/company/gresb/",
+    "name": "GRESB",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQHfPE4Hs0-4Lw/company-logo_400_400/company-logo_400_400/0/1634303976210/gresb_logo?e=1794441600&v=beta&t=U0G-q48Aex0Kmdd-U5MPIBR5woqjq4LrWHPD__4XPXY",
+    "employeeCountRange": {
+     "start": 51,
+     "end": 200
+    },
+    "followerCount": 46270,
+    "description": "GRESB is the global sustainability intelligence standard for real assets. We transform sustainability data into decision-grade intelligence that drives capital allocation and asset improvement.   \n\nThrough our industry-governed standards, established benchmarks, validated data, and performance analytics, GRESB equips organizations across real asset markets to compare sustainability performance, manage risk, improve asset economics, and make more informed capital and asset decisions.   ",
+    "industries": [
+     {
+      "id": "84",
+      "name": "Information Services",
+      "urn": "urn:li:fsd_industryV2:84",
+      "title": "Information Services",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Information Services"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQEcsGgLuqCkvg/company-background_10000/B4EZY4TZEWHYAU-/0/1744701330459/gresb_cover?e=1793192400&v=beta&t=4T3nhflsoGtzC-avI-dadYBeeZ5c7_5mh5ojms9hvuY",
+    "affiliatedPages": []
+   }
+  ],
+  "affiliatedPages": [],
+  "peopleStats": [
+   {
+    "statTitle": "Locations",
+    "values": [
+     {
+      "title": "United Kingdom",
+      "count": 11
+     },
+     {
+      "title": "Glasgow City",
+      "count": 6
+     },
+     {
+      "title": "Scotland, United Kingdom",
+      "count": 6
+     },
+     {
+      "title": "Greater Glasgow Area",
+      "count": 6
+     },
+     {
+      "title": "England, United Kingdom",
+      "count": 5
+     },
+     {
+      "title": "United States",
+      "count": 2
+     },
+     {
+      "title": "Brazil",
+      "count": 2
+     },
+     {
+      "title": "Plymouth, MI",
+      "count": 1
+     },
+     {
+      "title": "City Of Leicester",
+      "count": 1
+     },
+     {
+      "title": "Newcastle Upon Tyne",
+      "count": 1
+     },
+     {
+      "title": "Piauí, Brazil",
+      "count": 1
+     },
+     {
+      "title": "Bath",
+      "count": 1
+     },
+     {
+      "title": "Greater London",
+      "count": 1
+     },
+     {
+      "title": "Michigan, United States",
+      "count": 1
+     },
+     {
+      "title": "Curitiba, PR",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "School",
+    "values": [
+     {
+      "title": "University of Strathclyde",
+      "count": 2
+     },
+     {
+      "title": "Michigan State University",
+      "count": 2
+     },
+     {
+      "title": "The King's School, Canterbury",
+      "count": 1
+     },
+     {
+      "title": "University of Mumbai",
+      "count": 1
+     },
+     {
+      "title": "Mercy High School Farmington Hills",
+      "count": 1
+     },
+     {
+      "title": "University of Greenwich",
+      "count": 1
+     },
+     {
+      "title": "Luleå University of Technology",
+      "count": 1
+     },
+     {
+      "title": "McMaster University",
+      "count": 1
+     },
+     {
+      "title": "University of Glasgow",
+      "count": 1
+     },
+     {
+      "title": "The University of Huddersfield",
+      "count": 1
+     },
+     {
+      "title": "CEPT University",
+      "count": 1
+     },
+     {
+      "title": "Universidade Federal do Paraná",
+      "count": 1
+     },
+     {
+      "title": "University of Leeds",
+      "count": 1
+     },
+     {
+      "title": "Federal University of Ceara",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Current Function",
+    "values": [
+     {
+      "title": "Engineering",
+      "count": 5
+     },
+     {
+      "title": "Operations",
+      "count": 3
+     },
+     {
+      "title": "Business Development",
+      "count": 3
+     },
+     {
+      "title": "Research",
+      "count": 2
+     },
+     {
+      "title": "Information Technology",
+      "count": 1
+     },
+     {
+      "title": "Marketing",
+      "count": 1
+     },
+     {
+      "title": "Product Management",
+      "count": 1
+     },
+     {
+      "title": "Program and Project Management",
+      "count": 1
+     },
+     {
+      "title": "Customer Success and Support",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Skill Explicit",
+    "values": [
+     {
+      "title": "Project Management",
+      "count": 7
+     },
+     {
+      "title": "Energy Efficiency",
+      "count": 6
+     },
+     {
+      "title": "Energy",
+      "count": 5
+     },
+     {
+      "title": "Microsoft Office",
+      "count": 5
+     },
+     {
+      "title": "Customer Service",
+      "count": 5
+     },
+     {
+      "title": "Management",
+      "count": 4
+     },
+     {
+      "title": "HTML",
+      "count": 4
+     },
+     {
+      "title": "Linux",
+      "count": 4
+     },
+     {
+      "title": "Business Development",
+      "count": 4
+     },
+     {
+      "title": "Business Strategy",
+      "count": 4
+     },
+     {
+      "title": "Sustainability",
+      "count": 4
+     },
+     {
+      "title": "Cascading Style Sheets (CSS)",
+      "count": 3
+     },
+     {
+      "title": "Microsoft PowerPoint",
+      "count": 3
+     },
+     {
+      "title": "MySQL",
+      "count": 3
+     },
+     {
+      "title": "Startups",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "statTitle": "Service categories",
+    "values": [
+     {
+      "title": "Application Development",
+      "count": 1
+     },
+     {
+      "title": "Custom Software Development",
+      "count": 1
+     },
+     {
+      "title": "Software Development",
+      "count": 1
+     },
+     {
+      "title": "Web Development",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Field of Study",
+    "values": [
+     {
+      "title": "Energy Management and Systems Technology/Technician",
+      "count": 3
+     },
+     {
+      "title": "Architecture",
+      "count": 2
+     },
+     {
+      "title": "Mechanical Engineering",
+      "count": 2
+     },
+     {
+      "title": "Marketing",
+      "count": 2
+     },
+     {
+      "title": "Performance Studies",
+      "count": 2
+     },
+     {
+      "title": "Mass Communication/Media Studies",
+      "count": 1
+     },
+     {
+      "title": "Advertising",
+      "count": 1
+     },
+     {
+      "title": "Computer Science",
+      "count": 1
+     },
+     {
+      "title": "Computer Software and Media Applications",
+      "count": 1
+     },
+     {
+      "title": "Aerospace, Aeronautical and Astronautical/Space Engineering",
+      "count": 1
+     },
+     {
+      "title": "Civil Engineering",
+      "count": 1
+     },
+     {
+      "title": "General Studies",
+      "count": 1
+     },
+     {
+      "title": "Biology, General",
+      "count": 1
+     },
+     {
+      "title": "International/Global Studies",
+      "count": 1
+     },
+     {
+      "title": "Computational Science",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "originalQuery": {
+   "search": "https://www.linkedin.com/company/arbnco/",
+   "location": ""
+  },
+  "requestId": "1c7f1757-d222-47cf-b234-64cc58c8a40b"
+ },
+ {
+  "id": "27084083",
+  "universalName": "academa",
+  "linkedinUrl": "https://www.linkedin.com/company/academa/",
+  "name": "Academa",
+  "tagline": "We believe every hard subject has an intuition anyone can feel.",
+  "website": "https://academa.ai/",
+  "callToActionUrl": "https://www.academa.ai/",
+  "phone": null,
+  "logo": "https://media.licdn.com/dms/image/v2/D560BAQG0sqdBWgrujw/company-logo_400_400/B56aD55Ar1KQAY-/0/1790898867930/academa_logo?e=1794441600&v=beta&t=YFUzRj2rRJY3121J1bysebtB7m4gtFtQkPicYH3JYck",
+  "foundedOn": {
+   "month": null,
+   "year": 2025,
+   "day": null
+  },
+  "employeeCount": 13,
+  "employeeCountRange": {
+   "start": 2,
+   "end": 10
+  },
+  "followerCount": 85,
+  "description": "We believe every hard subject has a simple intuition that anyone can see. We’re pushing the limits of AI-native computer graphics to make that possible at scale.",
+  "companyType": "Privately Held",
+  "locations": [],
+  "specialities": [],
+  "industries": [
+   {
+    "id": "68",
+    "name": "Higher Education",
+    "urn": "urn:li:fsd_industryV2:68",
+    "title": "Higher Education",
+    "hierarchy": "Education > Higher Education"
+   }
+  ],
+  "logos": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D560BAQG0sqdBWgrujw/company-logo_400_400/B56aD55Ar1KQAY-/0/1790898867930/academa_logo?e=1794441600&v=beta&t=YFUzRj2rRJY3121J1bysebtB7m4gtFtQkPicYH3JYck",
+    "width": 400,
+    "height": 400
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D560BAQG0sqdBWgrujw/company-logo_200_200/B56aD55Ar1KQAI-/0/1790898867930/academa_logo?e=1794441600&v=beta&t=CpqSUh5Y09CGHImxntDqtk7Hnc5YXyA08Zkg33M22P4",
+    "width": 200,
+    "height": 200
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D560BAQG0sqdBWgrujw/company-logo_100_100/B56aD55Ar1KQAM-/0/1790898867930/academa_logo?e=1794441600&v=beta&t=b00B-QKz5qre5dxsSJmdz1NNLcUDpH0HorN2KMa3IMo",
+    "width": 100,
+    "height": 100
+   }
+  ],
+  "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQERdzdK_4UWwQ/company-background_10000/B56aD54_OuGgAI-/0/1790898861901/academa_cover?e=1793192400&v=beta&t=QuXPncZebsjzc18hE-mRGIfHh7g5CqAudU6OxxkgM0E",
+  "backgroundCovers": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D561BAQERdzdK_4UWwQ/company-background_10000/B56aD54_OuGgAI-/0/1790898861901/academa_cover?e=1793192400&v=beta&t=QuXPncZebsjzc18hE-mRGIfHh7g5CqAudU6OxxkgM0E",
+    "width": 8400,
+    "height": 1400
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D561BAQERdzdK_4UWwQ/company-background_400/B56aD54_OuGgAQ-/0/1790898861901/academa_cover?e=1793192400&v=beta&t=dqNtlzlyVjt7DI6xF5KfPXYd87NfjqebnmHtbP_iLnE",
+    "width": 400,
+    "height": 66
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D561BAQERdzdK_4UWwQ/company-background_200/B56aD54_OuGgAU-/0/1790898861901/academa_cover?e=1793192400&v=beta&t=Ueha2Mu1ld7qemF40Q-eWbIOPFZ6pOy423eGTsHMLak",
+    "width": 200,
+    "height": 33
+   }
+  ],
+  "active": true,
+  "jobSearchUrl": "https://www.linkedin.com/jobs/search?geoId=92000000&f_C=27084083",
+  "pageVerified": false,
+  "pageType": "COMPANY",
+  "showcase": false,
+  "paidCompany": false,
+  "autoGenerated": true,
+  "messagingEnabled": true,
+  "similarOrganizations": [
+   {
+    "id": "107101187",
+    "universalName": "glomadic",
+    "linkedinUrl": "https://www.linkedin.com/company/glomadic/",
+    "name": "Glomadic Studio",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQF0_u0HszAeyA/company-logo_400_400/B56ZbF4cv1HgAc-/0/1747076636600?e=1794441600&v=beta&t=KkL8wzWFqpTpgw_SoUwm9BYfN1NU2jEebOloWhzGvYQ",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 21,
+    "description": "Glomadic Studio is a creator marketing studio helping growth-stage companies develop credible creator-led content and campaigns.\n\nCreator platforms make it easier to search for talent. Glomadic Studio defines what a campaign should accomplish, identifies creators who can make the product believable, develops the brief, manages the collaboration, and ensures the final content is ready for its intended channels.\n\nWe help companies:\n• Define the creator and campaign strategy\n• Audit current brand and competitor creator activity\n• Identify identity-aligned creator profiles\n• Source and vet creators\n• Develop briefs, content direction, and deliverables\n• Coordinate creators, approvals, rights, and permissions\n• Manage content delivery and support campaign activation\n• Review performance and optimize what comes next\n\nEngagements can begin with a focused Creator Partnership Pilot and expand into ongoing creator-program leadership.\n\nGlomadic Studio understands both sides of the partnership. Founder Valerie Min has led influencer marketing and partnerships for global enterprises across industries. Her current focus is travel, creator nomadism, and entrepreneurial wellness. She is also an angel investor and advisor across digital entrepreneurship, travel tech, creator-led commerce, and AI-driven ad tech.\n\nOn the creator side, Glomadic continues to develop identity-led tools and intellectual assets through the ICAA framework—Identity, Creation, Assets, and AI. This work informs how we evaluate creator fit: not only by category or follower count, but by lived credibility, perspective, aesthetics, and audience context.\n\nWe believe the strongest creator partnerships are not built from a database match. They are built when the right creator, message, brand, and business goal genuinely belonged together\n\nLed by \nValerie Min\nFounder | Creator Strategist \nwww.linkedin.com/in/valeriemin\n\nWant to explore a Creator Partnership Pilot? Visit Glomadic.com or connect with Valerie.",
+    "industries": [
+     {
+      "id": "1862",
+      "name": "Marketing Services",
+      "urn": "urn:li:fsd_industryV2:1862",
+      "title": "Marketing Services",
+      "hierarchy": "Professional Services > Business Consulting and Services > Marketing Services"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQHhEfJe4uA-XA/company-background_10000/B56ZbGMcZ2GgAY-/0/1747081874585/glomadic_cover?e=1793192400&v=beta&t=i8Vy3sZWbAUI6mPIw-wSELuInPDStteQIgSH-WWWNmM",
+    "affiliatedPages": []
+   },
+   {
+    "id": "111990016",
+    "universalName": "ai-summit-health",
+    "linkedinUrl": "https://www.linkedin.com/company/ai-summit-health/",
+    "name": "AI Summit Health",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFG7QVU4jA2XA/company-logo_400_400/B4DaCC.w9hJYAU-/0/1788903886948/ai_summit_health_logo?e=1794441600&v=beta&t=Qwbi-7qOGFxPWcSu8nfYRBffgGGmpU8WMagDoXbH3lI",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 443,
+    "description": null,
+    "industries": [
+     {
+      "id": "2358",
+      "name": "Public Health",
+      "urn": "urn:li:fsd_industryV2:2358",
+      "title": "Public Health",
+      "hierarchy": "Government Administration > Health and Human Services > Public Health"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4D1BAQGG9fBw-efRmQ/company-background_10000/B4DaCGdM5RKAAI-/0/1788962197318/ai_summit_health_cover?e=1793192400&v=beta&t=cmXjyg0YncDKEqGxXhXNCr-5ttdWHZrLQdkkFPknT18",
+    "affiliatedPages": []
+   },
+   {
+    "id": "105575129",
+    "universalName": "agentman.ai",
+    "linkedinUrl": "https://www.linkedin.com/company/agentman.ai/",
+    "name": "Agentman",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQEp0qTkukLJ7g/company-logo_400_400/B56Z7_ybIfIoAY-/0/1782407869218/agentmanai_logo?e=1794441600&v=beta&t=tCXUBYF8yTr1WvAdYxMo7dcDTQHJvkIU1WCI-tOKIzM",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 436,
+    "description": "Agentman builds AI that carries expert work to an approved result.\n\nThe world's best clinicians know exactly how high-stakes work should be done. They can't turn it into software. We can. Co-created with domain experts, our agentic harnesses run a workflow end to end with expert skills, evaluations, and human sign-off built in. Every build makes the next one faster.\n\n🏥 𝗠𝗲𝗱𝗺𝗮𝗻 — The AI front and back office for independent medical practices. AI agents handle eligibility, prior authorizations, denials, and the AI receptionist.\n✔️ Prior authorization — practices lose ~13 staff-hours a week to PAs (AMA). Medman runs them end to end, including the ~60% stuck in payer portals.\n✔️ Eligibility — 90% automation in 12 weeks; $0.50 per check vs. $7.97 (CAQH).\n\n🚑 𝗟𝗶𝗳𝗲-𝗖𝗿𝗶𝘁𝗶𝗰𝗮𝗹 𝗖𝗹𝗶𝗻𝗶𝗰𝗮𝗹 𝗢𝗽𝗲𝗿𝗮𝘁𝗶𝗼𝗻𝘀 — Co-created with a leading hospital system for time-critical procedure decisions. The harness assembles the evidence; the clinician owns the decision. Thousands miss time-critical procedures each year. The gap is measured in lives.\n\n🔒 𝗕𝘂𝗶𝗹𝘁 𝗳𝗼𝗿 𝗵𝗶𝗴𝗵-𝘀𝘁𝗮𝗸𝗲𝘀 𝘄𝗼𝗿𝗸\nEvery decision has permissions, audit trails, and human sign-off. SOC 2 Ready · ISO 27001 · HIPAA.\n\n👥 𝗪𝗵𝗼 𝘄𝗲 𝗮𝗿𝗲\n𝗣𝗿𝗮𝘀𝗮𝗱 𝗧𝗵𝗮𝗺𝗺𝗶𝗻𝗲𝗻𝗶 — Founder & CEO. Five-time serial entrepreneur; ex-VP Frontier AI, Salesforce.\n𝗠𝗼𝘀𝗵𝗲 𝗢𝗷𝗲𝗱𝗮 — Co-Founder & Head of Agentic Engineering. Ex-GenAI lead, Rappi.\n𝗗𝗲𝗯𝗯𝘆 𝗪𝗮𝗻𝗴 — VP, Agentic GTM. Ex-Sr Director BizOps, Walmart Connect.\n𝗦𝗮𝗰𝗵𝗶𝗻 𝗚𝗮𝗻𝗴𝘂𝗽𝗮𝗻𝘁𝘂𝗹𝗮 — VP, Agentic Healthcare and founding partner. Co-founder, Valley Diabetes & Obesity.\n\nBring joy back to practicing medicine · agentman.ai",
+    "industries": [
+     {
+      "id": "3102",
+      "name": "IT System Custom Software Development",
+      "urn": "urn:li:fsd_industryV2:3102",
+      "title": "IT System Custom Software Development",
+      "hierarchy": "Professional Services > IT Services and IT Consulting > IT System Custom Software Development"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQHFj5oT6xL4IA/company-background_10000/B4EZ0Gp.LvJcAU-/0/1773933159476/agentman_cover?e=1793192400&v=beta&t=84jTvB-UD5hWvYHzH7cK--yVy4Cyk1CtDBJThfww9fs",
+    "affiliatedPages": []
+   },
+   {
+    "id": "110329938",
+    "universalName": "wecampus-app",
+    "linkedinUrl": "https://www.linkedin.com/company/wecampus-app/",
+    "name": "WeCampus",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQGR9jyVROraXA/company-logo_400_400/B4DaDE6OvzJEAc-/0/1790009995886/wecampus_app_logo?e=1794441600&v=beta&t=ShAV2LbkY_gr6PSc79yFH7oBDcZjbVfKUQ0Q_9fmZw0",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 249,
+    "description": "WeCampus is a next-generation youth app that connects high school and university students with opportunities, events, and the right connections.\n\nWe enable students to easily stay informed about upcoming events, manage their applications through a single app, and go through the entire process while engaging with people in their own fields of interest.\n\nWeCampus is not just a tool for tracking opportunities and applications;\nit is a digital ecosystem where young people come together socially, academically, and professionally, build connections, and grow together.\n\nWe make discovery easier.\nWe simplify application processes.\nWe bring together young people with shared goals.\n\nWith WeCampus, students do not just see opportunities;\nthey reach them faster, manage them more effectively, and experience them alongside the right people.",
+    "industries": [
+     {
+      "id": "100",
+      "name": "Non-profit Organizations",
+      "urn": "urn:li:fsd_industryV2:100",
+      "title": "Non-profit Organizations",
+      "hierarchy": "Consumer Services > Non-profit Organizations"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4D1BAQF5ro3pUtT9oA/company-background_10000/B4DaDE8iWsK8AI-/0/1790010599267/wecampus_app_cover?e=1793192400&v=beta&t=hQydD1M9EL6SinJC-NkDNw1hKFbuK6h8UUtn24mzKcY",
+    "affiliatedPages": []
+   },
+   {
+    "id": "110879673",
+    "universalName": "evalis-ai",
+    "linkedinUrl": "https://www.linkedin.com/company/evalis-ai/",
+    "name": "Evalis AI",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQE0AZgfycaG4A/company-logo_400_400/B56ZtY2.A1JIAY-/0/1766722364982/evalis_ai_logo?e=1794441600&v=beta&t=xySa4XAqoyra9Mf9smJKZE1ZvMqu-WvQDbF8XhIXVio",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 409,
+    "description": "Al data annotation, search evaluation, content moderation, transcription & language services for global Al platforms.",
+    "industries": [
+     {
+      "id": "6",
+      "name": "Technology, Information and Internet",
+      "urn": "urn:li:fsd_industryV2:6",
+      "title": "Technology, Information and Internet",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet"
+     }
+    ],
+    "affiliatedPages": []
+   },
+   {
+    "id": "143034616",
+    "universalName": "mallunews",
+    "linkedinUrl": "https://www.linkedin.com/company/mallunews/",
+    "name": "Mallu News",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFVmHGMXjRZSQ/company-logo_400_400/B4EZ_LOUyeIkAU-/0/1785820958058/mallunews_logo?e=1794441600&v=beta&t=RMYgoO-BUoiNAGrH7_SuHhgUs93uu7mDH6I17beimzs",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 25,
+    "description": null,
+    "industries": [
+     {
+      "id": "1594",
+      "name": "Technology, Information and Media",
+      "urn": "urn:li:fsd_industryV2:1594",
+      "title": "Technology, Information and Media",
+      "hierarchy": "Technology, Information and Media"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQH32PUTB7T0MQ/company-background_10000/B4EZ_LfFRMH4AI-/0/1785825351025/mallunews_cover?e=1793192400&v=beta&t=a8j1EqvrV2E4zlZ8UCm4A1a3Zs-Ohjmu2smG_uE6uyc",
+    "affiliatedPages": []
+   },
+   {
+    "id": "131814381",
+    "universalName": "clankersapp",
+    "linkedinUrl": "https://www.linkedin.com/company/clankersapp/",
+    "name": "Clankers",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQFrWcu_UTfWzQ/company-logo_400_400/B56Z7LjV1IIgAc-/0/1781531500123?e=1794441600&v=beta&t=kLCDZ_zTB95Cj2qD_nFzEqEpRkUhMZMI7Enzd_0jtW4",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 46,
+    "description": null,
+    "industries": [
+     {
+      "id": "11",
+      "name": "Business Consulting and Services",
+      "urn": "urn:li:fsd_industryV2:11",
+      "title": "Business Consulting and Services",
+      "hierarchy": "Professional Services > Business Consulting and Services"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQFxvWrniYdyJg/company-background_10000/B56Z7Lm4K3G0AI-/0/1781532427155/clankersapp_cover?e=1793192400&v=beta&t=mSRm8CIHqBU8JkSHrKNSOr3g-Q2Ez-Bf0EVd2tuVlaE",
+    "affiliatedPages": []
+   },
+   {
+    "id": "112211076",
+    "universalName": "aessenciadainfluencia",
+    "linkedinUrl": "https://www.linkedin.com/company/aessenciadainfluencia/",
+    "name": "A Essência da Influência (by MeetIn)",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQGpRZL0i3QCtg/company-logo_400_400/B4DZzfwQqVJQAc-/0/1773280496711/aessenciadainfluencia_logo?e=1794441600&v=beta&t=uE5IEUVcZUJIuRHc4BnWdoDbhbW46bmmvwoVFmA6diM",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 214,
+    "description": "Deixe-nos contar uma coisa antes de você adquirir este livro.\n\nTalvez você tenha chegado até aqui pensando em influência como muita gente pensa nos dias de hoje: número de seguidores, curtidas, alcance, algoritmos. A internet ensinou a medir quase tudo, menos aquilo que realmente importa.\n\nInfluência de verdade não cabe em métrica simples. Ela acontece quando uma ideia muda a forma como alguém enxerga o mundo. Quando um conteúdo chega na hora certa. Quando uma história faz alguém perceber que não está sozinho no caminho.\n\nA Essência da Influência nasce exatamente desse lugar.\n\nAqui você vai encontrar 29 pessoas de todo tipo. Gente da tecnologia, da programação, da carreira, da comunicação, do desenvolvimento humano, da educação e dos negócios. Pessoas com trajetórias e histórias de vida distintas.\n\nCada uma dessas vozes compartilha um pedaço da própria essência para falar sobre criação de conteúdo, presença digital e influência. Não como fórmula pronta, mas como um caminho construído entre desafios, aprendizados, valores e conquistas.\n\nPorque a influência não começa quando alguém decide seguir você, mas quando você decide ser quem é e, assim, atrai as pessoas certas.\n\nSua jornada começa agora!",
+    "industries": [
+     {
+      "id": "1602",
+      "name": "Book Publishing",
+      "urn": "urn:li:fsd_industryV2:1602",
+      "title": "Book Publishing",
+      "hierarchy": "Technology, Information and Media > Media and Telecommunications > Book and Periodical Publishing > Book Publishing"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4D1BAQE8OAbZyf7yUQ/company-background_10000/B4DZ9N8QckI8AI-/0/1783719069973/aessenciadainfluencia_cover?e=1793192400&v=beta&t=xkA01NQ42hQ2qjyKZVXN2M_WSAf7UHvLMgyN5yZC3o4",
+    "affiliatedPages": []
+   },
+   {
+    "id": "107679349",
+    "universalName": "arqh",
+    "linkedinUrl": "https://www.linkedin.com/company/arqh/",
+    "name": "Arqh",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFairTiiHzbeQ/company-logo_400_400/B4EZxENlsyH8Ac-/0/1770670939607/arqh_logo?e=1794441600&v=beta&t=2kmLtEPFEJDhGetVouKNKw23Mxv0cr7SzBWXPH7XNlw",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 1325,
+    "description": "Arqh optimizes logistics operations with a Unified AI Command Tower and proprietary Optimization Engine. We transform manual processes into real-time, data-driven decisions, delivering significant cost savings and strategic advantages for our clients.\n\nReady to transform your operations and boost efficiency? Connect with us to learn more.",
+    "industries": [
+     {
+      "id": "4",
+      "name": "Software Development",
+      "urn": "urn:li:fsd_industryV2:4",
+      "title": "Software Development",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Software Development"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQFV4ydQKvzCJw/company-background_10000/B4EZxENUuOIkAU-/0/1770670870608/arqh_cover?e=1793192400&v=beta&t=esXQ6YuyMej85ngWD8StNp2bUEmirIqIHOVzjyUC7qs",
+    "affiliatedPages": []
+   },
+   {
+    "id": "135195327",
+    "universalName": "trymithrandir",
+    "linkedinUrl": "https://www.linkedin.com/company/trymithrandir/",
+    "name": "Mithrandir",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQHO7nYKK353tA/company-logo_400_400/B4DZ84Wu1MGkAU-/0/1783356911205/trymithrandir_logo?e=1794441600&v=beta&t=aKLpUgf0_dNzcd7OFLHMEpmH9UJshkcWuRQ5Zbqismg",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 306,
+    "description": "Companies forget. Decisions live in Slack threads, meeting recordings, reports, and the heads of people who already left. Mithrandir makes that memory permanent and puts it to work.\n\nWe parse your company’s history into a knowledge graph and link every decision to the conversation that explains why it’s decided. Your AI tools (Claude, ChatGPT, internal agents) plug in and answer with full company context. No extra clicks.\n\nAround that core, every conversation, decision, and document your company produces is captured and connected. Every team, every tool, one memory. Sales calls, board decks, and financial reports... All live in the same graph, connected through context, bridged to your technical core. Ready for agents to dive in.\n\nOne brain for everyone does not mean everyone sees everything. Access control is enforced in the graph itself. Content a user isn't cleared for never reaches the model. Not a prompt filter, a structural guarantee.\n\nWhen people leave, their reasoning stays. Permanently.\n\nAsk \"why does this workaround exist?\" and get the commit, the debate, and who made the call. In seconds.\n\nBacked by ongoing research at Carnegie Mellon.\n\nThe only brain that knows tech.\n\ntrymithrandir.com",
+    "industries": [
+     {
+      "id": "4",
+      "name": "Software Development",
+      "urn": "urn:li:fsd_industryV2:4",
+      "title": "Software Development",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Software Development"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4D1BAQHqYJNxeHxPTA/company-background_10000/B4DZ9nnpz5I8AI-/0/1784149876301/trymithrandir_cover?e=1793192400&v=beta&t=ZOIGu4uHI89-02MOWdMbK1YNEmlsVoufoLYPiIloWAU",
+    "affiliatedPages": []
+   },
+   {
+    "id": "106961346",
+    "universalName": "coyotiv-gmbh",
+    "linkedinUrl": "https://www.linkedin.com/company/coyotiv-gmbh/",
+    "name": "Coyotiv",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQEag9s58FRsKw/company-logo_400_400/B4DZyfgSl9IUAc-/0/1772202568480/coyotiv_gmbh_logo?e=1794441600&v=beta&t=Lq8Bj2-f17XvHi2NaGhIIhOm9w-gg-oEvVhKGM2fEpQ",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 174,
+    "description": "LET'S BUILD YOUR A-TEAM \n\nCoyotiv can help you find the team you need, whether it's: \n— Software architects\n— Senior software engineers\n— Junior software engineers\n— Product managers\n—  or Designers\n\nPartner with Coyotiv to meet your product goals. So you can focus on what really matters!\n\nWhile Coyotiv engineers, designers and product managers create state-of-the-art products tailored to your needs, you can focus on what you want to achieve with your business. Having founded several startups, we know the challenges of starting something from scratch. When we walk together, we'll make sure you're launching your product with the best possible chance for success.\n\nWhy partner with Coyotiv Collaboration: \n\n— Our proven track record of producing extraordinary results, with years of experience in team development, software craft, and cohesive team culture building\n\n— If you are working with us, we join your communication channels or work at your offices as if we are members of your team\n\n— We focus on creating long-lasting relationships with our partners, not just getting one-off projects\n",
+    "industries": [
+     {
+      "id": "4",
+      "name": "Software Development",
+      "urn": "urn:li:fsd_industryV2:4",
+      "title": "Software Development",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Software Development"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4D1BAQGuEKgCoXfRIQ/company-background_10000/B4DZyfgoSqGUAU-/0/1772202658758/coyotiv_gmbh_cover?e=1793192400&v=beta&t=PO_o5xIl_jMO1Jed10eENZ2Z0LsmZKvF9AK9mqF1qTo",
+    "affiliatedPages": []
+   },
+   {
+    "id": "110343991",
+    "universalName": "exposureai",
+    "linkedinUrl": "https://www.linkedin.com/company/exposureai/",
+    "name": "Exposure",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFGek5qK_Adxg/company-logo_400_400/B4DZ2H1v7JJQAY-/0/1776100507735/exposureai_logo?e=1794441600&v=beta&t=5F1i16Gunr1CGdTBhLQzmQMUjX6w6pL0mDEE0_bSmjQ",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 1708,
+    "description": "Exposure is the exclusive network for the top 1% AI talent.\n\nOur members have built YC-backed companies, raised millions, and surpassed 7-digit revenue.\n\nApplications are reviewed manually. Only the absolute top tier gets in.\n\nYoutube: https://www.youtube.com/@Exposure-AI\nNewsletter: https://newsletter.exposureai.org/",
+    "industries": [
+     {
+      "id": "6",
+      "name": "Technology, Information and Internet",
+      "urn": "urn:li:fsd_industryV2:6",
+      "title": "Technology, Information and Internet",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4D1BAQElIFWuTBkKsA/company-background_10000/B4DZz4QCySGQAU-/0/1773691481719/exposureai_cover?e=1793192400&v=beta&t=LLHPGiyHNhwXziLJjclonE7Myo_CS9gh91_fZkcOw64",
+    "affiliatedPages": []
+   }
+  ],
+  "affiliatedPages": [],
+  "peopleStats": [
+   {
+    "statTitle": "Locations",
+    "values": [
+     {
+      "title": "Brazil",
+      "count": 3
+     },
+     {
+      "title": "India",
+      "count": 2
+     },
+     {
+      "title": "United States",
+      "count": 2
+     },
+     {
+      "title": "Slovenia",
+      "count": 2
+     },
+     {
+      "title": "Minas Gerais, Brazil",
+      "count": 1
+     },
+     {
+      "title": "Argentina",
+      "count": 1
+     },
+     {
+      "title": "Karnataka, India",
+      "count": 1
+     },
+     {
+      "title": "Stockholm",
+      "count": 1
+     },
+     {
+      "title": "Buenos Aires Province, Argentina",
+      "count": 1
+     },
+     {
+      "title": "Olomouc, Czechia",
+      "count": 1
+     },
+     {
+      "title": "State College, PA",
+      "count": 1
+     },
+     {
+      "title": "California, United States",
+      "count": 1
+     },
+     {
+      "title": "San Francisco, CA",
+      "count": 1
+     },
+     {
+      "title": "Peru",
+      "count": 1
+     },
+     {
+      "title": "Pennsylvania, United States",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "School",
+    "values": [
+     {
+      "title": "Boğaziçi University",
+      "count": 2
+     },
+     {
+      "title": "Bangalore University",
+      "count": 1
+     },
+     {
+      "title": "Tomas Bata University in Zlín",
+      "count": 1
+     },
+     {
+      "title": "Princeton University",
+      "count": 1
+     },
+     {
+      "title": "Giresun Fen Lisesi",
+      "count": 1
+     },
+     {
+      "title": "The University of Texas at Austin",
+      "count": 1
+     },
+     {
+      "title": "Penn State University",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Current Function",
+    "values": [
+     {
+      "title": "Business Development",
+      "count": 6
+     },
+     {
+      "title": "Arts and Design",
+      "count": 3
+     },
+     {
+      "title": "Operations",
+      "count": 2
+     },
+     {
+      "title": "Engineering",
+      "count": 2
+     },
+     {
+      "title": "Information Technology",
+      "count": 1
+     },
+     {
+      "title": "Media and Communication",
+      "count": 1
+     },
+     {
+      "title": "Research",
+      "count": 1
+     },
+     {
+      "title": "Community and Social Services",
+      "count": 1
+     },
+     {
+      "title": "Education",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Skill Explicit",
+    "values": [
+     {
+      "title": "Problem Solving",
+      "count": 1
+     },
+     {
+      "title": "Athletic Training",
+      "count": 1
+     },
+     {
+      "title": "Computer-Aided Design (CAD)",
+      "count": 1
+     },
+     {
+      "title": "Admissions",
+      "count": 1
+     },
+     {
+      "title": "Sports Coaching",
+      "count": 1
+     },
+     {
+      "title": "Arduino",
+      "count": 1
+     },
+     {
+      "title": "Communication",
+      "count": 1
+     },
+     {
+      "title": "Market Analysis",
+      "count": 1
+     },
+     {
+      "title": "Event Management",
+      "count": 1
+     },
+     {
+      "title": "MATLAB",
+      "count": 1
+     },
+     {
+      "title": "Java",
+      "count": 1
+     },
+     {
+      "title": "Leadership",
+      "count": 1
+     },
+     {
+      "title": "Agile Methodologies",
+      "count": 1
+     },
+     {
+      "title": "Competitive Analysis",
+      "count": 1
+     },
+     {
+      "title": "Engineering",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Service categories",
+    "values": []
+   },
+   {
+    "statTitle": "Field of Study",
+    "values": [
+     {
+      "title": "Mechanical Engineering",
+      "count": 2
+     },
+     {
+      "title": "Aerospace, Aeronautical and Astronautical/Space Engineering",
+      "count": 1
+     },
+     {
+      "title": "Biotechnology",
+      "count": 1
+     },
+     {
+      "title": "Economics",
+      "count": 1
+     },
+     {
+      "title": "Marketing/Marketing Management, General",
+      "count": 1
+     },
+     {
+      "title": "General Sales, Merchandising and Related Marketing Operations",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "originalQuery": {
+   "search": "https://www.linkedin.com/company/academa/",
+   "location": ""
+  },
+  "requestId": "324ff271-bcbb-42e9-9437-2dc8ce9df14d"
+ },
+ {
+  "id": "90429364",
+  "universalName": "atom-modular",
+  "linkedinUrl": "https://www.linkedin.com/company/atom-modular/",
+  "name": "ATOM Modular",
+  "tagline": "Space for Great | Functional Space for Hard-Working People",
+  "website": "www.atommodular.com.au",
+  "callToActionUrl": "http://www.atommodular.com.au",
+  "phone": {
+   "number": "1300001445",
+   "extension": null
+  },
+  "logo": "https://media.licdn.com/dms/image/v2/D560BAQH5nskyoo9TMg/company-logo_400_400/company-logo_400_400/0/1724390098655/atom_modular_logo?e=1794441600&v=beta&t=U42-iiXmD4pJuMqRZ4DlQMmqTWs9oGgzeX0YcZDBno8",
+  "employeeCount": 19,
+  "employeeCountRange": {
+   "start": 51,
+   "end": 200
+  },
+  "followerCount": 1338,
+  "description": "ATOM Modular is a family-owned Australian manufacturer of modular buildings for projects across Australia.\n\nWe manufacture practical buildings for hire or purchase, from standard configurations to site-specific requirements. Our range includes site offices, lunchrooms, amenities, ablutions, first-aid rooms, accommodation and other facilities for hard-working industries.\n\nWith manufacturing operations in Victoria, Queensland and Western Australia, we support projects across Australia in mining and resources, infrastructure, energy, agriculture and other site-based industries.\n\nYou work with one close team from quote to handover. That means clear scope, itemised pricing and direct access to the people planning, building and delivering your project.\n\nTurnkey delivery is also available where required, including delivery, cranage, block and levelling, and complexing.\n\nBuilt for real work. Delivered Australia-wide. \n\nFunctional spaces for hard-working people.",
+  "companyType": "Privately Held",
+  "locations": [
+   {
+    "country": "AU",
+    "city": "New Gisborne",
+    "geographicArea": "Victoria",
+    "line1": "78 Barry Rd",
+    "line2": "",
+    "postalCode": "3438",
+    "headquarter": true,
+    "description": "Headquarters",
+    "parsed": {
+     "text": "New Gisborne, Australia",
+     "countryCode": "AU",
+     "regionCode": null,
+     "country": "Australia",
+     "countryFull": "Australia",
+     "state": "Victoria",
+     "city": "New Gisborne"
+    }
+   }
+  ],
+  "specialities": [],
+  "industries": [
+   {
+    "id": "25",
+    "name": "Manufacturing",
+    "urn": "urn:li:fsd_industryV2:25",
+    "title": "Manufacturing",
+    "hierarchy": "Manufacturing"
+   }
+  ],
+  "logos": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D560BAQH5nskyoo9TMg/company-logo_400_400/company-logo_400_400/0/1724390098655/atom_modular_logo?e=1794441600&v=beta&t=U42-iiXmD4pJuMqRZ4DlQMmqTWs9oGgzeX0YcZDBno8",
+    "width": 400,
+    "height": 400
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D560BAQH5nskyoo9TMg/company-logo_200_200/company-logo_200_200/0/1724390098655/atom_modular_logo?e=1794441600&v=beta&t=cyUDTkjjA4SGuS1pyz0_ziRHsFXn1ppok-5qit8uytk",
+    "width": 200,
+    "height": 200
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D560BAQH5nskyoo9TMg/company-logo_100_100/company-logo_100_100/0/1724390098655/atom_modular_logo?e=1794441600&v=beta&t=NXUfkftbSdkJRfqxXrX0PPyo9d0PdokCQIcoq8ocyVw",
+    "width": 100,
+    "height": 100
+   }
+  ],
+  "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQE7uxDa6oH0cw/company-background_10000/B56ZoOG3.zJ8AU-/0/1761173279482/atom_modular_cover?e=1793192400&v=beta&t=ReUMak0qB5I2C_Mmo_sKXZXi3kzchP7NCVym8BB9NVQ",
+  "backgroundCovers": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D561BAQE7uxDa6oH0cw/company-background_10000/B56ZoOG3.zJ8AU-/0/1761173279482/atom_modular_cover?e=1793192400&v=beta&t=ReUMak0qB5I2C_Mmo_sKXZXi3kzchP7NCVym8BB9NVQ",
+    "width": 3960,
+    "height": 990
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D561BAQE7uxDa6oH0cw/company-background_400/B56ZoOG3.zJ8AY-/0/1761173279482/atom_modular_cover?e=1793192400&v=beta&t=VrMGdjV4FdXS2KwLQ4PjKw-e-TXQTFnlWM5adGuVfG8",
+    "width": 400,
+    "height": 100
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D561BAQE7uxDa6oH0cw/company-background_200/B56ZoOG3.zJ8Ac-/0/1761173279482/atom_modular_cover?e=1793192400&v=beta&t=6rVbxlIsI3YB0qgMlCscJlEr-2k_EFZ2vUPPoAY7NKI",
+    "width": 200,
+    "height": 50
+   }
+  ],
+  "active": true,
+  "jobSearchUrl": "https://www.linkedin.com/jobs/search?geoId=92000000&f_C=90429364",
+  "pageVerified": false,
+  "pageType": "COMPANY",
+  "showcase": false,
+  "paidCompany": false,
+  "autoGenerated": false,
+  "messagingEnabled": true,
+  "similarOrganizations": [
+   {
+    "id": "67793670",
+    "universalName": "ord-valley-turf",
+    "linkedinUrl": "https://www.linkedin.com/company/ord-valley-turf/",
+    "name": "Ord Valley Turf",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQE-GDF2pQX98g/company-logo_400_400/B4EaAylxKSH4AU-/0/1787555156953/ord_valley_turf_logo?e=1794441600&v=beta&t=jiWAkQB7YT1jADZq7pU_Vjc7JHe1wYtolHuMftcZp0Q",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 30,
+    "description": "EMPIRE™ Turf grows Australia-wide and provides a lawn grass that is easy to look after. It has a relatively fine leaf that is soft to the touch, excellent wear tolerance, and thrives in extreme heat and humidity. ",
+    "industries": [
+     {
+      "id": "150",
+      "name": "Horticulture",
+      "urn": "urn:li:fsd_industryV2:150",
+      "title": "Horticulture",
+      "hierarchy": "Farming, Ranching, Forestry > Farming > Horticulture"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQEDqU2ckPcjuQ/company-background_10000/B4EaAylCi3IkAI-/0/1787554965897/ord_valley_turf_cover?e=1793192400&v=beta&t=AMSzh_AsoQFc0yv_ZrDpBeAcsiEE4pLOtp-Q-xEbaZo",
+    "affiliatedPages": []
+   },
+   {
+    "id": "7596205",
+    "universalName": "actichem",
+    "linkedinUrl": "https://www.linkedin.com/company/actichem/",
+    "name": "Actichem",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C560BAQEwG-Vhlgk1Zg/company-logo_400_400/company-logo_400_400/0/1631312224324?e=1794441600&v=beta&t=9cbiS0E2NjLYbuLK1cFDEvRA53qB-VpArZ98rXIVKp8",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 1379,
+    "description": "Actichem is a family owned company specialising in the manufacture of high performance chemical solutions for the cleaning, restoration and maintenance industry. We offer fast delivery, flexibility, and on-demand product availability. Speak to us about our knowledgeable advice and support.",
+    "industries": [
+     {
+      "id": "54",
+      "name": "Chemical Manufacturing",
+      "urn": "urn:li:fsd_industryV2:54",
+      "title": "Chemical Manufacturing",
+      "hierarchy": "Manufacturing > Chemical Manufacturing"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQHmW--HieehSw/company-background_10000/B56Z0oGZimHoAU-/0/1774494261990/actichem_cover?e=1793192400&v=beta&t=HJMSrYznX2EuNOopsCWz1Hz11-NWeOdQSSo1gmMGzb0",
+    "affiliatedPages": []
+   },
+   {
+    "id": "66606656",
+    "universalName": "santeglobal",
+    "linkedinUrl": "https://www.linkedin.com/company/santeglobal/",
+    "name": "Santé Group",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFFSPAHAwPLCQ/company-logo_400_400/company-logo_400_400/0/1704353125324/santeglobal_logo?e=1794441600&v=beta&t=jegcmb7-EE_ZQ4OQW69m2VxM0rya5ID-KmOSa6nX1Fg",
+    "employeeCountRange": {
+     "start": 51,
+     "end": 200
+    },
+    "followerCount": 9939,
+    "description": "As a global contractor, Santé can provide turnkey strategy, design, engineering, procurement, and construction for solar projects globally.\n\nDue to our extensive reach we access to a global talent pool that combines robust project management experience with construction expertise. Our global network ensures we can support your business anywhere.",
+    "industries": [
+     {
+      "id": "3240",
+      "name": "Renewable Energy Power Generation",
+      "urn": "urn:li:fsd_industryV2:3240",
+      "title": "Renewable Energy Power Generation",
+      "hierarchy": "Utilities > Electric Power Generation > Renewable Energy Power Generation"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQHJGeJ5xhLj1w/company-background_10000/company-background_10000/0/1698319423558/santeglobal_cover?e=1793192400&v=beta&t=m0Iyea4g1A3vNYsqmQlr5441ZZsZvPDGNwA_XA5CgvY",
+    "affiliatedPages": []
+   },
+   {
+    "id": "9859399",
+    "universalName": "verdexau",
+    "linkedinUrl": "https://www.linkedin.com/company/verdexau/",
+    "name": "Verdex Equipment",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQHVJjCFdqxqWw/company-logo_400_400/B56ZkDBXhbG4AY-/0/1756692316611/verdexau_logo?e=1794441600&v=beta&t=fOPrFnPEWwnJF1LeeAvMaWC07me07_FeDjP_B9wCZLA",
+    "employeeCountRange": {
+     "start": 51,
+     "end": 200
+    },
+    "followerCount": 1940,
+    "description": "Formerly MHA Products also known as Manual Handling Australia. \n\nEquipping Workplaces Since 1985, Verdex is a family-owned business with over 40 years of expertise. We deliver high-quality products at the best prices by sourcing globally and selling directly, eliminating middleman costs for faster service and greater value.\n\nWith branches in Brisbane, Sydney, and Melbourne, we provide nationwide service and customised workplace solutions, including specialised trolleys, lifters, and more.\n\nBrowse thousands of products on our website, complete with images, specs, videos, and pricing.\n\nAt Verdex, we’re dedicated to enhancing your workplace safety and efficiency with innovative, tailored solutions. Let us help you create a safer, more productive workplace.\n\nNeed assistance? Contact us for a site visit with our technical sales team.",
+    "industries": [
+     {
+      "id": "135",
+      "name": "Industrial Machinery Manufacturing",
+      "urn": "urn:li:fsd_industryV2:135",
+      "title": "Industrial Machinery Manufacturing",
+      "hierarchy": "Manufacturing > Machinery Manufacturing > Industrial Machinery Manufacturing"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQEmJbIL0LPPpQ/company-background_10000/B56aD0b42yHAAI-/0/1790807346849/verdexau_cover?e=1793192400&v=beta&t=c3LCHpDC_Mt89-e7C8fOI8ItVQy9spGzC0fSqTmDYPg",
+    "affiliatedPages": []
+   },
+   {
+    "id": "13648",
+    "universalName": "cpb-contractors",
+    "linkedinUrl": "https://www.linkedin.com/company/cpb-contractors/",
+    "name": "CPB Contractors",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C560BAQE_H4iyvXQ-DQ/company-logo_400_400/company-logo_400_400/0/1677127581881/cpb_contractors_logo?e=1794441600&v=beta&t=p9H4L2UjKEBxFfD__AoaYLKymaYfmIMl36-JQLmYChs",
+    "employeeCountRange": {
+     "start": 10001,
+     "end": null
+    },
+    "followerCount": 355841,
+    "description": "CPB Contractors is a leading major contractor, trusted to build critical and complex infrastructure across Australia and New Zealand for a more connected, sustainable future.\n\nWe’re solutions-focused and put our people’s safety first. Working collaboratively with our delivery partners, CPB Contractors’ construction projects connect communities, support economic growth, build skills and create rewarding careers.  \n\nSupported by industry-leading delivery systems and operations spanning Australia, New Zealand and Papua New Guinea, our expert project teams work across all key sectors of the construction industry, including roads, rail, tunnelling, defence, building, resources, water and energy infrastructure. \n\nQLD Electrical Contractors license number 67789",
+    "industries": [
+     {
+      "id": "48",
+      "name": "Construction",
+      "urn": "urn:li:fsd_industryV2:48",
+      "title": "Construction",
+      "hierarchy": "Construction"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQE0n0BL7rrk8w/company-background_10000/company-background_10000/0/1661479842134/cpb_contractors_cover?e=1793192400&v=beta&t=PJdp076a15PJPKx41k93dmHJKZKOOXKw1XuFXuxpWSo",
+    "affiliatedPages": []
+   },
+   {
+    "id": "11764180",
+    "universalName": "sureweld-pty-ltd",
+    "linkedinUrl": "https://www.linkedin.com/company/sureweld-pty-ltd/",
+    "name": "SureWeld",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQHGiWu_gRGENA/company-logo_400_400/company-logo_400_400/0/1667366501121/sureweld_pty_ltd_logo?e=1794441600&v=beta&t=rxv3ZzceC4XJyPAFm36lwhzBwYh1G67L1U-2lnkaiWM",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 1742,
+    "description": "Welcome to Australia’s leading supplier of Aluminium Loading Ramps and Plant Trailers. \n\nAs a reputable provider of loading solutions, we stock a wide range of Aluminium Ramps and Plant Trailers necessary for loading, unloading and transporting machinery such as mini excavators, mini loaders, mini compact rollers, bobcats, scissor lifts, ATVs, lawnmowers, gensets and more. \n\nWith a focus on innovative, practical design and superior build quality, SureWeld Aluminium Ramps and Plant Trailers are impressively lightweight and extremely durable. Ramp designs undergo rigorous tensile testing in a NATA certified laboratory and all Ramps are put through a strict quality control process before being dispatched. Sureweld Ramps are available in sizes designed to fit common truck chassis and loading bays. However, if you have more unique requirements, we can also custom build your ramp to your exact specifications. \n\nWith a range that now includes both Aluminium and Steel options to suit varied requirements, our Plant Trailers, known for their impressively low tare weights, provide greater flexibility for customers prioritizing lightweight transportation.\n\nKeep Moving with SureWeld!",
+    "industries": [
+     {
+      "id": "48",
+      "name": "Construction",
+      "urn": "urn:li:fsd_industryV2:48",
+      "title": "Construction",
+      "hierarchy": "Construction"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQG8dXnqSYE1mw/company-background_10000/B4EaDwnJfgJgAI-/0/1790743189735/sureweld_pty_ltd_cover?e=1793192400&v=beta&t=1ysPt4jcLJN7kJxF3gAxjSIU5VYvVnG74FlHxjfGWkU",
+    "affiliatedPages": []
+   },
+   {
+    "id": "10459784",
+    "universalName": "cambridge-excavators-ltd-",
+    "linkedinUrl": "https://www.linkedin.com/company/cambridge-excavators-ltd-/",
+    "name": "Camex Civil",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C560BAQF_ig-K0QHmDQ/company-logo_400_400/company-logo_400_400/0/1630658916031/cambridge_excavators_ltd__logo?e=1794441600&v=beta&t=6V_Ig8GLKdayFEmNjSF5G8sBd2bnF99wPlLlnI0R-A0",
+    "employeeCountRange": {
+     "start": 51,
+     "end": 200
+    },
+    "followerCount": 5869,
+    "description": "We’re a dynamic civil construction company that does more than just build great structures and infrastructure. We're passionate about using our skills and expertise to help build happy, healthy, thriving communities.\n\nOver the past 27 years, we have built a reputation for delivering high-quality projects and innovative solutions that exceed client expectations. From our humble beginnings as a small family-owned business, we have grown to a team of more than 200, expanding our capabilities and expertise across a wide range of civil construction sectors, including land development and subdivisions, infrastructure maintenance, pavement and roading, 3-waters and drainage, civil commercial, and private and rural siteworks.\n\nOur dedication to safety and integrity has earned us the trust of our clients, enabling us to forge lasting partnerships and undertake many significant projects throughout the central North Island.\n\nWe remain focused on our core family values and are committed to embracing new technologies and methodologies so we can continue delivering exceptional civil construction projects for our clients and communities.",
+    "industries": [
+     {
+      "id": "48",
+      "name": "Construction",
+      "urn": "urn:li:fsd_industryV2:48",
+      "title": "Construction",
+      "hierarchy": "Construction"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQFLZxh0syBNEg/company-background_10000/company-background_10000/0/1665431555810/cambridge_excavators_ltd__cover?e=1793192400&v=beta&t=Rco_paK019HwlLWDltJUC-7pTUqAgO1nSIVnoVfiUTo",
+    "affiliatedPages": []
+   },
+   {
+    "id": "7741824",
+    "universalName": "alclad-architectural-pty-ltd",
+    "linkedinUrl": "https://www.linkedin.com/company/alclad-architectural-pty-ltd/",
+    "name": "Alclad Architectural Pty Ltd",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C560BAQG_PnsPu-rr3g/company-logo_400_400/company-logo_400_400/0/1631396300460/alclad_architectural_pty_ltd_logo?e=1794441600&v=beta&t=rT_mSOndRJAuFKnNfUyKleUIWrUqc7YVmFu3kGEo8_g",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 1886,
+    "description": "Commercial Facades Best Advice Best Finish ",
+    "industries": [
+     {
+      "id": "48",
+      "name": "Construction",
+      "urn": "urn:li:fsd_industryV2:48",
+      "title": "Construction",
+      "hierarchy": "Construction"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/C561BAQFZZuKukk5BIA/company-background_10000/company-background_10000/0/1584091380446/alclad_architectural_pty_ltd_cover?e=1793192400&v=beta&t=BadmhL2JPGlLGgqJmq4gMs7116U9JkoOy1k0dZuUWN4",
+    "affiliatedPages": []
+   },
+   {
+    "id": "27003647",
+    "universalName": "swifence",
+    "linkedinUrl": "https://www.linkedin.com/company/swifence/",
+    "name": "SWI",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQHDS0L_N7BCNg/company-logo_400_400/company-logo_400_400/0/1723596631212/swifence_logo?e=1794441600&v=beta&t=gKVs9p1wE24BlbZR3rpFfCi0ZxRLmdwyQNmTPk2k_io",
+    "employeeCountRange": {
+     "start": 51,
+     "end": 200
+    },
+    "followerCount": 1314,
+    "description": "Since 1993, SWI Fencing has been a leader in security fencing services. Our in-house manufacturing allows us to offer customised fencing solutions for all applications across multiple industries. With professional installation teams, we maintain quality control of our fencing solutions from raw materials and manufacturing to delivery and installation.\n\nWith over 30 years of industry experience, we’re the professionals you can trust. Few companies can offer a comprehensive end-to-end service like ours, and we take pride in delivering exceptional outcomes on every project.\n\nWe also specialise in Security of Critical Infrastructure (SoCI) Act compliance, offering a full consultancy, design and implementation service to ensure the protection of critical infrastructure assets.",
+    "industries": [
+     {
+      "id": "48",
+      "name": "Construction",
+      "urn": "urn:li:fsd_industryV2:48",
+      "title": "Construction",
+      "hierarchy": "Construction"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQEpGUoyPofeAQ/company-background_10000/B56Z8lqZLfG8AI-/0/1783043298430/swifence_cover?e=1793192400&v=beta&t=HAfaHwpOaYcmmIoOUEM_3AUQcwjAyVtD92yryiSpSGI",
+    "affiliatedPages": []
+   },
+   {
+    "id": "3595806",
+    "universalName": "anchor-safe",
+    "linkedinUrl": "https://www.linkedin.com/company/anchor-safe/",
+    "name": "Anchor Safe Height Safety",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQE2kOHswfxJ2Q/company-logo_400_400/company-logo_400_400/0/1732054979725/anchor_safe_logo?e=1794441600&v=beta&t=2H-mc_ya3zizGorHHaijql3JA9TzZrrT1Ereyu1i7NA",
+    "employeeCountRange": {
+     "start": 51,
+     "end": 200
+    },
+    "followerCount": 5262,
+    "description": "Protecting workers at heights demands constant monitoring, maintenance and compliance. Anchor Safe ensures continuous ease by taking on total responsibility for your height safety.\r\n\r\nAs a height safety advisor and quality and compliance manager, we help large building owners and managers in local government, facility management and retail to meet responsibilities over the life of each and every building. \r\n\r\nBacked by a specialist team of height safety consultants, we provide height safety services in: \r\n\r\n■ Audits, inspections and reporting that identify areas of non-compliance and potential hazards that need attention\r\n■ Solution design of a customised height safety solution\r\n■ Supply and installation of leading products by accredited installers\r\n■ Ongoing recertification and maintenance to ensure that height safety doesn’t slip\r\n\r\nAnchor Safe clients have full visibility into height safety through the use of our exclusive online asset management tools that keep you updated and in the know. \r\n\r\nFIND OUT MORE\r\n_____________\r\n\r\n✆ Call us on 02 6021 7630\r\n✉ Email the team at info@anchorsafe.com.au or connect with our staff on LinkedIn\r\nVisit www.anchorsafe.com.au",
+    "industries": [
+     {
+      "id": "48",
+      "name": "Construction",
+      "urn": "urn:li:fsd_industryV2:48",
+      "title": "Construction",
+      "hierarchy": "Construction"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQGItCSRdnDa5Q/company-background_10000/company-background_10000/0/1732060000545/anchor_safe_cover?e=1793192400&v=beta&t=g0AXQDE2o4yf0pQSyDIbrnIpCfBnbkka_mu1MFyxdCQ",
+    "affiliatedPages": []
+   },
+   {
+    "id": "71627415",
+    "universalName": "pinnacle-hire",
+    "linkedinUrl": "https://www.linkedin.com/company/pinnacle-hire/",
+    "name": "Pinnacle Hire",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQH9ynGSc_F1dw/company-logo_400_400/company-logo_400_400/0/1697897088938/pinnacle_hire_logo?e=1794441600&v=beta&t=tyRFzsg0h0GSdesHAFhHW13rvcVE9zo9O0pAA5BAuOg",
+    "employeeCountRange": {
+     "start": 51,
+     "end": 200
+    },
+    "followerCount": 5977,
+    "description": "Pinnacle Hire is an agile new hire business focussed on providing 'advanced dewatering, pumping and water treatment' to support the successful completion of your construction and maintenance projects. \n\nWe fully understand the dynamic nature of your industry, the daily pressures and the high standards required to get the job done safely, securely and effectively. We leave no stone unturned to provide you the most 'fit for purpose' solution for each and every project, no matter how large or small. \n\nOur highly trained, professional and committed staff offer industry specific advice and considerable product knowledge to ensure you can get access to the most appropriate equipment, when and where you need it.\n\nThe team at Pinnacle believe that safe, durable and easy to use features are fundamentals of good site equipment. We build relationship with like-minded equipment manufacturers who are also passionate about their design and safety responsibilities, to ensure you, your staff and contractors remain safe. \n\nWe bring to market a selection of brand-new state-of-the-art equipment, including internationally recognised brands such as: Selwood from the UK, BBA Pumps from the Netherlands, Sulzer from Switzerland as well as Dominator Fire Pumps, Enforcer tanks and Elementz Treatment Plants from Australia. \n\nPinnacle is supported by the substantial resources of AKS Industries and it's team, with over 100 staff located across Australia. \n\nOur promise is to deliver the very best to you. Best advice, best products and of course, the best service. \n\nCall: 1300 447 392\nEmail: hire@pinnaclehire.com.au\n",
+    "industries": [
+     {
+      "id": "48",
+      "name": "Construction",
+      "urn": "urn:li:fsd_industryV2:48",
+      "title": "Construction",
+      "hierarchy": "Construction"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQF3Km9iVJ1yLw/company-background_10000/company-background_10000/0/1713324666006/pinnacle_hire_cover?e=1793192400&v=beta&t=5L3nTKhYOpVHSIAn9zJO0p0kJzabaSxaObyT1Sihpgs",
+    "affiliatedPages": []
+   },
+   {
+    "id": "3789605",
+    "universalName": "black-duck",
+    "linkedinUrl": "https://www.linkedin.com/company/black-duck/",
+    "name": "Black Duck® SeatCovers",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQHHxfoTjWyzIA/company-logo_400_400/company-logo_400_400/0/1736725386643/black_duck_logo?e=1794441600&v=beta&t=R8McCZcUxMuikAxFWACbW46Nrkkm-35a1j-7zrAK9fU",
+    "employeeCountRange": {
+     "start": 51,
+     "end": 200
+    },
+    "followerCount": 2382,
+    "description": "Black Duck is Australia's pioneering manufacturer of heavy-duty and high-quality seat covers with over 40 years'​ manufacturing experience.\n\nDriven by its vision to be the industry leader, the family-owned and operated Australian business has built a strong reputation, widely respected for the quality of product and service excellence.\n\nBlack Duck caters for a wide range of specifications for passenger and commercial vehicles including those used in the mining, construction and rural industries as well as by 4WD enthusiasts.\n\nBlack Ducks local knowledge and understanding of the unique and harsh Australian climate means its products are designed and built tough to withstand the most unforgiving conditions.",
+    "industries": [
+     {
+      "id": "53",
+      "name": "Motor Vehicle Manufacturing",
+      "urn": "urn:li:fsd_industryV2:53",
+      "title": "Motor Vehicle Manufacturing",
+      "hierarchy": "Manufacturing > Transportation Equipment Manufacturing > Motor Vehicle Manufacturing"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQH4NjzKIZoQUQ/company-background_10000/B56ZxpAYJBKcAU-/0/1771288236741/black_duck_cover?e=1793192400&v=beta&t=-pSI9lozLAlyBG1DGpRIc-y_C_SpYC5d2wRKVq6pFO0",
+    "affiliatedPages": []
+   }
+  ],
+  "affiliatedPages": [],
+  "peopleStats": [
+   {
+    "statTitle": "Locations",
+    "values": [
+     {
+      "title": "Australia",
+      "count": 14
+     },
+     {
+      "title": "Victoria, Australia",
+      "count": 12
+     },
+     {
+      "title": "Melbourne, VIC",
+      "count": 9
+     },
+     {
+      "title": "Greater Melbourne Area",
+      "count": 9
+     },
+     {
+      "title": "Philippines",
+      "count": 5
+     },
+     {
+      "title": "Calabarzon, Philippines",
+      "count": 2
+     },
+     {
+      "title": "Queensland, Australia",
+      "count": 2
+     },
+     {
+      "title": "Brisbane, QLD",
+      "count": 2
+     },
+     {
+      "title": "Central Luzon, Philippines",
+      "count": 2
+     },
+     {
+      "title": "Greater Brisbane Area",
+      "count": 2
+     },
+     {
+      "title": "Sunbury, VIC",
+      "count": 1
+     },
+     {
+      "title": "Davao",
+      "count": 1
+     },
+     {
+      "title": "Bullengarook, VIC",
+      "count": 1
+     },
+     {
+      "title": "Abucay",
+      "count": 1
+     },
+     {
+      "title": "Davao Region, Philippines",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "School",
+    "values": [
+     {
+      "title": "Leadership Management Australia",
+      "count": 2
+     },
+     {
+      "title": "Polytechnic University of the Philippines",
+      "count": 2
+     },
+     {
+      "title": "thePower",
+      "count": 1
+     },
+     {
+      "title": "London Metropolitan University",
+      "count": 1
+     },
+     {
+      "title": "University of the Philippines Diliman",
+      "count": 1
+     },
+     {
+      "title": "University of Saint La Salle",
+      "count": 1
+     },
+     {
+      "title": "Mentor Education",
+      "count": 1
+     },
+     {
+      "title": "OneSchool Global",
+      "count": 1
+     },
+     {
+      "title": "General Assembly",
+      "count": 1
+     },
+     {
+      "title": "University of Southeastern Philippines",
+      "count": 1
+     },
+     {
+      "title": "Liverpool Hope University",
+      "count": 1
+     },
+     {
+      "title": "CIM | The Chartered Institute of Marketing",
+      "count": 1
+     },
+     {
+      "title": "Regent's University London",
+      "count": 1
+     },
+     {
+      "title": "Bulacan State University",
+      "count": 1
+     },
+     {
+      "title": "University of Melbourne",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Current Function",
+    "values": [
+     {
+      "title": "Program and Project Management",
+      "count": 7
+     },
+     {
+      "title": "Operations",
+      "count": 6
+     },
+     {
+      "title": "Sales",
+      "count": 4
+     },
+     {
+      "title": "Accounting",
+      "count": 2
+     },
+     {
+      "title": "Business Development",
+      "count": 2
+     },
+     {
+      "title": "Engineering",
+      "count": 2
+     },
+     {
+      "title": "Information Technology",
+      "count": 1
+     },
+     {
+      "title": "Marketing",
+      "count": 1
+     },
+     {
+      "title": "Consulting",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Skill Explicit",
+    "values": [
+     {
+      "title": "Sales",
+      "count": 8
+     },
+     {
+      "title": "Customer Service",
+      "count": 8
+     },
+     {
+      "title": "Microsoft Excel",
+      "count": 6
+     },
+     {
+      "title": "Management",
+      "count": 6
+     },
+     {
+      "title": "Project Management",
+      "count": 6
+     },
+     {
+      "title": "Marketing",
+      "count": 6
+     },
+     {
+      "title": "Leadership",
+      "count": 5
+     },
+     {
+      "title": "Negotiation",
+      "count": 5
+     },
+     {
+      "title": "Marketing Strategy",
+      "count": 5
+     },
+     {
+      "title": "Business Development",
+      "count": 5
+     },
+     {
+      "title": "Strategic Planning",
+      "count": 5
+     },
+     {
+      "title": "New Business Development",
+      "count": 4
+     },
+     {
+      "title": "Sales Processes",
+      "count": 4
+     },
+     {
+      "title": "Microsoft Office",
+      "count": 3
+     },
+     {
+      "title": "Sales Management",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "statTitle": "Service categories",
+    "values": [
+     {
+      "title": "Consulting",
+      "count": 3
+     },
+     {
+      "title": "Engineering Design",
+      "count": 2
+     },
+     {
+      "title": "Marketing",
+      "count": 2
+     },
+     {
+      "title": "Design",
+      "count": 2
+     },
+     {
+      "title": "Operations",
+      "count": 2
+     },
+     {
+      "title": "Brand Consulting",
+      "count": 1
+     },
+     {
+      "title": "Lead Generation",
+      "count": 1
+     },
+     {
+      "title": "Email Marketing",
+      "count": 1
+     },
+     {
+      "title": "Customer Support",
+      "count": 1
+     },
+     {
+      "title": "Personal Assistance",
+      "count": 1
+     },
+     {
+      "title": "Project Management",
+      "count": 1
+     },
+     {
+      "title": "Marketing Strategy",
+      "count": 1
+     },
+     {
+      "title": "Home Improvement",
+      "count": 1
+     },
+     {
+      "title": "Marketing Consulting",
+      "count": 1
+     },
+     {
+      "title": "Brand Marketing",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Field of Study",
+    "values": [
+     {
+      "title": "Civil Engineering",
+      "count": 2
+     },
+     {
+      "title": "Psychology",
+      "count": 2
+     },
+     {
+      "title": "Business/Commerce, General",
+      "count": 2
+     },
+     {
+      "title": "Computer Programming",
+      "count": 1
+     },
+     {
+      "title": "Electrical and Electronics Engineering",
+      "count": 1
+     },
+     {
+      "title": "Electromechanical Technology/Electromechanical Engineering Technology",
+      "count": 1
+     },
+     {
+      "title": "Computer Technology/Computer Systems Technology",
+      "count": 1
+     },
+     {
+      "title": "Civil Drafting and Civil Engineering CAD/CADD",
+      "count": 1
+     },
+     {
+      "title": "Sociology",
+      "count": 1
+     },
+     {
+      "title": "Design and Visual Communications, General",
+      "count": 1
+     },
+     {
+      "title": "Psychoanalysis and Psychotherapy",
+      "count": 1
+     },
+     {
+      "title": "Business, Management, Marketing, and Related Support Services",
+      "count": 1
+     },
+     {
+      "title": "Business Administration and Management, General",
+      "count": 1
+     },
+     {
+      "title": "Organizational Leadership",
+      "count": 1
+     },
+     {
+      "title": "Accounting and Business/Management",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "originalQuery": {
+   "search": "https://www.linkedin.com/company/atom-modular/",
+   "location": ""
+  },
+  "requestId": "dfd94975-28b5-4941-aac4-be5ce97e4aa0"
+ }
+]

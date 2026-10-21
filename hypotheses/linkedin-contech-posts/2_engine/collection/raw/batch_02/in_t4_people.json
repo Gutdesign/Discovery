@@ -1,0 +1,29 @@
+{
+ "companies": [
+  "https://www.linkedin.com/company/meltplan/",
+  "https://www.linkedin.com/company/permitflow/",
+  "https://www.linkedin.com/company/whykeyway/",
+  "https://www.linkedin.com/company/alice-technologies-inc/",
+  "https://www.linkedin.com/company/digshq/",
+  "https://www.linkedin.com/company/estie-inc/",
+  "https://www.linkedin.com/company/builtrobotics/",
+  "https://www.linkedin.com/company/netvendor/",
+  "https://www.linkedin.com/company/zefir-fr/"
+ ],
+ "companyBatchMode": "one_by_one",
+ "jobTitles": [
+  "CEO",
+  "Founder",
+  "Co-Founder",
+  "Chief Product Officer",
+  "Head of Product",
+  "Product Manager",
+  "Head of AI",
+  "AI Lead",
+  "Chief AI Officer",
+  "Digital Transformation"
+ ],
+ "profileScraperMode": "Full ($8 per 1k)",
+ "maxItemsPerCompany": 5,
+ "maxItems": 54
+}

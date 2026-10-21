@@ -1,0 +1,26 @@
+{
+ "companies": [
+  "https://www.linkedin.com/company/aectual/",
+  "https://www.linkedin.com/company/aibob/",
+  "https://www.linkedin.com/company/alloovium/",
+  "https://www.linkedin.com/company/metaroom-by-amrax/",
+  "https://www.linkedin.com/company/archilabs-ai/",
+  "https://www.linkedin.com/company/asite/"
+ ],
+ "companyBatchMode": "one_by_one",
+ "jobTitles": [
+  "CEO",
+  "Founder",
+  "Co-Founder",
+  "Chief Product Officer",
+  "Head of Product",
+  "Product Manager",
+  "Head of AI",
+  "AI Lead",
+  "Chief AI Officer",
+  "Digital Transformation"
+ ],
+ "profileScraperMode": "Full ($8 per 1k)",
+ "maxItemsPerCompany": 5,
+ "maxItems": 36
+}

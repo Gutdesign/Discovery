@@ -1,0 +1,29 @@
+{
+ "companies": [
+  "https://www.linkedin.com/company/cupix/",
+  "https://www.linkedin.com/company/greenlite-technologies/",
+  "https://www.linkedin.com/company/parspec/",
+  "https://www.linkedin.com/company/dealpath/",
+  "https://www.linkedin.com/company/hqo/",
+  "https://www.linkedin.com/company/casafari/",
+  "https://www.linkedin.com/company/hover-inc-/",
+  "https://www.linkedin.com/company/built-technologies-inc-/",
+  "https://www.linkedin.com/company/3d-repo/"
+ ],
+ "companyBatchMode": "one_by_one",
+ "jobTitles": [
+  "CEO",
+  "Founder",
+  "Co-Founder",
+  "Chief Product Officer",
+  "Head of Product",
+  "Product Manager",
+  "Head of AI",
+  "AI Lead",
+  "Chief AI Officer",
+  "Digital Transformation"
+ ],
+ "profileScraperMode": "Full ($8 per 1k)",
+ "maxItemsPerCompany": 5,
+ "maxItems": 54
+}

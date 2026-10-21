@@ -1,0 +1,3770 @@
+[
+ {
+  "id": "72416",
+  "universalName": "aecon",
+  "linkedinUrl": "https://www.linkedin.com/company/aecon/",
+  "name": "Aecon Group Inc.",
+  "tagline": "A North American leader in construction & infrastructure development with global expertise.",
+  "website": "http://www.aecon.com",
+  "callToActionUrl": "http://www.aecon.com",
+  "phone": null,
+  "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQF9ip8Jmeq02w/company-logo_400_400/B4EZ1poTRPGYAc-/0/1775593665907/aecon_logo?e=1794441600&v=beta&t=IG5KuIjh2_wge91qODOU4ahyRg6EU-fHRpBXRraKHXU",
+  "employeeCount": 6661,
+  "employeeCountRange": {
+   "start": 10001,
+   "end": null
+  },
+  "followerCount": 332407,
+  "description": "Aecon Group Inc. (TSX: ARE) is a North American construction and infrastructure development company with global experience. Aecon delivers integrated solutions to private and public-sector clients through its Construction segment in the Civil, Urban Transportation, Nuclear, Utility and Industrial sectors, and provides project development, financing, investment, management, and operations and maintenance services through its Concessions segment. ",
+  "companyType": "Public Company",
+  "locations": [
+   {
+    "country": "CA",
+    "city": "Montreal",
+    "geographicArea": "Quebec",
+    "line1": "2015 Rue Peel",
+    "line2": "Bureau 600",
+    "postalCode": "H3A 1T8",
+    "headquarter": false,
+    "description": "Montreal",
+    "parsed": {
+     "text": "Montréal, Canada",
+     "countryCode": "CA",
+     "regionCode": null,
+     "country": "Canada",
+     "countryFull": "Canada",
+     "state": "Quebec",
+     "city": "Montréal"
+    }
+   },
+   {
+    "country": "CA",
+    "city": "Toronto",
+    "geographicArea": "ON",
+    "line1": "20 Carlson Court",
+    "line2": "Suite 800",
+    "postalCode": "M9W 7K6",
+    "headquarter": true,
+    "description": "Aecon Group Inc.",
+    "parsed": {
+     "text": "Toronto, Canada",
+     "countryCode": "CA",
+     "regionCode": null,
+     "country": "Canada",
+     "countryFull": "Canada",
+     "state": "Ontario",
+     "city": "Toronto"
+    }
+   },
+   {
+    "country": "CA",
+    "city": "Calgary",
+    "geographicArea": "Alberta",
+    "line1": "28 Quarry Park Blvd SE",
+    "line2": null,
+    "postalCode": "T2C 5P9",
+    "headquarter": false,
+    "description": "Calgary",
+    "parsed": {
+     "text": "Calgary, Canada",
+     "countryCode": "CA",
+     "regionCode": null,
+     "country": "Canada",
+     "countryFull": "Canada",
+     "state": "Alberta",
+     "city": "Calgary"
+    }
+   },
+   {
+    "country": "CA",
+    "city": "Vancouver",
+    "geographicArea": "British Columbia",
+    "line1": "1055 Dunsmuir St",
+    "line2": null,
+    "postalCode": "V7X 1L4",
+    "headquarter": false,
+    "description": "Vancouver ",
+    "parsed": {
+     "text": "Vancouver, Canada",
+     "countryCode": "CA",
+     "regionCode": null,
+     "country": "Canada",
+     "countryFull": "Canada",
+     "state": "British Columbia",
+     "city": "Vancouver"
+    }
+   }
+  ],
+  "specialities": [
+   "MINING",
+   "CONCESSIONS",
+   "INFRASTRUCTURE",
+   "ENERGY"
+  ],
+  "industries": [
+   {
+    "id": "48",
+    "name": "Construction",
+    "urn": "urn:li:fsd_industryV2:48",
+    "title": "Construction",
+    "hierarchy": "Construction"
+   }
+  ],
+  "logos": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF9ip8Jmeq02w/company-logo_400_400/B4EZ1poTRPGYAc-/0/1775593665907/aecon_logo?e=1794441600&v=beta&t=IG5KuIjh2_wge91qODOU4ahyRg6EU-fHRpBXRraKHXU",
+    "width": 400,
+    "height": 400
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF9ip8Jmeq02w/company-logo_200_200/B4EZ1poTRPGYAM-/0/1775593665907/aecon_logo?e=1794441600&v=beta&t=A1pQu5N_YwQyPICOtAqKOiwAnCEBKA6l_sXQXM6869I",
+    "width": 200,
+    "height": 200
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF9ip8Jmeq02w/company-logo_100_100/B4EZ1poTRPGYAU-/0/1775593665907/aecon_logo?e=1794441600&v=beta&t=R6i4Q3f4TGB0FLuYboRT5HVxn42nkfmb9al7E3wi06w",
+    "width": 100,
+    "height": 100
+   }
+  ],
+  "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQHPPRRIR7N4Lg/company-background_10000/B4EZ3j5hwYIMAI-/0/1777645002022/aecon_cover?e=1793192400&v=beta&t=Rhv15b7Z6xI0NLV5BSvlu82Ta3uOuigGnUJgCp2X72c",
+  "backgroundCovers": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E1BAQHPPRRIR7N4Lg/company-background_10000/B4EZ3j5hwYIMAI-/0/1777645002022/aecon_cover?e=1793192400&v=beta&t=Rhv15b7Z6xI0NLV5BSvlu82Ta3uOuigGnUJgCp2X72c",
+    "width": 1128,
+    "height": 191
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E1BAQHPPRRIR7N4Lg/company-background_400/B4EZ3j5hwYIMAQ-/0/1777645002022/aecon_cover?e=1793192400&v=beta&t=wS3Kcdht1GEKENVHsaj2MaTTlTGnCgB9ohG4C_KYTV4",
+    "width": 400,
+    "height": 67
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E1BAQHPPRRIR7N4Lg/company-background_200/B4EZ3j5hwYIMAU-/0/1777645002023/aecon_cover?e=1793192400&v=beta&t=bAe_QOeXxJk5JNfcmSnffKTZIwDFivWbUsR0vlUfa00",
+    "width": 200,
+    "height": 33
+   }
+  ],
+  "active": true,
+  "jobSearchUrl": "https://www.linkedin.com/jobs/search?geoId=92000000&f_C=72416",
+  "pageVerified": true,
+  "pageType": "COMPANY",
+  "showcase": false,
+  "paidCompany": true,
+  "autoGenerated": false,
+  "messagingEnabled": false,
+  "similarOrganizations": [
+   {
+    "id": "111056943",
+    "universalName": "fcc-canada",
+    "linkedinUrl": "https://www.linkedin.com/company/fcc-canada/",
+    "name": "FCC Canada",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFOqpL8JGF8Ag/company-logo_400_400/B4EZvgeau1IIAY-/0/1768997629561/fcc_canada_logo?e=1794441600&v=beta&t=b7yUzfO_dnHBwz4dVxjwRoQ0yQ-ViHhpjnGczyWB4FA",
+    "employeeCountRange": {
+     "start": 10001,
+     "end": null
+    },
+    "followerCount": 2686,
+    "description": "We have been present in Canada for over 25 years. In 1998, we were awarded the contract for the construction, operation and maintenance of the Fredericton-Moncton Highway. In 2011, we were awarded the contract for the extension of a section of the Toronto Metro, the city's first modern underground metro infrastructure project.\n \nToday, we are developing various key railway projects for the country's mobility and to improve the quality of life of its citizens.",
+    "industries": [
+     {
+      "id": "48",
+      "name": "Construction",
+      "urn": "urn:li:fsd_industryV2:48",
+      "title": "Construction",
+      "hierarchy": "Construction"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQGpEgTYOzmHDA/company-background_10000/B4EZvgLYIsIIAU-/0/1768992637978/fcc_canada_ltd_cover?e=1793192400&v=beta&t=TcgTXRevyohd9D_ErtZum8AnRSUNM9ZyC8ny8c0o1XU",
+    "affiliatedPages": []
+   },
+   {
+    "id": "6828517",
+    "universalName": "terrafirma-resources",
+    "linkedinUrl": "https://www.linkedin.com/company/terrafirma-resources/",
+    "name": "Terrafirma Resources",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C560BAQHTwZQ4fvPDwQ/company-logo_400_400/company-logo_400_400/0/1630648132028/terrafirma_resources_logo?e=1794441600&v=beta&t=2qJH4fn2u6bX1JdVkT0-Gl84_fLXhCIGP3Z4ndPdQpI",
+    "employeeCountRange": {
+     "start": 51,
+     "end": 200
+    },
+    "followerCount": 2500,
+    "description": "Terrafirma is an Alberta pipeline, facility, mechanical and oilfield maintenance company servicing the oil industry throughout Western Canada.",
+    "industries": [
+     {
+      "id": "57",
+      "name": "Oil and Gas",
+      "urn": "urn:li:fsd_industryV2:57",
+      "title": "Oil and Gas",
+      "hierarchy": "Oil, Gas, and Mining > Oil and Gas"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/C561BAQHnW1gnwgQuiQ/company-background_10000/company-background_10000/0/1614636834912/terrafirma_resources_cover?e=1793192400&v=beta&t=Y8zf8BA2Rlz0JbJdE9PHMcKVoLFeL6o7_kF_aPkNSd8",
+    "affiliatedPages": []
+   },
+   {
+    "id": "109850164",
+    "universalName": "pape-north-connect",
+    "linkedinUrl": "https://www.linkedin.com/company/pape-north-connect/",
+    "name": "Pape North Connect (PNC)",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGhv2up06rdng/company-logo_400_400/B4EZqYfGbtJgAY-/0/1763494881859?e=1794441600&v=beta&t=hrI_uMGChUn0u4NAOAfZVIUSzvLwSDOPQLLNEdwIQic",
+    "employeeCountRange": {
+     "start": 201,
+     "end": 500
+    },
+    "followerCount": 1900,
+    "description": "Pape North Connect (PNC) is delivering the Pape Tunnel and Underground Stations (PTUS) segment of the Ontario Line, a new 15.6-kilometre subway that will add 15 stations from Exhibition Place to the Eglinton Crosstown LRT at Don Mills Road. The Ontario Line will reduce end-to-end travel time to under 30 minutes, compared to 70 minutes today.\n\nPNC is a joint venture between Webuild Civil Works Inc. and Fomento De Construcciones Y Contratas Canada Ltd, contracted by Metrolinx to deliver one of the most vital sections of the project.\n\nOur scope of work includes:\n•\t3 km of twin tunnels beneath Pape Avenue, from the Gerrard portal to the Don Valley bridge\n•\tTwo underground stations connecting to TTC Line 2 (Cosburn and Pape)\n•\tThree emergency exit/service buildings\n•\tA rail switch/crossover in the section of tunnel near Sammon Avenue\n\nThe PTUS segment is being delivered under a Progressive Design-Build (PDB) model, which allows for greater collaboration between Metrolinx, contractors, partners, and communities throughout design and construction.",
+    "industries": [
+     {
+      "id": "48",
+      "name": "Construction",
+      "urn": "urn:li:fsd_industryV2:48",
+      "title": "Construction",
+      "hierarchy": "Construction"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQFvy50H9_oTKg/company-background_10000/B4EZqYjNCYKkAU-/0/1763495957429/pape_north_connect_cover?e=1793192400&v=beta&t=nK5KUbncWrHMG9CZpfZhOXKWMfzte1RPOr0xj_ip_RU",
+    "affiliatedPages": []
+   },
+   {
+    "id": "93551474",
+    "universalName": "bauer-foundations-canada-inc",
+    "linkedinUrl": "https://www.linkedin.com/company/bauer-foundations-canada-inc/",
+    "name": "BAUER Foundations Canada Inc.",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQEFiK-xjXyUbQ/company-logo_400_400/B56Zua6E7hGwAY-/0/1767830474851/bauer_foundations_canada_inc_logo?e=1794441600&v=beta&t=Hm8QWtftVNgVwxtAYUJ_9JiKl87oSKJ6tLrlAdK7bN0",
+    "employeeCountRange": {
+     "start": 201,
+     "end": 500
+    },
+    "followerCount": 2475,
+    "description": "BAUER Foundations Canada Inc. is a leading provider of design-build geotechnical solutions, specializing in shoring systems, deep foundations and piling, cut-off walls, soil improvement, and other advanced ground engineering services. With offices in Calgary, AB; Vancouver, BC; and Oakville and Hamilton, ON, we support projects across Canada, delivering safe, efficient, and high-quality solutions for complex ground conditions.\n\nAs the Canadian subsidiary of BAUER Spezialtiefbau GmbH, part of the globally renowned BAUER Group, we draw on more than 236 years of engineering excellence and innovation. Through our close collaboration with BAUER companies around the world, we combine local expertise with global resources - leveraging advanced technologies, specialized equipment, and world-class technical knowledge.\n\nThis unique strength allows BAUER Foundations Canada Inc. to tackle the most challenging geotechnical projects with confidence, providing reliable, innovative solutions that help our clients build safely, efficiently, and successfully across the country.",
+    "industries": [
+     {
+      "id": "48",
+      "name": "Construction",
+      "urn": "urn:li:fsd_industryV2:48",
+      "title": "Construction",
+      "hierarchy": "Construction"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQFOG8nbS0FMvw/company-background_10000/B56Zue08yVJUAU-/0/1767896242146/bauer_foundations_canada_inc_cover?e=1793192400&v=beta&t=daE6z1avbp8oTJtr2BYbn7tKVMGv8oAvdbF_K5RxNoA",
+    "affiliatedPages": []
+   },
+   {
+    "id": "107090934",
+    "universalName": "alliance-verdi-civil",
+    "linkedinUrl": "https://www.linkedin.com/company/alliance-verdi-civil/",
+    "name": "Alliance Verdi Civil",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQGmRZ2ql9VIog/company-logo_400_400/B56ZayBNieGgAY-/0/1746743384585/alliance_verdi_civil_logo?e=1794441600&v=beta&t=A7trwOX8aNs8LsEkuyDxQje4FlOi389AE-rtwtw4Gqs",
+    "employeeCountRange": {
+     "start": 51,
+     "end": 200
+    },
+    "followerCount": 2099,
+    "description": "A leader in both the rehabilitation of existing infrastructure and the construction of new projects, Alliance Verdi Civil collaborates extensively with various private and governmental authorities and agencies across a broad spectrum of projects. Alliance Verdi Civil is a leading heavy civil contractor specializing in the construction and maintenance of public infrastructure. With a strong focus on quality, safety, and efficiency, we deliver a wide range of projects, including roads, bridges, utilities, and site development. Our expertise extends beyond public works, as we also provide high-quality civil construction services to private sector clients. Backed by a skilled workforce, advanced equipment, and a commitment to excellence, we take pride in building the essential infrastructure that supports communities and drives economic growth.\n\n•Road & Bridge Construction\n•Sewer & Watermain\n•Grading\n•Subway Work\n•CFRP - Carbon Fiber Reinforced Polymer\n•Bridge Jacking\n•Structural Steel Repair\n\nThe depth of experience and broad expertise enables Alliance Verdi Civil to deliver superior solutions tailored to meet the complex demands of infrastructure development and restoration.",
+    "industries": [
+     {
+      "id": "48",
+      "name": "Construction",
+      "urn": "urn:li:fsd_industryV2:48",
+      "title": "Construction",
+      "hierarchy": "Construction"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQEIFg7U7IHy_A/company-background_10000/B56Za2FxxuHgAU-/0/1746811693632/alliance_verdi_civil_cover?e=1793192400&v=beta&t=UU_jtGRjAee8rd87uGmCxnvZVphTF6GGD87i1dFwlX4",
+    "affiliatedPages": []
+   },
+   {
+    "id": "143929155",
+    "universalName": "ndt-integrity",
+    "linkedinUrl": "https://www.linkedin.com/company/ndt-integrity/",
+    "name": "NDT Integrity",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQE3VrSSSJP_5Q/company-logo_400_400/B56aDVg3LAJIAY-/0/1790288557198/ndt_integrity_logo?e=1794441600&v=beta&t=FhafqUvjTacqOxracMk1-dsUnizpzKEhwnVwUw-WAyU",
+    "employeeCountRange": {
+     "start": 0,
+     "end": 1
+    },
+    "followerCount": 303,
+    "description": "NDT Integrity develops practical inspection and asset integrity software built around real-world NDT workflows. Our platform connects field data collection, SketchMapp drawings, C-Scan and advanced NDE results, API 510/570/653 inspection programs, pipeline integrity assessments, Guided Wave, SRUT, reporting, and cloud-based project management in one connected system.\n\nDesigned by inspection professionals, NDT Integrity helps operators, inspection companies, and integrity teams reduce disconnected spreadsheets, duplicate data entry, and manual report preparation. Data collected in the field can move directly through analysis, review, and final reporting while maintaining consistency across Windows and Android workflows.\n\nOur goal is simple: make inspection data easier to collect, understand, manage, and deliver.\n\nFrom Field Data to Final Report.",
+    "industries": [
+     {
+      "id": "57",
+      "name": "Oil and Gas",
+      "urn": "urn:li:fsd_industryV2:57",
+      "title": "Oil and Gas",
+      "hierarchy": "Oil, Gas, and Mining > Oil and Gas"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQEyA-ogXwgQ9A/company-background_10000/B56aDVg9.bKcAQ-/0/1790288584882/ndt_integrity_cover?e=1793192400&v=beta&t=waEBaOOQ2D--mpjwYnmWWZd2J3qx8XBv5F7il3OCJc8",
+    "affiliatedPages": []
+   },
+   {
+    "id": "109220930",
+    "universalName": "pact-gp",
+    "linkedinUrl": "https://www.linkedin.com/company/pact-gp/",
+    "name": "PACT",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQHRJ3I4pphXuA/company-logo_400_400/B4EZm_5uJnHIAY-/0/1759861203992?e=1794441600&v=beta&t=8Ys2IpzBbUF4QeUsQzhnHqyAVRWFALfwpvg_GlNEC9w",
+    "employeeCountRange": {
+     "start": 51,
+     "end": 200
+    },
+    "followerCount": 3227,
+    "description": "The Pearson Accelerator Construction Team (PACT) is a general partnership of top construction firms, supported by a joint venture of leading design firms, selected to lead the Accelerator program—addressing passenger growth at Toronto Pearson International Airport and delivering vital upgrades and revitalization of airport assets as part of Pearson LIFT.",
+    "industries": [
+     {
+      "id": "48",
+      "name": "Construction",
+      "urn": "urn:li:fsd_industryV2:48",
+      "title": "Construction",
+      "hierarchy": "Construction"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQGtY6scju9zqA/company-background_10000/B4EZqcmlIKKgAU-/0/1763563953428/pact_gp_cover?e=1793192400&v=beta&t=_Tozdg-dYw-KOiX2hpoVLl4BUBfViT5hZPDf4qwb7cc",
+    "affiliatedPages": []
+   },
+   {
+    "id": "112436661",
+    "universalName": "imperial-construction-and-restoration",
+    "linkedinUrl": "https://www.linkedin.com/company/imperial-construction-and-restoration/",
+    "name": "IMPERIAL RESTORATION",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQG5q8JcMY4xig/company-logo_400_400/B56ZyQa4rAJQAY-/0/1771949496032?e=1794441600&v=beta&t=ukkEEF0IwsRuclcf_t7tGtoSlmXbQBOmS-lVAtD0wMM",
+    "employeeCountRange": {
+     "start": 51,
+     "end": 200
+    },
+    "followerCount": 327,
+    "description": "Unexpected damage is manageable.\nWhat causes real problems is how slowly and poorly it’s handled.\n\nWe provide 24/7 rapid emergency response across the GTA, helping property owners and condo managers take control of flood, fire, and mold damage before it turns into bigger issues.\n\nWe handle everything from immediate stabilization to full restoration and renovation, keeping projects moving without delays, confusion, or insurance complications.\n\nWe step in, take control, and keep everything on track.\n\nIf you're dealing with damage or planning work, reach out before it gets complicated.",
+    "industries": [
+     {
+      "id": "48",
+      "name": "Construction",
+      "urn": "urn:li:fsd_industryV2:48",
+      "title": "Construction",
+      "hierarchy": "Construction"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQGWsGWTSlRGhA/company-background_10000/B4EZ22cnTMHMAU-/0/1776882455966/imperial_construction_and_restoration_cover?e=1793192400&v=beta&t=vF9rrcG1lABANF27NCAIoA3VDN3u8LEPSIUxdfTm2Fc",
+    "affiliatedPages": []
+   },
+   {
+    "id": "81559360",
+    "universalName": "onxpress",
+    "linkedinUrl": "https://www.linkedin.com/company/onxpress/",
+    "name": "ONxpress",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C560BAQHDT022h0VliA/company-logo_400_400/company-logo_400_400/0/1677857764164/onxpress_transportation_partners_logo?e=1794441600&v=beta&t=ovcjZ8Gfj8xbpOXKFQ5cGweK8ETuK0CFUbbUrR9Zdq4",
+    "employeeCountRange": {
+     "start": 201,
+     "end": 500
+    },
+    "followerCount": 58862,
+    "description": "Metrolinx’s GO Expansion program is delivering more GO service across the network, including the capacity to deliver two-way service every 15 minutes or better on core routes. Work is already underway on new track, station renovations and infrastructure upgrades on parts of the Lakeshore, Stouffville, Kitchener and Barrie lines. The investment will generate thousands of new jobs and economic opportunities across the region. \n\nThe ONxpress Civil Joint Venture is comprised of Aecon Infrastructure Management Inc., and FCC Canada Ltd. This multidisciplinary team leads the delivery of civil and track works, leveraging global expertise to introduce innovative solutions across the GO Transit network.\n\nCheck out our job openings and join the team that's transforming transit today!\n",
+    "industries": [
+     {
+      "id": "48",
+      "name": "Construction",
+      "urn": "urn:li:fsd_industryV2:48",
+      "title": "Construction",
+      "hierarchy": "Construction"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQHSRsLgn1fNMw/company-background_10000/company-background_10000/0/1675364961625/onxpress_transportation_partners_cover?e=1793192400&v=beta&t=gHor2a6EZss02ffTZlgpimgvuPcP-UvE6v00XAYyijM",
+    "affiliatedPages": []
+   },
+   {
+    "id": "10873274",
+    "universalName": "piling-canada",
+    "linkedinUrl": "https://www.linkedin.com/company/piling-canada/",
+    "name": "Piling Canada",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQG9Hpc4g3mHcw/company-logo_400_400/company-logo_400_400/0/1713292263853/piling_canada_logo?e=1794441600&v=beta&t=nJqCFA8UQIj_5RewsksGlCT4mYvhbCE2CarbwFbrfHk",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 2346,
+    "description": "Piling Canada is the premier national voice for the Canadian deep foundation construction industry.",
+    "industries": [
+     {
+      "id": "48",
+      "name": "Construction",
+      "urn": "urn:li:fsd_industryV2:48",
+      "title": "Construction",
+      "hierarchy": "Construction"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQHM1EZydU-vDg/company-background_10000/company-background_10000/0/1697576954266/piling_canada_cover?e=1793192400&v=beta&t=o_e1OeS62fnb6ot0k97GXGMo5wOJdca9rS8NsiQRNsk",
+    "affiliatedPages": []
+   },
+   {
+    "id": "100554368",
+    "universalName": "east-harbour-transit-hub-alliance",
+    "linkedinUrl": "https://www.linkedin.com/company/east-harbour-transit-hub-alliance/",
+    "name": "East Harbour Transit Hub Alliance",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQH1P3JmqgrdaQ/company-logo_400_400/company-logo_400_400/0/1709053227314?e=1794441600&v=beta&t=Y0Itdj5-fElpCHmqUIbigearKE2S3pG6V1PWEhUFPyM",
+    "employeeCountRange": {
+     "start": 51,
+     "end": 200
+    },
+    "followerCount": 2725,
+    "description": "Welcome to East Harbour Transit Hub Alliance!   \n  \nWe're at the forefront of innovative construction and transit expansion in Toronto and the GTA – leading the development of the East Harbour Transit Hub (EHTH), a major interchange within the city's SmartTrack Stations Program. As a pioneering alliance between AtkinsRéalis, Bird Construction, Hatch and Metrolinx, we're breaking new ground in collaborative infrastructure development. \n \nOur goal: to create a transit hub that not only improves the commuter experience but also fosters sustainable urban growth. At EHTH we harness the power of an alliance model to drive progress, mitigate risk, and deliver world-class infrastructure that meets the evolving needs of our communities. \n \nJoin us on this transformative journey as we redefine what's possible in design, development and construction of transit infrastructure. Follow our page for updates on project milestones, career opportunities, team highlights and insights into the future of transit in Toronto and beyond. ",
+    "industries": [
+     {
+      "id": "48",
+      "name": "Construction",
+      "urn": "urn:li:fsd_industryV2:48",
+      "title": "Construction",
+      "hierarchy": "Construction"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQFiKixLu4wNUw/company-background_10000/company-background_10000/0/1709060930806/east_harbour_cover?e=1793192400&v=beta&t=v_d6rru7jNLdNYSSzQ8UIhz0zmTZlRmB_5da32ZBA_g",
+    "affiliatedPages": []
+   },
+   {
+    "id": "105527874",
+    "universalName": "amrize",
+    "linkedinUrl": "https://www.linkedin.com/company/amrize/",
+    "name": "Amrize",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQG7mDHIdq259w/company-logo_400_400/B4EZdhoKUlGwAc-/0/1749689607978/amrize_logo?e=1794441600&v=beta&t=txO-p5-lpQ2NJMSr07Yq4zCZwz58BoQE8dRg5U1RwWc",
+    "employeeCountRange": {
+     "start": 10001,
+     "end": null
+    },
+    "followerCount": 166253,
+    "description": "Amrize (NYSE: AMRZ) is building North America, as the partner of choice for professional builders with advanced branded solutions from foundation to rooftop. With over 1,000 sites and a highly efficient distribution network, we deliver for our customers in every U.S. state and Canadian province. Our 19,000 teammates uniquely serve every construction market from infrastructure, commercial and residential to new build, repair and refurbishment. Amrize achieved $11.8 billion in revenue in 2025 and is listed on the New York Stock Exchange and the SIX Swiss Exchange. We are ready to build your ambition. ",
+    "industries": [
+     {
+      "id": "48",
+      "name": "Construction",
+      "urn": "urn:li:fsd_industryV2:48",
+      "title": "Construction",
+      "hierarchy": "Construction"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQEDBdqaA6NaPA/company-background_10000/B4EZeEQQegGwAU-/0/1750270544362/amrize_cover?e=1793192400&v=beta&t=l0VGviIlBxE_ZrfuSWEU-5mrlkZE9tVTJwWp3Uvodzc",
+    "affiliatedPages": []
+   }
+  ],
+  "affiliatedPages": [
+   {
+    "id": "589127",
+    "universalName": "aecon-us",
+    "linkedinUrl": "https://www.linkedin.com/company/aecon-us",
+    "name": "Aecon U.S.",
+    "website": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQG0CnSHLpvmfQ/company-logo_400_400/B4EZ8U5q55JkAU-/0/1782762090376/aecon_us_logo?e=1794441600&v=beta&t=iuSnHJx7T8Dm4zUr1emES3BVvkSo2pHUunAVz2yWBlo",
+    "followerCount": 332407,
+    "description": "Aecon is a North American construction and infrastructure development company with global experience – transforming vision into reality.\n\nWe offer a full spectrum of nuclear services for refurbishment, maintenance, new build, decommissioning, modularization, and fabrication to power a sustainable future. Our nuclear sector plays an important role in extending the life of existing nuclear stations and executing the next generation of nuclear new builds leveraging a similar fleet execution strategy. From our work delivering the two largest refurbishment projects in North America to deploying the first grid-scale SMR in the Western world – we are focused on safety, schedule, cost performance and operational excellence. \n\nOur Industrial division leads the way in industrial construction with a proven track record of safely delivering a broad range of project solutions for our clients - from fabrication and modularization to new builds, turnarounds and maintenance. Aecon provides clients with a vertically integrated solution, self-performing all disciplines of work.\n\nWe are committed to building a sustainable future - in what we build and how we build it. We continue moving forward with a strategic focus on decarbonizing energy systems in support of a net zero future.",
+    "industries": [
+     {
+      "id": "48",
+      "name": "Construction",
+      "urn": "urn:li:fs_industry:48",
+      "title": "Construction",
+      "hierarchy": "Construction"
+     }
+    ],
+    "logos": [
+     {
+      "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG0CnSHLpvmfQ/company-logo_400_400/B4EZ8U5q55JkAU-/0/1782762090376/aecon_us_logo?e=1794441600&v=beta&t=iuSnHJx7T8Dm4zUr1emES3BVvkSo2pHUunAVz2yWBlo",
+      "width": 400,
+      "height": 400
+     },
+     {
+      "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG0CnSHLpvmfQ/company-logo_200_200/B4EZ8U5q55JkAE-/0/1782762090376/aecon_us_logo?e=1794441600&v=beta&t=FitPWCFXNkSWt30XJozp-WOCmnHsJQsuBSRQ04Z_eGY",
+      "width": 200,
+      "height": 200
+     },
+     {
+      "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG0CnSHLpvmfQ/company-logo_100_100/B4EZ8U5q55JkAI-/0/1782762090377/aecon_us_logo?e=1794441600&v=beta&t=Xj1AWnWMFNUvXzFSlb9vL36bPWg1uEQTgFH0R0FiuWQ",
+      "width": 100,
+      "height": 100
+     }
+    ],
+    "showcase": false,
+    "paidCompany": false
+   }
+  ],
+  "peopleStats": [
+   {
+    "statTitle": "Locations",
+    "values": [
+     {
+      "title": "Canada",
+      "count": 5438
+     },
+     {
+      "title": "Ontario, Canada",
+      "count": 3507
+     },
+     {
+      "title": "Greater Toronto Area, Canada",
+      "count": 2092
+     },
+     {
+      "title": "Toronto, ON",
+      "count": 1137
+     },
+     {
+      "title": "Alberta, Canada",
+      "count": 1060
+     },
+     {
+      "title": "Greater Edmonton Metropolitan Area",
+      "count": 446
+     },
+     {
+      "title": "British Columbia, Canada",
+      "count": 423
+     },
+     {
+      "title": "Edmonton, AB",
+      "count": 352
+     },
+     {
+      "title": "Greater Calgary Metropolitan Area",
+      "count": 322
+     },
+     {
+      "title": "Calgary, AB",
+      "count": 292
+     },
+     {
+      "title": "United States",
+      "count": 287
+     },
+     {
+      "title": "Greater Kitchener-Cambridge-Waterloo Metropolitan Area",
+      "count": 264
+     },
+     {
+      "title": "Greater Oshawa Metropolitan Area",
+      "count": 259
+     },
+     {
+      "title": "Greater Vancouver Metropolitan Area",
+      "count": 221
+     },
+     {
+      "title": "Mississauga, ON",
+      "count": 166
+     }
+    ]
+   },
+   {
+    "statTitle": "School",
+    "values": [
+     {
+      "title": "George Brown Polytechnic",
+      "count": 170
+     },
+     {
+      "title": "Conestoga College",
+      "count": 153
+     },
+     {
+      "title": "Humber College",
+      "count": 121
+     },
+     {
+      "title": "NAIT (Northern Alberta Institute of Technology)",
+      "count": 119
+     },
+     {
+      "title": "Seneca Polytechnic",
+      "count": 117
+     },
+     {
+      "title": "University of Toronto",
+      "count": 116
+     },
+     {
+      "title": "Durham College",
+      "count": 110
+     },
+     {
+      "title": "University of Waterloo",
+      "count": 104
+     },
+     {
+      "title": "McMaster University",
+      "count": 94
+     },
+     {
+      "title": "Ryerson University",
+      "count": 90
+     },
+     {
+      "title": "York University",
+      "count": 86
+     },
+     {
+      "title": "Mohawk College",
+      "count": 81
+     },
+     {
+      "title": "Fanshawe College",
+      "count": 80
+     },
+     {
+      "title": "Southern Alberta Institute of Technology (SAIT)",
+      "count": 79
+     },
+     {
+      "title": "Ontario Tech University",
+      "count": 79
+     }
+    ]
+   },
+   {
+    "statTitle": "Current Function",
+    "values": [
+     {
+      "title": "Operations",
+      "count": 2820
+     },
+     {
+      "title": "Program and Project Management",
+      "count": 676
+     },
+     {
+      "title": "Engineering",
+      "count": 616
+     },
+     {
+      "title": "Information Technology",
+      "count": 411
+     },
+     {
+      "title": "Quality Assurance",
+      "count": 286
+     },
+     {
+      "title": "Human Resources",
+      "count": 269
+     },
+     {
+      "title": "Business Development",
+      "count": 265
+     },
+     {
+      "title": "Administrative",
+      "count": 237
+     },
+     {
+      "title": "Accounting",
+      "count": 194
+     },
+     {
+      "title": "Purchasing",
+      "count": 170
+     },
+     {
+      "title": "Community and Social Services",
+      "count": 169
+     },
+     {
+      "title": "Arts and Design",
+      "count": 167
+     },
+     {
+      "title": "Finance",
+      "count": 147
+     },
+     {
+      "title": "Sales",
+      "count": 132
+     },
+     {
+      "title": "Education",
+      "count": 84
+     }
+    ]
+   },
+   {
+    "statTitle": "Skill Explicit",
+    "values": [
+     {
+      "title": "Microsoft Office",
+      "count": 1580
+     },
+     {
+      "title": "Project Management",
+      "count": 1556
+     },
+     {
+      "title": "Construction",
+      "count": 1503
+     },
+     {
+      "title": "Microsoft Excel",
+      "count": 1434
+     },
+     {
+      "title": "Communication",
+      "count": 1117
+     },
+     {
+      "title": "Project Planning",
+      "count": 1111
+     },
+     {
+      "title": "Leadership",
+      "count": 1075
+     },
+     {
+      "title": "Customer Service",
+      "count": 1074
+     },
+     {
+      "title": "Construction Management",
+      "count": 1069
+     },
+     {
+      "title": "AutoCAD",
+      "count": 947
+     },
+     {
+      "title": "Teamwork",
+      "count": 896
+     },
+     {
+      "title": "Contract Management",
+      "count": 826
+     },
+     {
+      "title": "Construction Safety",
+      "count": 809
+     },
+     {
+      "title": "Management",
+      "count": 782
+     },
+     {
+      "title": "Engineering",
+      "count": 773
+     }
+    ]
+   },
+   {
+    "statTitle": "Service categories",
+    "values": [
+     {
+      "title": "Operations",
+      "count": 45
+     },
+     {
+      "title": "Consulting",
+      "count": 39
+     },
+     {
+      "title": "Project Management",
+      "count": 31
+     },
+     {
+      "title": "Coaching & Mentoring",
+      "count": 22
+     },
+     {
+      "title": "Design",
+      "count": 15
+     },
+     {
+      "title": "Software Development",
+      "count": 12
+     },
+     {
+      "title": "Marketing",
+      "count": 11
+     },
+     {
+      "title": "Strategic Planning",
+      "count": 10
+     },
+     {
+      "title": "Writing",
+      "count": 10
+     },
+     {
+      "title": "Engineering Design",
+      "count": 9
+     },
+     {
+      "title": "Training",
+      "count": 9
+     },
+     {
+      "title": "Data Reporting",
+      "count": 9
+     },
+     {
+      "title": "Customer Support",
+      "count": 8
+     },
+     {
+      "title": "Program Management",
+      "count": 8
+     },
+     {
+      "title": "Technical Writing",
+      "count": 8
+     }
+    ]
+   },
+   {
+    "statTitle": "Field of Study",
+    "values": [
+     {
+      "title": "Civil Engineering",
+      "count": 617
+     },
+     {
+      "title": "Mechanical Engineering",
+      "count": 255
+     },
+     {
+      "title": "Business Administration and Management, General",
+      "count": 240
+     },
+     {
+      "title": "Project Management",
+      "count": 182
+     },
+     {
+      "title": "Electrical and Electronics Engineering",
+      "count": 164
+     },
+     {
+      "title": "Construction Management",
+      "count": 119
+     },
+     {
+      "title": "Business/Commerce, General",
+      "count": 118
+     },
+     {
+      "title": "Human Resources Management/Personnel Administration, General",
+      "count": 112
+     },
+     {
+      "title": "Accounting and Related Services",
+      "count": 110
+     },
+     {
+      "title": "Criminal Justice/Safety Studies",
+      "count": 95
+     },
+     {
+      "title": "Accounting",
+      "count": 81
+     },
+     {
+      "title": "Construction",
+      "count": 80
+     },
+     {
+      "title": "Welding Engineering Technology/Technician",
+      "count": 69
+     },
+     {
+      "title": "Psychology",
+      "count": 65
+     },
+     {
+      "title": "Marketing",
+      "count": 54
+     }
+    ]
+   }
+  ],
+  "originalQuery": {
+   "search": "aec-on.com",
+   "location": ""
+  },
+  "requestId": "efaa2bd7-9597-45dd-b91b-f63eeaab8bb2"
+ },
+ {
+  "id": "1261454",
+  "universalName": "academia",
+  "linkedinUrl": "https://www.linkedin.com/school/academia/",
+  "name": "Academia Institute of Technology",
+  "website": "http://www.academia.si",
+  "callToActionUrl": "https://www.academia.si",
+  "phone": null,
+  "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQFZ9kyyxQZ8SQ/company-logo_400_400/company-logo_400_400/0/1631332157652?e=1794441600&v=beta&t=iSFEQ0iEjsrIqeKAy88agfAUMSxQVbWBmEMf3Ath_iI",
+  "employeeCount": 354,
+  "employeeCountRange": {
+   "start": 51,
+   "end": 200
+  },
+  "followerCount": 4197,
+  "description": "Today, experiential learning is a cornerstone of modern education. For Academia, it has been the philosophy behind every program for over 30 years.\n\nAccredited by British awarding body and national accreditation bodies Academia Colleges offer students short-cycle higher education diploma programmes in Business, Computing, Engineering, and Art & Design.",
+  "companyType": "Educational Institution",
+  "locations": [
+   {
+    "country": "SI",
+    "city": "Maribor",
+    "geographicArea": null,
+    "line1": "Glavni trg 17b",
+    "line2": null,
+    "postalCode": "2000",
+    "headquarter": true,
+    "description": "Academia Maribor",
+    "parsed": {
+     "text": "Maribor, Slovenia",
+     "countryCode": "SI",
+     "regionCode": null,
+     "country": "Slovenia",
+     "countryFull": "Slovenia",
+     "state": "Maribor City Municipality",
+     "city": "Maribor"
+    }
+   },
+   {
+    "country": "SI",
+    "city": "Ljubljana",
+    "geographicArea": null,
+    "line1": "Leskoškova cesta 12",
+    "line2": null,
+    "postalCode": "1000",
+    "headquarter": false,
+    "description": "Academia Ljubljana",
+    "parsed": {
+     "text": "Ljubljana, Slovenia",
+     "countryCode": "SI",
+     "regionCode": null,
+     "country": "Slovenia",
+     "countryFull": "Slovenia",
+     "state": "Ljubljana City Municipality",
+     "city": "Ljubljana"
+    }
+   }
+  ],
+  "specialities": [
+   "Business Education",
+   "Engineering Education",
+   "Art & Design Education",
+   "Short-Cycle Higher Educaiton",
+   "computing education"
+  ],
+  "industries": [
+   {
+    "id": "68",
+    "name": "Higher Education",
+    "urn": "urn:li:fsd_industryV2:68",
+    "title": "Higher Education",
+    "hierarchy": "Education > Higher Education"
+   }
+  ],
+  "logos": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFZ9kyyxQZ8SQ/company-logo_400_400/company-logo_400_400/0/1631332157652?e=1794441600&v=beta&t=iSFEQ0iEjsrIqeKAy88agfAUMSxQVbWBmEMf3Ath_iI",
+    "width": 400,
+    "height": 400
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFZ9kyyxQZ8SQ/company-logo_200_200/company-logo_200_200/0/1631332157651?e=1794441600&v=beta&t=KcCquIeTgrv7AjJc0LY-4FiGMURKAK6vUgbz_aZ2PbA",
+    "width": 200,
+    "height": 200
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFZ9kyyxQZ8SQ/company-logo_100_100/company-logo_100_100/0/1631332157652?e=1794441600&v=beta&t=omQx7I2y5G07ywxPHOHuQs6iXJccUcREK4QiOKYurJY",
+    "width": 100,
+    "height": 100
+   }
+  ],
+  "backgroundCover": "https://media.licdn.com/dms/image/v2/C4E1BAQHwnHIieBFp-Q/company-background_10000/company-background_10000/0/1585358474214/academia_cover?e=1793192400&v=beta&t=h3KZdPACAryVdNsscc0QGwyNbFq0U08jn2nWNlgOHbg",
+  "backgroundCovers": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C4E1BAQHwnHIieBFp-Q/company-background_10000/company-background_10000/0/1585358474214/academia_cover?e=1793192400&v=beta&t=h3KZdPACAryVdNsscc0QGwyNbFq0U08jn2nWNlgOHbg",
+    "width": 3000,
+    "height": 2000
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C4E1BAQHwnHIieBFp-Q/company-background_400/company-background_400/0/1585358474264/academia_cover?e=1793192400&v=beta&t=zo5-PpqZcQrw3bFdJRPfg1U9g8BbuIvLC4L3V7IbmS8",
+    "width": 400,
+    "height": 266
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C4E1BAQHwnHIieBFp-Q/company-background_200/company-background_200/0/1585358474342/academia_cover?e=1793192400&v=beta&t=47BwJPhwOdLnXjG3IN9pymFSn3azdwaa8BjsSpOaxUc",
+    "width": 200,
+    "height": 133
+   }
+  ],
+  "active": true,
+  "jobSearchUrl": "https://www.linkedin.com/jobs/search?geoId=92000000&f_C=1261454",
+  "pageVerified": false,
+  "pageType": "SCHOOL",
+  "showcase": false,
+  "paidCompany": false,
+  "autoGenerated": false,
+  "messagingEnabled": true,
+  "similarOrganizations": [
+   {
+    "id": "102577927",
+    "universalName": "adfolio-design",
+    "linkedinUrl": "https://www.linkedin.com/company/adfolio-design/",
+    "name": "Adfolio",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQH-lFLcxffDZQ/company-logo_400_400/B4EaA.9f6cH8Ac-/0/1787762704319/adfolio_design_logo?e=1794441600&v=beta&t=1iPq7AwMtlZHpB8DyH8cDHVM29WYBWomocnMZUHuCCY",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 626,
+    "description": "Impactful B2B ads, explained.\n\nHand-picked Meta & LinkedIn ads for design & copy inspiration",
+    "industries": [
+     {
+      "id": "6",
+      "name": "Technology, Information and Internet",
+      "urn": "urn:li:fsd_industryV2:6",
+      "title": "Technology, Information and Internet",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQEhRcOe3ltLKQ/company-background_10000/company-background_10000/0/1713452986967/adfolio_design_cover?e=1793192400&v=beta&t=flEJT6fkwWTIOiL02m6GWW9zZ35Z02oC8ArKuwc--8U",
+    "affiliatedPages": []
+   },
+   {
+    "id": "107716621",
+    "universalName": "bossupai",
+    "linkedinUrl": "https://www.linkedin.com/company/bossupai/",
+    "name": "BossUp",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFE7l5zH-Sn7A/company-logo_400_400/B4EaDo4_OMIYAY-/0/1790613648638/bossupai_logo?e=1794441600&v=beta&t=cuJoX17Sw0eQ3Y9pIB8RkfwBkW5EnzIV8xxj00sOoEI",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 7763,
+    "description": "BossUp is the readiness platform for the AI-native economy. We help people and organisations understand where they stand, build the capabilities that matter, and prove their readiness for a world shaped by human and AI collaboration.",
+    "industries": [
+     {
+      "id": "6",
+      "name": "Technology, Information and Internet",
+      "urn": "urn:li:fsd_industryV2:6",
+      "title": "Technology, Information and Internet",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQF8REkiim5z6w/company-background_10000/B4EaDo7aG_IYAI-/0/1790614283040/bossupai_cover?e=1793192400&v=beta&t=LmRifuPpnVRv8Ms2luldT-IAnryCI9dwG_PeCJYcZ88",
+    "affiliatedPages": []
+   },
+   {
+    "id": "28550854",
+    "universalName": "graphicdesignerssa",
+    "linkedinUrl": "https://www.linkedin.com/company/graphicdesignerssa/",
+    "name": "Graphic Designers SA",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQHZto-p4ZAJhQ/company-logo_400_400/company-logo_400_400/0/1630570556595?e=1794441600&v=beta&t=JPHR9Co5TFCMT_1Wg8HXlxRCqcjTkXWX2vH7jnBzcno",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 200957,
+    "description": "Graphic Designers SA is a creative driven freelance graphic design company. We are an integrated collective of designers & artists. Focused on graphics, motion design, web design, website design & illustration. [A Graphic Designer & illustrator Community]",
+    "industries": [
+     {
+      "id": "140",
+      "name": "Graphic Design",
+      "urn": "urn:li:fsd_industryV2:140",
+      "title": "Graphic Design",
+      "hierarchy": "Professional Services > Design Services > Graphic Design"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4D1BAQFSU2P-6G9_qg/company-background_10000/company-background_10000/0/1674032230378/graphicdesignerssa_cover?e=1793192400&v=beta&t=Fj5_NVUIv76zvIWqgUCG6PLBF5OemtPUiIMIcLiYNBE",
+    "affiliatedPages": []
+   },
+   {
+    "id": "108069490",
+    "universalName": "tasty-dose",
+    "linkedinUrl": "https://www.linkedin.com/company/tasty-dose/",
+    "name": "Tasty Dose",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQG-3uiFqOfiTA/company-logo_400_400/B4DZ4kmRB9HAAc-/0/1778730473472/the_2_0_brand_logo?e=1794441600&v=beta&t=ZrapUjimbfFvU2gGcA9wxEG4y3vcc9UFTnR47N-3ggA",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 1101,
+    "description": "Formerly The 2.0 Brand → now Tasty Dose. New formula, better taste. Strongest mushroom coffee in Europe.",
+    "industries": [
+     {
+      "id": "124",
+      "name": "Wellness and Fitness Services",
+      "urn": "urn:li:fsd_industryV2:124",
+      "title": "Wellness and Fitness Services",
+      "hierarchy": "Entertainment Providers > Recreational Facilities > Wellness and Fitness Services"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4D1BAQFuh3pPaQW12w/company-background_10000/B4DZ4lp8KVKcAU-/0/1778748213175/tasty_dose_cover?e=1793192400&v=beta&t=s_BR3HfWn8YhYsytOWJpMZIZCyje5kZRBZ0xri3zc5o",
+    "affiliatedPages": []
+   },
+   {
+    "id": "72306554",
+    "universalName": "jobbitbypsybit",
+    "linkedinUrl": "https://www.linkedin.com/company/jobbitbypsybit/",
+    "name": "Jobbit by PsyBit",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQHISDgeUjI3Pw/company-logo_400_400/B4EaBDHkhRGoAY-/0/1787832453464/psybit_logo?e=1794441600&v=beta&t=pPG8xpA6CIsnUzIM99_jBg_n2ClBWcPoEmjibwuyF0Q",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 3094,
+    "description": "𝗣𝘀𝘆𝗕𝗶𝘁 𝗷𝗲 𝗽𝗼𝘀𝘁𝗮𝗹 𝗝𝗼𝗯𝗯𝗶𝘁. Nova platforma, večja ekipa in en cilj: narediti zaposlovanje preprostejše, hitrejše in učinkovitejše.\n\nJobbit je platforma za social media recruiting, ki vaše prosto delovno mesto spremeni v celotno zaposlitveno kampanjo.\n\nNamesto da čakate, da pravi kandidati sami najdejo vaš oglas, jih z Jobbitom dosežete tam, kjer že preživljajo svoj čas – na družbenih omrežjih.\n\nJobbit na enem mestu poveže:\n• oglase na družbenih omrežjih\n• zaposlitveno stran v podobi vašega podjetja\n• kratko prijavo z vprašanji po meri delovnega mesta\n• pregled, primerjavo in selekcijo kandidatov\n\nKandidati se lahko prijavijo v nekaj minutah, brez življenjepisa. Vi pa dobite strukturirane prijave in se lahko takoj posvetite izboru pravih ljudi.\n\nJobbit je zgrajen na izkušnjah iz več kot 2.000 zaposlitvenih kampanj ter podjetjem pomaga razširiti doseg in hitreje zapolniti odprta delovna mesta.\n\n---\n\n𝗥𝗲𝗮𝗰𝗵 𝗰𝗮𝗻𝗱𝗶𝗱𝗮𝘁𝗲𝘀 𝗯𝗲𝘆𝗼𝗻𝗱 𝗷𝗼𝗯 𝗯𝗼𝗮𝗿𝗱𝘀.\n\nJobbit by PsyBit is a social media recruiting platform that turns an open role into a complete recruitment campaign.\n\nInstead of waiting for the right candidates to find your job ad, Jobbit helps you reach them where they already spend their time – on social media.\n\n𝗙𝗼𝗿 𝘂𝗽𝗱𝗮𝘁𝗲𝘀 𝗮𝗻𝗱 𝗰𝗼𝗻𝘁𝗲𝗻𝘁 𝗶𝗻 𝗘𝗻𝗴𝗹𝗶𝘀𝗵, 𝗳𝗼𝗹𝗹𝗼𝘄 𝗝𝗼𝗯𝗯𝗶𝘁 𝗚𝗹𝗼𝗯𝗮𝗹 𝗼𝗻 𝗟𝗶𝗻𝗸𝗲𝗱𝗜𝗻.",
+    "industries": [
+     {
+      "id": "137",
+      "name": "Human Resources Services",
+      "urn": "urn:li:fsd_industryV2:137",
+      "title": "Human Resources Services",
+      "hierarchy": "Professional Services > Business Consulting and Services > Human Resources Services"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQFA7tl-elhmpw/company-background_10000/B4EaBDqoztGwAI-/0/1787841646037/jobbitbypsybit_cover?e=1793192400&v=beta&t=ZmQE5Pu--RYMOEdpwWjS_CR9xYAA5RTIo5H04ojptNQ",
+    "affiliatedPages": []
+   },
+   {
+    "id": "1418841",
+    "universalName": "github",
+    "linkedinUrl": "https://www.linkedin.com/company/github/",
+    "name": "GitHub",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQGxQRyEwD643g/company-logo_400_400/B56Z3045ErGgAY-/0/1777930048179/github_logo?e=1794441600&v=beta&t=noCYGYkat0IT-kyumWi5lPm8tU8_5W-Bd6_GdIfDVJ4",
+    "employeeCountRange": {
+     "start": 501,
+     "end": 1000
+    },
+    "followerCount": 6763039,
+    "description": "As the global home for all developers, GitHub is the complete AI-powered developer platform to build, scale, and deliver secure software. Over 100 million people, including developers from 90 of the Fortune 100 companies, use GitHub to build amazing things together across 330+ million repositories. With all the collaborative features of GitHub, it has never been easier for individuals and teams to write faster, better code.\n",
+    "industries": [
+     {
+      "id": "4",
+      "name": "Software Development",
+      "urn": "urn:li:fsd_industryV2:4",
+      "title": "Software Development",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Software Development"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4D1BAQG1b8XNfj_SQA/company-background_10000/B4DZ7P.b._KAAM-/0/1781605712357/github_cover?e=1793192400&v=beta&t=PEJq-qe9iT8LukVYQ-t9s0u4LKzD5RJASVFk5tek8Zw",
+    "affiliatedPages": []
+   },
+   {
+    "id": "67159031",
+    "universalName": "the-marketing-millennials",
+    "linkedinUrl": "https://www.linkedin.com/company/the-marketing-millennials/",
+    "name": "The Marketing Millennials",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGPhEGK7enLjw/company-logo_400_400/company-logo_400_400/0/1663125894970?e=1794441600&v=beta&t=RP7OKw_3OdLCYziDahoBisKMRjSY38qYEiIGLX94bwQ",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 1408022,
+    "description": "Welcome to The Marketing Millennials!",
+    "industries": [
+     {
+      "id": "126",
+      "name": "Media Production",
+      "urn": "urn:li:fsd_industryV2:126",
+      "title": "Media Production",
+      "hierarchy": "Technology, Information and Media > Media and Telecommunications > Movies, Videos and Sound > Media Production"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQE4bJtI0WRPxw/company-background_10000/company-background_10000/0/1661886764960/the_marketing_millennials_cover?e=1793192400&v=beta&t=fGFdccRVcDsMFSonSUmoVwYyhpf-p6Jqhp2rQATGu6U",
+    "affiliatedPages": []
+   },
+   {
+    "id": "90460745",
+    "universalName": "nvidia-healthcare",
+    "linkedinUrl": "https://www.linkedin.com/showcase/nvidia-healthcare/",
+    "name": "NVIDIA Healthcare",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQGaIJhhNY_F5Q/company-logo_400_400/company-logo_400_400/0/1724882331933/nvidia_healthcare_logo?e=1794441600&v=beta&t=TsYoiwYVWhApeNZpu-Kp5CBVgZxPmTMq2VeZsmFIn2s",
+    "employeeCountRange": {
+     "start": 10001,
+     "end": null
+    },
+    "followerCount": 84334,
+    "description": "Helping physicians, researchers, and innovators harness the power of AI and HPC to do their life's work.",
+    "industries": [
+     {
+      "id": "6",
+      "name": "Technology, Information and Internet",
+      "urn": "urn:li:fsd_industryV2:6",
+      "title": "Technology, Information and Internet",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQHXpIEhn8osgw/company-background_10000/company-background_10000/0/1675472453057/nvidia_healthcare_cover?e=1793192400&v=beta&t=3UjWb4qAK6Yiyn2s8k2Fc0HsK5KBjJ3DBSx2c2g7wMM",
+    "affiliatedPages": []
+   },
+   {
+    "id": "532559",
+    "universalName": "the-government-of-republic-of-slovenia",
+    "linkedinUrl": "https://www.linkedin.com/company/the-government-of-republic-of-slovenia/",
+    "name": "Vlada Republike Slovenije",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQFDmGrlGKbIcg/company-logo_400_400/company-logo_400_400/0/1678339085710/the_government_of_republic_of_slovenia_logo?e=1794441600&v=beta&t=sGxzaheoQiWSRRInAQF7sLZTB8Y40KjUY1U-2bYaB_4",
+    "employeeCountRange": {
+     "start": 10001,
+     "end": null
+    },
+    "followerCount": 12921,
+    "description": "Vlada Republike Slovenije predstavlja izvršilno oblast. Izvaja zakone in druge predpise, ki jih sprejema Državni zbor, in skrbi za delovanje državne uprave. Kot najvišji organ državne uprave vlada izdaja predpise in sprejema pravne, politične, ekonomske, finančne, organizacijske in druge ukrepe, ki so potrebni za razvoj države in za urejenost razmer na vseh področjih v pristojnosti države. Vlado sestavljajo predsednik vlade in ministri.\n\n16. Vlado Republike Slovenije pod vodstvom Janeza Janše sestavlja koalicija strank Slovenska demokratska stranka, NSi, SLS in Fokus ter Demokrati. \n\n                                                                ***\nThe Government constitutes the executive authority. It implements Acts and other regulations adopted by the National Assembly. It is also responsible for the functioning of the state administration. As the highest body of the state administration, it issues regulations and adopts the legal, political, economic, financial, organisational and other measures required for the development of the State and for providing good conditions in all areas within its competence. It is composed of the Prime Minister and other ministers.\n\nThe 16th Government of the Republic of Slovenia, led by Janez Janša, is formed by a coalition of the Slovenian Democratic Party (SDS), New Slovenia (NSi), the Slovenian People's Party (SLS), Fokus, and the Democrats.",
+    "industries": [
+     {
+      "id": "75",
+      "name": "Government Administration",
+      "urn": "urn:li:fsd_industryV2:75",
+      "title": "Government Administration",
+      "hierarchy": "Government Administration"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQEt0vnRv02s2w/company-background_10000/B4EaDm18ajGwAI-/0/1790579296243/the_government_of_republic_of_slovenia_cover?e=1793192400&v=beta&t=-vcwr2Jla_Y7GuHJhGMh9wA3JvUWigP-y8-WmufpsjY",
+    "affiliatedPages": []
+   },
+   {
+    "id": "28392413",
+    "universalName": "mrpreventive",
+    "linkedinUrl": "https://www.linkedin.com/company/mrpreventive/",
+    "name": "Mr Preventive : Maintenance and Safety News",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQGGDwJVr6H7sA/company-logo_400_400/company-logo_400_400/0/1630644597377/mrpreventive_logo?e=1794441600&v=beta&t=u2PlsxCXPHzG_aJ9yZuUebP_ZEdVBs1A0XTLVzIQoZ0",
+    "employeeCountRange": {
+     "start": 0,
+     "end": 1
+    },
+    "followerCount": 1063791,
+    "description": "Mr Preventive is an editorial project by Engineering Lovers, dedicated to preventive maintenance and industrial best practices.\nWe share insights, technical discoveries, and occasionally showcase useful tools or products.\nSome posts may contain Amazon affiliate links, or highlight trusted partners such as PrimeShopDeals (non-affiliate, no compensation). All content is shared openly, with integrity, and with a focus on adding value.\nDiscover more resources at engineering-lovers.eu.",
+    "industries": [
+     {
+      "id": "113",
+      "name": "Online Audio and Video Media",
+      "urn": "urn:li:fsd_industryV2:113",
+      "title": "Online Audio and Video Media",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Information Services > Internet Publishing > Online Audio and Video Media"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/C4D1BAQEMzbvfPnVqbw/company-background_10000/company-background_10000/0/1613325244758/mrpreventive_cover?e=1793192400&v=beta&t=JtUP1PtWADgfJZeFWtGvJ6Y1GNZTk9x97bN8tD0FTVI",
+    "affiliatedPages": []
+   },
+   {
+    "id": "91656525",
+    "universalName": "and-if-we-smiled",
+    "linkedinUrl": "https://www.linkedin.com/company/and-if-we-smiled/",
+    "name": "Engineering 💡",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGOxDTWsGsO7Q/img-crop_100/B4EZb2UE9QGQAQ-/0/1747889181167?e=1794441600&v=beta&t=jZBlVD-mZGjymYur_lag71Org2xlD2frG_7YSZzv8Nc",
+    "employeeCountRange": {
+     "start": 0,
+     "end": 1
+    },
+    "followerCount": 474942,
+    "description": "Engineering is an editorial project by Engineering Lovers, dedicated to preventive maintenance and industrial best practices.\nWe share insights, technical discoveries, and occasionally showcase useful tools or products.\nSome posts may contain Amazon affiliate links, or highlight trusted partners such as PrimeShopDeals (non-affiliate, no compensation). All content is shared openly, with integrity, and with a focus on adding value.\nDiscover more resources at engineering-lovers.eu.",
+    "industries": [
+     {
+      "id": "80",
+      "name": "Advertising Services",
+      "urn": "urn:li:fsd_industryV2:80",
+      "title": "Advertising Services",
+      "hierarchy": "Professional Services > Advertising Services"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQGTgG2OaGNnxw/company-background_10000/B4EZmex5xdGYAU-/0/1759305506453/and_if_we_smiled_cover?e=1793192400&v=beta&t=V_TsqySB1g7Hi-cxWlgJboiYUxgrL-1MkAmGnnuBd0Q",
+    "affiliatedPages": []
+   }
+  ],
+  "affiliatedPages": [
+   {
+    "id": "106958405",
+    "universalName": "dgvet-30",
+    "linkedinUrl": "https://www.linkedin.com/showcase/dgvet-30/",
+    "name": "DGVet-30",
+    "website": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQEAt52mgrNqvg/company-logo_400_400/B4DZXwdUwRG4Ac-/0/1743495974619/dgvet_30_logo?e=1794441600&v=beta&t=hTr1oOE82z-iBZqBEdADU9DipqDSBKlHbHxSDrxE0xk",
+    "followerCount": 4197,
+    "description": "The DGvet-30 project is a collaborative Erasmus+ initiative addressing climate change through innovative reforms in participating vocational education and training institutions (VET). In line with EU targets, DGvet-30 aims to cut CO₂ emissions and boost energy efficiency by 2030, preparing students for a green, digital workforce. The project focuses on integrating sustainable practices and digital tools into vocational education, emphasizing green skills, energy awareness, and inclusion. Through partnerships among VET institutions in Spain, Italy, Slovenia, and Turkey, DGvet-30 promotes environmental stewardship and readiness for the renewable energy sector.",
+    "industries": [
+     {
+      "id": "68",
+      "name": "Higher Education",
+      "urn": "urn:li:fs_industry:68",
+      "title": "Higher Education",
+      "hierarchy": "Education > Higher Education"
+     }
+    ],
+    "logos": [
+     {
+      "url": "https://media.licdn.com/dms/image/v2/D4D0BAQEAt52mgrNqvg/company-logo_400_400/B4DZXwdUwRG4Ac-/0/1743495974619/dgvet_30_logo?e=1794441600&v=beta&t=hTr1oOE82z-iBZqBEdADU9DipqDSBKlHbHxSDrxE0xk",
+      "width": 400,
+      "height": 400
+     },
+     {
+      "url": "https://media.licdn.com/dms/image/v2/D4D0BAQEAt52mgrNqvg/company-logo_200_200/B4DZXwdUwRG4AM-/0/1743495974619/dgvet_30_logo?e=1794441600&v=beta&t=ASvfgUUwrKunS_CNST99fZYuALPJNhpYgvfZnrImy_4",
+      "width": 200,
+      "height": 200
+     },
+     {
+      "url": "https://media.licdn.com/dms/image/v2/D4D0BAQEAt52mgrNqvg/company-logo_100_100/B4DZXwdUwRG4AU-/0/1743495974619/dgvet_30_logo?e=1794441600&v=beta&t=kPUHts82bAwaxA_HVCqBaU-41IaFPSK6PkOQEL3XptE",
+      "width": 100,
+      "height": 100
+     }
+    ],
+    "showcase": true,
+    "paidCompany": false
+   }
+  ],
+  "peopleStats": [
+   {
+    "statTitle": "Locations",
+    "values": [
+     {
+      "title": "Brazil",
+      "count": 191
+     },
+     {
+      "title": "São Paulo, Brazil",
+      "count": 58
+     },
+     {
+      "title": "Spain",
+      "count": 49
+     },
+     {
+      "title": "Slovenia",
+      "count": 39
+     },
+     {
+      "title": "Greater São Paulo Area",
+      "count": 30
+     },
+     {
+      "title": "Maribor, Slovenia",
+      "count": 20
+     },
+     {
+      "title": "Maribor Metropolitan Area",
+      "count": 20
+     },
+     {
+      "title": "São Paulo, SP",
+      "count": 19
+     },
+     {
+      "title": "Maribor",
+      "count": 19
+     },
+     {
+      "title": "Minas Gerais, Brazil",
+      "count": 16
+     },
+     {
+      "title": "Rio de Janeiro, Brazil",
+      "count": 16
+     },
+     {
+      "title": "Greater Rio de Janeiro",
+      "count": 16
+     },
+     {
+      "title": "Paraná, Brazil",
+      "count": 12
+     },
+     {
+      "title": "Andalusia, Spain",
+      "count": 12
+     },
+     {
+      "title": "Rio de Janeiro, RJ",
+      "count": 12
+     }
+    ]
+   },
+   {
+    "statTitle": "School",
+    "values": [
+     {
+      "title": "Univerza v Mariboru / University of Maribor",
+      "count": 7
+     },
+     {
+      "title": "University of Ljubljana",
+      "count": 6
+     },
+     {
+      "title": "Academia Institute of Technology",
+      "count": 3
+     },
+     {
+      "title": "IEDC - Bled School of Management",
+      "count": 2
+     },
+     {
+      "title": "Universidade Estadual do Vale do Acaraú",
+      "count": 2
+     },
+     {
+      "title": "University of Ljubljana, Faculty of Social Sciences",
+      "count": 2
+     },
+     {
+      "title": "Istanbul University",
+      "count": 2
+     },
+     {
+      "title": "Estácio",
+      "count": 2
+     },
+     {
+      "title": "University of Oxford",
+      "count": 2
+     },
+     {
+      "title": "University of Ljubljana, Faculty of Arts",
+      "count": 1
+     },
+     {
+      "title": "Universidade Católica do Salvador",
+      "count": 1
+     },
+     {
+      "title": "UNINASSAU",
+      "count": 1
+     },
+     {
+      "title": "Centro Universitário Celso Lisboa",
+      "count": 1
+     },
+     {
+      "title": "Universidade Federal da Paraíba",
+      "count": 1
+     },
+     {
+      "title": "International School for Social and Business Studies (ISSBS)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Current Function",
+    "values": [
+     {
+      "title": "Education",
+      "count": 228
+     },
+     {
+      "title": "Community and Social Services",
+      "count": 40
+     },
+     {
+      "title": "Business Development",
+      "count": 37
+     },
+     {
+      "title": "Research",
+      "count": 23
+     },
+     {
+      "title": "Operations",
+      "count": 17
+     },
+     {
+      "title": "Administrative",
+      "count": 15
+     },
+     {
+      "title": "Arts and Design",
+      "count": 14
+     },
+     {
+      "title": "Information Technology",
+      "count": 11
+     },
+     {
+      "title": "Media and Communication",
+      "count": 7
+     },
+     {
+      "title": "Healthcare Services",
+      "count": 5
+     },
+     {
+      "title": "Sales",
+      "count": 5
+     },
+     {
+      "title": "Finance",
+      "count": 4
+     },
+     {
+      "title": "Human Resources",
+      "count": 4
+     },
+     {
+      "title": "Customer Success and Support",
+      "count": 4
+     },
+     {
+      "title": "Entrepreneurship",
+      "count": 4
+     }
+    ]
+   },
+   {
+    "statTitle": "Skill Explicit",
+    "values": [
+     {
+      "title": "Microsoft Office",
+      "count": 29
+     },
+     {
+      "title": "Research Skills",
+      "count": 28
+     },
+     {
+      "title": "Teaching",
+      "count": 24
+     },
+     {
+      "title": "Customer Service",
+      "count": 24
+     },
+     {
+      "title": "Microsoft Excel",
+      "count": 22
+     },
+     {
+      "title": "Microsoft PowerPoint",
+      "count": 20
+     },
+     {
+      "title": "Public Speaking",
+      "count": 19
+     },
+     {
+      "title": "Management",
+      "count": 19
+     },
+     {
+      "title": "English",
+      "count": 17
+     },
+     {
+      "title": "Social Media",
+      "count": 17
+     },
+     {
+      "title": "Higher Education",
+      "count": 16
+     },
+     {
+      "title": "Project Management",
+      "count": 16
+     },
+     {
+      "title": "Microsoft Word",
+      "count": 16
+     },
+     {
+      "title": "Business Strategy",
+      "count": 12
+     },
+     {
+      "title": "Teamwork",
+      "count": 12
+     }
+    ]
+   },
+   {
+    "statTitle": "Service categories",
+    "values": [
+     {
+      "title": "Software Development",
+      "count": 5
+     },
+     {
+      "title": "Consulting",
+      "count": 3
+     },
+     {
+      "title": "Marketing",
+      "count": 3
+     },
+     {
+      "title": "Web Design",
+      "count": 3
+     },
+     {
+      "title": "Design",
+      "count": 3
+     },
+     {
+      "title": "Brand Marketing",
+      "count": 3
+     },
+     {
+      "title": "Digital Marketing",
+      "count": 2
+     },
+     {
+      "title": "Events",
+      "count": 2
+     },
+     {
+      "title": "Graphic Design",
+      "count": 2
+     },
+     {
+      "title": "Social Media Marketing",
+      "count": 2
+     },
+     {
+      "title": "Marketing Strategy",
+      "count": 2
+     },
+     {
+      "title": "Training",
+      "count": 2
+     },
+     {
+      "title": "Coaching & Mentoring",
+      "count": 2
+     },
+     {
+      "title": "Public Speaking",
+      "count": 1
+     },
+     {
+      "title": "Email Marketing",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Field of Study",
+    "values": [
+     {
+      "title": "Health and Physical Education/Fitness",
+      "count": 21
+     },
+     {
+      "title": "Marketing",
+      "count": 6
+     },
+     {
+      "title": "Business Administration and Management, General",
+      "count": 5
+     },
+     {
+      "title": "Economics",
+      "count": 4
+     },
+     {
+      "title": "Communication and Media Studies",
+      "count": 3
+     },
+     {
+      "title": "Communication, General",
+      "count": 3
+     },
+     {
+      "title": "Computer Science",
+      "count": 3
+     },
+     {
+      "title": "Education",
+      "count": 3
+     },
+     {
+      "title": "Physics",
+      "count": 3
+     },
+     {
+      "title": "History",
+      "count": 3
+     },
+     {
+      "title": "Computer and Information Sciences, General",
+      "count": 2
+     },
+     {
+      "title": "Physical Education Teaching and Coaching",
+      "count": 2
+     },
+     {
+      "title": "Mechanical Engineering",
+      "count": 2
+     },
+     {
+      "title": "Linguistics",
+      "count": 2
+     },
+     {
+      "title": "German Language and Literature",
+      "count": 2
+     }
+    ]
+   }
+  ],
+  "originalQuery": {
+   "search": "academa.si",
+   "location": ""
+  },
+  "requestId": "5a3fabda-7293-4bb0-8392-e107a1d98a69"
+ },
+ {
+  "id": "18340200",
+  "universalName": "aectual",
+  "linkedinUrl": "https://www.linkedin.com/company/aectual/",
+  "name": "Aectual",
+  "tagline": "Circular, tailor-made finishes and furniture 3D printed on-demand from recycled materials.",
+  "website": "http://aectual.com/",
+  "callToActionUrl": "http://aectual.com/",
+  "phone": null,
+  "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQGjdJ2TPXfboA/company-logo_400_400/company-logo_400_400/0/1631351227020?e=1794441600&v=beta&t=q0bhMNKS3CPzI9j08sKfuZDwhC9_rQML-5zqw5z5CIk",
+  "foundedOn": {
+   "month": null,
+   "year": 2017,
+   "day": null
+  },
+  "employeeCount": 22,
+  "employeeCountRange": {
+   "start": 11,
+   "end": 50
+  },
+  "followerCount": 10432,
+  "description": "The platform to create circular & customisable interior furniture & architectural finishes at scale. Connecting innovative 3D printing technology to produce your tailored products on-demand using recycled materials.\n\nVia our take-back-service we together re-use materials up to ten times. Creating an end-to-end sustainability solution with a lot of impact for you & our planet.",
+  "companyType": "Privately Held",
+  "locations": [
+   {
+    "country": "NL",
+    "city": "Amsterdam",
+    "geographicArea": "North Holland",
+    "line1": "Naritaweg 14",
+    "line2": null,
+    "postalCode": "1043",
+    "headquarter": true,
+    "description": null,
+    "parsed": {
+     "text": "Amsterdam, Netherlands",
+     "countryCode": "NL",
+     "regionCode": null,
+     "country": "Netherlands",
+     "countryFull": "Netherlands",
+     "state": "North Holland",
+     "city": "Amsterdam"
+    }
+   }
+  ],
+  "specialities": [
+   "digital design",
+   "digital production",
+   "XL 3D printers",
+   "robotics",
+   "3D printed flooring systems",
+   "3D printing technology",
+   "sustainable materials",
+   "customizable building products",
+   "architecture",
+   "design",
+   "circulair production",
+   "zero waste",
+   "sustainabilty",
+   "innovation"
+  ],
+  "industries": [
+   {
+    "id": "3227",
+    "name": "Design",
+    "urn": "urn:li:fsd_industryV2:3227",
+    "title": "Design",
+    "hierarchy": null
+   }
+  ],
+  "logos": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGjdJ2TPXfboA/company-logo_400_400/company-logo_400_400/0/1631351227020?e=1794441600&v=beta&t=q0bhMNKS3CPzI9j08sKfuZDwhC9_rQML-5zqw5z5CIk",
+    "width": 400,
+    "height": 400
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGjdJ2TPXfboA/company-logo_200_200/company-logo_200_200/0/1631351227020?e=1794441600&v=beta&t=xyO1WXSnRMM-tGDoHnZSayeSF8xvwcvobKL5Hc7AVPE",
+    "width": 200,
+    "height": 200
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGjdJ2TPXfboA/company-logo_100_100/company-logo_100_100/0/1631351227020?e=1794441600&v=beta&t=ql3cdxSj6yuKw8JPqstBq6WVKgwiFvWSjrXkLMlloDA",
+    "width": 100,
+    "height": 100
+   }
+  ],
+  "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQHxq6HoGUK0rw/company-background_10000/company-background_10000/0/1659953692457/aectual_cover?e=1793192400&v=beta&t=J3T0X9w4QFRaRTzgJRWsbksdcq1j0r2QCgTtPU-7hrQ",
+  "backgroundCovers": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E1BAQHxq6HoGUK0rw/company-background_10000/company-background_10000/0/1659953692457/aectual_cover?e=1793192400&v=beta&t=J3T0X9w4QFRaRTzgJRWsbksdcq1j0r2QCgTtPU-7hrQ",
+    "width": 4000,
+    "height": 3000
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E1BAQHxq6HoGUK0rw/company-background_400/company-background_400/0/1659953692457/aectual_cover?e=1793192400&v=beta&t=MXhV7XOHQUjRQDam-Moh2vGDNVFbtvgANdyamfybWsI",
+    "width": 400,
+    "height": 300
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E1BAQHxq6HoGUK0rw/company-background_200/company-background_200/0/1659953692457/aectual_cover?e=1793192400&v=beta&t=FV-7juraCTcKku30q0Ty6jxBUOVc1x8zjQMFKIPsigU",
+    "width": 200,
+    "height": 150
+   }
+  ],
+  "active": true,
+  "jobSearchUrl": "https://www.linkedin.com/jobs/search?geoId=92000000&f_C=18340200",
+  "pageVerified": true,
+  "pageType": "COMPANY",
+  "showcase": false,
+  "paidCompany": false,
+  "autoGenerated": false,
+  "messagingEnabled": true,
+  "similarOrganizations": [
+   {
+    "id": "77728523",
+    "universalName": "imapper",
+    "linkedinUrl": "https://www.linkedin.com/company/imapper/",
+    "name": "iMapper",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C560BAQFlKJtLGeeipg/company-logo_400_400/company-logo_400_400/0/1640013839259?e=1794441600&v=beta&t=HT8FduR8k0ZvWjXt2o3qNNHhatVyIBr9gIKDOJs13zs",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 1009,
+    "description": "iMapper is a new device for remodeling professionals (architects, designers, project managers...) to get 100% reliable floor plans, 5 time faster than with a telemeter. You don't believe us? Ask for a demo -> imapper.tech or send us a mail on hello@imapper.tech",
+    "industries": [
+     {
+      "id": "50",
+      "name": "Architecture and Planning",
+      "urn": "urn:li:fsd_industryV2:50",
+      "title": "Architecture and Planning",
+      "hierarchy": "Professional Services > Architecture and Planning"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/C561BAQHyER2uFFqhCA/company-background_10000/company-background_10000/0/1640014995459/imapper_cover?e=1793192400&v=beta&t=DzbiBvT3jVU8JE1ESJ_nkTUldIEbPgf6Su54IlolXFo",
+    "affiliatedPages": []
+   },
+   {
+    "id": "18531737",
+    "universalName": "ardagh-agencies",
+    "linkedinUrl": "https://www.linkedin.com/company/ardagh-agencies/",
+    "name": "Ardagh Agencies",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFKs3f8atBkjA/company-logo_400_400/B4DZ6uk72gKIAU-/0/1781045378663/ardagh_agencies_logo?e=1794441600&v=beta&t=NZOZO1iH6_fdm03AAwos7j8XLK6r2-75F4gwV1K6-dQ",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 1675,
+    "description": "Cutting edge sustainable solutions for the Irish architectural and interior design community.",
+    "industries": [
+     {
+      "id": "50",
+      "name": "Architecture and Planning",
+      "urn": "urn:li:fsd_industryV2:50",
+      "title": "Architecture and Planning",
+      "hierarchy": "Professional Services > Architecture and Planning"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4D1BAQFOrqWpr6Uycw/company-background_10000/B4DaFY2BBfLAAM-/0/1792491917826/ardagh_agencies_cover?e=1793192400&v=beta&t=sgSui01TGH7jJsc3nyPiVmfod5y7D3O4FfOZRcTWf6I",
+    "affiliatedPages": []
+   },
+   {
+    "id": "17920126",
+    "universalName": "dus-architects",
+    "linkedinUrl": "https://www.linkedin.com/company/dus-architects/",
+    "name": "DUS architects",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQFbXtjGO3_gAA/company-logo_400_400/company-logo_400_400/0/1631310040960?e=1794441600&v=beta&t=4fJ-PLYawfbGo0TCKmvowUizJowPFHUmls77yvBRZRk",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 1089,
+    "description": "DUS was founded in 2004 by its three partners, out of the desire to re-connect architecture with the public. The experienced office currently consists of 15 employees and a large team of experts, who work on large-scale projects such as the re-design of 70.000 m2 piers and gates at Amsterdam Schiphol Airport, large urban strategies, architecture and retail projects. It has received international acclaim for its innovative designs such as the Worlds’ largest interactive light design for the KapellBrücke in Luzern, a temporary building for the Dutch EU presidency, a unique 3D printed bottle for Chanel and as initiators of the 3D Print Canal House. DUS has won several awards, including the prestigious Amsterdam Awards for the Arts 2011 and SEA Global sustainability Award 2014, next to Barack Obama. Its research on digital fabrication techniques is continued in a new firm, Actual, with the mission to bring tailor-made architecture to the masses.",
+    "industries": [
+     {
+      "id": "50",
+      "name": "Architecture and Planning",
+      "urn": "urn:li:fsd_industryV2:50",
+      "title": "Architecture and Planning",
+      "hierarchy": "Professional Services > Architecture and Planning"
+     }
+    ],
+    "affiliatedPages": []
+   },
+   {
+    "id": "82071552",
+    "universalName": "robotic-3d-printing",
+    "linkedinUrl": "https://www.linkedin.com/showcase/robotic-3d-printing/",
+    "name": "Robotic 3D Printing",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQHfAI2tnfIGrQ/company-logo_400_400/company-logo_400_400/0/1718780070788/robotic_3d_printing_logo?e=1794441600&v=beta&t=LKLCw-F-tTCTragfwVscq9s6mV7HVie9Ttr5gS3Rjt8",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 1180,
+    "description": "Robotic 3D Printing #robotic3dprinting #additivemanufacturing",
+    "industries": [
+     {
+      "id": "4",
+      "name": "Software Development",
+      "urn": "urn:li:fsd_industryV2:4",
+      "title": "Software Development",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Software Development"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQF1TUYiNVNDVA/company-background_10000/company-background_10000/0/1718780015421/robotic_3d_printing_cover?e=1793192400&v=beta&t=GOJHy4u3jxfhTIp3RYcA7HC2lbBzd8Nb6OFTyvm6KSQ",
+    "affiliatedPages": []
+   },
+   {
+    "id": "76512092",
+    "universalName": "ginger-additive",
+    "linkedinUrl": "https://www.linkedin.com/company/ginger-additive/",
+    "name": "Ginger Additive",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQEtSMy-Ir9ZaQ/company-logo_400_400/company-logo_400_400/0/1729703876374/ginger_additive_logo?e=1794441600&v=beta&t=06J2CG78MNWxrJrEnFga4orA_UEk8hRRRYnmo0me8go",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 951,
+    "description": "Redefining manufacturing with Pellet 3D Printing.\n\nAt Ginger, we are committed to transforming the manufacturing landscape through innovative and accessible pellet 3D printing technology. Our mission is to make advanced manufacturing solutions affordable for everyone, empowering businesses to innovate and grow.\n\nIntroducing G1, our cutting-edge pellet 3D printer designed for precision and efficiency. The G1 is not just a machine; it's a game-changer that allows companies to produce high-quality parts with minimal waste and cost.\n\nJoin us as we lead the charge towards a more sustainable, efficient, and accessible future in manufacturing. Whether you're a startup or an established enterprise, Ginger Additive is here to support your journey towards innovation.\n\nConnect with us to learn more about how our technology can revolutionize your production process!",
+    "industries": [
+     {
+      "id": "3221",
+      "name": "Mechanical Or Industrial Engineering",
+      "urn": "urn:li:fsd_industryV2:3221",
+      "title": "Mechanical Or Industrial Engineering",
+      "hierarchy": null
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4D1BAQGDyk0rGqk-dQ/company-background_10000/company-background_10000/0/1729703751466/ginger_additive_cover?e=1793192400&v=beta&t=ZdyL-8dz3ACMrWA5LIagb_vSfk9VK4Ekdh6gK-84bHQ",
+    "affiliatedPages": []
+   },
+   {
+    "id": "75493078",
+    "universalName": "impacdboats",
+    "linkedinUrl": "https://www.linkedin.com/company/impacdboats/",
+    "name": "IMPACD Boats",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQEC4vskbQ9ijg/company-logo_400_400/company-logo_400_400/0/1655836254839/sloepmakerij_logo?e=1794441600&v=beta&t=_phiy0sE2-fl9t8Qdh1424jicYhZ0RLJ7Xw1ZhtKNB0",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 1575,
+    "description": "IMPACD Boats is gevestigd in Friesland en richt zich op innovatie en een duurzame beleving op het water. Onze sloepen worden namelijk 3D-geprint van gerecycled materiaal. Zo zorgen we samen met onze sloepenlijn voor een schone, duurzame en groene toekomst voor de volgende generaties. Maak het verschil, maak IMPACD.",
+    "industries": [
+     {
+      "id": "58",
+      "name": "Shipbuilding",
+      "urn": "urn:li:fsd_industryV2:58",
+      "title": "Shipbuilding",
+      "hierarchy": "Manufacturing > Transportation Equipment Manufacturing > Shipbuilding"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/C4E1BAQEeQHnWXPx4hA/company-background_10000/company-background_10000/0/1629437805289/sloepmakerij_cover?e=1793192400&v=beta&t=BkXVo-1cUwB8I1l3H9ORny6jBRkyGRSAoQOsTpaqtsk",
+    "affiliatedPages": []
+   },
+   {
+    "id": "68168573",
+    "universalName": "more-a",
+    "linkedinUrl": "https://www.linkedin.com/company/more-a/",
+    "name": "MORE Architecture",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQH_wRB4i6y6RA/company-logo_400_400/company-logo_400_400/0/1630629990702?e=1794441600&v=beta&t=pC5EISwkjR4dWZke6LSNW_d6ttL4mFopX6ggxcDaoKs",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 1245,
+    "description": "MORE Architecture is a research-based architecture firm with offices in Amsterdam and Shanghai. ",
+    "industries": [
+     {
+      "id": "50",
+      "name": "Architecture and Planning",
+      "urn": "urn:li:fsd_industryV2:50",
+      "title": "Architecture and Planning",
+      "hierarchy": "Professional Services > Architecture and Planning"
+     }
+    ],
+    "affiliatedPages": []
+   },
+   {
+    "id": "107894052",
+    "universalName": "addidex",
+    "linkedinUrl": "https://www.linkedin.com/company/addidex/",
+    "name": "Addidex ⊡",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQEdtw-X_Yxs-A/company-logo_400_400/B56ZeDw57LHEAY-/0/1750262325714/addidex_logo?e=1794441600&v=beta&t=Uw2FeGA3Xcf_xiTjXYka3H3HZxy-SOSUMewd67NCuCg",
+    "employeeCountRange": {
+     "start": 0,
+     "end": 1
+    },
+    "followerCount": 1883,
+    "description": "Addidex connects the people, knowledge and opportunities shaping robotic and large-format additive manufacturing.\n\nWhat started as a map is growing into a broader international platform:\n\n𝐀𝐝𝐝𝐢𝐝𝐞𝐱 𝐌𝐚𝐩 makes companies, research groups, universities, facilities and projects visible around the world.\n\n𝐀𝐝𝐝𝐢𝐝𝐞𝐱 𝐂𝐨𝐧𝐧𝐞𝐜𝐭 brings practitioners together in person to explore the complete workflow, from design and toolpaths to software, machines, materials and production.\n\n𝐀𝐝𝐝𝐢𝐝𝐞𝐱 𝐂𝐨𝐦𝐦𝐮𝐧𝐢𝐭𝐲 creates a place to continue those conversations online, ask questions, share knowledge and find the right expertise.\n\nThe goal is simple: make a fragmented field easier to navigate and turn isolated expertise into a connected international community.\n\nIf you work in robotic or large-format additive manufacturing, you can join the map, take part in the community or meet the network at Addidex Connect.",
+    "industries": [
+     {
+      "id": "3128",
+      "name": "Business Intelligence Platforms",
+      "urn": "urn:li:fsd_industryV2:3128",
+      "title": "Business Intelligence Platforms",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Data Infrastructure and Analytics > Business Intelligence Platforms"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQEpo9lwh8KD_w/company-background_10000/B4EZ.Es0xmJIAI-/0/1784637773565/addidex_cover?e=1793192400&v=beta&t=K_8yr9vE1Uy3LfNxhCDRqhf81Sqj0FsO9SdP49sppQw",
+    "affiliatedPages": []
+   },
+   {
+    "id": "104771191",
+    "universalName": "silvavillas",
+    "linkedinUrl": "https://www.linkedin.com/company/silvavillas/",
+    "name": "Silva Villas",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQERQg5q91LYCQ/company-logo_400_400/B4EZobKhMiIwAc-/0/1761392334094?e=1794441600&v=beta&t=MEcUfQR3N0RfyO6SrevDG__7ygK6IUYkPfambIcjNk8",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 308,
+    "description": "Silva is de pionier in het transformeren van de wereld met duurzame comfortabele en flexibele villas en paviljoens. ",
+    "industries": [
+     {
+      "id": "408",
+      "name": "Residential Building Construction",
+      "urn": "urn:li:fsd_industryV2:408",
+      "title": "Residential Building Construction",
+      "hierarchy": "Construction > Building Construction > Residential Building Construction"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQG3qKBW626QvQ/company-background_10000/B4EZnNmbh2HMAU-/0/1760091028309/silvavillas_cover?e=1793192400&v=beta&t=0f2i2qYBPhhSjtECdHA1584ueP3PkCL4AbDEp-SsZHI",
+    "affiliatedPages": []
+   },
+   {
+    "id": "105245432",
+    "universalName": "raw-idea",
+    "linkedinUrl": "https://www.linkedin.com/company/raw-idea/",
+    "name": "RAW Idea",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQEoHiHcgcPuQQ/company-logo_400_400/company-logo_400_400/0/1728391078585?e=1794441600&v=beta&t=iBTDrJbmekyWSgwn3921omJ9azAVsMC0bF9kP18f8V4",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 871,
+    "description": "AT RAW idea we specialise in digital manufacturing and advanced large scale 3D printing, offering complete solutions from concept to production. Our expertise integrates design engineering, material selection, prototyping, and production ensuring that each project meets the highest standards of precision and functionality.\n\nWe collaborate with businesses across industries to support R&D, product development, and low-volume manufacturing, combining technical competence with strategic guidance. Every phase, from concept to final production, is supported by a team with extensive experience in additive manufacturing technologies.\n\nIn addition to client-driven projects, we actively develop our own product lines, available through our webshop: https://shop.rawidea.org/nl. These collections exemplify our commitment to innovation, sustainability, and manufacturing excellence. ",
+    "industries": [
+     {
+      "id": "25",
+      "name": "Manufacturing",
+      "urn": "urn:li:fsd_industryV2:25",
+      "title": "Manufacturing",
+      "hierarchy": "Manufacturing"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQHVlVdifJMpPg/company-background_10000/B4EZkFbC9KGwAU-/0/1756732600714/raw_idea_cover?e=1793192400&v=beta&t=_l6T8BmMkqAMEbHKP0m5k-q1jz6vMbLel1w7B7b2b2c",
+    "affiliatedPages": []
+   },
+   {
+    "id": "3143399",
+    "universalName": "wasp-project",
+    "linkedinUrl": "https://www.linkedin.com/company/wasp-project/",
+    "name": "WASP",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQEesxcbKBXYxw/company-logo_400_400/company-logo_400_400/0/1630519591045/wasp_project_logo?e=1794441600&v=beta&t=VCQknDoukbnI-nYJ2A0C2y0JbeijsLAUtNXP53xtIQI",
+    "employeeCountRange": {
+     "start": 51,
+     "end": 200
+    },
+    "followerCount": 17346,
+    "description": "WASP - World's Advanced Saving Project is a company born in 2012 in Massa Lombarda (Ravenna- Italy) that designs, produces, and sells 3D printers Made in Italy all over the world.\n\nInspired by the Potter Wasp, which builds its own nest with material recovered from the surrounding environment, WASP was born with the aim of developing large-scale 3D printers, to build houses with natural materials and available on the territory. The main company target is to provide effective benefits to humans through technological innovation and research. In response to global housing challenges, amplified by the expected increase in population and climate change, WASP sees 3D printing and digitization as a concrete solution. \n \nSince 2012, In addition to the architectural field, WASP is a producer and leader in the field of medium/large-scale Ceramic (LDM) and Plastic (FFF & FGF) 3D printing, with a wide range of products spanning various technologies, from highly precise filament and pellet extrusion systems to those for clay and fluid-dense materials.\n \nWith over 10 years of experience in the field, WASP’s Clay line of 3D printers is the market leader in Liquid Deposition Modeling (LDM), offering advanced solutions suitable for both small-scale precision printing and customized serial production of fully personalized pieces using any kind of fluid-dense materials, from clay to porcelain, earthenware and even bio-materials such as mycelium.\n\nThe theme of sustainability permeates every aspect of WASP's technology research and development. The family of industrial HDP (High-Definition Pellet) printers is an example of this, distinguishing itself for its ability to print directly from large granules of recycled plastic, contributing to the creation of a circular system of collection, recycling, and rebirth of plastic waste material.",
+    "industries": [
+     {
+      "id": "135",
+      "name": "Industrial Machinery Manufacturing",
+      "urn": "urn:li:fsd_industryV2:135",
+      "title": "Industrial Machinery Manufacturing",
+      "hierarchy": "Manufacturing > Machinery Manufacturing > Industrial Machinery Manufacturing"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/C561BAQGcbgKJqJDluw/company-background_10000/company-background_10000/0/1584085101625?e=1793192400&v=beta&t=fEyVvuNXvGO1P3ewzsGfUwlwfPBI5Dun_EbwvbAcey4",
+    "affiliatedPages": []
+   },
+   {
+    "id": "7162592",
+    "universalName": "redu",
+    "linkedinUrl": "https://www.linkedin.com/school/redu/",
+    "name": "REDU",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQGfEOKanqr-vw/company-logo_400_400/company-logo_400_400/0/1630558966063/redu_logo?e=1794441600&v=beta&t=GHJTCovw8i92joe-2GMKD1gBrNV519o6Q-248NMozTg",
+    "employeeCountRange": {
+     "start": 501,
+     "end": 1000
+    },
+    "followerCount": 2167,
+    "description": "REDU konserniin kuuluvat Lapin koulutuskeskus REDU, Santasport Lapin Urheiluopisto, koulutuspalveluja tuottava REDU Edu Oy, liikunta- ja urheilupalveluja tuottava Santasport Finland Oy, Lapin kesäyliopisto sekä sisäiset palvelut.  \n\nJäsenkuntiamme ovat Kemijärvi, Kittilä, Kolari, Ranua, Rovaniemi ja Sodankylä. Toiminta-alueenamme on koko Lappi. Edistämme toiminnallamme Lapin elinvoimaisuutta ja kestävää kehitystä. \n\nOlemme työelämää ja opiskelijoita varten.  \n\nHenkilöstöömme kuuluu noin 520 työntekijää, joista suurin osa toimii opetus- ja ohjaustehtävissä sekä opetuksen tuessa. Lisäksi joukkoomme kuuluu osaajia esimerkiksi asiantuntijatehtävissä sekä liikunnanohjauksen, valmennuksen, ravintolapalvelujen ja kiinteistöpalvelujen parissa. \n\nTeemme asiat yhdessä ja ylläpidämme hyvää vuorovaikutusta. Kaikessa toiminnassamme haluamme edistää luottamuksen ja kehittävän ilmapiirin syntymistä niin REDUn sisällä kuin asiakkaiden, kumppaneiden ja sidosryhmien kanssa. \n\nAvoimet työpaikkamme: www.redu.fi/rekry\n\n_ _ \n\n\nREDU is the largest vocational education provider in Finnish Lapland. The organization includes Lapland Education Center REDU, REDU Edu Oy, Santasport Lapland Sports Institute, Santasport Finland Oy and Lapland Summer University. \n\nREDU has a unique position within the arctic environment. International operations and relations have a strong presence both in the education and in the strategical planning of this northern VET Education centre. REDU supports lifelong learning. \n\nREDU is a constantly developing, active player in international relations and operations. In REDU, every member of student and staff is provided with a possibility to internationalize themselves through various, different ways. REDU offers possibilities to study and work (internship training) abroad, join different events with representatives from the partnership schools, and to take part to numerous domestic “internationalization at home” activities.  \n",
+    "industries": [
+     {
+      "id": "3200",
+      "name": "Education Management",
+      "urn": "urn:li:fsd_industryV2:3200",
+      "title": "Education Management",
+      "hierarchy": null
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/C4E1BAQHBdu0JqkZj-A/company-background_10000/company-background_10000/0/1649400826082/redu_cover?e=1793192400&v=beta&t=kh9QlpecoYmn8xTyLSTWi6FwKscg-IU7Q19iEQRH7V8",
+    "affiliatedPages": []
+   }
+  ],
+  "affiliatedPages": [],
+  "peopleStats": [
+   {
+    "statTitle": "Locations",
+    "values": [
+     {
+      "title": "Netherlands",
+      "count": 18
+     },
+     {
+      "title": "The Randstad, Netherlands",
+      "count": 18
+     },
+     {
+      "title": "North Holland, Netherlands",
+      "count": 14
+     },
+     {
+      "title": "Amsterdam Area",
+      "count": 14
+     },
+     {
+      "title": "Amsterdam",
+      "count": 11
+     },
+     {
+      "title": "South Holland, Netherlands",
+      "count": 3
+     },
+     {
+      "title": "Rotterdam and The Hague",
+      "count": 3
+     },
+     {
+      "title": "Rotterdam",
+      "count": 2
+     },
+     {
+      "title": "Ireland",
+      "count": 2
+     },
+     {
+      "title": "Utrecht, Netherlands",
+      "count": 1
+     },
+     {
+      "title": "Haarlem",
+      "count": 1
+     },
+     {
+      "title": "The Hague",
+      "count": 1
+     },
+     {
+      "title": "County Dublin, Ireland",
+      "count": 1
+     },
+     {
+      "title": "Hoofddorp",
+      "count": 1
+     },
+     {
+      "title": "Thailand",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "School",
+    "values": [
+     {
+      "title": "Delft University of Technology",
+      "count": 6
+     },
+     {
+      "title": "University College Dublin",
+      "count": 3
+     },
+     {
+      "title": "ETH Zürich",
+      "count": 2
+     },
+     {
+      "title": "Southern Alberta Institute of Technology (SAIT)",
+      "count": 1
+     },
+     {
+      "title": "Gerrit Rietveld Academie, Amsterdam",
+      "count": 1
+     },
+     {
+      "title": "Pratt Institute",
+      "count": 1
+     },
+     {
+      "title": "Technische Universität Dresden",
+      "count": 1
+     },
+     {
+      "title": "London South Bank University",
+      "count": 1
+     },
+     {
+      "title": "Hanze",
+      "count": 1
+     },
+     {
+      "title": "Saxion University of Applied Sciences",
+      "count": 1
+     },
+     {
+      "title": "Teknillinen korkeakoulu-Tekniska högskolan",
+      "count": 1
+     },
+     {
+      "title": "ArtEZ University of the Arts",
+      "count": 1
+     },
+     {
+      "title": "Amsterdam School of International  Business",
+      "count": 1
+     },
+     {
+      "title": "Universitatea de Artă și Design din Cluj-Napoca",
+      "count": 1
+     },
+     {
+      "title": "Jönköping University",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Current Function",
+    "values": [
+     {
+      "title": "Business Development",
+      "count": 8
+     },
+     {
+      "title": "Arts and Design",
+      "count": 7
+     },
+     {
+      "title": "Sales",
+      "count": 5
+     },
+     {
+      "title": "Operations",
+      "count": 4
+     },
+     {
+      "title": "Engineering",
+      "count": 4
+     },
+     {
+      "title": "Marketing",
+      "count": 3
+     },
+     {
+      "title": "Program and Project Management",
+      "count": 3
+     },
+     {
+      "title": "Product Management",
+      "count": 2
+     },
+     {
+      "title": "Accounting",
+      "count": 1
+     },
+     {
+      "title": "Finance",
+      "count": 1
+     },
+     {
+      "title": "Human Resources",
+      "count": 1
+     },
+     {
+      "title": "Media and Communication",
+      "count": 1
+     },
+     {
+      "title": "Administrative",
+      "count": 1
+     },
+     {
+      "title": "Real Estate",
+      "count": 1
+     },
+     {
+      "title": "Community and Social Services",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Skill Explicit",
+    "values": [
+     {
+      "title": "Sales",
+      "count": 6
+     },
+     {
+      "title": "Product Design",
+      "count": 5
+     },
+     {
+      "title": "Business Development",
+      "count": 5
+     },
+     {
+      "title": "Business Strategy",
+      "count": 5
+     },
+     {
+      "title": "Teamwork",
+      "count": 5
+     },
+     {
+      "title": "Adobe Photoshop",
+      "count": 4
+     },
+     {
+      "title": "Analytical Skills",
+      "count": 4
+     },
+     {
+      "title": "Concept Development",
+      "count": 4
+     },
+     {
+      "title": "Adobe Illustrator",
+      "count": 4
+     },
+     {
+      "title": "Interior Design",
+      "count": 4
+     },
+     {
+      "title": "Social Media",
+      "count": 4
+     },
+     {
+      "title": "Interior Architecture",
+      "count": 4
+     },
+     {
+      "title": "Adobe InDesign",
+      "count": 4
+     },
+     {
+      "title": "3D Modeling",
+      "count": 4
+     },
+     {
+      "title": "Account Management",
+      "count": 4
+     }
+    ]
+   },
+   {
+    "statTitle": "Service categories",
+    "values": []
+   },
+   {
+    "statTitle": "Field of Study",
+    "values": [
+     {
+      "title": "Architecture",
+      "count": 7
+     },
+     {
+      "title": "Industrial and Product Design",
+      "count": 3
+     },
+     {
+      "title": "Design and Visual Communications, General",
+      "count": 2
+     },
+     {
+      "title": "Art/Art Studies, General",
+      "count": 2
+     },
+     {
+      "title": "E-Commerce/Electronic Commerce",
+      "count": 2
+     },
+     {
+      "title": "City/Urban, Community and Regional Planning",
+      "count": 1
+     },
+     {
+      "title": "French Studies",
+      "count": 1
+     },
+     {
+      "title": "German Studies",
+      "count": 1
+     },
+     {
+      "title": "Irish Studies",
+      "count": 1
+     },
+     {
+      "title": "Mechanical Engineering",
+      "count": 1
+     },
+     {
+      "title": "English Language and Literature/Letters",
+      "count": 1
+     },
+     {
+      "title": "Mathematics",
+      "count": 1
+     },
+     {
+      "title": "Analysis and Functional Analysis",
+      "count": 1
+     },
+     {
+      "title": "International/Global Studies",
+      "count": 1
+     },
+     {
+      "title": "Sustainability Studies",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "originalQuery": {
+   "search": "aectual.com",
+   "location": ""
+  },
+  "requestId": "a5c6457e-e0a0-4050-bc1b-eea106d97eba"
+ },
+ {
+  "id": "11057305",
+  "universalName": "arbnco",
+  "linkedinUrl": "https://www.linkedin.com/company/arbnco/",
+  "name": "arbnco",
+  "tagline": "Accelerate your net-zero journey with our AI-powered platform for Real Estate",
+  "website": "http://arbnco.co.uk",
+  "callToActionUrl": "https://arbnco.co.uk/",
+  "phone": null,
+  "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQHjwfHwmPIJFw/company-logo_400_400/company-logo_400_400/0/1653480193295/arbnco_logo?e=1794441600&v=beta&t=Hye9HvGJgHQHgX6U8JDt9zqlHPFe3qZDYYQKo5ZkiAQ",
+  "foundedOn": {
+   "month": null,
+   "year": 2017,
+   "day": null
+  },
+  "employeeCount": 15,
+  "employeeCountRange": {
+   "start": 51,
+   "end": 200
+  },
+  "followerCount": 2164,
+  "description": "We’re a multi, award-winning PropTech company addressing one of the defining challenges of our time: climate change.\n\nWith a mission to help create a sustainable and efficient built environment, arbnco’s cutting-edge technology and data analytics empower building owners, operators, occupants, and energy suppliers to reduce the environmental impact of operating buildings. arbnco technology helps stakeholders acquire, verify, and analyse the right data systematically and with ease.\n\nEstablished in Scotland, arbnco operates across the US and Europe. We help some of the world’s largest property owners, managing agents, corporate occupiers, and energy utilities continually and iteratively improve and optimise the performance of buildings at scale by identifying energy efficiency and decarbonisation interventions. The platform also helps to manage risk, including that from legislative changes (compliance) and climate change.\n\nWith a focus on data-driven insights and advanced analytics, arbnco provides comprehensive solutions that enable our target market to make informed decisions, comply with energy regulations, optimise energy usage, and contribute to a greener and more sustainable built environment.",
+  "companyType": "Public Company",
+  "locations": [
+   {
+    "country": "GB",
+    "city": "Glasgow",
+    "geographicArea": null,
+    "line1": "Inovo Building, Ground Floor, Suite F",
+    "line2": "121 George Street",
+    "postalCode": "G1 1RD",
+    "headquarter": true,
+    "description": null,
+    "parsed": {
+     "text": "Glasgow, United Kingdom",
+     "countryCode": "GB",
+     "regionCode": null,
+     "country": "UK",
+     "countryFull": "United Kingdom",
+     "state": "Scotland",
+     "city": "Glasgow"
+    }
+   }
+  ],
+  "specialities": [
+   "Software",
+   "Health and Wellbeing",
+   "Retrofitting",
+   "Energy Efficiency",
+   "Indoor Environmental Quality",
+   "Renewable Energy",
+   "Climate Change",
+   "Smart Buildings",
+   "Building Optimisation",
+   "Data Analytics",
+   "PropTech",
+   "Climate Tech",
+   "Decarbonisation",
+   "The Built Environment ",
+   "Carbon Reporting ",
+   "SaaS",
+   "Data Driven Insights",
+   "ESG"
+  ],
+  "industries": [
+   {
+    "id": "4",
+    "name": "Software Development",
+    "urn": "urn:li:fsd_industryV2:4",
+    "title": "Software Development",
+    "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Software Development"
+   }
+  ],
+  "logos": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHjwfHwmPIJFw/company-logo_400_400/company-logo_400_400/0/1653480193295/arbnco_logo?e=1794441600&v=beta&t=Hye9HvGJgHQHgX6U8JDt9zqlHPFe3qZDYYQKo5ZkiAQ",
+    "width": 400,
+    "height": 400
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHjwfHwmPIJFw/company-logo_200_200/company-logo_200_200/0/1653480193295/arbnco_logo?e=1794441600&v=beta&t=NHbNNZNZm2fZPZ3Gy-fl8lp7gq-2KUcuJj3yDUWbRNA",
+    "width": 200,
+    "height": 200
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHjwfHwmPIJFw/company-logo_100_100/company-logo_100_100/0/1653480193295/arbnco_logo?e=1794441600&v=beta&t=PLwmeakEocEq5gSTRW4F0OClf348o6TDe91wnTMHWp0",
+    "width": 100,
+    "height": 100
+   }
+  ],
+  "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQHScmBuV6YffA/company-background_10000/company-background_10000/0/1734107414527/arbnco_cover?e=1793192400&v=beta&t=CRR59WZR-_1OmcRK7IyTBsmsArfEpj7Rb3hrMmA5EPQ",
+  "backgroundCovers": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E1BAQHScmBuV6YffA/company-background_10000/company-background_10000/0/1734107414527/arbnco_cover?e=1793192400&v=beta&t=CRR59WZR-_1OmcRK7IyTBsmsArfEpj7Rb3hrMmA5EPQ",
+    "width": 1128,
+    "height": 191
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E1BAQHScmBuV6YffA/company-background_400/company-background_400/0/1734107414527/arbnco_cover?e=1793192400&v=beta&t=vSFeLalEAg7wAz5XcviAXrEtjT7ftg83voRPo-O6lSQ",
+    "width": 400,
+    "height": 67
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E1BAQHScmBuV6YffA/company-background_200/company-background_200/0/1734107414527/arbnco_cover?e=1793192400&v=beta&t=EzH1_akBm-23Y0SqsWYyiTSs40MGaf1ftTmXCCxGTtU",
+    "width": 200,
+    "height": 33
+   }
+  ],
+  "active": true,
+  "jobSearchUrl": "https://www.linkedin.com/jobs/search?geoId=92000000&f_C=11057305",
+  "pageVerified": false,
+  "pageType": "COMPANY",
+  "showcase": false,
+  "paidCompany": false,
+  "autoGenerated": false,
+  "messagingEnabled": true,
+  "similarOrganizations": [
+   {
+    "id": "75419051",
+    "universalName": "turkeco-construction-and-energy-inc",
+    "linkedinUrl": "https://www.linkedin.com/company/turkeco-construction-and-energy-inc/",
+    "name": "Turkeco Construction and Energy Inc.",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQHhaz37FtHUAg/company-logo_400_400/company-logo_400_400/0/1630636472757?e=1794441600&v=beta&t=dZ3-2r9rw_q6N9yKgREKqKLcjATCuEsvwZDWTJTSVSI",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 315,
+    "description": "Founded in 2009, with 20 years of civil and environmental engineering expertise, TURKECO works in the real estate sector managing sustainability with clients like municipalities, private sector and NGOs.  Areas we work are:\n\n1)\tSustainability Works in infrastructure projects with our licensed Civil Engineers\n2)\tManaging funded projects by organizations like   AFD, IFC, WB, GIZ, FP7, H2020, WWF and USAID and providing expertise.\n\n3)\tConsulting  to sustainability projects with accredited professionals like P.E. (Civil) and ASHRAE BEMP.\n",
+    "industries": [
+     {
+      "id": "44",
+      "name": "Real Estate",
+      "urn": "urn:li:fsd_industryV2:44",
+      "title": "Real Estate",
+      "hierarchy": "Real Estate and Equipment Rental Services > Real Estate"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQGnEwpyoWeqNg/company-background_10000/company-background_10000/0/1706745116195/turkeco_construction_and_energy_inc_cover?e=1793192400&v=beta&t=NLpZhHOTgOFf84bOCBfhFHGQn_MdM_OPPNLSKb9EA2Q",
+    "affiliatedPages": []
+   },
+   {
+    "id": "93622387",
+    "universalName": "apihs",
+    "linkedinUrl": "https://www.linkedin.com/company/apihs/",
+    "name": "APIHS (Advanced Progressive International Hybrid Solutions)",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQF-JGOtnR9B3A/company-logo_400_400/company-logo_400_400/0/1685111022494/apihs_logo?e=1794441600&v=beta&t=QIXcwVBgwU9MZCy79P4ne12-QARd1QF6CyU_hso-Wkg",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 179,
+    "description": "\nAPIHS est une entreprise spécialisée dans l’innovation et le développement de revêtements liquides de nouvelle génération. Notre mission est de créer des solutions performantes et durables capables d’améliorer la protection, l’efficacité et la longévité des matériaux dans plusieurs secteurs industriels. Grâce à notre département interne de chimie et à notre collaboration étroite avec le CEPROCQ, nous concevons des formulations avancées basées sur des approches scientifiques rigoureuses et sur une vision orientée vers la performance durable.\n\nNous développons des produits biosourcés, des revêtements nanocéramiques, des solutions à base d’eau et des formulations spécialisées conçues pour répondre aux besoins réels du terrain. Chaque produit est conçu pour offrir une résistance accrue, une application simplifiée, une durabilité supérieure et une réduction mesurable de l’impact environnemental. Notre approche vise à remplacer ou améliorer les revêtements traditionnels en proposant des solutions plus efficaces et adaptées aux réalités modernes.\n\nL’innovation est au cœur de notre identité. APIHS investit continuellement dans la recherche, l’optimisation et l’amélioration de ses formulations. Grâce à nos travaux internes en chimie et au soutien des équipes universitaires et scientifiques du CEPROCQ, nous sommes en mesure de faire évoluer nos produits rapidement, de valider nos avancées et de développer des recettes qui anticipent les besoins industriels futurs.\n\nNotre objectif est clair : offrir des revêtements liquides plus performants, plus responsables et mieux adaptés aux défis environnementaux actuels. En misant sur la science, la collaboration et la durabilité, APIHS s’impose comme un acteur essentiel de l’innovation matérielle au Québec et à l’international. Nous bâtissons des solutions qui améliorent la performance des matériaux tout en contribuant à un avenir plus propre et plus durable.\n\nPour découvrir nos travaux, nos solutions ou entamer une collaboration, nou",
+    "industries": [
+     {
+      "id": "48",
+      "name": "Construction",
+      "urn": "urn:li:fsd_industryV2:48",
+      "title": "Construction",
+      "hierarchy": "Construction"
+     }
+    ],
+    "affiliatedPages": []
+   },
+   {
+    "id": "19138509",
+    "universalName": "women-in-sustainability-leadership-awards-alumnae-group",
+    "linkedinUrl": "https://www.linkedin.com/company/women-in-sustainability-leadership-awards-alumnae-group/",
+    "name": "Women in Sustainability Leadership Awards",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQEXZ-mMe--4Mw/company-logo_400_400/company-logo_400_400/0/1630453904553/women_in_sustainability_leadership_awards_alumnae_group_logo?e=1794441600&v=beta&t=CCp2t3mPQSqUWdUBIozXXHU8VfyE-JbA4iSMmQCbc7o",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 4486,
+    "description": "The mission of the WSLA Alumnae Group is to create a more sustainable world by growing awareness, promoting advancement, and supporting the development of women in sustainability leadership.",
+    "industries": [
+     {
+      "id": "100",
+      "name": "Non-profit Organizations",
+      "urn": "urn:li:fsd_industryV2:100",
+      "title": "Non-profit Organizations",
+      "hierarchy": "Consumer Services > Non-profit Organizations"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/C4D1BAQHY-zRA6xF0DA/company-background_10000/company-background_10000/0/1611242652167/women_in_sustainability_leadership_awards_cover?e=1793192400&v=beta&t=MgQqJexOJq69BvEGTAndxTrfitwuCWTyUKDe0WuxJEg",
+    "affiliatedPages": []
+   },
+   {
+    "id": "11354060",
+    "universalName": "small-data-garden-ltd",
+    "linkedinUrl": "https://www.linkedin.com/company/small-data-garden-ltd/",
+    "name": "Small Data Garden",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQEUdWaxT-RsMg/company-logo_400_400/company-logo_400_400/0/1645520070623/small_data_garden_ltd_logo?e=1794441600&v=beta&t=2Y1ghqhAkM_rJl7X5CaW0AOKuctCdPQ5xIlnFD8ms1g",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 343,
+    "description": "We build IoT solutions for you\n\nWe build you a versatile solution to collect data on your facilities, processes, equipment and environment. We can also manage and analyse data and send intelligent control messages to actuators and automation. Furthermore, we can visualise the data and provide wireless connectivity. We don’t embrace the world, we deliver the building blocks you need, as complete as you want. We make IoT solutions for you, with you!",
+    "industries": [
+     {
+      "id": "3231",
+      "name": "Information Technology & Services",
+      "urn": "urn:li:fsd_industryV2:3231",
+      "title": "Information Technology & Services",
+      "hierarchy": null
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4D1BAQEGQErCXwjOvA/company-background_10000/B4DZcfqK8AGYAU-/0/1748582849857/small_data_garden_ltd_cover?e=1793192400&v=beta&t=vV25nbxO7osCR0ZFRXzbU6N8sKQ-j6oItCQnAbA97Qk",
+    "affiliatedPages": []
+   },
+   {
+    "id": "9181819",
+    "universalName": "princelet",
+    "linkedinUrl": "https://www.linkedin.com/company/princelet/",
+    "name": "Princelet",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGZHhsx_Kp1tA/company-logo_400_400/B4EZ89InM4JUAY-/0/1783437095983/princelet_logo?e=1794441600&v=beta&t=vVF-Kcd_7P0aERHoJmL6aCbm-NSPX-ToGJXXfZMHFtY",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 476,
+    "description": "Princelet is a boutique corporate finance firm specialising in technology transactions. We equip shareholders with practical financial advice and seamless execution, always with a focus on maximising value.\n\nFor more information, please visit www.princelet.com",
+    "industries": [
+     {
+      "id": "43",
+      "name": "Financial Services",
+      "urn": "urn:li:fsd_industryV2:43",
+      "title": "Financial Services",
+      "hierarchy": "Financial Services"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQEeIvoFCAm-FA/company-background_10000/B4EZlXydqRKQAU-/0/1758114470949/princelet_cover?e=1793192400&v=beta&t=RIR2GyiYljeR-SmjkonIL39PXwjok-jfI4mDMV426KA",
+    "affiliatedPages": []
+   },
+   {
+    "id": "69035563",
+    "universalName": "cc-informatics",
+    "linkedinUrl": "https://www.linkedin.com/company/cc-informatics/",
+    "name": "CC Informatics",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQGFoKtMfj0yoQ/company-logo_400_400/company-logo_400_400/0/1630646768118/cc_informatics_logo?e=1794441600&v=beta&t=jC4ptlB0LUpGTkm4e-dTj3WFaUrny8467rBIzWXD71A",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 543,
+    "description": "Infrastructure owners need safer, smarter ways to understand the condition of their physical assets, and that’s why they work with CC Informatics. \n\nWe capture comprehensive photographic datasets from hard‑to‑access environments and apply advanced machine‑vision analytics to extract the insight engineers need for maintenance, regulatory compliance and long‑term asset management. \n\nAt the core of our capability is AssetScan, our proprietary machine‑vision technology that turns raw imagery into mapped, measurable deterioration data. Whether on image data that has been captured or provided, AssetScan automatically detects and classifies defects, anchors findings within digital twins, and enables automated change detection across repeat surveys. By replacing the heavy lifting of data processing and feature identification with technology, AssetScan gives clients faster, clearer and more reliable insight, helping engineers make confident maintenance decisions, improve safety outcomes and manage ageing infrastructure with greater consistency and control. \n\nGet in touch with the team here: https://www.cc-info.co.uk/get-in-touch.html",
+    "industries": [
+     {
+      "id": "51",
+      "name": "Civil Engineering",
+      "urn": "urn:li:fsd_industryV2:51",
+      "title": "Civil Engineering",
+      "hierarchy": "Construction > Civil Engineering"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQFkXHxg6-59Og/company-background_10000/B4EaDx5XZxH8AI-/0/1790764743031/cc_informatics_cover?e=1793192400&v=beta&t=dKipCXOzpiMpNNYRVzDY5XDasKFWq7vdENfD5Yndn3o",
+    "affiliatedPages": []
+   },
+   {
+    "id": "100869160",
+    "universalName": "head-for-data",
+    "linkedinUrl": "https://www.linkedin.com/company/head-for-data/",
+    "name": "Head for Data",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFbWHm_HCR5og/company-logo_400_400/B4DZjgvzppGQAY-/0/1756117286451/head_for_data_logo?e=1794441600&v=beta&t=yGTrXx-6bP7B6IoXQaODIczj0wbc4xdbj9NWO1YXfig",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 1475,
+    "description": "Head for Data is a technology partner that helps businesses turn data into growth. With over 50 years of combined experience, our team has built award-winning solutions for SMEs and large organisations alike. We specialise in making data, automation and AI simple, practical and ROI-driven – giving you clarity, efficiency and results without the jargon.",
+    "industries": [
+     {
+      "id": "96",
+      "name": "IT Services and IT Consulting",
+      "urn": "urn:li:fsd_industryV2:96",
+      "title": "IT Services and IT Consulting",
+      "hierarchy": "Professional Services > IT Services and IT Consulting"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4D1BAQGCdNb3up4q0A/company-background_10000/B4DZjgxnXYHYAU-/0/1756117760113/head_for_data_cover?e=1793192400&v=beta&t=DhwaA9Ezu92v1UvvNxX8zCQi9YLy2l7-iszKFp_6yDs",
+    "affiliatedPages": []
+   },
+   {
+    "id": "289448",
+    "universalName": "ies-ltd-",
+    "linkedinUrl": "https://www.linkedin.com/company/ies-ltd-/",
+    "name": "IES Ltd.",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGqsEzeuw6q2Q/company-logo_400_400/company-logo_400_400/0/1719256612856/ies_ltd__logo?e=1794441600&v=beta&t=_PyfLCOrl_q3osEroWub2vQUWNTEH9FQL_PccDRn1O8",
+    "employeeCountRange": {
+     "start": 201,
+     "end": 500
+    },
+    "followerCount": 64827,
+    "description": "IES is an innovative company at the forefront of the development and application of powerful software simulation tools and consulting services for architects, engineers and others involved in the design, development and management of truly sustainable buildings.\r\n\r\nIES’ mission is to advance the sustainability of the world’s buildings through the use of integrated building performance modelling technology which more intelligently and assuredly determines the measures required to mitigate climate change and conserve our natural resources for future generations.",
+    "industries": [
+     {
+      "id": "6",
+      "name": "Technology, Information and Internet",
+      "urn": "urn:li:fsd_industryV2:6",
+      "title": "Technology, Information and Internet",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQE0Pj8SgSZ70g/company-background_10000/B4EZuNrxrnHoAU-/0/1767608622224/ies_ltd__cover?e=1793192400&v=beta&t=VbJ7O8bBvZTnA623KWiNx5SiUYSoJ4CtNStfiTanwPU",
+    "affiliatedPages": []
+   },
+   {
+    "id": "36348",
+    "universalName": "morgan-advanced-materials",
+    "linkedinUrl": "https://www.linkedin.com/company/morgan-advanced-materials/",
+    "name": "Morgan Advanced Materials",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQE5wSuGQUj-nQ/company-logo_400_400/B4EZW0XWLXGwAY-/0/1742487774290/morgan_advanced_materials_logo?e=1794441600&v=beta&t=LNxe7WK5cg1vL71WMo7whtTTQ45ZSyh3rhH6ms_0rBY",
+    "employeeCountRange": {
+     "start": 5001,
+     "end": 10000
+    },
+    "followerCount": 71716,
+    "description": "At Morgan Advanced Materials we combine material science, deep application expertise and process excellence to co-design and manufacture mission critical solutions. \n\nThese solutions are at the heart of society’s most essential systems today and they will enable the breakthroughs of tomorrow. \nOur products help people move, build and thrive. We help power human progress, where it matters most.\n\nAs we look to the future, our vision is clear: to become the leading force in our chosen markets. At the heart of this vision is our strategy; unlocking Morgan's potential. With strong foundations built over the last century, we’re setting out a multi-year strategy focused on operational excellence, asset utilisation, and maximising portfolio value. \n\nThe journey ahead is ambitious, but with the right team and a clear roadmap, we’re confident in our ability to unlock our full potential.",
+    "industries": [
+     {
+      "id": "145",
+      "name": "Glass, Ceramics and Concrete Manufacturing",
+      "urn": "urn:li:fsd_industryV2:145",
+      "title": "Glass, Ceramics and Concrete Manufacturing",
+      "hierarchy": "Manufacturing > Glass, Ceramics and Concrete Manufacturing"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQEVv-jpPYeuqA/company-background_10000/B4EZW0eUHxHUAY-/0/1742489600979/morgan_advanced_materials_cover?e=1793192400&v=beta&t=6mEDs5_U6Rdj-2c0Iu202oGvk5EMe5AhZ_9zFqS4ztI",
+    "affiliatedPages": []
+   },
+   {
+    "id": "2733215",
+    "universalName": "nuuka-solutions-oy",
+    "linkedinUrl": "https://www.linkedin.com/company/nuuka-solutions-oy/",
+    "name": "Nuuka",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQHchZLaKgiN4A/company-logo_400_400/B4DZT.3pZOHkAY-/0/1739442789164/nuuka_solutions_oy_logo?e=1794441600&v=beta&t=pWPI2lDZVLe53bt9XvN1_pwF4E1Sz0b-XQfgPtE7HA8",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 2028,
+    "description": "We are a PropTech company helping major real estate owners and developers, retail chains, and whole cities to deliver a great indoor climate, save energy, reduce operating costs, and increase property lifetime value. \n\nOur hardware-independent platform connects to any Building Management System and IoT solution, analyzing and optimizing buildings using machine learning. Our solution has already connected 3000 buildings in six countries, and we strive to save the world, one building at a time.",
+    "industries": [
+     {
+      "id": "96",
+      "name": "IT Services and IT Consulting",
+      "urn": "urn:li:fsd_industryV2:96",
+      "title": "IT Services and IT Consulting",
+      "hierarchy": "Professional Services > IT Services and IT Consulting"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4D1BAQHrfRG9dUcRcQ/company-background_10000/B4DZUTRSxNGkAc-/0/1739785056910/nuuka_solutions_oy_cover?e=1793192400&v=beta&t=7nQizjr1KBLjgoJQvraRRNyE_EFCxfyISk9YX9ZiPZU",
+    "affiliatedPages": []
+   },
+   {
+    "id": "2314836",
+    "universalName": "gresb",
+    "linkedinUrl": "https://www.linkedin.com/company/gresb/",
+    "name": "GRESB",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQHfPE4Hs0-4Lw/company-logo_400_400/company-logo_400_400/0/1634303976210/gresb_logo?e=1794441600&v=beta&t=U0G-q48Aex0Kmdd-U5MPIBR5woqjq4LrWHPD__4XPXY",
+    "employeeCountRange": {
+     "start": 51,
+     "end": 200
+    },
+    "followerCount": 46270,
+    "description": "GRESB is the global sustainability intelligence standard for real assets. We transform sustainability data into decision-grade intelligence that drives capital allocation and asset improvement.   \n\nThrough our industry-governed standards, established benchmarks, validated data, and performance analytics, GRESB equips organizations across real asset markets to compare sustainability performance, manage risk, improve asset economics, and make more informed capital and asset decisions.   ",
+    "industries": [
+     {
+      "id": "84",
+      "name": "Information Services",
+      "urn": "urn:li:fsd_industryV2:84",
+      "title": "Information Services",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Information Services"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQEcsGgLuqCkvg/company-background_10000/B4EZY4TZEWHYAU-/0/1744701330459/gresb_cover?e=1793192400&v=beta&t=4T3nhflsoGtzC-avI-dadYBeeZ5c7_5mh5ojms9hvuY",
+    "affiliatedPages": []
+   },
+   {
+    "id": "7253",
+    "universalName": "mott-macdonald",
+    "linkedinUrl": "https://www.linkedin.com/company/mott-macdonald/",
+    "name": "Mott MacDonald",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQHquBl_sJE0lw/company-logo_400_400/B4EZp26jIsJ0AY-/0/1762931651526/mott_macdonald_logo?e=1794441600&v=beta&t=OGCeGnP16jv-yQJvSwUm4qiFGJwqZdk3IU4pmQgG5UY",
+    "employeeCountRange": {
+     "start": 10001,
+     "end": null
+    },
+    "followerCount": 958354,
+    "description": "We are an engineering, management and development consultancy and one of the largest wholly employee-owned firms of our kind. \n\nWe plan, design, deliver and maintain the transport, energy, water, defence and security, and buildings infrastructure that is integral to people's daily lives. \n\nOur core strength is using our expertise to overcome complex challenges to deliver benefits for our clients and the communities they serve.",
+    "industries": [
+     {
+      "id": "51",
+      "name": "Civil Engineering",
+      "urn": "urn:li:fsd_industryV2:51",
+      "title": "Civil Engineering",
+      "hierarchy": "Construction > Civil Engineering"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQFHYPaPOSMyfA/company-background_10000/B4EZvl4sQbHIAY-/0/1769088403062/mott_macdonald_cover?e=1793192400&v=beta&t=nnlO1bIwS-Orb_1U64XT01Sbf35yvEv9TgBeVjUmuTQ",
+    "affiliatedPages": []
+   }
+  ],
+  "affiliatedPages": [],
+  "peopleStats": [
+   {
+    "statTitle": "Locations",
+    "values": [
+     {
+      "title": "United Kingdom",
+      "count": 11
+     },
+     {
+      "title": "Glasgow City",
+      "count": 6
+     },
+     {
+      "title": "Scotland, United Kingdom",
+      "count": 6
+     },
+     {
+      "title": "Greater Glasgow Area",
+      "count": 6
+     },
+     {
+      "title": "England, United Kingdom",
+      "count": 5
+     },
+     {
+      "title": "United States",
+      "count": 2
+     },
+     {
+      "title": "Brazil",
+      "count": 2
+     },
+     {
+      "title": "Plymouth, MI",
+      "count": 1
+     },
+     {
+      "title": "City Of Leicester",
+      "count": 1
+     },
+     {
+      "title": "Newcastle Upon Tyne",
+      "count": 1
+     },
+     {
+      "title": "Piauí, Brazil",
+      "count": 1
+     },
+     {
+      "title": "Bath",
+      "count": 1
+     },
+     {
+      "title": "Greater London",
+      "count": 1
+     },
+     {
+      "title": "Michigan, United States",
+      "count": 1
+     },
+     {
+      "title": "Curitiba, PR",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "School",
+    "values": [
+     {
+      "title": "University of Strathclyde",
+      "count": 2
+     },
+     {
+      "title": "Michigan State University",
+      "count": 2
+     },
+     {
+      "title": "The King's School, Canterbury",
+      "count": 1
+     },
+     {
+      "title": "University of Mumbai",
+      "count": 1
+     },
+     {
+      "title": "Mercy High School Farmington Hills",
+      "count": 1
+     },
+     {
+      "title": "University of Greenwich",
+      "count": 1
+     },
+     {
+      "title": "Luleå University of Technology",
+      "count": 1
+     },
+     {
+      "title": "McMaster University",
+      "count": 1
+     },
+     {
+      "title": "University of Glasgow",
+      "count": 1
+     },
+     {
+      "title": "The University of Huddersfield",
+      "count": 1
+     },
+     {
+      "title": "CEPT University",
+      "count": 1
+     },
+     {
+      "title": "Universidade Federal do Paraná",
+      "count": 1
+     },
+     {
+      "title": "University of Leeds",
+      "count": 1
+     },
+     {
+      "title": "Federal University of Ceara",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Current Function",
+    "values": [
+     {
+      "title": "Engineering",
+      "count": 5
+     },
+     {
+      "title": "Operations",
+      "count": 3
+     },
+     {
+      "title": "Business Development",
+      "count": 3
+     },
+     {
+      "title": "Research",
+      "count": 2
+     },
+     {
+      "title": "Information Technology",
+      "count": 1
+     },
+     {
+      "title": "Marketing",
+      "count": 1
+     },
+     {
+      "title": "Product Management",
+      "count": 1
+     },
+     {
+      "title": "Program and Project Management",
+      "count": 1
+     },
+     {
+      "title": "Customer Success and Support",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Skill Explicit",
+    "values": [
+     {
+      "title": "Project Management",
+      "count": 7
+     },
+     {
+      "title": "Energy Efficiency",
+      "count": 6
+     },
+     {
+      "title": "Energy",
+      "count": 5
+     },
+     {
+      "title": "Microsoft Office",
+      "count": 5
+     },
+     {
+      "title": "Customer Service",
+      "count": 5
+     },
+     {
+      "title": "Management",
+      "count": 4
+     },
+     {
+      "title": "HTML",
+      "count": 4
+     },
+     {
+      "title": "Linux",
+      "count": 4
+     },
+     {
+      "title": "Business Development",
+      "count": 4
+     },
+     {
+      "title": "Business Strategy",
+      "count": 4
+     },
+     {
+      "title": "Sustainability",
+      "count": 4
+     },
+     {
+      "title": "Cascading Style Sheets (CSS)",
+      "count": 3
+     },
+     {
+      "title": "Microsoft PowerPoint",
+      "count": 3
+     },
+     {
+      "title": "MySQL",
+      "count": 3
+     },
+     {
+      "title": "Startups",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "statTitle": "Service categories",
+    "values": [
+     {
+      "title": "Application Development",
+      "count": 1
+     },
+     {
+      "title": "Custom Software Development",
+      "count": 1
+     },
+     {
+      "title": "Software Development",
+      "count": 1
+     },
+     {
+      "title": "Web Development",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Field of Study",
+    "values": [
+     {
+      "title": "Energy Management and Systems Technology/Technician",
+      "count": 3
+     },
+     {
+      "title": "Architecture",
+      "count": 2
+     },
+     {
+      "title": "Mechanical Engineering",
+      "count": 2
+     },
+     {
+      "title": "Marketing",
+      "count": 2
+     },
+     {
+      "title": "Performance Studies",
+      "count": 2
+     },
+     {
+      "title": "Mass Communication/Media Studies",
+      "count": 1
+     },
+     {
+      "title": "Advertising",
+      "count": 1
+     },
+     {
+      "title": "Computer Science",
+      "count": 1
+     },
+     {
+      "title": "Computer Software and Media Applications",
+      "count": 1
+     },
+     {
+      "title": "Aerospace, Aeronautical and Astronautical/Space Engineering",
+      "count": 1
+     },
+     {
+      "title": "Civil Engineering",
+      "count": 1
+     },
+     {
+      "title": "General Studies",
+      "count": 1
+     },
+     {
+      "title": "Biology, General",
+      "count": 1
+     },
+     {
+      "title": "International/Global Studies",
+      "count": 1
+     },
+     {
+      "title": "Computational Science",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "originalQuery": {
+   "search": "arbnco.com",
+   "location": ""
+  },
+  "requestId": "914ba4b1-25e5-46e2-90e3-ec534164f770"
+ },
+ {
+  "id": "101901076",
+  "universalName": "atomodular",
+  "linkedinUrl": "https://www.linkedin.com/company/atomodular/",
+  "name": "atom modular",
+  "tagline": "Industrialising Housing as Cars",
+  "website": null,
+  "callToActionUrl": "https://atommodular.xyz",
+  "phone": null,
+  "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFjmIdIFuqSjg/company-logo_400_400/B4DZg.WZWvGQAc-/0/1753392715593/atomodular_logo?e=1794441600&v=beta&t=nhXl3ljiPj-xZlEkvfEHlq1G47vkqp8gMozCB-xHy50",
+  "foundedOn": {
+   "month": null,
+   "year": 2024,
+   "day": null
+  },
+  "employeeCount": 8,
+  "employeeCountRange": {
+   "start": 2,
+   "end": 10
+  },
+  "followerCount": 2142,
+  "description": "Atom Modular es una startup industrial de construcción modular, especializada en la industrialización de la edificación mediante módulos 3D volumétricos con estructura de madera tecnificada y materiales bio-sostenibles.\n\nDesarrollamos sistemas de construcción industrializada, offsite y prefabricación avanzada, aplicando inteligencia artificial, BIM y procesos productivos optimizados para mejorar plazos, costes, calidad y sostenibilidad en proyectos del sector AECO.\n\nNuestras soluciones están orientadas a edificios residenciales y terciarios, con un enfoque en edificaciones de bajas emisiones, economía circular, diseño desmontable y escalabilidad industrial, adaptables a distintos usos y tipologías.\n\nAtom Modular participa activamente en el ecosistema de innovación en construcción, formando parte de programas estratégicos como el PERTE de Construcción Industrializada de Viviendas, colaborando con el Centre Tecnològic Forestal de Catalunya (CTFC) y siendo reconocida entre las Top 100 Startups Tecnológicas de España por APTE.",
+  "companyType": "Privately Held",
+  "locations": [
+   {
+    "country": "ES",
+    "city": "Grácia",
+    "geographicArea": "Barcelona",
+    "line1": null,
+    "line2": null,
+    "postalCode": "08006",
+    "headquarter": true,
+    "description": "Headquarters",
+    "parsed": {
+     "text": "Barcelona, Spain",
+     "countryCode": "ES",
+     "regionCode": null,
+     "country": "Spain",
+     "countryFull": "Spain",
+     "state": "Catalonia",
+     "city": "Barcelona"
+    }
+   }
+  ],
+  "specialities": [
+   "construcción industrializada",
+   "construcción modular",
+   "construcción en madera"
+  ],
+  "industries": [
+   {
+    "id": "48",
+    "name": "Construction",
+    "urn": "urn:li:fsd_industryV2:48",
+    "title": "Construction",
+    "hierarchy": "Construction"
+   }
+  ],
+  "logos": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFjmIdIFuqSjg/company-logo_400_400/B4DZg.WZWvGQAc-/0/1753392715593/atomodular_logo?e=1794441600&v=beta&t=nhXl3ljiPj-xZlEkvfEHlq1G47vkqp8gMozCB-xHy50",
+    "width": 400,
+    "height": 400
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFjmIdIFuqSjg/company-logo_200_200/B4DZg.WZWvGQAM-/0/1753392715593/atomodular_logo?e=1794441600&v=beta&t=X3w_aokDA4mTMvbP4uvXOOxltmJmjtwfZ68CrHRDXy8",
+    "width": 200,
+    "height": 200
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFjmIdIFuqSjg/company-logo_100_100/B4DZg.WZWvGQAU-/0/1753392715593/atomodular_logo?e=1794441600&v=beta&t=P3VFXKzCLdfTiTCpPxc8fmX004w5CX_EuOrN6ZOpyPI",
+    "width": 100,
+    "height": 100
+   }
+  ],
+  "backgroundCover": "https://media.licdn.com/dms/image/v2/D4D1BAQFlXRdjgQTG7A/company-background_10000/B4DZhbeYcKH4AU-/0/1753881349328/atomodular_cover?e=1793192400&v=beta&t=3tWFjdBYL8Oi4wFkSSPSnu-4L-ErD7FG2JVpveAL9_w",
+  "backgroundCovers": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4D1BAQFlXRdjgQTG7A/company-background_10000/B4DZhbeYcKH4AU-/0/1753881349328/atomodular_cover?e=1793192400&v=beta&t=3tWFjdBYL8Oi4wFkSSPSnu-4L-ErD7FG2JVpveAL9_w",
+    "width": 6768,
+    "height": 1690
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4D1BAQFlXRdjgQTG7A/company-background_400/B4DZhbeYcKH4AY-/0/1753881349328/atomodular_cover?e=1793192400&v=beta&t=J4r77SBawFknR914M1mrISC7GbsH5_os_qXunQDkflo",
+    "width": 400,
+    "height": 99
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4D1BAQFlXRdjgQTG7A/company-background_200/B4DZhbeYcKH4Ac-/0/1753881349328/atomodular_cover?e=1793192400&v=beta&t=A2_t6H-Q--WpjSXkhUZTrGNn3qSmcbpoWk50d72qnag",
+    "width": 200,
+    "height": 49
+   }
+  ],
+  "pageVerified": false,
+  "pageType": "COMPANY",
+  "showcase": false,
+  "paidCompany": false,
+  "autoGenerated": false,
+  "messagingEnabled": false,
+  "similarOrganizations": [
+   {
+    "id": "90429364",
+    "name": "ATOM Modular",
+    "linkedinUrl": "https://www.linkedin.com/company/atom-modular",
+    "followerCount": 1338,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQH5nskyoo9TMg/company-logo_400_400/company-logo_400_400/0/1724390098655/atom_modular_logo?e=1794441600&v=beta&t=U42-iiXmD4pJuMqRZ4DlQMmqTWs9oGgzeX0YcZDBno8"
+   },
+   {
+    "id": "101608174",
+    "name": "Barcelona ConTech Hub",
+    "linkedinUrl": "https://www.linkedin.com/company/barcelona-contech-hub",
+    "followerCount": 2805,
+    "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFL03TgrCqdzQ/company-logo_400_400/company-logo_400_400/0/1707229667950/barcelona_contech_hub_logo?e=1794441600&v=beta&t=ktOTUZCTvJSG9JBDlhkmRpB1YAyXXPAfpKB1SqdBYAc"
+   },
+   {
+    "id": "10536052",
+    "name": "BIM Academy Spain",
+    "linkedinUrl": "https://www.linkedin.com/company/bim-academy-spain",
+    "followerCount": 3199,
+    "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQE58u6X2VqXQg/company-logo_400_400/company-logo_400_400/0/1631351728699?e=1794441600&v=beta&t=7Nw9EpbDMZHU032VT0Rbd-1y-zPALKNPHR6aOzhJ-Ac"
+   }
+  ],
+  "affiliatedPages": [],
+  "peopleStats": [
+   {
+    "statTitle": "Locations",
+    "values": [
+     {
+      "title": "Spain",
+      "count": 6
+     },
+     {
+      "title": "Catalonia, Spain",
+      "count": 5
+     },
+     {
+      "title": "Greater Barcelona Metropolitan Area",
+      "count": 4
+     },
+     {
+      "title": "Argentina",
+      "count": 2
+     },
+     {
+      "title": "Barcelona",
+      "count": 2
+     },
+     {
+      "title": "Esparreguera",
+      "count": 1
+     },
+     {
+      "title": "Córdoba, Argentina",
+      "count": 1
+     },
+     {
+      "title": "Buenos Aires Province, Argentina",
+      "count": 1
+     },
+     {
+      "title": "Cabrils",
+      "count": 1
+     },
+     {
+      "title": "Buenos Aires",
+      "count": 1
+     },
+     {
+      "title": "Cornellà de Llobregat",
+      "count": 1
+     },
+     {
+      "title": "Cordoba",
+      "count": 1
+     },
+     {
+      "title": "Greater Terrassa Area",
+      "count": 1
+     },
+     {
+      "title": "Greater Buenos Aires",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "School",
+    "values": [
+     {
+      "title": "Universitat Politècnica de Catalunya",
+      "count": 2
+     },
+     {
+      "title": "Universitat Internacional de Catalunya",
+      "count": 2
+     },
+     {
+      "title": "Universitat Pompeu Fabra",
+      "count": 2
+     },
+     {
+      "title": "thePower",
+      "count": 1
+     },
+     {
+      "title": "IM Digital Business School",
+      "count": 1
+     },
+     {
+      "title": "Golestan University",
+      "count": 1
+     },
+     {
+      "title": "Universitat Politècnica de València (UPV)",
+      "count": 1
+     },
+     {
+      "title": "UADE",
+      "count": 1
+     },
+     {
+      "title": "Universitat de Vic – Universitat Central de Catalunya",
+      "count": 1
+     },
+     {
+      "title": "UPC School (Universitat Politècnica de Catalunya)",
+      "count": 1
+     },
+     {
+      "title": "Universitat de Barcelona",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Current Function",
+    "values": [
+     {
+      "title": "Marketing",
+      "count": 3
+     },
+     {
+      "title": "Operations",
+      "count": 3
+     },
+     {
+      "title": "Business Development",
+      "count": 3
+     },
+     {
+      "title": "Media and Communication",
+      "count": 2
+     },
+     {
+      "title": "Education",
+      "count": 2
+     },
+     {
+      "title": "Customer Success and Support",
+      "count": 1
+     },
+     {
+      "title": "Arts and Design",
+      "count": 1
+     },
+     {
+      "title": "Entrepreneurship",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Skill Explicit",
+    "values": [
+     {
+      "title": "Microsoft Excel",
+      "count": 5
+     },
+     {
+      "title": "Spanish",
+      "count": 5
+     },
+     {
+      "title": "Communication",
+      "count": 4
+     },
+     {
+      "title": "Comm",
+      "count": 4
+     },
+     {
+      "title": "Marketing",
+      "count": 4
+     },
+     {
+      "title": "Negotiation",
+      "count": 4
+     },
+     {
+      "title": "Microsoft Office",
+      "count": 4
+     },
+     {
+      "title": "Construction",
+      "count": 3
+     },
+     {
+      "title": "Bargaining",
+      "count": 3
+     },
+     {
+      "title": "English",
+      "count": 3
+     },
+     {
+      "title": "Adobe Photoshop",
+      "count": 3
+     },
+     {
+      "title": "Team Management",
+      "count": 3
+     },
+     {
+      "title": "Adobe Illustrator",
+      "count": 3
+     },
+     {
+      "title": "AutoCAD",
+      "count": 2
+     },
+     {
+      "title": "Digital Marketing",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "statTitle": "Service categories",
+    "values": [
+     {
+      "title": "Public Speaking",
+      "count": 1
+     },
+     {
+      "title": "Event Production",
+      "count": 1
+     },
+     {
+      "title": "Events",
+      "count": 1
+     },
+     {
+      "title": "Corporate Training",
+      "count": 1
+     },
+     {
+      "title": "Corporate Events",
+      "count": 1
+     },
+     {
+      "title": "Consulting",
+      "count": 1
+     },
+     {
+      "title": "Management Consulting",
+      "count": 1
+     },
+     {
+      "title": "Career Development Coaching",
+      "count": 1
+     },
+     {
+      "title": "Training",
+      "count": 1
+     },
+     {
+      "title": "Event Planning",
+      "count": 1
+     },
+     {
+      "title": "Change Management",
+      "count": 1
+     },
+     {
+      "title": "Coaching & Mentoring",
+      "count": 1
+     },
+     {
+      "title": "Event Coordination",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Field of Study",
+    "values": [
+     {
+      "title": "Architecture",
+      "count": 2
+     },
+     {
+      "title": "Communication, General",
+      "count": 2
+     },
+     {
+      "title": "Marketing",
+      "count": 2
+     },
+     {
+      "title": "Journalism",
+      "count": 1
+     },
+     {
+      "title": "Publishing",
+      "count": 1
+     },
+     {
+      "title": "Computer Systems Networking and Telecommunications",
+      "count": 1
+     },
+     {
+      "title": "Computer Software Technology/Technician",
+      "count": 1
+     },
+     {
+      "title": "Sustainability Studies",
+      "count": 1
+     },
+     {
+      "title": "Graphic Design",
+      "count": 1
+     },
+     {
+      "title": "Business/Commerce, General",
+      "count": 1
+     },
+     {
+      "title": "Management Science",
+      "count": 1
+     },
+     {
+      "title": "International Cooperation",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "originalQuery": {
+   "search": "atom-modular.com",
+   "location": ""
+  },
+  "requestId": "b8ffa38d-20b0-486e-a550-a5328167e151"
+ }
+]

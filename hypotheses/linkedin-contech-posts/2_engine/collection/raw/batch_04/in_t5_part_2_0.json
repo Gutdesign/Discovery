@@ -1,0 +1,11 @@
+{
+ "targetUrls": [
+  "https://www.linkedin.com/in/hansvermeulen1"
+ ],
+ "maxPosts": 30,
+ "postedLimitDate": "2025-10-21",
+ "includeReposts": true,
+ "includeQuotePosts": true,
+ "scrapeReactions": false,
+ "scrapeComments": false
+}
