@@ -1,0 +1,29 @@
+{
+ "targetUrls": [
+  "https://www.linkedin.com/in/michael-ding-933185189",
+  "https://www.linkedin.com/in/seantaydc",
+  "https://www.linkedin.com/in/juliette-ulaga",
+  "https://www.linkedin.com/in/ottis-pendergraft-3bb845267",
+  "https://www.linkedin.com/in/chenlingchuang",
+  "https://www.linkedin.com/in/blag",
+  "https://www.linkedin.com/in/gustav-hammarlund",
+  "https://www.linkedin.com/in/luc-adamson-494a6776",
+  "https://www.linkedin.com/in/dryd",
+  "https://www.linkedin.com/in/antonjuric",
+  "https://www.linkedin.com/in/niklaslindgren-endra",
+  "https://www.linkedin.com/in/bsofman",
+  "https://www.linkedin.com/in/tomeliaz",
+  "https://www.linkedin.com/in/vincent-gonguet",
+  "https://www.linkedin.com/in/garberdavid",
+  "https://www.linkedin.com/in/ajaygummalla",
+  "https://www.linkedin.com/in/purplos",
+  "https://www.linkedin.com/in/saurabh-ladha-3b801812",
+  "https://www.linkedin.com/in/pedro-silva-597156125"
+ ],
+ "maxPosts": 30,
+ "postedLimitDate": "2025-10-21",
+ "includeReposts": true,
+ "includeQuotePosts": true,
+ "scrapeReactions": false,
+ "scrapeComments": false
+}

@@ -1,0 +1,26 @@
+{
+ "companies": [
+  "https://www.linkedin.com/company/bobyard/",
+  "https://www.linkedin.com/company/ai-1001/",
+  "https://www.linkedin.com/company/endraai/",
+  "https://www.linkedin.com/company/bedrock-robotics/",
+  "https://www.linkedin.com/company/xpanner/",
+  "https://www.linkedin.com/company/doxel-sr-autonomous-inc.-/"
+ ],
+ "companyBatchMode": "one_by_one",
+ "jobTitles": [
+  "CEO",
+  "Founder",
+  "Co-Founder",
+  "Chief Product Officer",
+  "Head of Product",
+  "Product Manager",
+  "Head of AI",
+  "AI Lead",
+  "Chief AI Officer",
+  "Digital Transformation"
+ ],
+ "profileScraperMode": "Full ($8 per 1k)",
+ "maxItemsPerCompany": 5,
+ "maxItems": 36
+}

@@ -1,0 +1,2519 @@
+[
+ {
+  "id": "1468926",
+  "universalName": "monumental-sports-&-entertainment",
+  "linkedinUrl": "https://www.linkedin.com/company/monumental-sports-&-entertainment/",
+  "name": "Monumental Sports & Entertainment",
+  "tagline": "America’s leading sports and entertainment company",
+  "website": "http://www.monumentalsports.com/",
+  "callToActionUrl": "https://monumentalsports.com/",
+  "phone": null,
+  "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQGm_mwQ-H8hEw/company-logo_400_400/company-logo_400_400/0/1631292701588/monumental_sports__entertainment_logo?e=1794441600&v=beta&t=RbcStB-SO-DI7p6iew2R1HCFJ0kFoSDD3BamP3uPCIA",
+  "employeeCount": 1053,
+  "employeeCountRange": {
+   "start": 1001,
+   "end": 5000
+  },
+  "followerCount": 60468,
+  "description": "Monumental Sports & Entertainment (MSE), located in Washington, DC, and named a 2018 Washington Post Top Workplace, is one of the largest integrated sports and entertainment companies in the country with one of the most diverse partnership groups in all of sports. MSE owns and operates five professional sports teams: NBA's Washington Wizards, NBA G League’s Capital City Go-Go, NBA 2K League’s Wizards District Gaming, the 2018 NHL STANLEY CUP CHAMPION Washington Capitals and the WNBA's Washington Mystics. The company is also co-owner of aXiomatic, which has controlling interest in global esports franchise Team Liquid, and owns and operates Capital One Arena. Monumental Sports & Entertainment also manages MedStar Capitals Iceplex, the state-of-the-art training facility for the Capitals and EagleBank Arena on George Mason University's campus. Monumental Sports & Entertainment also co-owns and operates Monumental Sports Network (MSN) with the NBC Sports Group. MSN is the mid-Atlantic region’s top destination for exclusive fan experiences and original sports content across desktop, tablet, mobile and OTT streaming devices.\n\n Visit www.monumentalsports.com.",
+  "companyType": "Privately Held",
+  "locations": [
+   {
+    "country": "US",
+    "city": "Washington",
+    "geographicArea": "DC",
+    "line1": "601 F Street, NW",
+    "line2": null,
+    "postalCode": "20004",
+    "headquarter": true,
+    "description": "Capital One Arena",
+    "parsed": {
+     "text": "Washington, DC, United States",
+     "countryCode": "US",
+     "regionCode": null,
+     "country": "United States",
+     "countryFull": "United States of America",
+     "state": "District of Columbia",
+     "city": "Washington"
+    }
+   }
+  ],
+  "specialities": [],
+  "industries": [
+   {
+    "id": "33",
+    "name": "Spectator Sports",
+    "urn": "urn:li:fsd_industryV2:33",
+    "title": "Spectator Sports",
+    "hierarchy": "Entertainment Providers > Performing Arts and Spectator Sports > Spectator Sports"
+   }
+  ],
+  "logos": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGm_mwQ-H8hEw/company-logo_400_400/company-logo_400_400/0/1631292701588/monumental_sports__entertainment_logo?e=1794441600&v=beta&t=RbcStB-SO-DI7p6iew2R1HCFJ0kFoSDD3BamP3uPCIA",
+    "width": 400,
+    "height": 400
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGm_mwQ-H8hEw/company-logo_200_200/company-logo_200_200/0/1631292701588/monumental_sports__entertainment_logo?e=1794441600&v=beta&t=89-tBru8YhjbGtpq8W3X0sdUDr1_qcou9y5c14O6Z6c",
+    "width": 200,
+    "height": 200
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGm_mwQ-H8hEw/company-logo_100_100/company-logo_100_100/0/1631292701588/monumental_sports__entertainment_logo?e=1794441600&v=beta&t=2ytzU1dmMC8D5OnpvoslS2Ov2koXUHjrphwXL_gO_RY",
+    "width": 100,
+    "height": 100
+   }
+  ],
+  "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQGkyfcCbgi5QA/company-background_10000/B4EZpVfo8cGoAc-/0/1762370949275/monumental_sports__entertainment_cover?e=1793192400&v=beta&t=1B-YOEpm9QUslItsVSNHt6TK_o6emwaJ7pslrKJf954",
+  "backgroundCovers": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E1BAQGkyfcCbgi5QA/company-background_10000/B4EZpVfo8cGoAc-/0/1762370949275/monumental_sports__entertainment_cover?e=1793192400&v=beta&t=1B-YOEpm9QUslItsVSNHt6TK_o6emwaJ7pslrKJf954",
+    "width": 1584,
+    "height": 396
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E1BAQGkyfcCbgi5QA/company-background_400/B4EZpVfo8cGoAg-/0/1762370949275/monumental_sports__entertainment_cover?e=1793192400&v=beta&t=rq40qTA5UsHtB-8O-zbUW7W3C1_6VBjYfQ47ALsNc-E",
+    "width": 400,
+    "height": 100
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E1BAQGkyfcCbgi5QA/company-background_200/B4EZpVfo8cGoAk-/0/1762370949275/monumental_sports__entertainment_cover?e=1793192400&v=beta&t=BDU3n5JCl0ZgA7IdB3vzFe8tzXCYHoKkZCzQS6ZYJmY",
+    "width": 200,
+    "height": 50
+   }
+  ],
+  "active": true,
+  "jobSearchUrl": "https://www.linkedin.com/jobs/search?geoId=92000000&f_C=1468926",
+  "pageVerified": true,
+  "pageType": "COMPANY",
+  "showcase": false,
+  "paidCompany": false,
+  "autoGenerated": false,
+  "messagingEnabled": true,
+  "similarOrganizations": [
+   {
+    "id": "4544",
+    "universalName": "nfl-films",
+    "linkedinUrl": "https://www.linkedin.com/showcase/nfl-films/",
+    "name": "NFL Films",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQFTyBp_N6M6Ew/company-logo_400_400/company-logo_400_400/0/1722957273194/nfl_films_logo?e=1794441600&v=beta&t=jL60gxr7a6MMTVlEgZEyrYXuqZYptdBVnPIsN2PLVcI",
+    "employeeCountRange": {
+     "start": 1001,
+     "end": 5000
+    },
+    "followerCount": 27504,
+    "description": "NFL Films is widely recognized as the most honored filmmaker in Sports and continues to produce innovative franchises and documentaries across multiple networks and platforms, including Quarterback on Netflix, Hard Knocks on HBO/Max, Peyton’s Places on ESPN+, eight 30 for 30 films on ESPN, and recent premium programming across Amazon Prime Video, Hulu, Peacock, Paramount+, MGM+, Fox, NBC, CBS, NFL Network, NFL+ and The Roku Channel. With 138 Sports Emmy Awards to its credit, NFL Films remains a gold standard in premium sports content, providing an elevated, connected viewer experience with unprecedented access to the athlete story.",
+    "industries": [
+     {
+      "id": "36",
+      "name": "Broadcast Media Production and Distribution",
+      "urn": "urn:li:fsd_industryV2:36",
+      "title": "Broadcast Media Production and Distribution",
+      "hierarchy": "Technology, Information and Media > Media and Telecommunications > Broadcast Media Production and Distribution"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/C561BAQGwEpTa3s0kSw/company-background_10000/company-background_10000/0/1585293930210/nfl_films_cover?e=1793192400&v=beta&t=Z6AkEF2GARx2cU2_b5RQyJNZ7igFA4W5y930YTNOxFs",
+    "affiliatedPages": []
+   },
+   {
+    "id": "106523189",
+    "universalName": "wise-dc",
+    "linkedinUrl": "https://www.linkedin.com/company/wise-dc/",
+    "name": "WISE DC",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQHjmvFypfsIPg/company-logo_400_400/B4EZV4CqbzGwAY-/0/1741475719191?e=1794441600&v=beta&t=XsgpZna-gXF2JZMhhxFsJqyXhVhUgZj6vefkGHL5XOM",
+    "employeeCountRange": {
+     "start": 51,
+     "end": 200
+    },
+    "followerCount": 366,
+    "description": "The leading voice and resource for professional women in sports business. Serving Washington DC and the surrounding areas since 1995.",
+    "industries": [
+     {
+      "id": "33",
+      "name": "Spectator Sports",
+      "urn": "urn:li:fsd_industryV2:33",
+      "title": "Spectator Sports",
+      "hierarchy": "Entertainment Providers > Performing Arts and Spectator Sports > Spectator Sports"
+     }
+    ],
+    "affiliatedPages": []
+   },
+   {
+    "id": "96663154",
+    "universalName": "thepwhlofficial",
+    "linkedinUrl": "https://www.linkedin.com/company/thepwhlofficial/",
+    "name": "PWHL",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGBezzSfmTJ5A/company-logo_400_400/B4EZ8d0nITHAAU-/0/1782911759184/thepwhlofficial_logo?e=1794441600&v=beta&t=ZVk3KCCXx9gDvVn3iUCpVJAB10hNGazM2KnsLYp3hOY",
+    "employeeCountRange": {
+     "start": 201,
+     "end": 500
+    },
+    "followerCount": 39728,
+    "description": "The PWHL is first-of-its-kind women’s hockey league that brings together the best players in the world. Our league is comprised of eight teams in North America, including the Boston Fleet, Minnesota Frost, Montréal Victoire, New York Sirens, Ottawa Charge, Seattle Torrent, Toronto Sceptres and Vancouver Goldeneyes.",
+    "industries": [
+     {
+      "id": "33",
+      "name": "Spectator Sports",
+      "urn": "urn:li:fsd_industryV2:33",
+      "title": "Spectator Sports",
+      "hierarchy": "Entertainment Providers > Performing Arts and Spectator Sports > Spectator Sports"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQHsvuT46-EvyQ/company-background_10000/B4EZ8d0kRHHwAI-/0/1782911747674/thepwhlofficial_cover?e=1793192400&v=beta&t=MebFNbPIwPCB155EKZloFI3ILHVnyArcnVr3yM-CX5Q",
+    "affiliatedPages": []
+   },
+   {
+    "id": "100573855",
+    "universalName": "latenighter",
+    "linkedinUrl": "https://www.linkedin.com/company/latenighter/",
+    "name": "LateNighter",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQGz3ZK-IKPakA/company-logo_400_400/company-logo_400_400/0/1709415145543?e=1794441600&v=beta&t=_EDp1RyuFXdL1J0fXpnMGuaaOQuUTfJIEJWsfmETjnE",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 826,
+    "description": null,
+    "industries": [
+     {
+      "id": "3132",
+      "name": "Internet Publishing",
+      "urn": "urn:li:fsd_industryV2:3132",
+      "title": "Internet Publishing",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Information Services > Internet Publishing"
+     }
+    ],
+    "affiliatedPages": []
+   },
+   {
+    "id": "86441",
+    "universalName": "washington-mystics",
+    "linkedinUrl": "https://www.linkedin.com/company/washington-mystics/",
+    "name": "Washington Mystics",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQHRsN8Lb7P_YQ/company-logo_400_400/B4EaBdLvIsHkAU-/0/1788269753146/washington_mystics_logo?e=1794441600&v=beta&t=ZVv9uvTzQl50yO82kjnag3oFb3fSv5ykxiQKh6mLi6o",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 3717,
+    "description": "The Washington Mystics entered into history on Nov. 11, 1997, when the Women’s National Basketball Association (WNBA) announced that Washington, D.C., would join the league for the 1998 season as one of the first expansion cities. The Mystics have made the playoffs numerous times. In 2018, the team matched its best regular season record (22-12) while earning their first trip to the WNBA Finals. In 2019, the Mystics won their first-ever WNBA Championship.  Washington has been the host city for the 2002 and 2007 All-Star Games.",
+    "industries": [
+     {
+      "id": "33",
+      "name": "Spectator Sports",
+      "urn": "urn:li:fsd_industryV2:33",
+      "title": "Spectator Sports",
+      "hierarchy": "Entertainment Providers > Performing Arts and Spectator Sports > Spectator Sports"
+     }
+    ],
+    "affiliatedPages": []
+   },
+   {
+    "id": "2399650",
+    "universalName": "arkansas-outside",
+    "linkedinUrl": "https://www.linkedin.com/company/arkansas-outside/",
+    "name": "Arkansas Outside",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQFaLU5shFPNFw/company-logo_400_400/company-logo_400_400/0/1733946097373/arkansas_outside_logo?e=1794441600&v=beta&t=lFiTRUbzXW-gIOol_8OEwSiWjRgHqGTSgzNvZ4CBCxk",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 2752,
+    "description": "A resource for those interested in outdoor recreation in Arkansas complete with reviews, stories and a calendar of events for participatory sports in the Natural State. Bookmark us, subscribe, add us to your news feed and search for the events you want to participate in. We specialize in coverage of adventure races, mountain biking and road cycling events, on and off road running, triathlons and paddling, hiking and backpacking destinations in Arkansas.",
+    "industries": [
+     {
+      "id": "36",
+      "name": "Broadcast Media Production and Distribution",
+      "urn": "urn:li:fsd_industryV2:36",
+      "title": "Broadcast Media Production and Distribution",
+      "hierarchy": "Technology, Information and Media > Media and Telecommunications > Broadcast Media Production and Distribution"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQHtAB1icCb_rA/company-background_10000/company-background_10000/0/1733945989595/arkansas_outside_cover?e=1793192400&v=beta&t=bj0WndDo-G72uH1zOAZL_GEG2qRuAgjN1sYdAWJiouE",
+    "affiliatedPages": []
+   },
+   {
+    "id": "101714698",
+    "universalName": "sportsintern",
+    "linkedinUrl": "https://www.linkedin.com/company/sportsintern/",
+    "name": "The Sports Intern",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQEXCVv-FpFgXg/company-logo_400_400/company-logo_400_400/0/1719257436049?e=1794441600&v=beta&t=os8jWnGA1pY8Y7HAq4Ai9hP3O22SxWyr_0KFmu6qlyI",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 41650,
+    "description": "The Sports Intern (TSI) provides students with resources, insights, and tools to effectively find and navigate internships and develop skills for a career in the sports industry.",
+    "industries": [
+     {
+      "id": "33",
+      "name": "Spectator Sports",
+      "urn": "urn:li:fsd_industryV2:33",
+      "title": "Spectator Sports",
+      "hierarchy": "Entertainment Providers > Performing Arts and Spectator Sports > Spectator Sports"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQGlAaV1RAQ6CQ/company-background_10000/company-background_10000/0/1719270377702/sports_intern_cover?e=1793192400&v=beta&t=MRwsqI4HG_RXlc-xNRFS2YtnZGu9HfSdZeZCoRj1N3s",
+    "affiliatedPages": []
+   },
+   {
+    "id": "10043135",
+    "universalName": "makeawishmidatlantic",
+    "linkedinUrl": "https://www.linkedin.com/company/makeawishmidatlantic/",
+    "name": "Make-A-Wish Mid-Atlantic",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C510BAQG6dEIm4MkuEw/company-logo_400_400/company-logo_400_400/0/1631392282783?e=1794441600&v=beta&t=9nTP1bVE0hTiEMuxe5QfnOonvwYltybDJf-ZlSzGtpM",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 2538,
+    "description": "Together, we create life-changing wishes for children fighting critical illnesses in Maryland, D.C. and northern Virginia. Founded in 1983, Make-A-Wish® Mid-Atlantic has granted over 12,300 wishes in the Mid-Atlantic region since its inception. \n\nThis year alone, 840 local children are expected to be diagnosed with a critical illness. However, for every wish granted, at least one local child is waiting. The community has the opportunity to make an impact today by helping Make-A-Wish to reach hundreds of kids whose wishes would go otherwise go unanswered this year. For more information, please visit: wish.org/midatlantic.",
+    "industries": [
+     {
+      "id": "100",
+      "name": "Non-profit Organizations",
+      "urn": "urn:li:fsd_industryV2:100",
+      "title": "Non-profit Organizations",
+      "hierarchy": "Consumer Services > Non-profit Organizations"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQH4_KkEdLNBNQ/company-background_10000/B4EZ30sW0GJMAM-/0/1777926762057/make_a_wish_mid_atlantic_cover?e=1793192400&v=beta&t=oyKaTu1YdFGAK-ezvxFjF4qkIr2Dud5MTc5u90Mhi3c",
+    "affiliatedPages": []
+   },
+   {
+    "id": "106860969",
+    "universalName": "stinger-hospitality",
+    "linkedinUrl": "https://www.linkedin.com/company/stinger-hospitality/",
+    "name": "Stinger Hospitality",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGR7BJPqsUzcg/company-logo_400_400/B4EZY3RRsvHkAY-/0/1744683998322?e=1794441600&v=beta&t=yM7V2VBgFNPwR7hzeY1_hJC5m9wKvvybxwO1aWZevQk",
+    "employeeCountRange": {
+     "start": 51,
+     "end": 200
+    },
+    "followerCount": 1234,
+    "description": "Stinger Hospitality was created to represent strong brands in venues and redefine F&B subcontracting standards. Stinger’s team brings over 75 years of experience in managing Sports & Hospitality operations across renowned venues with companies such as Aramark, Levy, DNC, OVG, and Legends.\n\nUsing our extensive background in the hospitality and venue management industry, we aim to provide brands with exceptional representation for their products at venues, all while staying true to their company vision.\n\nWhether its Stadium & Venue Food Service, Brand Marketing and Promotion or Concept Creation/ Execution...\"You throw us a zinger...we'll hit a dinger\"\n",
+    "industries": [
+     {
+      "id": "34",
+      "name": "Food and Beverage Services",
+      "urn": "urn:li:fsd_industryV2:34",
+      "title": "Food and Beverage Services",
+      "hierarchy": "Accommodation Services > Food and Beverage Services"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQFk91d9eTY8tQ/company-background_10000/B4EZevdy6PHYAU-/0/1750995513621/stinger_hospitality_cover?e=1793192400&v=beta&t=XdyL1kIuFpg9CuM06Z5R9jFlemRgYWXFCa-FRKhcQaY",
+    "affiliatedPages": []
+   },
+   {
+    "id": "86899616",
+    "universalName": "tmrw-sports",
+    "linkedinUrl": "https://www.linkedin.com/company/tmrw-sports/",
+    "name": "TMRW Sports",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQFWIz8Uizd8Nw/company-logo_400_400/company-logo_400_400/0/1659534041318/tmrw_sports_logo?e=1794441600&v=beta&t=E8TQHzGIl2l-Fko-f4FLtR2x3Baea1MO2qQMVC8DB0I",
+    "employeeCountRange": {
+     "start": 51,
+     "end": 200
+    },
+    "followerCount": 28761,
+    "description": "Building progressive approaches in sports, media, and entertainment. ",
+    "industries": [
+     {
+      "id": "33",
+      "name": "Spectator Sports",
+      "urn": "urn:li:fsd_industryV2:33",
+      "title": "Spectator Sports",
+      "hierarchy": "Entertainment Providers > Performing Arts and Spectator Sports > Spectator Sports"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQFYiZLdkuA0sQ/company-background_10000/company-background_10000/0/1659534026133/tmrw_sports_cover?e=1793192400&v=beta&t=qEgIhyJJSSetveAxNBL5dYN5lTctFwhDhI0EjoVaQFo",
+    "affiliatedPages": []
+   },
+   {
+    "id": "89194224",
+    "universalName": "orbyfy",
+    "linkedinUrl": "https://www.linkedin.com/company/orbyfy/",
+    "name": "Orbyfy™️ Earthflow 🌎",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFuw7BX24om5g/company-logo_400_400/B4EZzE2C_6KkAY-/0/1772829029125/orbyfy_logo?e=1794441600&v=beta&t=FAkbv_BwmmOHModQq1dHHpa8APXlOdL-7I5kteKgBqA",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 461,
+    "description": "Orbyfy™ Earthflow 🌍 — a Physics-AI living digital twin for primary medium-voltage underground distribution cable.\n\nThere are ~1.1 million miles of underground distribution cable in the U.S., and utilities essentially can't see any of it — so cable is replaced on age, not evidence, while an underground fault costs 3–4× an overhead one to restore. You can't put a sensor on miles of buried cable, but you can compute its condition.\n\nEarthflow Underground acts as a virtual sensor on every buried segment. From a utility's own data (asset registry, outage history, feeder loading) fused with our environmental-intelligence layer, we score every segment for condition, remaining useful life, and capacity headroom — with no new sensors and no rip-and-replace. Utilities see where to underground, where to test next, what to replace, and where capacity runs out — segment by segment, refreshed monthly.\n\nBenchmarked blind against every publicly implementable alternative — regulator methods, the academic state of the art, and the age baseline — Earthflow captured 76% of the cables that went on to fail in its top-10% list, and named 9 of the top 10 worst cables that failed over the next two years. Physics-informed, not black-box: every score is auditable back to the equations and inputs behind it.\n\nModelled impact: up to 10 years of deferred capital and up to 10% off underground O&M.",
+    "industries": [
+     {
+      "id": "59",
+      "name": "Utilities",
+      "urn": "urn:li:fsd_industryV2:59",
+      "title": "Utilities",
+      "hierarchy": "Utilities"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQGCdYYr8YSiKA/company-background_10000/B56aCGUHh5HYAI-/0/1788959816237/orbyfy_cover?e=1793192400&v=beta&t=dJov80P6QdECwqB2Z6CLY0rtvBbXaz_YDedxyEpWgls",
+    "affiliatedPages": []
+   },
+   {
+    "id": "751307",
+    "universalName": "excel-sports-management",
+    "linkedinUrl": "https://www.linkedin.com/company/excel-sports-management/",
+    "name": "Excel Sports Management",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQH8XKzstpsIMg/company-logo_400_400/company-logo_400_400/0/1631311598946?e=1794441600&v=beta&t=nPX9v8zTv3fEl9huOgONoqe9unM9iBSZUWa4_uEZc0Q",
+    "employeeCountRange": {
+     "start": 51,
+     "end": 200
+    },
+    "followerCount": 141527,
+    "description": "Excel Sports Management is an industry-leading management and marketing agency that represents top-tier talent, blue-chip brands and marquee properties. Established in 2002, Excel is based in New York City and has offices in Los Angeles, Miami, Dallas, Chicago and London .",
+    "industries": [
+     {
+      "id": "33",
+      "name": "Spectator Sports",
+      "urn": "urn:li:fsd_industryV2:33",
+      "title": "Spectator Sports",
+      "hierarchy": "Entertainment Providers > Performing Arts and Spectator Sports > Spectator Sports"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/C4E1BAQHtYCU_MPa1hQ/company-background_1536_768/company-background_1536_768/0/1584031298197?e=1793192400&v=beta&t=DIF6cblizCa7pU0sSLRc_--zGREHEqWtqq_3rCisuDM",
+    "affiliatedPages": []
+   }
+  ],
+  "affiliatedPages": [
+   {
+    "id": "104413",
+    "universalName": "national-basketball-association",
+    "linkedinUrl": "https://www.linkedin.com/company/national-basketball-association",
+    "name": "National Basketball Association (NBA)",
+    "website": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFcqqv3IfyG_w/company-logo_400_400/B4EZxteWUGIYAY-/0/1771363198502/national_basketball_association_logo?e=1794441600&v=beta&t=SBtzIOi2r1xoqGXaNX8UFU7yFGpJ_8g2QRyQGL83weY",
+    "followerCount": 60468,
+    "description": "The National Basketball Association (NBA) is a global sports and media organization with the mission to inspire and connect people everywhere through the power of basketball. Built around five professional sports leagues:  the NBA, WNBA, NBA G League, NBA 2K League and Basketball Africa League, the NBA has established a major international presence with games and programming available in 214 countries and territories in more than 50 languages, and merchandise for sale in more than 200 countries and territories on all seven continents. NBA rosters at the start of the 2026-27 season featured 125 international players from a record-tying 43 countries across six continents. The NBA’s digital assets include NBA TV, NBA.com, the NBA App and NBA League Pass. The NBA has created one of the largest social media communities in the world, with more than 2.5 billion likes and followers globally across all leagues, team and player platforms. The NBA’s Tap to Watch provides seamless access to local, national and global live game telecasts via the NBA App, NBA.com, third-party digital platforms and NBA partner platforms. NBA Cares, the NBA’s global social impact platform, drives change on issues facing fans and communities in the areas of health and wellness, civic engagement, social justice and inclusion, and sustainability.",
+    "industries": [
+     {
+      "id": "33",
+      "name": "Spectator Sports",
+      "urn": "urn:li:fs_industry:33",
+      "title": "Spectator Sports",
+      "hierarchy": "Entertainment Providers > Performing Arts and Spectator Sports > Spectator Sports"
+     }
+    ],
+    "logos": [
+     {
+      "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFcqqv3IfyG_w/company-logo_400_400/B4EZxteWUGIYAY-/0/1771363198502/national_basketball_association_logo?e=1794441600&v=beta&t=SBtzIOi2r1xoqGXaNX8UFU7yFGpJ_8g2QRyQGL83weY",
+      "width": 400,
+      "height": 400
+     },
+     {
+      "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFcqqv3IfyG_w/company-logo_200_200/B4EZxteWUGIYAI-/0/1771363198502/national_basketball_association_logo?e=1794441600&v=beta&t=NHdGfsH8kLtJG8auilYRr1a6DGh8Afj3mQio4pNsS_M",
+      "width": 200,
+      "height": 200
+     },
+     {
+      "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFcqqv3IfyG_w/company-logo_100_100/B4EZxteWUGIYAQ-/0/1771363198502/national_basketball_association_logo?e=1794441600&v=beta&t=px7pSOnKVWrBgwKw8u28eOaJUs3a5RABniVHpM5nWqo",
+      "width": 100,
+      "height": 100
+     }
+    ],
+    "showcase": false,
+    "paidCompany": true
+   }
+  ],
+  "peopleStats": [
+   {
+    "statTitle": "Locations",
+    "values": [
+     {
+      "title": "United States",
+      "count": 1021
+     },
+     {
+      "title": "Washington DC-Baltimore Area",
+      "count": 898
+     },
+     {
+      "title": "District of Columbia, United States",
+      "count": 382
+     },
+     {
+      "title": "Washington, DC",
+      "count": 382
+     },
+     {
+      "title": "Maryland, United States",
+      "count": 287
+     },
+     {
+      "title": "Virginia, United States",
+      "count": 241
+     },
+     {
+      "title": "Arlington, VA",
+      "count": 58
+     },
+     {
+      "title": "Fairfax, VA",
+      "count": 34
+     },
+     {
+      "title": "India",
+      "count": 32
+     },
+     {
+      "title": "Alexandria, VA",
+      "count": 29
+     },
+     {
+      "title": "Upper Marlboro, MD",
+      "count": 24
+     },
+     {
+      "title": "New York City Metropolitan Area",
+      "count": 23
+     },
+     {
+      "title": "Bowie, MD",
+      "count": 21
+     },
+     {
+      "title": "Silver Spring, MD",
+      "count": 21
+     },
+     {
+      "title": "New York, United States",
+      "count": 19
+     }
+    ]
+   },
+   {
+    "statTitle": "School",
+    "values": [
+     {
+      "title": "George Mason University",
+      "count": 56
+     },
+     {
+      "title": "University of Maryland",
+      "count": 53
+     },
+     {
+      "title": "Georgetown University",
+      "count": 42
+     },
+     {
+      "title": "James Madison University",
+      "count": 28
+     },
+     {
+      "title": "The George Washington University",
+      "count": 26
+     },
+     {
+      "title": "Northern Virginia Community College",
+      "count": 24
+     },
+     {
+      "title": "Towson University",
+      "count": 23
+     },
+     {
+      "title": "Montgomery College",
+      "count": 22
+     },
+     {
+      "title": "Bowie State University",
+      "count": 22
+     },
+     {
+      "title": "University of Maryland Global Campus",
+      "count": 19
+     },
+     {
+      "title": "West Virginia University",
+      "count": 17
+     },
+     {
+      "title": "Morgan State University",
+      "count": 16
+     },
+     {
+      "title": "Prince George's Community College",
+      "count": 14
+     },
+     {
+      "title": "Temple University",
+      "count": 14
+     },
+     {
+      "title": "American University",
+      "count": 14
+     }
+    ]
+   },
+   {
+    "statTitle": "Current Function",
+    "values": [
+     {
+      "title": "Operations",
+      "count": 324
+     },
+     {
+      "title": "Media and Communication",
+      "count": 217
+     },
+     {
+      "title": "Arts and Design",
+      "count": 181
+     },
+     {
+      "title": "Community and Social Services",
+      "count": 139
+     },
+     {
+      "title": "Business Development",
+      "count": 108
+     },
+     {
+      "title": "Customer Success and Support",
+      "count": 106
+     },
+     {
+      "title": "Marketing",
+      "count": 103
+     },
+     {
+      "title": "Sales",
+      "count": 98
+     },
+     {
+      "title": "Education",
+      "count": 78
+     },
+     {
+      "title": "Information Technology",
+      "count": 75
+     },
+     {
+      "title": "Administrative",
+      "count": 68
+     },
+     {
+      "title": "Engineering",
+      "count": 51
+     },
+     {
+      "title": "Military and Protective Services",
+      "count": 45
+     },
+     {
+      "title": "Human Resources",
+      "count": 31
+     },
+     {
+      "title": "Healthcare Services",
+      "count": 26
+     }
+    ]
+   },
+   {
+    "statTitle": "Skill Explicit",
+    "values": [
+     {
+      "title": "Customer Service",
+      "count": 350
+     },
+     {
+      "title": "Social Media",
+      "count": 332
+     },
+     {
+      "title": "Microsoft Office",
+      "count": 326
+     },
+     {
+      "title": "Leadership",
+      "count": 319
+     },
+     {
+      "title": "Communication",
+      "count": 285
+     },
+     {
+      "title": "Microsoft Excel",
+      "count": 241
+     },
+     {
+      "title": "Public Speaking",
+      "count": 225
+     },
+     {
+      "title": "Event Planning",
+      "count": 220
+     },
+     {
+      "title": "Teamwork",
+      "count": 209
+     },
+     {
+      "title": "Marketing",
+      "count": 208
+     },
+     {
+      "title": "Microsoft PowerPoint",
+      "count": 203
+     },
+     {
+      "title": "Microsoft Word",
+      "count": 181
+     },
+     {
+      "title": "Time Management",
+      "count": 179
+     },
+     {
+      "title": "Event Management",
+      "count": 170
+     },
+     {
+      "title": "Social Media Marketing",
+      "count": 164
+     }
+    ]
+   },
+   {
+    "statTitle": "Service categories",
+    "values": [
+     {
+      "title": "Events",
+      "count": 17
+     },
+     {
+      "title": "Operations",
+      "count": 12
+     },
+     {
+      "title": "Consulting",
+      "count": 11
+     },
+     {
+      "title": "Marketing",
+      "count": 9
+     },
+     {
+      "title": "Design",
+      "count": 8
+     },
+     {
+      "title": "Photography",
+      "count": 7
+     },
+     {
+      "title": "Coaching & Mentoring",
+      "count": 7
+     },
+     {
+      "title": "Customer Service",
+      "count": 7
+     },
+     {
+      "title": "Live Events",
+      "count": 6
+     },
+     {
+      "title": "Training",
+      "count": 6
+     },
+     {
+      "title": "Writing",
+      "count": 6
+     },
+     {
+      "title": "Team Building",
+      "count": 5
+     },
+     {
+      "title": "Video Production",
+      "count": 5
+     },
+     {
+      "title": "Video Editing",
+      "count": 5
+     },
+     {
+      "title": "Audio Engineering",
+      "count": 5
+     }
+    ]
+   },
+   {
+    "statTitle": "Field of Study",
+    "values": [
+     {
+      "title": "Sport and Fitness Administration/Management",
+      "count": 115
+     },
+     {
+      "title": "Sports Studies",
+      "count": 74
+     },
+     {
+      "title": "Business Administration and Management, General",
+      "count": 74
+     },
+     {
+      "title": "Mass Communication/Media Studies",
+      "count": 68
+     },
+     {
+      "title": "Marketing",
+      "count": 59
+     },
+     {
+      "title": "Political Science and Government",
+      "count": 36
+     },
+     {
+      "title": "Journalism",
+      "count": 35
+     },
+     {
+      "title": "Film/Cinema/Video Studies",
+      "count": 34
+     },
+     {
+      "title": "Business/Commerce, General",
+      "count": 34
+     },
+     {
+      "title": "Communication and Media Studies",
+      "count": 32
+     },
+     {
+      "title": "General Studies",
+      "count": 28
+     },
+     {
+      "title": "Communication, General",
+      "count": 26
+     },
+     {
+      "title": "Economics",
+      "count": 26
+     },
+     {
+      "title": "Broadcast Journalism",
+      "count": 25
+     },
+     {
+      "title": "Finance, General",
+      "count": 19
+     }
+    ]
+   }
+  ],
+  "originalQuery": {
+   "search": "Monumental",
+   "location": ""
+  },
+  "requestId": "de633d95-c3e6-48de-97a7-839ab988c515"
+ },
+ {
+  "id": "76836387",
+  "universalName": "gainforesight",
+  "linkedinUrl": "https://www.linkedin.com/company/gainforesight/",
+  "name": "Foresight",
+  "tagline": "GTM Intelligence - make every customer-facing person as good as your best one.",
+  "website": "https://www.gainforesight.co/",
+  "callToActionUrl": "https://www.gainforesight.co/",
+  "phone": null,
+  "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQF6Sx38ju3qCw/company-logo_400_400/company-logo_400_400/0/1665437273259/gainforesight_logo?e=1794441600&v=beta&t=duRFI4efMKvTmS4VVJNARJc8332UhJWCO0f1oKbHBlU",
+  "foundedOn": {
+   "month": null,
+   "year": 2021,
+   "day": null
+  },
+  "employeeCount": 16,
+  "employeeCountRange": {
+   "start": 2,
+   "end": 10
+  },
+  "followerCount": 1244,
+  "description": "Foresight is a GTM intelligence platform that processes your existing customer conversations and builds a living intelligence layer - structured around what each customer is actually trying to achieve.\n\nEvery B2B company instruments the buyer journey and goes nearly blind the moment the deal closes. CRMs track activities. Health scores track logins. Call recorders transcribe words. None of them answer the question that actually drives the business: is this customer getting what they came for?\n\nForesight changes that.\n\nWe connect every signal your teams are already generating - calls, support tickets, feedback, value assessments - and synthesize them against the outcomes your customers care about. At the use case level. Across every account. Continuously.\n\nThe result: every rep walks into every conversation fully prepared in minutes, not hours. Your leadership gets evidence-based portfolio intelligence. Your product team gets feature feedback scored by revenue impact. And patterns that were invisible across your portfolio - systemic gaps, expansion opportunities, emerging risks - become obvious.\n\nNot a dashboard. Not a health score. Organizational intelligence that tells your team what to do next.\n\nForesight is built for CS leaders, CROs, and product leaders at B2B SaaS companies who have more customer data than ever and less clarity than ever.\n\nSee what your team is missing → gainforesight.co",
+  "companyType": "Privately Held",
+  "locations": [
+   {
+    "country": "US",
+    "city": "Nashville",
+    "geographicArea": "TN",
+    "line1": null,
+    "line2": null,
+    "postalCode": "37221",
+    "headquarter": true,
+    "description": "Headquarters",
+    "parsed": {
+     "text": "Nashville, TN, United States",
+     "countryCode": "US",
+     "regionCode": null,
+     "country": "United States",
+     "countryFull": "United States of America",
+     "state": "Tennessee",
+     "city": "Nashville"
+    }
+   }
+  ],
+  "specialities": [
+   "SaaS",
+   "CRM",
+   "Sales",
+   "Marketing",
+   "Account Management",
+   "Client Success",
+   "Product",
+   "Product Marketing",
+   "Use Case",
+   "Value Intelligence",
+   "Enterprise Software",
+   "Sales Tech",
+   "Post-Sales Tech"
+  ],
+  "industries": [
+   {
+    "id": "6",
+    "name": "Technology, Information and Internet",
+    "urn": "urn:li:fsd_industryV2:6",
+    "title": "Technology, Information and Internet",
+    "hierarchy": "Technology, Information and Media > Technology, Information and Internet"
+   }
+  ],
+  "logos": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF6Sx38ju3qCw/company-logo_400_400/company-logo_400_400/0/1665437273259/gainforesight_logo?e=1794441600&v=beta&t=duRFI4efMKvTmS4VVJNARJc8332UhJWCO0f1oKbHBlU",
+    "width": 400,
+    "height": 400
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF6Sx38ju3qCw/company-logo_200_200/company-logo_200_200/0/1665437273259/gainforesight_logo?e=1794441600&v=beta&t=RuGZbqTRqDm1XfEKyEnFCR6mcb4NfkBVTe5k2cGATCU",
+    "width": 200,
+    "height": 200
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF6Sx38ju3qCw/company-logo_100_100/company-logo_100_100/0/1665437273259/gainforesight_logo?e=1794441600&v=beta&t=CbZrkaNFHIKFia-kiRPVED0wcn1GJXV2LelCNbUsIvM",
+    "width": 100,
+    "height": 100
+   }
+  ],
+  "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQEhjLrTLoQjWw/company-background_10000/company-background_10000/0/1665437531957/gainforesight_cover?e=1793192400&v=beta&t=Mbo7m0rDn7spE8eY6NxdjFbmSheCU5Sdt35NFuR1ivQ",
+  "backgroundCovers": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E1BAQEhjLrTLoQjWw/company-background_10000/company-background_10000/0/1665437531957/gainforesight_cover?e=1793192400&v=beta&t=Mbo7m0rDn7spE8eY6NxdjFbmSheCU5Sdt35NFuR1ivQ",
+    "width": 1200,
+    "height": 630
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E1BAQEhjLrTLoQjWw/company-background_400/company-background_400/0/1665437531957/gainforesight_cover?e=1793192400&v=beta&t=FgZIVq6g9Zi1z0YecL_lUB1ouIp7-uaRbMiHRPO6mIw",
+    "width": 400,
+    "height": 210
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E1BAQEhjLrTLoQjWw/company-background_200/company-background_200/0/1665437531957/gainforesight_cover?e=1793192400&v=beta&t=5FUcSwMOJtqhMQgk6TP88QA0xCBHey5TJ-fB-TmhbxA",
+    "width": 200,
+    "height": 105
+   }
+  ],
+  "active": true,
+  "jobSearchUrl": "https://www.linkedin.com/jobs/search?geoId=92000000&f_C=76836387",
+  "pageVerified": false,
+  "pageType": "COMPANY",
+  "showcase": false,
+  "paidCompany": false,
+  "autoGenerated": false,
+  "messagingEnabled": true,
+  "similarOrganizations": [
+   {
+    "id": "30782238",
+    "universalName": "edocgen",
+    "linkedinUrl": "https://www.linkedin.com/company/edocgen/",
+    "name": "EDocGen",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C510BAQFUAfBHPP9CYw/company-logo_400_400/company-logo_400_400/0/1630595022701/edocgen_logo?e=1794441600&v=beta&t=uyhJ4-zHEX4uoROQr99Dww8-2l98dMbif282rewukAM",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 445,
+    "description": "SAAS Document generation platform for creation of documents from wide range of data sources. API first product that offers award winning document automation microservice for digital transformation projects. \n\nGenerates documents from Databases, Enterprise Applications, XML, Excel, and JSON data.  Supports all modes of document generation including on-demand, bulk, and interactive.  Using EDocGen, business users can avoid the pain of slow manual error-prone document creation and generate documents utilizing existing templates.",
+    "industries": [
+     {
+      "id": "3101",
+      "name": "Desktop Computing Software Products",
+      "urn": "urn:li:fsd_industryV2:3101",
+      "title": "Desktop Computing Software Products",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Software Development > Desktop Computing Software Products"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/C511BAQErPuaI3kzx9A/company-background_10000/company-background_10000/0/1583927902584/edocgen_cover?e=1793192400&v=beta&t=wG4mC4PwSH9vEbkNTmPzHRVVDQ25hjLXdhkab4a9aaY",
+    "affiliatedPages": []
+   },
+   {
+    "id": "106501800",
+    "universalName": "precept-ai",
+    "linkedinUrl": "https://www.linkedin.com/company/precept-ai/",
+    "name": "Precept AI",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFyi1iFZ3tvLg/company-logo_400_400/B4EZ5pbL6rGwAU-/0/1779885195156/precept_ai_logo?e=1794441600&v=beta&t=2VjUz-OCVBK7loz_vYlkMBM3Jlzr0qmxtJBRCpTWIsU",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 113,
+    "description": "Precept is now a part of Field.\n\nPrecept is the fastest way for wealth-tech platforms to connect their software to everything else they rely on—custodians, CRMs, portfolio systems, analytics, and more. Instead of months of custom code, Precept installs once in your own environment (on-prem or cloud) and acts as a universal \"gateway.” Connections are defined by ultra-light Portable Data Mapping (PDM) files: small, human- readable recipes that describe how data should flow between two systems. Even better, our AI agent can draft a new PDM in minutes from existing documentation, and every validated mapping joins a shared library the whole network can reuse. That means the integration you need tomorrow likely already exists today—one click to install, no extra engineering, no delays. Precept eliminates integration backlogs, cuts onboarding costs, and lets your team focus on innovation rather than plumbing. With Precept, the answer to “Can you connect to ​​​​​​​​​​​​​​​_____?” becomes a simple, future-proof “Yes.”",
+    "industries": [
+     {
+      "id": "43",
+      "name": "Financial Services",
+      "urn": "urn:li:fsd_industryV2:43",
+      "title": "Financial Services",
+      "hierarchy": "Financial Services"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQFAkJqd4sqKpA/company-background_10000/B4EZ5phVhhG8AI-/0/1779886807365/precept_ai_cover?e=1793192400&v=beta&t=p_ENSdxccha2qA1FQ_qmUo17LZnlafENXFVKTkAR9vw",
+    "affiliatedPages": []
+   },
+   {
+    "id": "90657338",
+    "universalName": "foresight-data-inc",
+    "linkedinUrl": "https://www.linkedin.com/company/foresight-data-inc/",
+    "name": "Foresight",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQEI9m8UeJUEUA/company-logo_400_400/B56Z7blV9OKkAU-/0/1781800460352/foresight_data_inc_logo?e=1794441600&v=beta&t=awcDo5UGFFeL3txiNjHPpHPg0MG-vrdvkYn_QbAUPlQ",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 1049,
+    "description": "Foresight turns fragmented private-markets data into trusted context, analytics, and workflows that make PE and VC firms AI-enabled and data-driven.\n\nStrategic finance teams and data-driven investors at private market investment firms use Foresight’s software to decide which companies to back, to understand the performance and returns potential of their portfolio, and to model scenarios and outcomes that drive IRR and MOIC. \n\nForesight’s sourcing, diligence, and portfolio management software utilizes an AI-driven approach to unify and integrate disparate sources of critical data – including first party, company KPIs, third party, cap table, and general ledger – and to give users the ability to slice and dice it in every way imaginable.\n\nForesight’s customers range from emerging firms that want to differentiate themselves among LPs with a data-first approach to larger firms that want scale without headcount and need a single source of truth across a large team. ",
+    "industries": [
+     {
+      "id": "4",
+      "name": "Software Development",
+      "urn": "urn:li:fsd_industryV2:4",
+      "title": "Software Development",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Software Development"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQHIMIAPHWJImw/company-background_10000/B56Z7gn4ybHUAI-/0/1781885013442/foresight_data_inc_cover?e=1793192400&v=beta&t=iUORzUuQYGXBgpLHrs1P8oadwO88GGYXOPTO9sRidYE",
+    "affiliatedPages": []
+   },
+   {
+    "id": "92840598",
+    "universalName": "unified-to",
+    "linkedinUrl": "https://www.linkedin.com/company/unified-to/",
+    "name": "Unified (TS S23)",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQE_kkzUmpK-bw/company-logo_400_400/company-logo_400_400/0/1719259202979/unified_to_logo?e=1794441600&v=beta&t=-246uwmKnfFjPjcB-IjKBsdx6fS-TyFmIxCFYXXEtiA",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 1414,
+    "description": "Unified.to is the #1 unified API+MCP platform for AI applications. Our real-time unified data infrastructure connects normalized customer data from hundreds of SaaS applications to your product through a single API. \n\nIntegrate once to access 200+ integrations from 16+ API categories, including Messaging, Task Management, File Storage, CRM, Accounting, Knowledge Management System and more. Shave months off your roadmap — build all the integrations you need in an afternoon. \n\n\"Integrating with Unified.to was super easy. We developed a generic setup on our end, and every time we want to enable any ATS integration, the only thing we need to do is to enable it in the Unified.to dashboard.\"\n— Lucian Simon, CTO at HeroHunt.ai\n\nBacked by Techstars (S23) and Creative Destruction Lab (W23), Unified.to is trusted by leading software companies, partnered with SaaS platforms like Lever and ActiveCampaign, and is led by experienced founders, technologists, and integration experts who are committed to solving critical integration challenges for our customers.",
+    "industries": [
+     {
+      "id": "4",
+      "name": "Software Development",
+      "urn": "urn:li:fsd_industryV2:4",
+      "title": "Software Development",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Software Development"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQG9TrtrKYVtyA/company-background_10000/company-background_10000/0/1719259739155/unified_to_cover?e=1793192400&v=beta&t=MkBB5wMNx2EPvWAGxxIvxLxqHHHkDGLztRtY2ckLWYQ",
+    "affiliatedPages": []
+   },
+   {
+    "id": "1801125",
+    "universalName": "foresight-institute",
+    "linkedinUrl": "https://www.linkedin.com/company/foresight-institute/",
+    "name": "Foresight Institute",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQElQ7xqnqXmtw/company-logo_400_400/B4DZkOuEoqHwAg-/0/1756888583173/foresight_institute_logo?e=1794441600&v=beta&t=iUsv7DSGUErY6Fb0gaZgQJosOdZfqTq1em5NjHIjKPk",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 13571,
+    "description": "Foresight Institute is a research organization founded in 1986. With a track record of supporting Nobel Laureates decades before their acclaim, we focus on areas that are too ambitious or interdisciplinary for legacy institutions. Through grants, prizes, fellowships, and events, we back pioneering scientists and innovators advancing technologies that benefit the future of life.",
+    "industries": [
+     {
+      "id": "6",
+      "name": "Technology, Information and Internet",
+      "urn": "urn:li:fsd_industryV2:6",
+      "title": "Technology, Information and Internet",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4D1BAQG_XkxxWN2nsA/company-background_10000/B4DZkOt4U0GQAU-/0/1756888532639/foresight_institute_cover?e=1793192400&v=beta&t=CIic3Z9b7geV05CYoge3VQQMmtxA3hgl4UpLSI1qM5k",
+    "affiliatedPages": []
+   },
+   {
+    "id": "72980668",
+    "universalName": "strategic-dreamers",
+    "linkedinUrl": "https://www.linkedin.com/company/strategic-dreamers/",
+    "name": "Strategic Dreamers",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQErlJQdkGXk4w/company-logo_400_400/company-logo_400_400/0/1673180705642?e=1794441600&v=beta&t=bhMju3H9fja9e4WrVVfQjQHDx0MdEoRY_JvAZTdn_Aw",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 579,
+    "description": "Our company supports development of organizational cultures and facilitates futures thinking processes. \n\nWe focus on building effective and “winning” teams and organizations.\n\nWe initiate, implement and evaluate new practices and ways of cooperation.\n\nWe effectively and sensitively lead through the process of change.\n\nIn our activity we combine research and analytical activities (ethnography, reports, trendbooks) with a practical approach to training in business. We approach each customer individually, trying to understand their needs and respond to them by designing trainings.\n\nStrategic Dreamers is the name that reflects the spirit of our work. We like to function in interdisciplinary environment: between technology and social research, between management and art, between strategy and dreaming. Our method allows us to combine systems thinking, based on data and contextual understanding, with developing imagination, working on emotions and intuition, and a creative approach. We consider such work to be one of the most important future competencies.\n\nWe are distinguished by our work in the areas of:\n\n- researching trends and working with future scenarios in organizations,\n- inspiring and leading development processes,\n- facilitating group processes,\n- building interdisciplinary teams and facilitating their work,\n- creating sustainable organizational cultures,\n- supporting change processes in organisations, \n- developing psychosocial and interpersonal skills,\n- creative problem solving.\n\nWe have many years of experience working with interdisciplinary and cross-cultural groups. We have come together to run a training company that helps organisations to develop and act creatively, powerfully and empathetically",
+    "industries": [
+     {
+      "id": "70",
+      "name": "Research Services",
+      "urn": "urn:li:fsd_industryV2:70",
+      "title": "Research Services",
+      "hierarchy": "Professional Services > Research Services"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4D1BAQH2rkq_qIhgTA/company-background_10000/B4DZwE.VWMJYAY-/0/1769609984080/strategic_dreamers_cover?e=1793192400&v=beta&t=Isd8cGmM8DWXmur_5KeXT7f4xm-9Hipn0VvS1UwaRSA",
+    "affiliatedPages": []
+   },
+   {
+    "id": "1371",
+    "universalName": "mckinsey",
+    "linkedinUrl": "https://www.linkedin.com/company/mckinsey/",
+    "name": "McKinsey & Company",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQHUYDHTOOXs9w/company-logo_400_400/B4EZ8eP9xVIkAU-/0/1782918929734/mckinsey_logo?e=1794441600&v=beta&t=tBL1AISLT6TrJlbmLyPsY2TkhxChyNYiDaFF4Pd59aY",
+    "employeeCountRange": {
+     "start": 10001,
+     "end": null
+    },
+    "followerCount": 7444534,
+    "description": "McKinsey & Company is a global management consulting firm. We are the trusted advisor to the world's leading businesses, governments, and institutions. \r\n\r\nWe work with leading organizations across the private, public and social sectors. Our scale, scope, and knowledge allow us to address problems that no one else can. We have deep functional and industry expertise as well as breadth of geographical reach. We are passionate about taking on immense challenges that matter to our clients and, often, to the world. \r\n\r\nWe work with our clients as we do with our colleagues. We build their capabilities and leadership skills at every level and every opportunity. We do this to help build internal support, get to real issues, and reach practical recommendations. We bring out the capabilities of clients to fully participate in the process and lead the ongoing work.",
+    "industries": [
+     {
+      "id": "11",
+      "name": "Business Consulting and Services",
+      "urn": "urn:li:fsd_industryV2:11",
+      "title": "Business Consulting and Services",
+      "hierarchy": "Professional Services > Business Consulting and Services"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQEO7D4-ODDIaw/company-background_10000/B4EZneAmF1IwAU-/0/1760366322640/mckinsey_cover?e=1793192400&v=beta&t=Jo4lVA0J7wCnix8450ETSyqrmiTjhL1EnEl_cv-LqKY",
+    "affiliatedPages": []
+   },
+   {
+    "id": "10826302",
+    "universalName": "foresight-clinical-services",
+    "linkedinUrl": "https://www.linkedin.com/company/foresight-clinical-services/",
+    "name": "Foresight",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQHrOei1B5t__g/company-logo_400_400/company-logo_400_400/0/1630585314464/foresight_clinical_services_logo?e=1794441600&v=beta&t=6CGjk1g4bIJ2pDGSkC3pKIb_bSniDapmx-91zmo3XxQ",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 2256,
+    "description": "Part of the handl Group.\n\nForesight provides fast, straightforward and reliable access to experienced, accredited expert witnesses, delivering a dedicated service to the legal and healthcare professions.\n\nWe provide a high-quality responsive service, that supports legal professionals and the public sector by utilising an extensive, carefully selected network of experts to provide a professional and timely approach to expert witness provision.",
+    "industries": [
+     {
+      "id": "10",
+      "name": "Legal Services",
+      "urn": "urn:li:fsd_industryV2:10",
+      "title": "Legal Services",
+      "hierarchy": "Professional Services > Legal Services"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQEUISbGhmKDyA/company-background_10000/company-background_10000/0/1735836412702/foresight_clinical_services_cover?e=1793192400&v=beta&t=kqHkVIhIBDk3GPB50UotjqsRUXaRMLGDkc2sqluD4Wg",
+    "affiliatedPages": []
+   },
+   {
+    "id": "106810090",
+    "universalName": "ialtaco",
+    "linkedinUrl": "https://www.linkedin.com/company/ialtaco/",
+    "name": "iAltA",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQHrWP1R0GyjGw/company-logo_400_400/B4EZX8xFrrGYAc-/0/1743702481953/ialtaco_logo?e=1794441600&v=beta&t=96jIHXeucYkqgRulFbuYnn7c_sF-kCzskSj1zij7SZE",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 4055,
+    "description": "iAltA is on a mission to build modern infrastructure that unifies private market systems and empowers market participants with actionable tools & insights.  Collaborating with the industry to solve its challenges, we take a holistic view of the landscape to develop optimal solutions, adapt to market changes, and innovate through strategic acquisitions and partnerships. \n\niAltA is developing next-generation digital infrastructure, modernizing private markets for future-focused investors.   ",
+    "industries": [
+     {
+      "id": "43",
+      "name": "Financial Services",
+      "urn": "urn:li:fsd_industryV2:43",
+      "title": "Financial Services",
+      "hierarchy": "Financial Services"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQEwkeC_Ae89Cw/company-background_10000/B4EZnJ5qDUGUAY-/0/1760028959516/ialtaco_cover?e=1793192400&v=beta&t=FTmLQnCV8IHMicLk6qBp2bKR_E_7eZNTZXirhY6BAwg",
+    "affiliatedPages": []
+   },
+   {
+    "id": "13994562",
+    "universalName": "foresight-works",
+    "linkedinUrl": "https://www.linkedin.com/company/foresight-works/",
+    "name": "Foresight",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQHAohZLqo77VQ/company-logo_400_400/company-logo_400_400/0/1701812727696/foresight_works_logo?e=1794441600&v=beta&t=JMYJkphdjmbdIbnmggxXd35H0QUlFUiDXhRD8SEqy2M",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 11557,
+    "description": "We don’t accept the status quo of large construction projects going over time and over budget. That’s why we created the Foresight platform to help teams keep their projects on time and on track.  \n\nLeading companies are using Foresight to deliver their projects faster. They use it's actionable insights and intelligent work management to cut through complexity and enable their teams and contractors to attain project delivery excellence. \n\nThe platform uses your existing schedule data to deliver insights and workflow automations that really matter. The result? Less time spent on reporting, fewer unforeseen risks, and up to a 10% reduction in project duration.  \n\nForesight leverages Nobel-prize winning research in psychology and economics to create the world’s first platform that continually learns to support you.  ",
+    "industries": [
+     {
+      "id": "4",
+      "name": "Software Development",
+      "urn": "urn:li:fsd_industryV2:4",
+      "title": "Software Development",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Software Development"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQEuJrGEspEZKA/company-background_10000/company-background_10000/0/1701869741972/foresight_works_cover?e=1793192400&v=beta&t=N3558iQpd3-PAeVYYClx6BXNuzGSaGNag9D4tbz5bGc",
+    "affiliatedPages": []
+   },
+   {
+    "id": "3518429",
+    "universalName": "fleetio",
+    "linkedinUrl": "https://www.linkedin.com/company/fleetio/",
+    "name": "Fleetio",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQEFORPvBdX1Aw/company-logo_400_400/company-logo_400_400/0/1713450661338/fleetio_logo?e=1794441600&v=beta&t=TmQv-ukJkGLF-JuDzTMNPAmpJyxtKLYNpoQmqMKLkkU",
+    "employeeCountRange": {
+     "start": 201,
+     "end": 500
+    },
+    "followerCount": 53893,
+    "description": "Fleetio is the intelligent system that keeps maintenance moving.\n\nWe help fleets plan, approve and execute maintenance—in-house, outsourced, or both. Preventive maintenance, inspections, work orders, parts and vendor repairs come together in one connected system, with AI built directly into the work.\n\nFor the people keeping fleets running, that means more vehicles available for work, better control of maintenance spend and less time chasing approvals, paperwork and updates. Whether you manage one location or many, Fleetio helps your team keep work moving while you stay in control.\n\nFounded in 2012 in Birmingham, Alabama, Fleetio builds software around how maintenance actually happens. We connect to the tools you already use and support the way your fleet operates—without forcing you to change your hardware or maintenance providers.\n\nFollow us for practical fleet insights, customer stories and ideas you can put to work.",
+    "industries": [
+     {
+      "id": "4",
+      "name": "Software Development",
+      "urn": "urn:li:fsd_industryV2:4",
+      "title": "Software Development",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Software Development"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQEpc5uZWnlKRA/company-background_10000/B4EaDuANECIoAU-/0/1790699426388/fleetio_cover?e=1793192400&v=beta&t=tdWMhBG-42QAsdo_yRC4gEhZubtdCw3o48oaSL-BUg4",
+    "affiliatedPages": []
+   },
+   {
+    "id": "7588611",
+    "universalName": "manifoldinc",
+    "linkedinUrl": "https://www.linkedin.com/company/manifoldinc/",
+    "name": "Manifold",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQGCILarwduqvw/company-logo_400_400/B56Z7b6Bt5GUAU-/0/1781805882432/manifoldinc_logo?e=1794441600&v=beta&t=9_h0kSChzQohwDMU28ITdAyj7URByT3mcR-ZeyE6L_M",
+    "employeeCountRange": {
+     "start": 51,
+     "end": 200
+    },
+    "followerCount": 5667,
+    "description": "Manifold is the Enterprise Agent Platform for life sciences, accelerating life-changing medicines to patients. Our products speed up workflows in areas from target identification and clinical development to market access and precision medicine in the clinic, while maintaining the governance life sciences requires. Global companies and premier research institutions use Manifold to operate faster and more effectively. Backed by leading investors including Reach Capital, TQ Ventures, Calibrate Ventures, SilverArc Capital, and Industry Ventures, Manifold serves tens of thousands of users across hundreds of organizations globally.",
+    "industries": [
+     {
+      "id": "4",
+      "name": "Software Development",
+      "urn": "urn:li:fsd_industryV2:4",
+      "title": "Software Development",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Software Development"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQEgJfH3B7niRA/company-background_10000/company-background_10000/0/1676525604202/manifoldinc_cover?e=1793192400&v=beta&t=-aowVLLJJoGNVL7xvYF4JmD3qokiZiTaE5EJPSuGcO0",
+    "affiliatedPages": []
+   }
+  ],
+  "affiliatedPages": [],
+  "peopleStats": [
+   {
+    "statTitle": "Locations",
+    "values": [
+     {
+      "title": "United States",
+      "count": 13
+     },
+     {
+      "title": "Illinois, United States",
+      "count": 2
+     },
+     {
+      "title": "California, United States",
+      "count": 2
+     },
+     {
+      "title": "Tennessee, United States",
+      "count": 2
+     },
+     {
+      "title": "Nashville, TN",
+      "count": 2
+     },
+     {
+      "title": "Ohio, United States",
+      "count": 2
+     },
+     {
+      "title": "Greater Chicago Area",
+      "count": 2
+     },
+     {
+      "title": "Nashville Metropolitan Area",
+      "count": 2
+     },
+     {
+      "title": "Poway, CA",
+      "count": 1
+     },
+     {
+      "title": "Massachusetts, United States",
+      "count": 1
+     },
+     {
+      "title": "United Kingdom",
+      "count": 1
+     },
+     {
+      "title": "Canada",
+      "count": 1
+     },
+     {
+      "title": "New Jersey, United States",
+      "count": 1
+     },
+     {
+      "title": "San Francisco, CA",
+      "count": 1
+     },
+     {
+      "title": "England, United Kingdom",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "School",
+    "values": [
+     {
+      "title": "International School of Brussels",
+      "count": 1
+     },
+     {
+      "title": "Karunya Institute of Technology and Sciences",
+      "count": 1
+     },
+     {
+      "title": "Ithaca College",
+      "count": 1
+     },
+     {
+      "title": "Drucker School of Management",
+      "count": 1
+     },
+     {
+      "title": "UNH Peter T. Paul College of Business and Economics",
+      "count": 1
+     },
+     {
+      "title": "Koneru Lakshmaiah College of Engineering",
+      "count": 1
+     },
+     {
+      "title": "Andhra University, Visakhapatnam",
+      "count": 1
+     },
+     {
+      "title": "McMaster University",
+      "count": 1
+     },
+     {
+      "title": "Nova Southeastern University",
+      "count": 1
+     },
+     {
+      "title": "Eckerd College",
+      "count": 1
+     },
+     {
+      "title": "Davidson College",
+      "count": 1
+     },
+     {
+      "title": "Nova University",
+      "count": 1
+     },
+     {
+      "title": "Northeastern University",
+      "count": 1
+     },
+     {
+      "title": "Boston College",
+      "count": 1
+     },
+     {
+      "title": "San Diego State University",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Current Function",
+    "values": [
+     {
+      "title": "Business Development",
+      "count": 8
+     },
+     {
+      "title": "Entrepreneurship",
+      "count": 5
+     },
+     {
+      "title": "Engineering",
+      "count": 4
+     },
+     {
+      "title": "Operations",
+      "count": 3
+     },
+     {
+      "title": "Consulting",
+      "count": 3
+     },
+     {
+      "title": "Healthcare Services",
+      "count": 2
+     },
+     {
+      "title": "Customer Success and Support",
+      "count": 2
+     },
+     {
+      "title": "Accounting",
+      "count": 1
+     },
+     {
+      "title": "Marketing",
+      "count": 1
+     },
+     {
+      "title": "Arts and Design",
+      "count": 1
+     },
+     {
+      "title": "Education",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Skill Explicit",
+    "values": [
+     {
+      "title": "Leadership",
+      "count": 5
+     },
+     {
+      "title": "Enterprise Software",
+      "count": 4
+     },
+     {
+      "title": "Software as a Service (SaaS)",
+      "count": 4
+     },
+     {
+      "title": "Customer Relationship Management (CRM)",
+      "count": 4
+     },
+     {
+      "title": "Software Development Life Cycle (SDLC)",
+      "count": 3
+     },
+     {
+      "title": "JavaScript",
+      "count": 3
+     },
+     {
+      "title": "Consulting",
+      "count": 3
+     },
+     {
+      "title": "Project Management",
+      "count": 3
+     },
+     {
+      "title": "HTML",
+      "count": 3
+     },
+     {
+      "title": "C#",
+      "count": 3
+     },
+     {
+      "title": "Cascading Style Sheets (CSS)",
+      "count": 3
+     },
+     {
+      "title": "Software Development",
+      "count": 3
+     },
+     {
+      "title": "Web Development",
+      "count": 3
+     },
+     {
+      "title": "jQuery",
+      "count": 2
+     },
+     {
+      "title": "Marketing",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "statTitle": "Service categories",
+    "values": [
+     {
+      "title": "Consulting",
+      "count": 2
+     },
+     {
+      "title": "Design",
+      "count": 2
+     },
+     {
+      "title": "Management Consulting",
+      "count": 2
+     },
+     {
+      "title": "Software Development",
+      "count": 2
+     },
+     {
+      "title": "Team Building",
+      "count": 1
+     },
+     {
+      "title": "Application Development",
+      "count": 1
+     },
+     {
+      "title": "User Experience Design (UED)",
+      "count": 1
+     },
+     {
+      "title": "Graphic Design",
+      "count": 1
+     },
+     {
+      "title": "Project Management",
+      "count": 1
+     },
+     {
+      "title": "Negotiation",
+      "count": 1
+     },
+     {
+      "title": "Web Design",
+      "count": 1
+     },
+     {
+      "title": "Custom Software Development",
+      "count": 1
+     },
+     {
+      "title": "Database Development",
+      "count": 1
+     },
+     {
+      "title": "Life Coaching",
+      "count": 1
+     },
+     {
+      "title": "Change Management",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Field of Study",
+    "values": [
+     {
+      "title": "Computer Science",
+      "count": 2
+     },
+     {
+      "title": "Business/Commerce, General",
+      "count": 2
+     },
+     {
+      "title": "Business Administration and Management, General",
+      "count": 2
+     },
+     {
+      "title": "Marketing",
+      "count": 2
+     },
+     {
+      "title": "Communication and Media Studies",
+      "count": 1
+     },
+     {
+      "title": "Computer and Information Sciences and Support Services",
+      "count": 1
+     },
+     {
+      "title": "Information Technology",
+      "count": 1
+     },
+     {
+      "title": "Computer Software Engineering",
+      "count": 1
+     },
+     {
+      "title": "Mechatronics, Robotics, and Automation Engineering",
+      "count": 1
+     },
+     {
+      "title": "Computational Science",
+      "count": 1
+     },
+     {
+      "title": "National Security Policy Studies",
+      "count": 1
+     },
+     {
+      "title": "Accounting and Related Services",
+      "count": 1
+     },
+     {
+      "title": "Accounting",
+      "count": 1
+     },
+     {
+      "title": "Human Resources Management/Personnel Administration, General",
+      "count": 1
+     },
+     {
+      "title": "Management Information Systems, General",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "originalQuery": {
+   "search": "Foresight",
+   "location": ""
+  },
+  "requestId": "47964960-3812-4863-af78-e24eff0e3bd0"
+ },
+ {
+  "id": "96403781",
+  "universalName": "adaptive-teams",
+  "linkedinUrl": "https://www.linkedin.com/company/adaptive-teams/",
+  "name": "Adaptive Teams",
+  "tagline": "Remote staffing & HR for growing US companies. Weeks, not months. No placement fees.",
+  "website": "https://adaptiveteams.co/",
+  "callToActionUrl": "https://adaptiveteams.co/",
+  "phone": null,
+  "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFhYFvJ_GGx-A/company-logo_400_400/company-logo_400_400/0/1728395768655/go_premier_media_logo?e=1794441600&v=beta&t=jdYf1JO0mMqkFMysX94Ozfc03X8QxBzVDQYNfi4F0Mw",
+  "foundedOn": {
+   "month": null,
+   "year": 2023,
+   "day": null
+  },
+  "employeeCount": 61,
+  "employeeCountRange": {
+   "start": 11,
+   "end": 50
+  },
+  "followerCount": 80628,
+  "description": "Most US companies spend 3–6 months and $4,700+ filling a single role. We do it in 2–3 weeks, with no placement fees. Adaptive Teams handles the full lifecycle of your remote team: recruitment, HR, payroll, and performance management, sourced primarily from LatAm and increasingly from Asia. One monthly rate. No long-term contracts. A free replacement guarantee on every placement. We're not a recruitment agency that sends you resumes and disappears.\n\nFounder Nate Ginsburg and COO Menno Gottmer built an 80+ person distributed team while scaling sister company SellerPlex, before building Adaptive Teams to solve the same problem for other growing US businesses.\n\nOne proof point: KO Storage came to us needing 4 call center agents. Eighteen months later, they have 70+ Adaptive Teams contractors across six departments: call center, revenue management, accounting, asset management, security, and IT.\n\nWhat sets us apart:\n\n→ Full HR, payroll, and performance management from day one, not just placement\n→ A dedicated performance manager runs real check-ins and semiannual reviews\n→ $0 upfront fees, most engagements start at $2,500/month all-in\n→ Free replacement guarantee if a placement doesn't work out\n→ Team spans 12+ countries, with payroll compliance across 150+ countries via Deel\n\nLooking to build a remote team without the usual hiring headaches? Visit adaptiveteams.co or book a free consultation.\n\nHiring? Explore open roles at adaptiveteams.teamtailor.com/jobs",
+  "companyType": "Privately Held",
+  "locations": [
+   {
+    "country": "US",
+    "city": "Minneapolis ",
+    "geographicArea": null,
+    "line1": null,
+    "line2": null,
+    "postalCode": null,
+    "headquarter": true,
+    "description": "Headquarters",
+    "parsed": {
+     "text": "Minneapolis, MN, United States",
+     "countryCode": "US",
+     "regionCode": null,
+     "country": "United States",
+     "countryFull": "United States of America",
+     "state": "Minnesota",
+     "city": "Minneapolis"
+    }
+   }
+  ],
+  "specialities": [
+   "Remote Staffing",
+   "Staffing Agency",
+   "HR Outsourcing",
+   "Payroll Management",
+   "Performance Management",
+   "LatAm Recruiting",
+   "Nearshore Staffing",
+   "Remote Recruiting",
+   "Software Outsourcing",
+   "Offshore Staffing",
+   "Contractor Management",
+   "International Hiring",
+   "Remote Team Management",
+   "Global Talent",
+   "Forward Deployed Eng",
+   "Virtual Assistants",
+   "Call Center Staffing",
+   "E-commerce Staffing",
+   "Amazon Seller Support",
+   "US SMB Hiring"
+  ],
+  "industries": [
+   {
+    "id": "123",
+    "name": "Outsourcing and Offshoring Consulting",
+    "urn": "urn:li:fsd_industryV2:123",
+    "title": "Outsourcing and Offshoring Consulting",
+    "hierarchy": "Professional Services > Business Consulting and Services > Outsourcing and Offshoring Consulting"
+   }
+  ],
+  "logos": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFhYFvJ_GGx-A/company-logo_400_400/company-logo_400_400/0/1728395768655/go_premier_media_logo?e=1794441600&v=beta&t=jdYf1JO0mMqkFMysX94Ozfc03X8QxBzVDQYNfi4F0Mw",
+    "width": 400,
+    "height": 400
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFhYFvJ_GGx-A/company-logo_200_200/company-logo_200_200/0/1728395768655/go_premier_media_logo?e=1794441600&v=beta&t=p7i4w5f2uAHUl0QwkGVZZO3w8hxM0CIcJbrKvlgkKis",
+    "width": 200,
+    "height": 200
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFhYFvJ_GGx-A/company-logo_100_100/company-logo_100_100/0/1728395768655/go_premier_media_logo?e=1794441600&v=beta&t=UVbppzox0uoZChr_SKidnIhAA-LEOyOgODhOqK3wX3A",
+    "width": 100,
+    "height": 100
+   }
+  ],
+  "backgroundCover": "https://media.licdn.com/dms/image/v2/D4D1BAQF5HR_HWGgrzA/company-background_10000/B4DZ.5vwDHI8AI-/0/1785527730685/adaptive_teams_cover?e=1793192400&v=beta&t=L4D-8jzMiuhNhR539QVe599uZBppB8D8RiS__R2oQiI",
+  "backgroundCovers": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4D1BAQF5HR_HWGgrzA/company-background_10000/B4DZ.5vwDHI8AI-/0/1785527730685/adaptive_teams_cover?e=1793192400&v=beta&t=L4D-8jzMiuhNhR539QVe599uZBppB8D8RiS__R2oQiI",
+    "width": 4200,
+    "height": 700
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4D1BAQF5HR_HWGgrzA/company-background_400/B4DZ.5vwDHI8AQ-/0/1785527730685/adaptive_teams_cover?e=1793192400&v=beta&t=werPiYGgQFxbS3h3yR08oM8qRc1Y9AVdVu1HcHIAPIo",
+    "width": 400,
+    "height": 66
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4D1BAQF5HR_HWGgrzA/company-background_200/B4DZ.5vwDHI8AU-/0/1785527730685/adaptive_teams_cover?e=1793192400&v=beta&t=C-tGDd4M1-Ng97uxfKfN7I8eK2rWD7qlvVCIIuH5fe4",
+    "width": 200,
+    "height": 33
+   }
+  ],
+  "active": true,
+  "jobSearchUrl": "https://www.linkedin.com/jobs/search?geoId=92000000&f_C=96403781",
+  "pageVerified": true,
+  "pageType": "COMPANY",
+  "showcase": false,
+  "paidCompany": false,
+  "autoGenerated": false,
+  "messagingEnabled": true,
+  "similarOrganizations": [
+   {
+    "id": "101029436",
+    "universalName": "sagan-recruitment",
+    "linkedinUrl": "https://www.linkedin.com/company/sagan-recruitment/",
+    "name": "Sagan Recruitment",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQFBFnVHLaownw/company-logo_400_400/B56ZnNNTO4J4AY-/0/1760084440431/sagan_recruitment_logo?e=1794441600&v=beta&t=33TKackk1CVv29NSFOVyod5zTf2aTXWgdQTOT5-7wLo",
+    "employeeCountRange": {
+     "start": 51,
+     "end": 200
+    },
+    "followerCount": 203597,
+    "description": "Connecting Talent with  Top Companies.\n\nSagan connects skilled professionals from Latin America, the Philippines, India, Pakistan, Bangladesh, Africa and CEE with leading American companies, empowering diverse talent to thrive in global careers.",
+    "industries": [
+     {
+      "id": "104",
+      "name": "Staffing and Recruiting",
+      "urn": "urn:li:fsd_industryV2:104",
+      "title": "Staffing and Recruiting",
+      "hierarchy": "Administrative and Support Services > Staffing and Recruiting"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQFAEZWGvR-qYQ/company-background_10000/B56ZnOy18tKEAU-/0/1760111059687/sagan_recruitment_cover?e=1793192400&v=beta&t=5VahR_-Fv25M4NJoasm3t166b7jDPba9NlREhPo1VgY",
+    "affiliatedPages": []
+   },
+   {
+    "id": "93188387",
+    "universalName": "hirelatam",
+    "linkedinUrl": "https://www.linkedin.com/company/hirelatam/",
+    "name": "HireLATAM",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQEOrTbLkHhg2Q/company-logo_400_400/company-logo_400_400/0/1690768734557/hirelatam_logo?e=1794441600&v=beta&t=wmB4OUVJ_eVptANQVZFGjv8_MR_pSaKyksesJkujO_8",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 266879,
+    "description": "HireLATAM connects U.S. businesses with top-tier remote talent from Latin America. We specialize in finding skilled professionals across various industries, including software development, customer service, digital marketing, and more. Our mission is to bridge the gap between high-quality Latin American talent and U.S. companies seeking cost-effective, dedicated, and culturally aligned team members.\n\nWhether you're looking to scale your team or need specialized expertise, HireLATAM streamlines the hiring process, ensuring you find the right fit quickly and efficiently. We handle the recruitment, so you can focus on growing your business.\n\nExplore how nearshoring with HireLATAM can enhance your team's productivity and give your business a competitive edge.",
+    "industries": [
+     {
+      "id": "104",
+      "name": "Staffing and Recruiting",
+      "urn": "urn:li:fsd_industryV2:104",
+      "title": "Staffing and Recruiting",
+      "hierarchy": "Administrative and Support Services > Staffing and Recruiting"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQE8G2fB0r74Ig/company-background_10000/B4EZ71bMQVJEAQ-/0/1782234006858/hirelatam_cover?e=1793192400&v=beta&t=AP-GWA_vLuj2zGIvxkrKcJqRrwWj6CjtuziGwQZJftA",
+    "affiliatedPages": []
+   },
+   {
+    "id": "91650798",
+    "universalName": "scalearmycareers",
+    "linkedinUrl": "https://www.linkedin.com/company/scalearmycareers/",
+    "name": "Scale Army Careers",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFM0QmPI3hK_g/company-logo_400_400/B4EZsjht6zHgAY-/0/1765827600477/scalearmycareers_logo?e=1794441600&v=beta&t=dBP_pXjfiNBkvdOY8-S7h16AQX_T5nnf0LjYM_Z16Lg",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 180798,
+    "description": "Most job boards make candidates do all the work—decoding vague posts, chasing unclear compensations, and applying into the void. We built Scale Army Careers to change that. \nWe connect talented people around the world with remote roles in the U.S., Paid in USD. We're here to help you grow your career. Every position is clear, vetted, and backed by expert review. If you’re a fit, you’ll hear from us within 72 hours.\nNo guesswork. No chaos. Just great jobs, matched right.\n\n→ Keep an eye on our listings. New roles drop often, and they move fast.\n\ncareers.scalearmy.com ",
+    "industries": [
+     {
+      "id": "104",
+      "name": "Staffing and Recruiting",
+      "urn": "urn:li:fsd_industryV2:104",
+      "title": "Staffing and Recruiting",
+      "hierarchy": "Administrative and Support Services > Staffing and Recruiting"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQGSDXL-CUBiqA/company-background_10000/B4EZsjg27mJ0AU-/0/1765827375136/scalearmycareers_cover?e=1793192400&v=beta&t=h9tUKTwDgyH5MPKyCQscoZBlYSffbHOd1FrYBieCINQ",
+    "affiliatedPages": []
+   },
+   {
+    "id": "49164372",
+    "universalName": "money-inc-media",
+    "linkedinUrl": "https://www.linkedin.com/company/money-inc-media/",
+    "name": "Money, Inc.",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFLrhCD_tXI1w/company-logo_400_400/B4DZrp4igSKIAc-/0/1764860504990/careerdotpage_logo?e=1794441600&v=beta&t=bCgThzHyztDbchMPeaokp6t5R1ebYFlcy8J3P7YSV1w",
+    "employeeCountRange": {
+     "start": 10001,
+     "end": null
+    },
+    "followerCount": 2469606,
+    "description": "Money Inc\nActionable insight from industry titans\nCommunity, global publication and learning hub \n\n",
+    "industries": [
+     {
+      "id": "43",
+      "name": "Financial Services",
+      "urn": "urn:li:fsd_industryV2:43",
+      "title": "Financial Services",
+      "hierarchy": "Financial Services"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4D1BAQGf8EMG7JZnlQ/company-background_10000/B4DZrp5F2fH4AU-/0/1764860656687/money_inc_media_cover?e=1793192400&v=beta&t=no5aZG-oQgBk6VvUiqgnjHXqZugxF-MgXDTLRqahcPQ",
+    "affiliatedPages": []
+   },
+   {
+    "id": "1810488",
+    "universalName": "somewhere",
+    "linkedinUrl": "https://www.linkedin.com/company/somewhere/",
+    "name": "Somewhere",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQF_QwPXHQ8XPg/company-logo_400_400/B56Z50aO9nIcAU-/0/1780069494865/somewhere_logo?e=1794441600&v=beta&t=ZYVOFu5Sr1vG0qMljVX9CzxXqg6rD3Tia_lUHJ64zRg",
+    "employeeCountRange": {
+     "start": 51,
+     "end": 200
+    },
+    "followerCount": 495355,
+    "description": "Support Shepherd is now Somewhere!\n\nTrusted by top brands and entrepreneurs for effortless and efficient global hiring solutions.\n\nThe problem is you want to expand your team with quality talent, but you're facing: \n\n • Rising hiring costs \n • A limited local talent pool \n • Reliability and quality concerns\n\nYou have a tough decision: either stretch your budget for top local talent or compromise on quality with underqualified hires, slowing your growth. \n\nFacing this alone is hard: \n\n 1. Recruitment is costly and limited to the same small talent pool \n 2. Freelance platforms can't guarantee consistent quality \n 3. International hiring has legal complexities and is time-consuming\n\nSomwhere is your partner for hassle-free, global talent acquisition. We connect you with skilled, cost-effective staff from the Philippines and Latin America, perfectly matching your business needs.\n\n • Significant savings on hiring costs. \n • Access to a broad and skilled talent pool. \n • Simplified hiring process, saving you time and effort. \n • Assurance of quality and reliability with our 6-month Perfect Hire Guarantee.\n\nHow it works: \n\n • We handle the sourcing and vetting of candidates. \n • Coordinate the interview and hiring process. \n • Manage all legal and logistical aspects of international hiring. \n • Provide ongoing support to ensure a smooth integration.\n\nWith Somewhere, choosing between expensive local talent or underqualified hires is a thing of the past. We offer a third option: affordable, skilled, and reliable international talent.\n\nJoin top entrepreneurs and industry leaders – Schedule your call for the perfect hire, Guaranteed! \n\nOur team is ready to help you define your needs, build your job description, and secure your next great hire.",
+    "industries": [
+     {
+      "id": "104",
+      "name": "Staffing and Recruiting",
+      "urn": "urn:li:fsd_industryV2:104",
+      "title": "Staffing and Recruiting",
+      "hierarchy": "Administrative and Support Services > Staffing and Recruiting"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQEGoIUOrNl8wQ/company-background_10000/B56Z50Z98CG8AM-/0/1780069425115/somewhere_cover?e=1793192400&v=beta&t=CkvR_5w_aME2iWf572pPN7A9fQfRuXoej_qQDfV3B24",
+    "affiliatedPages": []
+   },
+   {
+    "id": "14226",
+    "universalName": "mercadolibre",
+    "linkedinUrl": "https://www.linkedin.com/company/mercadolibre/",
+    "name": "Mercado Libre",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQGBWvG8qkeDWA/company-logo_400_400/B4DZUUsRzCGcAc-/0/1739808906936/mercadolibre_logo?e=1794441600&v=beta&t=U5fWTk_UqdpWEdYXL0zCCq7aUaUeZBXAgeD0yOJc6jo",
+    "employeeCountRange": {
+     "start": 10001,
+     "end": null
+    },
+    "followerCount": 3588442,
+    "description": "At Mercado Libre, we are transforming the way people buy, sell, advertise, pay, finance, and ship across Latin America. We are the leading e-commerce and fintech company in the region, with a presence in 18 countries and a team of more than 130,000 people.\n\nWe are one of the best places to work in Latin America. Being part of MELI means working with intensity and excellence because we are passionate about what we do and we believe in the value of meritocracy. We overcome our own limits and learn by tackling big challenges.\n\nWe have an entrepreneurial mindset, we take risks, we reinvent ourselves, and we innovate. We compete as a team to win in a flexible and fun work environment. And so, every day, we create sustainable results that transform the lives of millions of people.\n\nWe look for people who are passionate about big challenges, who are willing to step out of their comfort zone, give their maximum effort, and take risks as entrepreneurs.\n\nJoin the team that makes the purpose of democratizing commerce and financial services a reality, transforming the lives of millions across Latin America. Be part of the MELI experience!",
+    "industries": [
+     {
+      "id": "3132",
+      "name": "Internet Publishing",
+      "urn": "urn:li:fsd_industryV2:3132",
+      "title": "Internet Publishing",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Information Services > Internet Publishing"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4D1BAQE-r7DQUiIkwQ/company-background_10000/company-background_10000/0/1656683030794/mercadolibre_cover?e=1793192400&v=beta&t=-ntUqRSCyjXw6OKvlzEGtvIESnfBGkyMkWVimMqaQZY",
+    "affiliatedPages": []
+   },
+   {
+    "id": "3290",
+    "universalName": "saatchi-&-saatchi",
+    "linkedinUrl": "https://www.linkedin.com/company/saatchi-&-saatchi/",
+    "name": "Saatchi & Saatchi",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQH_iNaZmRqIYw/company-logo_400_400/B4EZmhe7lLIkAY-/0/1759350864840?e=1794441600&v=beta&t=XU1c-Oij70z7CZf_EbU-Y0nIGjHfQawF5h1Vnb4h2cQ",
+    "employeeCountRange": {
+     "start": 5001,
+     "end": 10000
+    },
+    "followerCount": 578556,
+    "description": "Saatchi & Saatchi is a leading global communications and advertising network known for its impactful creative ideas that generate powerful emotional connections between consumers and brands. \n\nPresent in over 67 countries, Saatchi & Saatchi employs 6,500 professionals over 114 offices. Global clients include HSBC, P&G, Toyota, Visa and GSK. \n\nSaatchi & Saatchi is part of Publicis Communications a key division of Publicis Groupe, the world’s third largest communications group.",
+    "industries": [
+     {
+      "id": "80",
+      "name": "Advertising Services",
+      "urn": "urn:li:fsd_industryV2:80",
+      "title": "Advertising Services",
+      "hierarchy": "Professional Services > Advertising Services"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/C561BAQEBeviY0w0_cg/company-background_10000/company-background_10000/0/1585931733849/saatchi__saatchi_cover?e=1793192400&v=beta&t=EXi_KOXp3hyljg0J9_GJ9lC7uEnKTo1zUlhkS-W2k64",
+    "affiliatedPages": []
+   },
+   {
+    "id": "27130504",
+    "universalName": "jobgether",
+    "linkedinUrl": "https://www.linkedin.com/company/jobgether/",
+    "name": "Jobgether",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQHdx4NngvFyPA/company-logo_400_400/B4EZ5GHh6CHEAg-/0/1779292839821/jobgether_logo?e=1794441600&v=beta&t=lNQNFzUXrbmWoeyq2RvDHGMr6jXwBQ_9Z5yCcfNbsYs",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 5868419,
+    "description": "Jobgether is a career navigation platform built for senior professionals competing in the remote job market. Hiring systems were designed for volume and keyword matching, not for 15 or 20 years of nonlinear experience. That structural mismatch is why strong profiles get filtered out before a human ever sees them.\n\nOur platform diagnoses where a search is breaking, corrects how experience is positioned, and connects professionals to the companies where their background creates real value. The goal is not more applications. It is the right visibility in the right places.\n\nOur mission is to ensure no senior professional remains invisible in the global remote market, not because they lack the skills, but because the system failed to read them correctly.",
+    "industries": [
+     {
+      "id": "1285",
+      "name": "Internet Marketplace Platforms",
+      "urn": "urn:li:fsd_industryV2:1285",
+      "title": "Internet Marketplace Platforms",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Internet Marketplace Platforms"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQEV69vBdzTDyQ/company-background_10000/B4EZ5GGg8gJMAI-/0/1779292573746/jobgether_cover?e=1793192400&v=beta&t=Klpmo77Z9re7EGWObWCzaZIHmtPT1leIWTXwR_VbnyI",
+    "affiliatedPages": []
+   },
+   {
+    "id": "14522357",
+    "universalName": "konnect-bpo-technolgies",
+    "linkedinUrl": "https://www.linkedin.com/company/konnect-bpo-technolgies/",
+    "name": "Konnect BPO Technologies (Pvt) Ltd",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C560BAQGg7vY-SuAmnA/company-logo_400_400/company-logo_400_400/0/1630658589822?e=1794441600&v=beta&t=HnIIioxWD5jYosERsidCA-GTEpni-gaiYRmhpjvfZbw",
+    "employeeCountRange": {
+     "start": 501,
+     "end": 1000
+    },
+    "followerCount": 9085,
+    "description": "Konnect BPO is a fast-growing global business process outsourcing and customer experience solutions provider delivering operational support services to businesses across the US, UK, Canada, Australia, and international markets.\n\nFounded in Sri Lanka in 2016, Konnect BPO has grown from a small startup into a large-scale outsourcing operation with 600+ professionals and 1000+ seating capacity across multiple facilities. We help businesses improve efficiency, reduce operational costs, enhance customer experiences, and scale faster through reliable outsourcing solutions tailored to modern business demands.\n\nOur services include customer support, inbound and outbound call center operations, live chat support, email support, technical support, IT help desk services, sales support, administration, and back-office operations. We support businesses through both voice and non-voice channels, ensuring seamless omnichannel customer engagement and operational continuity.\n\nIn addition to traditional BPO services, we provide Recruitment Process Outsourcing (RPO), HR outsourcing, payroll processing, HRIS management, background verification (BGV), staffing solutions, finance and accounting support, bookkeeping, reconciliation, accounts payable and receivable management, and data processing services.\n\nOur industry expertise spans banking, finance, healthcare, e-commerce, telecommunications, travel, retail, and other fast-growing sectors requiring scalable customer and operational support.\n\nAt Konnect BPO, we believe outsourcing is more than just reducing costs,it is about building long-term strategic partnerships that create measurable business impact. By combining skilled talent, operational excellence, technology-driven processes, and a customer-centric approach, we help companies build agile and future-ready operations.\n\nDriven by innovation, people, and performance, Konnect BPO continues to empower global brands with reliable outsourcing solutions designed for long-term growth.",
+    "industries": [
+     {
+      "id": "123",
+      "name": "Outsourcing and Offshoring Consulting",
+      "urn": "urn:li:fsd_industryV2:123",
+      "title": "Outsourcing and Offshoring Consulting",
+      "hierarchy": "Professional Services > Business Consulting and Services > Outsourcing and Offshoring Consulting"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQHyC87CyX1hVA/company-background_10000/B56Zm996PbKEAU-/0/1759828754217/konnect_bpo_technolgies_pvt_ltd_cover?e=1793192400&v=beta&t=o7N6nC033mMG0okDF7IpoTbYA0dW75VxMJz3RIBIZvk",
+    "affiliatedPages": []
+   },
+   {
+    "id": "12515",
+    "universalName": "jetbrains",
+    "linkedinUrl": "https://www.linkedin.com/company/jetbrains/",
+    "name": "JetBrains",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGNg3NSDK9zMg/company-logo_400_400/B4EZ663ZHXHMAc-/0/1781251543752/jetbrains_logo?e=1794441600&v=beta&t=-LiapS3e0S4b1tB3rxyvjjgVBaF6GgqLRsonNwSuReU",
+    "employeeCountRange": {
+     "start": 1001,
+     "end": 5000
+    },
+    "followerCount": 432242,
+    "description": "On a mission to make software development a more productive and enjoyable experience. Make it happen. With Code.",
+    "industries": [
+     {
+      "id": "4",
+      "name": "Software Development",
+      "urn": "urn:li:fsd_industryV2:4",
+      "title": "Software Development",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Software Development"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQGiCAG_WHHYDA/company-background_10000/B4EZ.3eVeSGoAI-/0/1785489610991/jetbrains_cover?e=1793192400&v=beta&t=0BY4t5IzCthJ77OmTLBJLaCIAHOna3-auIf4VLpfU8Y",
+    "affiliatedPages": []
+   },
+   {
+    "id": "91410706",
+    "universalName": "pairedrecruiting",
+    "linkedinUrl": "https://www.linkedin.com/company/pairedrecruiting/",
+    "name": "Paired",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQGx2eDwDLKLfw/company-logo_400_400/B56ZnM37qLIsAc-/0/1760078841065/pairedrecruiting_logo?e=1794441600&v=beta&t=28ou-0a1z2zJvwFw_PAx_sB8KU6EB6WuleogjYv9LLE",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 406190,
+    "description": "Paired is a leading headhunting agency that specializes in sourcing and recruiting top creative and design talent from overseas. We pride ourselves on our ability to identify and attract the very best candidates for our clients.\n\nAt Paired, we understand that hiring the right talent is critical to the success of any organization. That's why we take a personalized, consultative approach to the recruitment, working closely with our clients to understand their unique needs and requirements, and tailoring our search and selection process accordingly.",
+    "industries": [
+     {
+      "id": "123",
+      "name": "Outsourcing and Offshoring Consulting",
+      "urn": "urn:li:fsd_industryV2:123",
+      "title": "Outsourcing and Offshoring Consulting",
+      "hierarchy": "Professional Services > Business Consulting and Services > Outsourcing and Offshoring Consulting"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQGmUn0IOTRgVg/company-background_10000/B56ZnM3ufMHkAU-/0/1760078785980/pairedrecruiting_cover?e=1793192400&v=beta&t=KaVPCqKz6osytEWtzd1j_ktQ9t-hX3Iw66P3lQpAnqA",
+    "affiliatedPages": []
+   },
+   {
+    "id": "105024514",
+    "universalName": "learn-graphics-design",
+    "linkedinUrl": "https://www.linkedin.com/company/learn-graphics-design/",
+    "name": "Learn Graphic Design With AI",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQEI9Ag2SvQE6g/company-logo_400_400/B4EaD2NfCmIcAU-/0/1790837125554/learn_graphics_design_logo?e=1794441600&v=beta&t=qOrs5oOvxwxddzG749Kp6cEQ57kvrTbHjCgzc0wn5PQ",
+    "employeeCountRange": {
+     "start": 51,
+     "end": 200
+    },
+    "followerCount": 195353,
+    "description": "🎨 Want to Boost Your Graphic Design & Visual Skills in 2025?\n\n Whether you're a beginner or already deep into creative tech—these Top Courses picks will sharpen your edge.\n\n Learn from world-class instructors. Build real projects. Grow your career. 👇\n\n⭐ Handpicked Coursera Courses to Explore:\n\n • Adobe Graphic Designer – Master Adobe tools for stunning designs!\n 👉 https://lnkd.in/g4HmkyiC\n\n• Geographic Information Systems (GIS) – Learn spatial data analysis with UC Davis\n 👉 https://lnkd.in/gQNxBHC5\n\n• Graphic Design – Create impactful visuals with CalArts\n 👉 https://lnkd.in/gtW6-UsF\n\n• Graphic Design Elements for Non-Designers – Beginner-friendly, by CU Boulder\n 👉 https://lnkd.in/g5R3S8-P\n\n• Probabilistic Graphical Models – Advanced data science with Stanford\n 👉 https://lnkd.in/gt7gvZ-p\n\n• Xbox Graphic Designer – Design visuals for gaming\n 👉 https://lnkd.in/gj-rQKSH\n\n• Brand Identity and Vector Graphics – Build strong branding with Xbox\n 👉 https://lnkd.in/gXYE3uCN\n\n• Sales Graphics with Canva – Create professional client presentations\n 👉 https://lnkd.in/gm6AiGQ7\n\n• Create Facebook Graphics in Visme – Craft eye-catching social content\n 👉 https://lnkd.in/gMY4jQ9q\n\n• Create an Infographic with Infogram – Make data storytelling effortless\n 👉 https://lnkd.in/gDejza-4\n\n• Infographics with GenAI for Marketing – Use AI to elevate your visuals\n 👉 https://lnkd.in/g6C79Szs\n\n• Design & Make Infographics (MSU) – Project-based learning experience\n 👉 https://lnkd.in/grzCgpaN\n\n• Fundamentals of Graphic Design – Learn essential design principles\n 👉 https://lnkd.in/gQw5dh6K\n\n• LinkedIn Graphics with Canva – Stand out with 3D visual banners\n 👉 https://lnkd.in/gvnhPBDd\n\n• Ultimate Graphic Design Course – Build 40 real-world projects\n 👉 https://lnkd.in/gUZ49evy\n\n💡 Upskill with purpose. Learn at your pace. Start something impactful today!\n\n#GraphicDesign #OnlineCourses #GIS #VisualCommunication #UXDesign #DataVisualizati",
+    "industries": [
+     {
+      "id": "140",
+      "name": "Graphic Design",
+      "urn": "urn:li:fsd_industryV2:140",
+      "title": "Graphic Design",
+      "hierarchy": "Professional Services > Design Services > Graphic Design"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQGdv62JmDrjKg/company-background_10000/B4EaD2MiQNKsAI-/0/1790836876563/learn_graphics_design_cover?e=1793192400&v=beta&t=5xfT2pw7Yp23kLCdkxqKC6E2M3LJRJrnZMPvFXhn3K0",
+    "affiliatedPages": []
+   }
+  ],
+  "affiliatedPages": [],
+  "peopleStats": [
+   {
+    "statTitle": "Locations",
+    "values": [
+     {
+      "title": "United States",
+      "count": 15
+     },
+     {
+      "title": "Philippines",
+      "count": 8
+     },
+     {
+      "title": "Argentina",
+      "count": 6
+     },
+     {
+      "title": "India",
+      "count": 5
+     },
+     {
+      "title": "Colombia",
+      "count": 4
+     },
+     {
+      "title": "United Kingdom",
+      "count": 4
+     },
+     {
+      "title": "Buenos Aires Province, Argentina",
+      "count": 4
+     },
+     {
+      "title": "Greater Buenos Aires",
+      "count": 4
+     },
+     {
+      "title": "Calabarzon, Philippines",
+      "count": 3
+     },
+     {
+      "title": "California, United States",
+      "count": 3
+     },
+     {
+      "title": "England, United Kingdom",
+      "count": 3
+     },
+     {
+      "title": "Bogota, D.C.",
+      "count": 3
+     },
+     {
+      "title": "Buenos Aires",
+      "count": 3
+     },
+     {
+      "title": "Capital District, Colombia",
+      "count": 3
+     },
+     {
+      "title": "Bogotá D.C. Metropolitan Area",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "statTitle": "School",
+    "values": [
+     {
+      "title": "Cyfrin Updraft",
+      "count": 1
+     },
+     {
+      "title": "B. Startup School Amsterdam",
+      "count": 1
+     },
+     {
+      "title": "Blockchain Accelerator",
+      "count": 1
+     },
+     {
+      "title": "Universidad Privada de Tacna",
+      "count": 1
+     },
+     {
+      "title": "Universidad Nacional del Nordeste",
+      "count": 1
+     },
+     {
+      "title": "Mindanao Pride",
+      "count": 1
+     },
+     {
+      "title": "Mindoro Group",
+      "count": 1
+     },
+     {
+      "title": "Universidad Pedagógica y Tecnológica de Colombia",
+      "count": 1
+     },
+     {
+      "title": "Pontificia Universidad Católica Argentina 'Santa María de los Buenos Aires'​",
+      "count": 1
+     },
+     {
+      "title": "Silliman University",
+      "count": 1
+     },
+     {
+      "title": "Taguig City University",
+      "count": 1
+     },
+     {
+      "title": "Universidad Autónoma de Baja California",
+      "count": 1
+     },
+     {
+      "title": "IFRS",
+      "count": 1
+     },
+     {
+      "title": "University of Otago",
+      "count": 1
+     },
+     {
+      "title": "Utrecht University",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Current Function",
+    "values": [
+     {
+      "title": "Customer Success and Support",
+      "count": 12
+     },
+     {
+      "title": "Sales",
+      "count": 9
+     },
+     {
+      "title": "Operations",
+      "count": 6
+     },
+     {
+      "title": "Program and Project Management",
+      "count": 4
+     },
+     {
+      "title": "Healthcare Services",
+      "count": 3
+     },
+     {
+      "title": "Human Resources",
+      "count": 3
+     },
+     {
+      "title": "Information Technology",
+      "count": 3
+     },
+     {
+      "title": "Marketing",
+      "count": 3
+     },
+     {
+      "title": "Media and Communication",
+      "count": 3
+     },
+     {
+      "title": "Education",
+      "count": 3
+     },
+     {
+      "title": "Administrative",
+      "count": 2
+     },
+     {
+      "title": "Arts and Design",
+      "count": 2
+     },
+     {
+      "title": "Community and Social Services",
+      "count": 2
+     },
+     {
+      "title": "Engineering",
+      "count": 2
+     },
+     {
+      "title": "Quality Assurance",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Skill Explicit",
+    "values": [
+     {
+      "title": "English",
+      "count": 14
+     },
+     {
+      "title": "Communication",
+      "count": 13
+     },
+     {
+      "title": "Customer Service",
+      "count": 13
+     },
+     {
+      "title": "Problem Solving",
+      "count": 10
+     },
+     {
+      "title": "Customer Support",
+      "count": 10
+     },
+     {
+      "title": "Microsoft Excel",
+      "count": 9
+     },
+     {
+      "title": "Teamwork",
+      "count": 9
+     },
+     {
+      "title": "Microsoft Office",
+      "count": 8
+     },
+     {
+      "title": "Customer Relationship Management (CRM)",
+      "count": 8
+     },
+     {
+      "title": "Sales",
+      "count": 6
+     },
+     {
+      "title": "Customer Service Representatives",
+      "count": 5
+     },
+     {
+      "title": "Recruiting",
+      "count": 5
+     },
+     {
+      "title": "Social Media",
+      "count": 4
+     },
+     {
+      "title": "Technical Support",
+      "count": 4
+     },
+     {
+      "title": "Data Entry",
+      "count": 4
+     }
+    ]
+   },
+   {
+    "statTitle": "Service categories",
+    "values": [
+     {
+      "title": "Operations",
+      "count": 4
+     },
+     {
+      "title": "Consulting",
+      "count": 3
+     },
+     {
+      "title": "Marketing",
+      "count": 3
+     },
+     {
+      "title": "Customer Service",
+      "count": 3
+     },
+     {
+      "title": "Virtual Assistance",
+      "count": 2
+     },
+     {
+      "title": "Email Marketing",
+      "count": 2
+     },
+     {
+      "title": "Graphic Design",
+      "count": 2
+     },
+     {
+      "title": "Design",
+      "count": 2
+     },
+     {
+      "title": "Administrative Assistance",
+      "count": 2
+     },
+     {
+      "title": "Copywriting",
+      "count": 2
+     },
+     {
+      "title": "Outsourcing",
+      "count": 2
+     },
+     {
+      "title": "Writing",
+      "count": 2
+     },
+     {
+      "title": "Resume Writing",
+      "count": 1
+     },
+     {
+      "title": "Resume Review",
+      "count": 1
+     },
+     {
+      "title": "Lead Generation",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Field of Study",
+    "values": [
+     {
+      "title": "Education",
+      "count": 2
+     },
+     {
+      "title": "English Language and Literature/Letters",
+      "count": 2
+     },
+     {
+      "title": "Marketing",
+      "count": 2
+     },
+     {
+      "title": "Environmental Studies",
+      "count": 1
+     },
+     {
+      "title": "Japanese Studies",
+      "count": 1
+     },
+     {
+      "title": "Radio and Television",
+      "count": 1
+     },
+     {
+      "title": "Digital Communication and Media/Multimedia",
+      "count": 1
+     },
+     {
+      "title": "Computer and Information Sciences and Support Services",
+      "count": 1
+     },
+     {
+      "title": "Computer and Information Sciences, General",
+      "count": 1
+     },
+     {
+      "title": "Information Technology",
+      "count": 1
+     },
+     {
+      "title": "Computer Programming",
+      "count": 1
+     },
+     {
+      "title": "Computer Science",
+      "count": 1
+     },
+     {
+      "title": "Chemical Engineering",
+      "count": 1
+     },
+     {
+      "title": "Systems Engineering",
+      "count": 1
+     },
+     {
+      "title": "Law",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "originalQuery": {
+   "search": "Adaptive",
+   "location": ""
+  },
+  "requestId": "7b37d79a-e1fb-4a44-96f4-27e3fd4f8097"
+ }
+]

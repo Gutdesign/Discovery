@@ -1,0 +1,22 @@
+{
+ "companies": [
+  "https://www.linkedin.com/company/foresight-works/",
+  "https://www.linkedin.com/company/monumentalco/"
+ ],
+ "companyBatchMode": "one_by_one",
+ "jobTitles": [
+  "CEO",
+  "Founder",
+  "Co-Founder",
+  "Chief Product Officer",
+  "Head of Product",
+  "Product Manager",
+  "Head of AI",
+  "AI Lead",
+  "Chief AI Officer",
+  "Digital Transformation"
+ ],
+ "profileScraperMode": "Full ($8 per 1k)",
+ "maxItemsPerCompany": 5,
+ "maxItems": 12
+}

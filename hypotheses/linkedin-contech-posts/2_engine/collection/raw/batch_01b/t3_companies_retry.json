@@ -1,0 +1,1451 @@
+[
+ {
+  "id": "18256311",
+  "universalName": "foresight-group-services",
+  "linkedinUrl": "https://www.linkedin.com/company/foresight-group-services/",
+  "name": "Foresight Group",
+  "tagline": "",
+  "website": "https://www.foresight-group.com",
+  "callToActionUrl": "https://www.foresight-group.com",
+  "phone": null,
+  "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQG8VwvX8f9hqQ/company-logo_400_400/company-logo_400_400/0/1630614604184/foresight_group_services_logo?e=1794441600&v=beta&t=lBX86WqFrCv9VWiONQd-27-NpZKIDe3FcoF_j5BX9nM",
+  "foundedOn": {
+   "month": null,
+   "year": 1984,
+   "day": null
+  },
+  "employeeCount": 348,
+  "employeeCountRange": {
+   "start": 501,
+   "end": 1000
+  },
+  "followerCount": 11801,
+  "description": "The Foresight Group is a strategically diverse family-owned business, that's building a legacy for the future. It was founded on September 4, 1984, to give form to our founder Dr. Ravi Mehrotra's vision.\n\nFrom this humble but ambitious beginning, the business has grown into a multi-billion dollar global conglomerate that it is today. Every bit of the organization has been built from scratch, first by our founder and then with the help of the leadership team that works under his able guidance.\n\nWhat started as a shipping company has, over the decades, morphed into a global conglomerate through strategic diversification. \n\nThe earliest expansion into a new business line materialised Dr. Mehrotra’s exposure to oil trading. It formed the foundation of his expertise in the energy industry and lead to the company buying its first jack-up rig in 1989.\n\nThe group continues to explore new opportunities in diverse sunrise sectors to power its growth in the future.",
+  "companyType": "Privately Held",
+  "locations": [
+   {
+    "country": "AE",
+    "city": "Dubai ",
+    "geographicArea": "Dubai",
+    "line1": "6EA 222",
+    "line2": "DAFZA",
+    "postalCode": "371498",
+    "headquarter": true,
+    "description": null,
+    "parsed": {
+     "text": "Dubai, United Arab Emirates",
+     "countryCode": "AE",
+     "regionCode": null,
+     "country": "United Arab Emirates",
+     "countryFull": "United Arab Emirates",
+     "state": "Dubai",
+     "city": "Dubai"
+    }
+   },
+   {
+    "country": "GB",
+    "city": "London",
+    "geographicArea": "London",
+    "line1": "10 Arthur Street",
+    "line2": null,
+    "postalCode": "EC4R 9AY",
+    "headquarter": false,
+    "description": null,
+    "parsed": {
+     "text": "London, United Kingdom",
+     "countryCode": "GB",
+     "regionCode": null,
+     "country": "UK",
+     "countryFull": "United Kingdom",
+     "state": "England",
+     "city": "London"
+    }
+   }
+  ],
+  "specialities": [
+   "Offshore Oil Drilling",
+   "Shipping",
+   "India ",
+   "Branded Retail ",
+   "Middle East ",
+   "China ",
+   "Fine Dining "
+  ],
+  "industries": [
+   {
+    "id": "141",
+    "name": "International Trade and Development",
+    "urn": "urn:li:fsd_industryV2:141",
+    "title": "International Trade and Development",
+    "hierarchy": "Financial Services > Credit Intermediation > International Trade and Development"
+   }
+  ],
+  "logos": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C4E0BAQG8VwvX8f9hqQ/company-logo_400_400/company-logo_400_400/0/1630614604184/foresight_group_services_logo?e=1794441600&v=beta&t=lBX86WqFrCv9VWiONQd-27-NpZKIDe3FcoF_j5BX9nM",
+    "width": 400,
+    "height": 400
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C4E0BAQG8VwvX8f9hqQ/company-logo_200_200/company-logo_200_200/0/1630614604184/foresight_group_services_logo?e=1794441600&v=beta&t=nRM87EmxAMlD0LFcQUmCxkIV1W9bLStck1jM0IfwLN0",
+    "width": 200,
+    "height": 200
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C4E0BAQG8VwvX8f9hqQ/company-logo_100_100/company-logo_100_100/0/1630614604184/foresight_group_services_logo?e=1794441600&v=beta&t=lj_C-g0CIEfxY2f6WJo9w0Mt5g5Q2tsSBX9A4RkElNg",
+    "width": 100,
+    "height": 100
+   }
+  ],
+  "backgroundCover": "https://media.licdn.com/dms/image/v2/C561BAQF2TOVnQr4Urg/company-background_10000/company-background_10000/0/1621400466196/foresight_group_services_cover?e=1793192400&v=beta&t=ohZyKu-MOe_52PYT7VleE5y4ZG7C0SD3gQLhQP1BoiE",
+  "backgroundCovers": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C561BAQF2TOVnQr4Urg/company-background_10000/company-background_10000/0/1621400466196/foresight_group_services_cover?e=1793192400&v=beta&t=ohZyKu-MOe_52PYT7VleE5y4ZG7C0SD3gQLhQP1BoiE",
+    "width": 1584,
+    "height": 396
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C561BAQF2TOVnQr4Urg/company-background_400/company-background_400/0/1621400466196/foresight_group_services_cover?e=1793192400&v=beta&t=CUX8jnNUGz-IJ2UVJt4s_ziSsuqHOrPlO4nQgEL84kE",
+    "width": 400,
+    "height": 100
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C561BAQF2TOVnQr4Urg/company-background_200/company-background_200/0/1621400466196/foresight_group_services_cover?e=1793192400&v=beta&t=mHEoumlePv9fBBBUTaTcbPNFMpk0BkeJyXRtgmTGV2A",
+    "width": 200,
+    "height": 50
+   }
+  ],
+  "active": true,
+  "jobSearchUrl": "https://www.linkedin.com/jobs/search?geoId=92000000&f_C=18256311%2C69598154",
+  "pageVerified": false,
+  "pageType": "COMPANY",
+  "showcase": false,
+  "paidCompany": false,
+  "autoGenerated": false,
+  "messagingEnabled": true,
+  "similarOrganizations": [
+   {
+    "id": "100925557",
+    "universalName": "black-komodo-investments",
+    "linkedinUrl": "https://www.linkedin.com/company/black-komodo-investments/",
+    "name": "Black Komodo Investments",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQEplz6fwhqTmg/company-logo_400_400/company-logo_400_400/0/1714071195666/stealth_mode_research_logo?e=1794441600&v=beta&t=zOwtNlfcmBffRU-CHjv3Rho4tCJUs7jlk566YyGSd2U",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 177,
+    "description": "We provide curated financial services to family offices, high net worth individuals and corporates, spanning investment management,equity research and investment consulting.\n\nGrowing Wealth Through Value.",
+    "industries": [
+     {
+      "id": "43",
+      "name": "Financial Services",
+      "urn": "urn:li:fsd_industryV2:43",
+      "title": "Financial Services",
+      "hierarchy": "Financial Services"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQEuMUNJ89phLw/company-background_10000/company-background_10000/0/1711622815499/stealth_mode_research_cover?e=1793192400&v=beta&t=EY2m1NLTwNO9uIo5WZmAKMSFpBMkRa5spvO1bLBe95I",
+    "affiliatedPages": []
+   },
+   {
+    "id": "13424466",
+    "universalName": "jagson-international",
+    "linkedinUrl": "https://www.linkedin.com/company/jagson-international/",
+    "name": "Jagson Group",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQGHp5O7-fwcsg/company-logo_400_400/B56Z8CsM0qIoAU-/0/1782456569598/jagson_international_logo?e=1794441600&v=beta&t=TZp-Fz3JDD5oPYktsBCRgop-9UV0NCepjE_TrZ28vJ0",
+    "employeeCountRange": {
+     "start": 1001,
+     "end": 5000
+    },
+    "followerCount": 2914,
+    "description": "Jagson International Limited serves as the flagship company of the Jagson Group. It was established with the vision of exploring advanced offshore fields and has since emerged as one of India's leading oil and gas exploration companies. Over the years, the group has diversified into several other industries, becoming a dynamic and versatile organization.\n\nThe Jagson Group operates across a range of industries. With a strong presence in India and a growing global footprint, we are committed to providing exceptional services to our customers worldwide.\n\nAt Jagson Group, we are dedicated to fostering innovation and growth across all of our business lines. With a focus on commitment to excellence, we strive to make a positive impact on the communities we serve.\n\nWe take pride in the legacy we have established and look forward to connecting with you!",
+    "industries": [
+     {
+      "id": "57",
+      "name": "Oil and Gas",
+      "urn": "urn:li:fsd_industryV2:57",
+      "title": "Oil and Gas",
+      "hierarchy": "Oil, Gas, and Mining > Oil and Gas"
+     }
+    ],
+    "affiliatedPages": []
+   },
+   {
+    "id": "3592",
+    "universalName": "saipem",
+    "linkedinUrl": "https://www.linkedin.com/company/saipem/",
+    "name": "Saipem",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQGDiP-Ae4UqnA/company-logo_400_400/company-logo_400_400/0/1631319014444?e=1794441600&v=beta&t=NjmTNTjRKG998Ekrj-HMHpNsiWfeeCq65Ko2GhRmu6g",
+    "employeeCountRange": {
+     "start": 10001,
+     "end": null
+    },
+    "followerCount": 2317921,
+    "description": "Saipem is a global leader in the engineering and construction of major projects for the energy and infrastructure sectors, both offshore and onshore. Saipem is “One Company” organized into business lines: Asset Based Services, Drilling, Energy Carriers, Offshore Wind, Sustainable Infrastructures. The company has 5 fabrication yards and an offshore fleet of 17 construction vessels owned and 7 drilling rigs, of which 6 owned. Always oriented towards technological innovation, the company’s purpose is “Engineering for a sustainable future”. As such Saipem is committed to supporting its clients on the energy transition pathway towards Net Zero, with increasingly digital means, technologies and processes geared for environmental sustainability. Listed on the Milan Stock Exchange, it is present in more than 50 countries around the world and employs about 30,000 people of over 125 nationalities.",
+    "industries": [
+     {
+      "id": "3242",
+      "name": "Engineering Services",
+      "urn": "urn:li:fsd_industryV2:3242",
+      "title": "Engineering Services",
+      "hierarchy": "Professional Services > Engineering Services"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQH1t9JBEi9SYg/company-background_10000/company-background_10000/0/1712304630130/saipem_cover?e=1793192400&v=beta&t=4ZBlV8lJmjjsONk4OYr1jb4ZNQAFTy7fQ_njICDZ8NE",
+    "affiliatedPages": []
+   },
+   {
+    "id": "2217",
+    "universalName": "halliburton",
+    "linkedinUrl": "https://www.linkedin.com/company/halliburton/",
+    "name": "Halliburton",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C560BAQFtpbHFAokMwQ/company-logo_400_400/company-logo_400_400/0/1654719813092/halliburton_logo?e=1794441600&v=beta&t=nG46GH_kxaebi5Ji4UUeiOo9DAFQxrRCrAzyPhdFj40",
+    "employeeCountRange": {
+     "start": 10001,
+     "end": null
+    },
+    "followerCount": 3187365,
+    "description": "We collaborate and engineer solutions to maximize asset value for our customers. Founded in 1919, Halliburton is one of the world's largest providers of products and services to the energy industry. With more than 45,000 employees, representing 130 nationalities in more than 80 countries, the company helps its customers maximize value throughout the lifecycle of the reservoir – from locating hydrocarbons and managing geological data, to drilling and formation evaluation, well construction and completion, and optimizing production throughout the life of the asset. ",
+    "industries": [
+     {
+      "id": "57",
+      "name": "Oil and Gas",
+      "urn": "urn:li:fsd_industryV2:57",
+      "title": "Oil and Gas",
+      "hierarchy": "Oil, Gas, and Mining > Oil and Gas"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQGNpUWDIon9Iw/company-background_10000/company-background_10000/0/1729879898940/halliburton_cover?e=1793192400&v=beta&t=eyidSx0k8UQeo4Jfs73VTOdv9Lz-bvAc5qTsiVCHsrU",
+    "affiliatedPages": []
+   },
+   {
+    "id": "30015",
+    "universalName": "seadrill",
+    "linkedinUrl": "https://www.linkedin.com/company/seadrill/",
+    "name": "Seadrill",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQHL6lFhvM14mQ/company-logo_400_400/company-logo_400_400/0/1656515541716/seadrill_logo?e=1794441600&v=beta&t=Lz7QO0efLDkssivXW0qRpmV77KPgzI-HaZKhLZAc-Zs",
+    "employeeCountRange": {
+     "start": 1001,
+     "end": 5000
+    },
+    "followerCount": 704056,
+    "description": "Seadrill is setting the standard in deepwater oil and gas drilling. With its modern fleet, experienced crews, and advanced technologies, Seadrill safely, efficiently, and responsibly unlocks oil and gas resources for national, integrated, and independent oil companies.\n\nSeadrill Social Media Community Guidelines:\n\nAt Seadrill, we believe in fostering an inclusive and respectful community where everyone feels welcome to engage and share their thoughts. To ensure a positive and constructive experience for all, we kindly ask our community members to adhere to the following guidelines:\n\n1.\tRespectful Dialogue: Treat others with kindness, empathy, and respect. Engage in constructive commentary and avoid personal attacks, derogatory language, or offensive comments. Let's create a space where diversity is championed through mutual respect.\n\n2.\tNo Hate Speech: Hateful, discriminatory, or offensive language targeting individuals or groups based on their race, ethnicity, gender, religion, sexual orientation, or any other characteristic is strictly prohibited. We are committed to fostering an inclusive environment both in the workplace and on our social channels.\n\n3.\tStay on Topic: When commenting on our posts, please ensure that your contributions are relevant to the topic at hand. Off-topic or spam comments may be removed to maintain the clarity and focus of the discussion.\n\n4.\tProtect Privacy: Refrain from sharing personal or confidential information about others, including their contact details, without their consent. Respecting privacy is vital for maintaining a safe and trustworthy community.\n\n5.\tIntellectual Property: Respect copyright laws and give proper credit when sharing content that belongs to others. Plagiarism or unauthorized use of copyrighted material is not acceptable.\n\nSeadrill reserves the right to delete comments or block users who violate these guidelines. We are committed to fostering an environment where everyone feels valued and heard.",
+    "industries": [
+     {
+      "id": "57",
+      "name": "Oil and Gas",
+      "urn": "urn:li:fsd_industryV2:57",
+      "title": "Oil and Gas",
+      "hierarchy": "Oil, Gas, and Mining > Oil and Gas"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQFE7PjtyRAVcA/company-background_10000/company-background_10000/0/1680704836077/seadrill_cover?e=1793192400&v=beta&t=dLq5ZEBJFhAqHrRIU-k6w4JnumX37-Tp5feRXA7UU4s",
+    "affiliatedPages": []
+   },
+   {
+    "id": "17208",
+    "universalName": "nabors-industries",
+    "linkedinUrl": "https://www.linkedin.com/company/nabors-industries/",
+    "name": "Nabors Industries",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQHXOhWOo6Ztjg/company-logo_400_400/company-logo_400_400/0/1661179263824/nabors_industries_logo?e=1794441600&v=beta&t=IeXkR4wzLdPKc3Ik-SvacAi_HsjhTD5JBZ8qKvLluvE",
+    "employeeCountRange": {
+     "start": 10001,
+     "end": null
+    },
+    "followerCount": 272590,
+    "description": "Nabors Industries is a leading provider of advanced technology for the energy industry. With operations in approximately 20 countries, Nabors has established a global network of people, technology and equipment to deploy solutions that deliver safe, efficient and responsible energy production. By leveraging its core competencies, particularly in drilling, engineering, automation, data science and manufacturing, Nabors aims to innovate the future of energy and enable the transition to a lower carbon world.\n\nNabors owns and operates one of the world’s largest land-based drilling rig fleet and is a provider of offshore drilling rigs in the United States and multiple international markets. Nabors also provides directional drilling services, performance tools and innovative technologies for its own rig fleet and those of third parties. Utilizing its advanced drilling automation capabilities, Nabors’ highly skilled workforce continues to set new standards for operational excellence and transform our industry.",
+    "industries": [
+     {
+      "id": "57",
+      "name": "Oil and Gas",
+      "urn": "urn:li:fsd_industryV2:57",
+      "title": "Oil and Gas",
+      "hierarchy": "Oil, Gas, and Mining > Oil and Gas"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/C4E1BAQFzQe6sdrLTCg/company-background_10000/company-background_10000/0/1639420631630/nabors_industries_cover?e=1793192400&v=beta&t=FLHuF44r-HaNsGviE0NtNZKZSmQshVHhipfrxPsusJ0",
+    "affiliatedPages": []
+   },
+   {
+    "id": "14495786",
+    "universalName": "mitsubishielectric",
+    "linkedinUrl": "https://www.linkedin.com/company/mitsubishielectric/",
+    "name": "Mitsubishi Electric",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C510BAQFkbYjbj4CdXQ/company-logo_400_400/company-logo_400_400/0/1630587556715/mitsubishielectric_logo?e=1794441600&v=beta&t=h_dA50FEbncbHzsqcb-bnMo9rkFojyadg1OYFkk1GtM",
+    "employeeCountRange": {
+     "start": 10001,
+     "end": null
+    },
+    "followerCount": 312161,
+    "description": "Mitsubishi Electric Group’s Purpose is to create new possibilities for a better tomorrow through bold vision and boundless innovation. By advancing technologies and services through creativity across every aspect of its business, the Group helps enrich society and improve quality of life.\nThe company has established itself as a leader in the manufacture and sales of electric and electronic equipment used in Energy and Electric Systems, Industrial Automation, Information and Communication Systems, Electronic Devices, and Home Appliances.\n\n[Mitsubishi Electric Social Media Terms of Use]\nComments unrelated to the purpose and content of this page are subject to deletion. Please see our social media terms of use for the full list of disclaimers and prohibited activities:\nhttp://www.mitsubishielectric.com/social/terms/index.html",
+    "industries": [
+     {
+      "id": "112",
+      "name": "Appliances, Electrical, and Electronics Manufacturing",
+      "urn": "urn:li:fsd_industryV2:112",
+      "title": "Appliances, Electrical, and Electronics Manufacturing",
+      "hierarchy": "Manufacturing > Appliances, Electrical, and Electronics Manufacturing"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQG1g_WcviazNw/company-background_10000/B56ZXz8fRWGUAc-/0/1743554475547/mitsubishielectric_cover?e=1793192400&v=beta&t=SONxUDkG9JK-ZS0grW0Ekv0d62aT-VkQKRJ3UV-3BWo",
+    "affiliatedPages": []
+   },
+   {
+    "id": "17993679",
+    "universalName": "borr-drilling",
+    "linkedinUrl": "https://www.linkedin.com/company/borr-drilling/",
+    "name": "Borr Drilling",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQHtxk1iPRt3qg/company-logo_400_400/company-logo_400_400/0/1631331917317?e=1794441600&v=beta&t=Dr9NyforB5pDCRI-4HMcYIJs2dSgl8fgE6SkP6imZVU",
+    "employeeCountRange": {
+     "start": 1001,
+     "end": 5000
+    },
+    "followerCount": 150444,
+    "description": "Borr Drilling Limited is an offshore shallow-water drilling contractor providing worldwide offshore drilling services to the oil and gas industry. Our primary business is the ownership and operation of premium jack-up drilling rigs for operations in water depths up to approximately 400 feet. \n\nIn addition to rig ownership, we take pride in going above and beyond by providing safe, efficient and sustainable drilling operations meeting our client needs for exploration, production, workover, plug and abandon and CCS drilling services. Our modern fleet of highly capable drilling rigs together with excellent operational track record ensure that our customers have access to the resources required for safe and efficient offshore operations.\n\nThrough our comprehensive structure and well-defined value chain, we have positioned ourselves as a leading player in the offshore drilling sector. By combining rig ownership, operational excellence, equipment provision, a skilled workforce and extensive support services, we continue to deliver high-quality offshore drilling services worldwide.",
+    "industries": [
+     {
+      "id": "57",
+      "name": "Oil and Gas",
+      "urn": "urn:li:fsd_industryV2:57",
+      "title": "Oil and Gas",
+      "hierarchy": "Oil, Gas, and Mining > Oil and Gas"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4D1BAQFIZmP-9kWv3g/company-background_10000/B4DZnNfl3zKsAY-/0/1760089235370/borr_drilling_cover?e=1793192400&v=beta&t=LLD0bND22w11_jueMebScMyBSkPw5SVkPDfzQCIelzY",
+    "affiliatedPages": []
+   },
+   {
+    "id": "13631168",
+    "universalName": "aro-drilling",
+    "linkedinUrl": "https://www.linkedin.com/company/aro-drilling/",
+    "name": "ARO Drilling",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQHUNvB4CSyfvw/company-logo_400_400/B4EaEVSEyZK4AU-/0/1791358422595/aro_drilling_logo?e=1794441600&v=beta&t=ZMX6ZiHx9gmmloulzrjyLeHKXV9EG4fw3Jl5u5Wjuio",
+    "employeeCountRange": {
+     "start": 1001,
+     "end": 5000
+    },
+    "followerCount": 224209,
+    "description": "ARO is a world-class offshore drilling contractor that owns, operates, and manages a fleet of high-specification and premium jack-up rigs in Saudi Arabia. ARO is a joint venture between Saudi Aramco, the world’s largest oil and gas company, and Valaris Companies, an industry-leading, global drilling contractor. This joint venture marks a major milestone towards the development of a competitive Saudi energy sector, as encapsulated in Saudi Aramco’s In-Kingdom Total Value Add (iktva) program and Saudi Vision 2030.\n\nSaudi Aramco and Valaris Companies have worked together continuously in the Saudi Arabian market since 2006, and this strengthened partnership will ensure increased collaboration between the partners, increased efficiency of drilling operations, improved localization of the drilling industry in Saudi Arabia, and best-in-class drilling performance.\n\nThe offshore drilling market in Saudi Arabia is expected to expand, creating considerable demand for drilling services. We are committed to purchasing up to 20 newbuild jack-up rigs over 10 years, taking delivery of the first rig as early as 2022, in order to meet Saudi Aramco’s offshore drilling requirements in the Kingdom.\n\nFor more information on our shareholders:\nhttps://www.valaris.com\nhttps://www.saudiaramco.com",
+    "industries": [
+     {
+      "id": "57",
+      "name": "Oil and Gas",
+      "urn": "urn:li:fsd_industryV2:57",
+      "title": "Oil and Gas",
+      "hierarchy": "Oil, Gas, and Mining > Oil and Gas"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQG0tRraGpKalQ/company-background_10000/B4EaEVR_91GwAM-/0/1791358402926/aro_drilling_cover?e=1793192400&v=beta&t=k7k5Lj38CFbXgkoI2Igxgm4GYVcRr0Zui3NNUjCxHqc",
+    "affiliatedPages": []
+   },
+   {
+    "id": "23298",
+    "universalName": "noble-corp",
+    "linkedinUrl": "https://www.linkedin.com/company/noble-corp/",
+    "name": "Noble Corporation",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQHw2_qh5lWvsA/company-logo_400_400/company-logo_400_400/0/1664719443999/noble_drilling_logo?e=1794441600&v=beta&t=dnNgpxV-dN_zL3atMRlylZ-0Y7x3l19PukZ0BCAIp0A",
+    "employeeCountRange": {
+     "start": 5001,
+     "end": 10000
+    },
+    "followerCount": 355675,
+    "description": "Noble is a leading offshore drilling contractor for the oil and gas industry. We own and operate one of the most modern, versatile, and technically advanced fleets in the offshore drilling industry. We strive to be an industry leader by being the first choice for employees, customers and investors. For over a hundred years, Noble has performed contract drilling services with a fleet of offshore drilling units focused largely on ultra-deepwater and high specification jackup drilling opportunities worldwide. \n\nNoble's communication on social media may contain forward-looking statements. Please review our disclaimer at https://noblecorp.com/investors/social-media/default.aspx",
+    "industries": [
+     {
+      "id": "57",
+      "name": "Oil and Gas",
+      "urn": "urn:li:fsd_industryV2:57",
+      "title": "Oil and Gas",
+      "hierarchy": "Oil, Gas, and Mining > Oil and Gas"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQFmu3W8popJAA/company-background_10000/B56Z6sp8MTGgAI-/0/1781013136403/noble_corp_cover?e=1793192400&v=beta&t=MbTMsARiUfyo-8LjEEwgnG1K-uo0Ao1hbzqdU-465a0",
+    "affiliatedPages": []
+   },
+   {
+    "id": "1468",
+    "universalName": "slbglobal",
+    "linkedinUrl": "https://www.linkedin.com/company/slbglobal/",
+    "name": "SLB",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQFwhnoORL25KA/company-logo_400_400/company-logo_400_400/0/1666604496648/slbdigital_logo?e=1794441600&v=beta&t=muDyW5WWj7Gob32SIOmVmsGIOVk3mPaCRWgpamDlV78",
+    "employeeCountRange": {
+     "start": 10001,
+     "end": null
+    },
+    "followerCount": 3718458,
+    "description": "SLB is a global technology company that has driven energy innovation for more than a century. With a global footprint in more than 100 countries and employees representing almost twice as many nationalities, we work each day on innovating oil and gas, delivering digital at scale, decarbonizing industries, and developing and scaling new energy systems that accelerate the energy transition. Find out more at slb.com.",
+    "industries": [
+     {
+      "id": "3259",
+      "name": "Energy Technology",
+      "urn": "urn:li:fsd_industryV2:3259",
+      "title": "Energy Technology",
+      "hierarchy": null
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQFhT6twQTGN2w/company-background_10000/B56Zv_2.I2JEAU-/0/1769524161950/slbglobal_cover?e=1793192400&v=beta&t=ZDSwpgfJhXtGtTenrNu3yL106sqQ7EklHnp0vma9syg",
+    "affiliatedPages": []
+   },
+   {
+    "id": "68467",
+    "universalName": "h-p-inc",
+    "linkedinUrl": "https://www.linkedin.com/company/h-p-inc/",
+    "name": "H&P",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQGaZxIAS5gMDw/company-logo_400_400/company-logo_400_400/0/1630630056090/helmerich__payne_logo?e=1794441600&v=beta&t=gNHfM0knpbXBnHXWNnKFHDaZCFfgG_HY6GOuyUhfer8",
+    "employeeCountRange": {
+     "start": 5001,
+     "end": 10000
+    },
+    "followerCount": 271432,
+    "description": "Since 1920, H&P has been the industry’s most trusted partner in U.S. land, international and offshore drilling productivity and reliability. Using cutting edge rig technologies and drilling solutions; we’re building upon a century of success while continuing to improve reliability, safety and efficiency for our customers.   ",
+    "industries": [
+     {
+      "id": "57",
+      "name": "Oil and Gas",
+      "urn": "urn:li:fsd_industryV2:57",
+      "title": "Oil and Gas",
+      "hierarchy": "Oil, Gas, and Mining > Oil and Gas"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQE3Rg3a8lMg4Q/company-background_10000/B56Zy1tStBG4AU-/0/1772575075896/h_p_inc_cover?e=1793192400&v=beta&t=gU4JMUiehGVQFEZLUMqNuZOy7ihK9pWKQo3VWhcyhMU",
+    "affiliatedPages": []
+   }
+  ],
+  "affiliatedPages": [
+   {
+    "id": "69598154",
+    "universalName": "bhavnagar-port-infrastructure-private-limited",
+    "linkedinUrl": "https://www.linkedin.com/company/bhavnagar-port-infrastructure-private-limited",
+    "name": "Bhavnagar Port Infrastructure Private Limited",
+    "website": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C560BAQGzDwWAqb03iA/company-logo_400_400/company-logo_400_400/0/1630643351980?e=1794441600&v=beta&t=k50E5ERuD65zvq8agE4BMCJ2438S95XKUHe1ji6RwwE",
+    "followerCount": 11801,
+    "description": "Bhavnagar Port Infrastructure Private Limited is a Special Purpose Vehicle formed by the consortium of UK based Foresight Group, India based Padmanabh Mafatlal Group and Netherlands based Boskalis for the development of Port and allied infrastructure at New Port Bhavnagar, Gujarat, India which also include India's first CNG Import Terminal.",
+    "industries": [
+     {
+      "id": "116",
+      "name": "Transportation, Logistics, Supply Chain and Storage",
+      "urn": "urn:li:fs_industry:116",
+      "title": "Transportation, Logistics, Supply Chain and Storage",
+      "hierarchy": "Transportation, Logistics, Supply Chain and Storage"
+     }
+    ],
+    "logos": [
+     {
+      "url": "https://media.licdn.com/dms/image/v2/C560BAQGzDwWAqb03iA/company-logo_400_400/company-logo_400_400/0/1630643351980?e=1794441600&v=beta&t=k50E5ERuD65zvq8agE4BMCJ2438S95XKUHe1ji6RwwE",
+      "width": 400,
+      "height": 400
+     },
+     {
+      "url": "https://media.licdn.com/dms/image/v2/C560BAQGzDwWAqb03iA/company-logo_200_200/company-logo_200_200/0/1630643351980?e=1794441600&v=beta&t=QCZMXkWlVxEEzvSmVKpsNSQWdifVA9sXkYcvx6iHNnA",
+      "width": 200,
+      "height": 200
+     },
+     {
+      "url": "https://media.licdn.com/dms/image/v2/C560BAQGzDwWAqb03iA/company-logo_100_100/company-logo_100_100/0/1630643351980?e=1794441600&v=beta&t=jW2IhMGJNc-tP5UeqgxGBHrlkY3lvc2pzsFG1vnOLE0",
+      "width": 100,
+      "height": 100
+     }
+    ],
+    "showcase": false,
+    "paidCompany": false
+   }
+  ],
+  "peopleStats": [
+   {
+    "statTitle": "Locations",
+    "values": [
+     {
+      "title": "India",
+      "count": 255
+     },
+     {
+      "title": "Maharashtra, India",
+      "count": 158
+     },
+     {
+      "title": "Mumbai Metropolitan Region",
+      "count": 148
+     },
+     {
+      "title": "Mumbai",
+      "count": 136
+     },
+     {
+      "title": "United Arab Emirates",
+      "count": 48
+     },
+     {
+      "title": "Abu Dhabi Emirate, United Arab Emirates",
+      "count": 22
+     },
+     {
+      "title": "Kerala, India",
+      "count": 16
+     },
+     {
+      "title": "Dubai, United Arab Emirates",
+      "count": 16
+     },
+     {
+      "title": "Abu Dhabi",
+      "count": 11
+     },
+     {
+      "title": "Uttar Pradesh, India",
+      "count": 11
+     },
+     {
+      "title": "Assam, India",
+      "count": 10
+     },
+     {
+      "title": "Dubai",
+      "count": 8
+     },
+     {
+      "title": "Karnataka, India",
+      "count": 7
+     },
+     {
+      "title": "United Kingdom",
+      "count": 6
+     },
+     {
+      "title": "Tamil Nadu, India",
+      "count": 6
+     }
+    ]
+   },
+   {
+    "statTitle": "School",
+    "values": [
+     {
+      "title": "University of Mumbai",
+      "count": 11
+     },
+     {
+      "title": "The Institute of Chartered Accountants of India",
+      "count": 8
+     },
+     {
+      "title": "Maharashtra Institute of Technology",
+      "count": 4
+     },
+     {
+      "title": "Mumbai University Mumbai",
+      "count": 4
+     },
+     {
+      "title": "Mumbai University",
+      "count": 3
+     },
+     {
+      "title": "Delhi University",
+      "count": 3
+     },
+     {
+      "title": "Maharshi Dayanand University",
+      "count": 2
+     },
+     {
+      "title": "Utkal University",
+      "count": 2
+     },
+     {
+      "title": "Kendriya Vidyalaya",
+      "count": 2
+     },
+     {
+      "title": "Maharashtra State Board of Technical Education (MSBTE)",
+      "count": 2
+     },
+     {
+      "title": "The Institute of Company Secretaries of India",
+      "count": 2
+     },
+     {
+      "title": "Jaipur National University",
+      "count": 2
+     },
+     {
+      "title": "Assam",
+      "count": 2
+     },
+     {
+      "title": "Govt. Polytechnic College",
+      "count": 2
+     },
+     {
+      "title": "ACCA",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "statTitle": "Current Function",
+    "values": [
+     {
+      "title": "Operations",
+      "count": 177
+     },
+     {
+      "title": "Engineering",
+      "count": 61
+     },
+     {
+      "title": "Business Development",
+      "count": 16
+     },
+     {
+      "title": "Finance",
+      "count": 13
+     },
+     {
+      "title": "Administrative",
+      "count": 10
+     },
+     {
+      "title": "Purchasing",
+      "count": 10
+     },
+     {
+      "title": "Information Technology",
+      "count": 9
+     },
+     {
+      "title": "Accounting",
+      "count": 8
+     },
+     {
+      "title": "Healthcare Services",
+      "count": 8
+     },
+     {
+      "title": "Human Resources",
+      "count": 8
+     },
+     {
+      "title": "Education",
+      "count": 7
+     },
+     {
+      "title": "Sales",
+      "count": 5
+     },
+     {
+      "title": "Customer Success and Support",
+      "count": 5
+     },
+     {
+      "title": "Community and Social Services",
+      "count": 5
+     },
+     {
+      "title": "Legal",
+      "count": 4
+     }
+    ]
+   },
+   {
+    "statTitle": "Skill Explicit",
+    "values": [
+     {
+      "title": "Offshore Drilling",
+      "count": 73
+     },
+     {
+      "title": "Oil and Gas",
+      "count": 66
+     },
+     {
+      "title": "Oil and Gas Drilling",
+      "count": 54
+     },
+     {
+      "title": "Petroleum",
+      "count": 52
+     },
+     {
+      "title": "Oilfield",
+      "count": 48
+     },
+     {
+      "title": "Onshore Oil and Gas Operations",
+      "count": 45
+     },
+     {
+      "title": "Gas",
+      "count": 41
+     },
+     {
+      "title": "Offshore Oil and Gas Operations",
+      "count": 34
+     },
+     {
+      "title": "Management",
+      "count": 33
+     },
+     {
+      "title": "Microsoft Office",
+      "count": 33
+     },
+     {
+      "title": "Engineering",
+      "count": 32
+     },
+     {
+      "title": "Oil and Gas Industry",
+      "count": 31
+     },
+     {
+      "title": "Construction Site Inspections",
+      "count": 27
+     },
+     {
+      "title": "Teamwork",
+      "count": 22
+     },
+     {
+      "title": "Safety Management Systems",
+      "count": 18
+     }
+    ]
+   },
+   {
+    "statTitle": "Service categories",
+    "values": [
+     {
+      "title": "Operations",
+      "count": 4
+     },
+     {
+      "title": "Consulting",
+      "count": 3
+     },
+     {
+      "title": "Project Management",
+      "count": 3
+     },
+     {
+      "title": "Financial Accounting",
+      "count": 1
+     },
+     {
+      "title": "Customer Support",
+      "count": 1
+     },
+     {
+      "title": "Personal Assistance",
+      "count": 1
+     },
+     {
+      "title": "Marketing",
+      "count": 1
+     },
+     {
+      "title": "Industrial Design",
+      "count": 1
+     },
+     {
+      "title": "Demand Generation",
+      "count": 1
+     },
+     {
+      "title": "Custom Software Development",
+      "count": 1
+     },
+     {
+      "title": "Design",
+      "count": 1
+     },
+     {
+      "title": "Career Development Coaching",
+      "count": 1
+     },
+     {
+      "title": "Information Technology",
+      "count": 1
+     },
+     {
+      "title": "Executive Coaching",
+      "count": 1
+     },
+     {
+      "title": "Marketing Consulting",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Field of Study",
+    "values": [
+     {
+      "title": "Mechanical Engineering",
+      "count": 31
+     },
+     {
+      "title": "Accounting and Finance",
+      "count": 9
+     },
+     {
+      "title": "Electrical and Electronics Engineering",
+      "count": 8
+     },
+     {
+      "title": "Physical Sciences",
+      "count": 8
+     },
+     {
+      "title": "Business/Commerce, General",
+      "count": 7
+     },
+     {
+      "title": "Business Administration and Management, General",
+      "count": 7
+     },
+     {
+      "title": "Electrical, Electronics and Communications Engineering",
+      "count": 6
+     },
+     {
+      "title": "Finance, General",
+      "count": 6
+     },
+     {
+      "title": "Criminal Justice/Safety Studies",
+      "count": 5
+     },
+     {
+      "title": "Marketing",
+      "count": 5
+     },
+     {
+      "title": "Computer Science",
+      "count": 4
+     },
+     {
+      "title": "Petroleum Engineering",
+      "count": 4
+     },
+     {
+      "title": "Computational Science",
+      "count": 4
+     },
+     {
+      "title": "Human Resources Management/Personnel Administration, General",
+      "count": 4
+     },
+     {
+      "title": "Computer Programming, Specific Applications",
+      "count": 3
+     }
+    ]
+   }
+  ],
+  "originalQuery": {
+   "search": "foresight.works",
+   "location": ""
+  },
+  "requestId": "3300fd36-ff79-432c-a6f0-775d016bfdf8"
+ },
+ {
+  "id": "6412313",
+  "universalName": "medicine-hat-monumental-co-ltd-",
+  "linkedinUrl": "https://www.linkedin.com/company/medicine-hat-monumental-co-ltd-/",
+  "name": "Medicine Hat Monumental Co. Ltd.",
+  "website": "http://mhmonumental.com",
+  "callToActionUrl": "http://mhmonumental.com",
+  "phone": null,
+  "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQHUy_lkP791OA/company-logo_400_400/company-logo_400_400/0/1631330595329?e=1794441600&v=beta&t=p-XCnN3Sad7uC5oxAUApNbNMKn8HswcKtKsdD6moZtY",
+  "foundedOn": {
+   "month": null,
+   "year": 1970,
+   "day": null
+  },
+  "employeeCount": 1,
+  "employeeCountRange": {
+   "start": 2,
+   "end": 10
+  },
+  "followerCount": 22,
+  "description": "Medicine Hat Monumental is a locally owned and operated Monument Builder which has been owned by the Anctil Family in Medicine Hat, Alberta since its inception in 1970.\n\nMedicine Hat Monumental is a full-service monument shop with production on site by experienced designers and craftsmen.\n\nMonuments are an important connection to the past and the future; providing family and friends a place to celebrate the lives of their loved ones, or connect with ancestors they may never of had an opportunity to meet.\n\nWith our years of design and production experience, Medicine Hat Monumental can expand your ideas and personalise a memorial to your exact wishes to reflect the life of your loved ones. Once you have selected your memorial, you can receive a detailed computer sketch. We welcome customers to come and view the progress of their memorial in our shop at each stage of production.",
+  "companyType": "Privately Held",
+  "locations": [
+   {
+    "country": "CA",
+    "city": "Medicine Hat",
+    "geographicArea": "Alberta",
+    "line1": "765 12th Street S.E.",
+    "line2": null,
+    "postalCode": "T1A 1W1",
+    "headquarter": true,
+    "description": "Main Showroom & Production",
+    "parsed": {
+     "text": "Medicine Hat, Canada",
+     "countryCode": "CA",
+     "regionCode": null,
+     "country": "Canada",
+     "countryFull": "Canada",
+     "state": "Alberta",
+     "city": "Medicine Hat"
+    }
+   },
+   {
+    "country": "CA",
+    "city": "Medicine Hat",
+    "geographicArea": "Alberta",
+    "line1": "974 13th Street S.W.",
+    "line2": null,
+    "postalCode": "T1A 7M5",
+    "headquarter": false,
+    "description": "Hillside Cemetery Showroom",
+    "parsed": {
+     "text": "Medicine Hat, Canada",
+     "countryCode": "CA",
+     "regionCode": null,
+     "country": "Canada",
+     "countryFull": "Canada",
+     "state": "Alberta",
+     "city": "Medicine Hat"
+    }
+   }
+  ],
+  "specialities": [
+   "Granite Monuments",
+   "Bronze Monuments",
+   "Sandblasting"
+  ],
+  "industries": [
+   {
+    "id": "91",
+    "name": "Consumer Services",
+    "urn": "urn:li:fsd_industryV2:91",
+    "title": "Consumer Services",
+    "hierarchy": "Consumer Services"
+   }
+  ],
+  "logos": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHUy_lkP791OA/company-logo_400_400/company-logo_400_400/0/1631330595329?e=1794441600&v=beta&t=p-XCnN3Sad7uC5oxAUApNbNMKn8HswcKtKsdD6moZtY",
+    "width": 400,
+    "height": 400
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHUy_lkP791OA/company-logo_200_200/company-logo_200_200/0/1631330595329?e=1794441600&v=beta&t=eNzatlct2M6xuyMGSBdJD41gKqJLefm0O52o7hEueqU",
+    "width": 200,
+    "height": 200
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHUy_lkP791OA/company-logo_100_100/company-logo_100_100/0/1631330595329?e=1794441600&v=beta&t=wazgsXOFl_wjQRQO1RGGIn8v08Ue-0oLeyQraeeG_No",
+    "width": 100,
+    "height": 100
+   }
+  ],
+  "active": true,
+  "jobSearchUrl": "https://www.linkedin.com/jobs/search?geoId=92000000&f_C=6412313",
+  "pageVerified": false,
+  "pageType": "COMPANY",
+  "showcase": false,
+  "paidCompany": false,
+  "autoGenerated": false,
+  "messagingEnabled": true,
+  "similarOrganizations": [
+   {
+    "id": "103573623",
+    "universalName": "ourmindbv",
+    "linkedinUrl": "https://www.linkedin.com/company/ourmindbv/",
+    "name": "OurMind",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGi5FIV0GOC5g/company-logo_400_400/company-logo_400_400/0/1715328564751?e=1794441600&v=beta&t=cdyixuIcTU4usjOVsmF-MCRjRRD5m_JCd3YupntGvmc",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 1626,
+    "description": "In a world where healthcare needs keep growing, the challenge isn't just meeting demand—it's about reshaping how care is delivered.\n\nEvery individual deserves access to top-notch healthcare, regardless of where they live or their economic status. Our mission? To revolutionize accessibility and outcomes in healthcare globally through a digital workforce empowered by safe, sophisticated AI.\n\nWe're not just filling gaps—together with a community of healthcare  professionals we're creating new pathways to wellness, by bringing deep healthcare expertise directly to every person who needs it.\n\nWelcome to OurMind, where we make the future of health accessible today.",
+    "industries": [
+     {
+      "id": "4",
+      "name": "Software Development",
+      "urn": "urn:li:fsd_industryV2:4",
+      "title": "Software Development",
+      "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Software Development"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQHL6X1LUmYYCQ/company-background_10000/company-background_10000/0/1715328990018/ourmind_b_v_cover?e=1793192400&v=beta&t=Xp8LsdByKEo2Cgs2isuFMRGXtHDmdb3wfzzqULVk5kI",
+    "affiliatedPages": []
+   },
+   {
+    "id": "106555767",
+    "universalName": "angard-microwave",
+    "linkedinUrl": "https://www.linkedin.com/company/angard-microwave/",
+    "name": "AnGard Microwave",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQHJASYwlApZfQ/company-logo_400_400/B4EZ8aVnqQJgAY-/0/1782853303198/angard_microwave_logo?e=1794441600&v=beta&t=JbdTumugrG15RP-zJfOQLmONzemHIZxAwGkQnW8BS5E",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 733,
+    "description": "AnGard Microwave is a Dutch defence-tech company developing compact, high-performance and cost-effective high-power microwave systems for modern counter-robotic applications. Our energy-based non-kinetic solutions help protect Europe and her allies from the evolving threat of weaponised autonomous systems. Our technology is designed to instantaneously disable combat robotic threats, whether they are radio, fiber-optic or AI controlled.\n\nAt AnGard Microwave, our core mission is to rebalance the equation against the growing asymmetric threat of illegal and weaponised robotic systems that can spy, smuggle and destroy critical assets and infrastructure across the free world.",
+    "industries": [
+     {
+      "id": "25",
+      "name": "Manufacturing",
+      "urn": "urn:li:fsd_industryV2:25",
+      "title": "Manufacturing",
+      "hierarchy": "Manufacturing"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQHd120Ilmw7_g/company-background_10000/B4EZ8aPBqeKQAI-/0/1782851574638/angard_microwave_cover?e=1793192400&v=beta&t=drQ4RnCbKYPixaof8jHij-rnhHe5Ou0N1kUYyGyVDKw",
+    "affiliatedPages": []
+   },
+   {
+    "id": "81429794",
+    "universalName": "photonbridge",
+    "linkedinUrl": "https://www.linkedin.com/company/photonbridge/",
+    "name": "Photon Bridge",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFzi9a2iZn2Jw/company-logo_400_400/B4EZmAwiYaKkAY-/0/1758801831812/photoniptech_logo?e=1794441600&v=beta&t=CcNNkkuSjjkVr1EZrAppkzxFtHj14owDPHpxgGqHmHU",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 2425,
+    "description": "We take a radically different path to photonic integration—our cantilever waveguides bridge III-V performance with silicon scalability in a way no one else can. By combining breakthrough technology with flawless execution, we’re building the optical engines that will drive the next era of AI and telecom.\n",
+    "industries": [
+     {
+      "id": "7",
+      "name": "Semiconductor Manufacturing",
+      "urn": "urn:li:fsd_industryV2:7",
+      "title": "Semiconductor Manufacturing",
+      "hierarchy": "Manufacturing > Computers and Electronics Manufacturing > Semiconductor Manufacturing"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQE0yUvRjHvQ5g/company-background_10000/B4EZmAxAVHHEAU-/0/1758801954499/photonbridge_cover?e=1793192400&v=beta&t=o-TkDbDI3BtpLmS2cnvbEDxePFVx6Ah9Wr9NOXDkNXo",
+    "affiliatedPages": []
+   },
+   {
+    "id": "28978138",
+    "universalName": "falckerinnovations",
+    "linkedinUrl": "https://www.linkedin.com/company/falckerinnovations/",
+    "name": "Falcker Innovations B.V.",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQHlmbaAdndv6Q/company-logo_400_400/company-logo_400_400/0/1638177796107/falcker_logo?e=1794441600&v=beta&t=s0iO92W2Qb0u8h0w9vqXRZ7U1SdYK3q9hQNuwh-czH4",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 1736,
+    "description": "Falcker is a high-tech inspection company born in the port of Rotterdam, operating at the forefront of Industry 4.0. We deliver digitalized, drone-based inspection services powered by advanced photogrammetry, 3D modelling, FLIR imaging, robotics, and IoT.\n\nOur platform includes Asset Intelligence, a feature that uses trained computer vision models and AI analysis to detect anomalies, assess asset conditions and support predictive decision-making. Turning inspection data into actionable insights on the health and future lifetime of your assets.\n\nFrom Rotterdam to major terminals worldwide, we help petro-chemical industry leaders implement next-generation inspection methods. By integrating cutting-edge technology with proven inspection practices, we give our customers maximum clarity on the status of their assets. Wherever they operate.",
+    "industries": [
+     {
+      "id": "57",
+      "name": "Oil and Gas",
+      "urn": "urn:li:fsd_industryV2:57",
+      "title": "Oil and Gas",
+      "hierarchy": "Oil, Gas, and Mining > Oil and Gas"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQEkNgr5WmDtPw/company-background_10000/B4EZuiSfziGYAU-/0/1767954317654/falckerinnovations_cover?e=1793192400&v=beta&t=XWvbLyXDcULPZ1JbC3jdU8mvYG5-pNozK3gx7Wy0ZSE",
+    "affiliatedPages": []
+   },
+   {
+    "id": "1774848",
+    "universalName": "igsgebojagema",
+    "linkedinUrl": "https://www.linkedin.com/company/igsgebojagema/",
+    "name": "IGS GeboJagema",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQGZYt6FKTzWjA/company-logo_400_400/company-logo_400_400/0/1631326707071?e=1794441600&v=beta&t=wzQS1A52Cr4WPbP40c8wLCLQWqCgtqnyC68LrYyuQzY",
+    "employeeCountRange": {
+     "start": 51,
+     "end": 200
+    },
+    "followerCount": 2868,
+    "description": "Our work touches billions of people’s lives every day\n \nFrom glasses and contact lenses to asthma inhalers, insulin pens and blood diagnostic devices. Our work can be found in products where extreme precision is vital. We believe that constantly pushing the envelope and delivering work of the highest possible quality is the key to making people all over the world healthier and happier.\n \nWith a drive for innovative solutions and unrivalled attention to detail and precision, we design, manufacture, qualify and maintain injection moulds for the optical, healthcare and packaging industries.\n\nIGS GEBOJAGEMA delivers the highest level of validated precision and high-precision moulds and components, single mould projects and series of moulds that are part of a multi-assembled device and multiple sets of repeat tooling, on time and in specification to any designated global location. ",
+    "industries": [
+     {
+      "id": "3217",
+      "name": "Medical Device",
+      "urn": "urn:li:fsd_industryV2:3217",
+      "title": "Medical Device",
+      "hierarchy": null
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/C4E1BAQF4xFW2_M68YQ/company-background_10000/company-background_10000/0/1645543577837/igsgebojagema_cover?e=1793192400&v=beta&t=_KE8D_1GdSKsBMts9t167_TFVXz-TNwiye6bNeBUwG0",
+    "affiliatedPages": []
+   },
+   {
+    "id": "9311656",
+    "universalName": "stoov",
+    "linkedinUrl": "https://www.linkedin.com/company/stoov/",
+    "name": "Stoov",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFZM67HYPlZpg/company-logo_400_400/B4EZbTtNGNHMAY-/0/1747308565898/stoov_logo?e=1794441600&v=beta&t=2OJ7wSsn9I8SISKS2LQG_-yQVCZzJE14D0k_3T2W4b0",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 3834,
+    "description": "Welcome to the warm side! \n\nExperts in personal warmth, over the last 10 years Stoov has redefined warmth as you know it. Founded in 2014 by Teun van Leijsen, the iconic heated cushion has grown into blankets, bottles and wearables as our in-house design team developed a range of warmables designed to keep you cosy and comfortable whenever and wherever you need. \n\nAt Stoov, we know that warmth is personal and our infrared warming technology is made to be a comfort companion be that on the sofa, working from home or out adventuring. \n\nImpact is woven into everything we do, from production, to fabrics to materials and in 2024 Stoov was awarded B Corp certification, a recognition of Stoov’s commitment to warming people and not the planet. \n\n\n ",
+    "industries": [
+     {
+      "id": "3193",
+      "name": "Furniture",
+      "urn": "urn:li:fsd_industryV2:3193",
+      "title": "Furniture",
+      "hierarchy": null
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQHDElY4Sx11Bw/company-background_10000/B4EZsrolQPHEAY-/0/1765963618490/stoov_cover?e=1793192400&v=beta&t=WOPUi-mkXfc5ihLmkTTBOLEUA-8GNH6bjv83zPooF2s",
+    "affiliatedPages": []
+   },
+   {
+    "id": "20106929",
+    "universalName": "portxchange",
+    "linkedinUrl": "https://www.linkedin.com/company/portxchange/",
+    "name": "PortXchange [B-Corp]",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQGxrMxuotD7Pg/company-logo_400_400/company-logo_400_400/0/1630511676448/portxchange_logo?e=1794441600&v=beta&t=EO-bJ6MYSAQLcY-qHsLBvdMxUyFuTiy9yjeAIFMx-3c",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 6393,
+    "description": "PortXchange was founded with the belief that collaboration, digitization, and sustainability shape the future of the shipping industry and sets out to provide solutions that increase efficiency and diminish carbon emissions. \n\nOur extensive product line and expertise in the smart ports industry position PortXchange as a thought and technology leader, helping to shape the industry’s emerging standards toward optimization and digitalization.\n\nTrack and analyze emissions in and around the port to develop an actionable decarbonization strategy. Eliminate emissions from ships, trucks, and rail.\n\nGet in touch: https://port-xchange.com/contact/\n\n",
+    "industries": [
+     {
+      "id": "96",
+      "name": "IT Services and IT Consulting",
+      "urn": "urn:li:fsd_industryV2:96",
+      "title": "IT Services and IT Consulting",
+      "hierarchy": "Professional Services > IT Services and IT Consulting"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4D1BAQHzIjJ6ZfmBSw/company-background_10000/B4DZgUH13XHsAU-/0/1752684257357/portxchange_cover?e=1793192400&v=beta&t=P681sD8Zng6WpGHLl6RbyHE1GrAvXo4XFATWSAa8IZE",
+    "affiliatedPages": []
+   },
+   {
+    "id": "5321420",
+    "universalName": "microsure",
+    "linkedinUrl": "https://www.linkedin.com/company/microsure/",
+    "name": "Microsure",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQEla2Dkj3Jl-w/company-logo_400_400/company-logo_400_400/0/1695808498910/microsure_logo?e=1794441600&v=beta&t=WNOJpDg4_fjCd6ngMT69XRQBJoHd2Vr8JJAji0xCxEY",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 7187,
+    "description": "We deliver and continuously improve a high precision microsurgical robot.  \n\nSupermicrosurgeons work at the forefront of their field. They must be able to maintain maximum focus for the time required and operate down to sub-millimeter levels. With our microsurgical robot, microsurgeons can operate even smaller anatomical structures in a more comfortable setting. Together with them, we work towards our vision to leave no patient in need of microsurgery untreated.  \n\nMUSA-2 is the first CE certified microsurgical robot. It has been used during various clinical studies, and feedback from professionals on its in-clinic performance has played a key role in the development of MUSA-3. MUSA offers among others scaled movements, tremor filtration and use of own instruments which improves the surgeon’s precision even further.  ",
+    "industries": [
+     {
+      "id": "17",
+      "name": "Medical Equipment Manufacturing",
+      "urn": "urn:li:fsd_industryV2:17",
+      "title": "Medical Equipment Manufacturing",
+      "hierarchy": "Manufacturing > Medical Equipment Manufacturing"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQENvpxfXs7WOQ/company-background_10000/B4EZv68NG_JgAU-/0/1769441645495/microsure_cover?e=1793192400&v=beta&t=q2Qw6HVM5a1dCa7RPBMUmTeMHp2CuB4L4rfZ8oHL2u4",
+    "affiliatedPages": []
+   },
+   {
+    "id": "15342",
+    "universalName": "sioux",
+    "linkedinUrl": "https://www.linkedin.com/company/sioux/",
+    "name": "Sioux Technologies",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQFt9qWXV4YTnQ/company-logo_400_400/company-logo_400_400/0/1630467278672/sioux_logo?e=1794441600&v=beta&t=R-CfaAPhQMu7gr3kOjc45kbt0-N9WyTqm_hv3TkpOf4",
+    "employeeCountRange": {
+     "start": 1001,
+     "end": 5000
+    },
+    "followerCount": 30707,
+    "description": "Sioux Technologies brings high-tech to life, contributing to a society that is healthy, safe, smart, sustainable and more fun. We are a strategic high-tech solutions partner that develops, innovates and assembles complex high-tech systems with advanced Software, Mathware, Electronics and Mechatronics. \n\nAs the largest privately-owned tech company in the Netherlands, we are focused on people and building long-term relations. \n\nWe are continuously developing our 1200+ bright employees. This way, we create more fun & value, for our employees, our inter(national) customers, Sioux and the world around us.",
+    "industries": [
+     {
+      "id": "135",
+      "name": "Industrial Machinery Manufacturing",
+      "urn": "urn:li:fsd_industryV2:135",
+      "title": "Industrial Machinery Manufacturing",
+      "hierarchy": "Manufacturing > Machinery Manufacturing > Industrial Machinery Manufacturing"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQHG0i4-3SHSvg/company-background_10000/B4EZcRkNocHkAc-/0/1748346396752/sioux_cover?e=1793192400&v=beta&t=OLLiW4sSY_rPg05GftXDjokTVD46-sblZ5qWUjihtcg",
+    "affiliatedPages": []
+   },
+   {
+    "id": "18514926",
+    "universalName": "patsdrones",
+    "linkedinUrl": "https://www.linkedin.com/company/patsdrones/",
+    "name": "PATS",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C560BAQHvuqJwky_BQg/company-logo_400_400/company-logo_400_400/0/1631439718646/patsdrones_logo?e=1794441600&v=beta&t=vq4NfgW840a2-wdnMwa28E2kpiieb57TzVOgvB3JoH4",
+    "employeeCountRange": {
+     "start": 11,
+     "end": 50
+    },
+    "followerCount": 4475,
+    "description": "PATS helps growers to manage insect pest populations effectively, overcoming the challenges faced by traditional control methods.\n\nOur autonomous insect monitoring and control solutions integrate seamlessly into existing greenhouse infrastructure, offering a revolutionary approach to pest management.\n\nBy automating pest control, we help growers cut labor and product costs while minimizing crop losses from pest damage. In other words: healthier plants, sustainable practices, and increased efficiency.\n\nWant to learn more? Visit our website or drop us an email. We're excited to connect with you!\n\n\n💻 www.pats-drones.com\n✉ info@pats-drones.com",
+    "industries": [
+     {
+      "id": "3248",
+      "name": "Robotics Engineering",
+      "urn": "urn:li:fsd_industryV2:3248",
+      "title": "Robotics Engineering",
+      "hierarchy": "Professional Services > Engineering Services > Robotics Engineering"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQF6gtICmhLLrg/company-background_10000/company-background_10000/0/1728498860894/patsdrones_cover?e=1793192400&v=beta&t=nbON6sqshWoZj-REH2YXdgJ3UvK6NVWOsywVyS4EHC0",
+    "affiliatedPages": []
+   },
+   {
+    "id": "65531872",
+    "universalName": "textracer",
+    "linkedinUrl": "https://www.linkedin.com/company/textracer/",
+    "name": "tex.tracer",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQEWkmJ0-qE3tA/company-logo_400_400/company-logo_400_400/0/1672596835723/textracer_logo?e=1794441600&v=beta&t=6wy5gbZU3IQ5Q7lEXmfd9hCUfA5GyAQBKBoL69Vx8ow",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 5365,
+    "description": "tex.tracer brings authenticated transparency to the fashion supply chain.\n\nWe are a value-driven supply chain tool that enables fashion brands, suppliers and consumers to act based on the truth. \n\nThe world needs to change to circular ecosystems. At tex.tracer, we know that authenticated transparency in the value chain is the basis for the needed change. ",
+    "industries": [
+     {
+      "id": "19",
+      "name": "Retail Apparel and Fashion",
+      "urn": "urn:li:fsd_industryV2:19",
+      "title": "Retail Apparel and Fashion",
+      "hierarchy": "Retail > Retail Apparel and Fashion"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D4E1BAQHNdxXNOTrQrA/company-background_10000/B4EZXxUWf4GgAU-/0/1743510400177/textracer_cover?e=1793192400&v=beta&t=Mhg6agnXukDyW7aXCWATYfM1_usaM8ZdZFIj3-YNNyY",
+    "affiliatedPages": []
+   },
+   {
+    "id": "76495040",
+    "universalName": "scalenl",
+    "linkedinUrl": "https://www.linkedin.com/company/scalenl/",
+    "name": "ScaleNL",
+    "website": null,
+    "callToActionUrl": null,
+    "phone": null,
+    "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQHxXsJaMoPZHw/company-logo_400_400/company-logo_400_400/0/1632926039943?e=1794441600&v=beta&t=BqA8WW1QAkomVCGxS_Yh-BIQ9zsRE8mfdaVwSKkJjSo",
+    "employeeCountRange": {
+     "start": 2,
+     "end": 10
+    },
+    "followerCount": 5417,
+    "description": "We give Dutch Tech entrepreneurs a fast track to the US, fuelled by an unparalleled network, a platform, programs and funding. And by doing so, introducing the best solutions to the biggest global challenges.",
+    "industries": [
+     {
+      "id": "11",
+      "name": "Business Consulting and Services",
+      "urn": "urn:li:fsd_industryV2:11",
+      "title": "Business Consulting and Services",
+      "hierarchy": "Professional Services > Business Consulting and Services"
+     }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/C4D1BAQGLkp9EXubM6A/company-background_10000/company-background_10000/0/1640342208918/scalenl_cover?e=1793192400&v=beta&t=0wuiRP9GOwZa0Luy5Xd2YYQ8ctwYajFYSUINnvTGTaQ",
+    "affiliatedPages": []
+   }
+  ],
+  "affiliatedPages": [],
+  "peopleStats": [
+   {
+    "statTitle": "Locations",
+    "values": [
+     {
+      "title": "Canada",
+      "count": 1
+     },
+     {
+      "title": "Nanaimo, BC",
+      "count": 1
+     },
+     {
+      "title": "British Columbia, Canada",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "School",
+    "values": [
+     {
+      "title": "Vancouver Island University",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Current Function",
+    "values": [
+     {
+      "title": "Operations",
+      "count": 1
+     },
+     {
+      "title": "Sales",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Skill Explicit",
+    "values": [
+     {
+      "title": "WordPress",
+      "count": 1
+     },
+     {
+      "title": "Ruby on Rails",
+      "count": 1
+     },
+     {
+      "title": "Marketing",
+      "count": 1
+     },
+     {
+      "title": "Data Analysis",
+      "count": 1
+     },
+     {
+      "title": "Microsoft Word",
+      "count": 1
+     },
+     {
+      "title": "Web Design",
+      "count": 1
+     },
+     {
+      "title": "Adobe Photoshop",
+      "count": 1
+     },
+     {
+      "title": "iPhone",
+      "count": 1
+     },
+     {
+      "title": "Marketing Strategy",
+      "count": 1
+     },
+     {
+      "title": "Digital Photography",
+      "count": 1
+     },
+     {
+      "title": "Cascading Style Sheets (CSS)",
+      "count": 1
+     },
+     {
+      "title": "Online Marketing",
+      "count": 1
+     },
+     {
+      "title": "OS X",
+      "count": 1
+     },
+     {
+      "title": "Analytical Skills",
+      "count": 1
+     },
+     {
+      "title": "Design",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "statTitle": "Service categories",
+    "values": []
+   },
+   {
+    "statTitle": "Field of Study",
+    "values": [
+     {
+      "title": "Digital Communication and Media/Multimedia",
+      "count": 1
+     },
+     {
+      "title": "Web/Multimedia Management and Webmaster",
+      "count": 1
+     },
+     {
+      "title": "Industrial Production Technologies/Technicians",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "originalQuery": {
+   "search": "monumental.co",
+   "location": ""
+  },
+  "requestId": "73fe3f6c-a2ab-4fa9-93d1-853d48c90f03"
+ }
+]

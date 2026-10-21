@@ -1,0 +1,15 @@
+{
+ "targetUrls": [
+  "https://www.linkedin.com/in/bsofman",
+  "https://www.linkedin.com/in/tomeliaz",
+  "https://www.linkedin.com/in/vincent-gonguet",
+  "https://www.linkedin.com/in/garberdavid",
+  "https://www.linkedin.com/in/ajaygummalla"
+ ],
+ "maxPosts": 30,
+ "postedLimitDate": "2025-10-21",
+ "includeReposts": true,
+ "includeQuotePosts": true,
+ "scrapeReactions": false,
+ "scrapeComments": false
+}

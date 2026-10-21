@@ -1,0 +1,16 @@
+{
+ "targetUrls": [
+  "https://www.linkedin.com/in/rezashirazi",
+  "https://www.linkedin.com/in/dr-atif-ansar-940bab1",
+  "https://www.linkedin.com/in/igor-shifrin-9331864",
+  "https://www.linkedin.com/in/sebastiaan-visser-443b91190",
+  "https://www.linkedin.com/in/woutervandenhaak",
+  "https://www.linkedin.com/in/salark"
+ ],
+ "maxPosts": 30,
+ "postedLimitDate": "2025-10-21",
+ "includeReposts": true,
+ "includeQuotePosts": true,
+ "scrapeReactions": false,
+ "scrapeComments": false
+}
