@@ -1,89 +1,31 @@
-# 03 — Priors
+# 03 — Ожидания до сбора данных
 
-> **Zone:** 1_frame (founder-led)
-> **When to fill:** AFTER assumptions, BEFORE any external data is collected.
-> **Purpose:** record what you expect the data to show, so you can later detect deviations.
+> **Статус:** записано Claude со слов основателя (чат 2026-10-23). Пустые поля заполняет основатель до первого замера.
 
 ---
 
-## Why this step exists
+## Ожидания основателя (2026-10-23)
 
-If you collect data first and then notice what surprises you, you're already filtering through hindsight. By the time you read a research report, you've forgotten what you would have predicted. The data ends up confirming "what you thought all along" — which is a cognitive trick, not real validation.
+- **Видимость сейчас:** «модели сейчас не упоминают СводПро» — ожидаемая доля упоминаний ≈ 0% во всех четырёх моделях. Основатель раньше не проверял — это ожидание, а не замер.
+- **Заходы из ИИ-источников:** «не видел» (в Метрике не смотрел отдельно — уточнить).
+- **Объяснение:** «у меня слабое SEO». Ожидание: модели с веб-поиском опираются на поисковую выдачу, поэтому слабый сайт в выдаче = нет в ответах.
 
-Recording priors first means: when the data comes back, you can see exactly where it agrees with you, where it diverges, and — importantly — where it matches you suspiciously well. Perfect alignment with priors is often a sign that the data was filtered through your framing, not collected against it.
+## Конкуренты в ответах моделей — ожидание
 
----
+<!-- Заполнить основателю: кого модели назовут вместо СводПро на вопросы о поиске нормативов и проверке документации (Техэксперт? Кодекс? NormaCS? ИИ-сервисы проверки?). -->
 
-## Competitive landscape — expected
+**Загрязнение ожиданий:** обзор готовых сервисов мониторинга (`2_engine/collection/competitors.md`) основатель видел до этого файла. Ожидания о конкурентах самого сервиса мониторинга уже не чистые.
 
-**Who do you expect to be the main direct competitors?**
+## Ожидаемый сдвиг после публикации
 
-<!-- List them by name if you know any. Note your confidence in this list. -->
+<!-- Заполнить основателю: до какой доли упоминаний и за сколько недель вырастет видимость после первой публикации; в каких моделях быстрее. -->
 
-**What do you expect to be the dominant competitive approach?**
+## Что удивит
 
-<!-- Are most competitors going B2B SaaS? Self-serve? Marketplaces? Services? -->
+1. СводПро уже упоминается хотя бы в 5% ответов какой-либо модели.
+2. <!-- основатель -->
 
-**Expected gap in the market:**
+## Что встревожит
 
-<!-- What do you believe is underserved? Why hasn't a competitor done it well yet? -->
-
----
-
-## Market size — expected
-
-**Top-down expectation:** 
-<!-- Rough TAM/SAM range you'd guess. -->
-
-**Bottom-up expectation:** 
-<!-- Approximate count of target users × estimated ARPU. -->
-
-**Expected gap between top-down and bottom-up:** 
-<!-- These usually disagree. Note which direction. -->
-
----
-
-## Voice of customer — expected
-
-**What do you expect users to complain about most?**
-
-**What do you expect them to praise about current solutions?**
-
-**What word or phrase do you expect them to use when describing the pain?**
-
-<!-- This last one is useful: if your guess matches what actually appears in
-     forums and reviews, that's mild validation. If it's totally off, your model
-     of the audience needs adjusting. -->
-
----
-
-## Trends — expected direction
-
-**What macro trend do you expect to be a tailwind?**
-
-**What do you expect to be a headwind?**
-
-**Timing assumption:** 
-<!-- Why now? Why not 2 years ago? Why not 2 years from now? -->
-
----
-
-## What would surprise you
-
-<!-- List 3–5 findings that, if they appeared in the data, would genuinely change your
-     thinking. If nothing comes to mind, the framing is too vague — go back to 01_sharpened. -->
-
-1. 
-2. 
-3. 
-
----
-
-## What would worry you
-
-<!-- 3–5 specific findings that would cast doubt on the hypothesis.
-     Be honest. If you can't think of any, you're not pressure-testing hard enough. -->
-
-1. 
-2. 
-3. 
+1. Модели на вопросы о нормативах вообще не называют сервисы (только отсылают к тексту СП) — тогда видимость не во что превращать.
+2. <!-- основатель -->
