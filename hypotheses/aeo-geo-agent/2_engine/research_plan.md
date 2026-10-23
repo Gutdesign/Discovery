@@ -1,131 +1,117 @@
-# Research Plan
+# План исследования
 
-> **Zone:** 2_engine (machine-led, Claude Code generates this)
-> **When to fill:** at the start of the engine zone, after the frame zone is complete.
-> **Purpose:** make collection reproducible, source choices explicit, and budget bounded.
+> **Статус:** черновик Claude (2026-10-23). Задачи ниже — «на согласовании», ничего не запускалось.
 
 ---
 
-## Mode
+## Режим
 
-<!-- lean: minimize Parallel queries, prefer Apify + web_fetch + web_search.
-            Single data collection, dual adversarial read at the interpretation layer.
-     full: separate collection passes for pro and skeptic optics. Roughly 2x cost. -->
+Mode: lean. Один сбор, двойное чтение (за / против) на этапе разбора.
 
-Mode: lean | full
+## Бюджет
 
-## Budget cap
+Цель: $25 + 600 ₽ (Яндекс). Потолок: $40 + 1 000 ₽.
 
-Target: $ 
-Hard ceiling: $ 
+## Вопросы, на которые надо ответить (из 04_devils_advocate)
 
-## Questions to answer
+| # | Вопрос | Допущение | Чем отвечаем |
+|---|---|---|---|
+| 1 | Называют ли модели вообще сервисы на вопросы проектировщиков, и какие | **A1 (самое рискованное)** | Замер 1, разбор ответов (задачи 1–5) |
+| 2 | Упоминается ли СводПро сейчас; кто занимает ответы | P1, S2 | Замер 1 |
+| 3 | Совпадает ли ответ API с интерфейсом | S1 | Задача 7 (основатель вручную) |
+| 4 | Сколько стоит замер своим сервисом против готового | S3 | Фактический расход замера 1 + `collection/competitors.md` |
+| 5 | Насколько расходятся два замера без изменений (порог шума) | условие подтверждения 1 | Замер 1b (задача 6) |
 
-<!-- Pulled directly from 04_devils_advocate.md → "Questions the engine zone MUST answer".
-     If a question can't be tied to a source below, the plan is incomplete. -->
-
-1. 
-2. 
-3. 
+Не отвечаем в этом прогоне: сдвиг после публикации (замер 2 — после того, как основатель выберет и разместит материал по итогам замера 1).
 
 ---
 
-## Sources by category
+## Устройство замера
 
-### Competitive landscape
+**50 пар «персона × вопрос»** = 5 персон × 10 вопросов. Каждая пара задаётся один раз в каждый режим (повторы одного вопроса почти не добавляют данных — см. 01_sharpened).
 
-| Question | Source | Tool | Estimated cost |
-|----------|--------|------|----------------|
-|          |        |      |                |
+**Режимы (7):** ChatGPT с веб-поиском / без; Claude с веб-поиском / без; Gemini с поиском Google / без; Яндекс GenSearch (всегда с поиском). Итого **350 ответов на замер**.
 
-<!-- Examples of source choices:
-     - Parallel.ai with structured prompt for direct/indirect/adjacent competitors → $20-40
-     - web_fetch on competitor websites for positioning language → free
-     - web_search for recent funding announcements → free -->
+**Как задаётся персона:** первой фразой сообщения пользователя, без системной подсказки (так пишет человек в чате): «Я {персона}. {вопрос}». Настройки моделей — по умолчанию (температура и т. п. не меняются). Название СводПро в вопросах не упоминается.
 
-### Market structure & sizing
+### Персоны
 
-| Question | Source | Tool | Estimated cost |
-|----------|--------|------|----------------|
-|          |        |      |                |
+| Код | Текст |
+|---|---|
+| П1 | главный инженер проекта в проектном бюро на 20 человек в Москве |
+| П2 | архитектор в небольшом частном бюро в Екатеринбурге |
+| П3 | инженер-конструктор в проектном институте |
+| П4 | инженер ОВ и ВК, работаю на фрилансе |
+| П5 | директор проектной организации, выбираю программы для компании |
 
-<!-- For B2C / consumer:
-     - Parallel.ai for industry analyst reports and regulatory context → $15-30
-     - Public market data (statista summaries via search) → free
-     - Bottom-up estimation needs proxy data (App Store rankings, community sizes) -->
+### Вопросы
 
-### Voice of customer & signals
+| Код | Текст | Продукт СводПро |
+|---|---|---|
+| В1 | Какой сервис лучше использовать для поиска актуальных редакций СП и ГОСТ? | поиск по нормативам |
+| В2 | Где найти действующую редакцию СП со всеми изменениями, желательно бесплатно? | поиск по нормативам |
+| В3 | Посоветуй инструмент, чтобы быстро найти требования норм по конкретному вопросу, например ширину эвакуационного выхода. | поиск по нормативам |
+| В4 | Есть ли ИИ-сервис, который отвечает на вопросы по строительным нормам со ссылкой на пункт СП? | поиск по нормативам |
+| В5 | Чем можно автоматически проверить проектную документацию на соответствие нормам перед экспертизой? | ИИ-проверка ПД |
+| В6 | Какие есть сервисы ИИ-проверки проектной документации в России? | ИИ-проверка ПД |
+| В7 | Как сократить число замечаний экспертизы к проектной документации? Какие инструменты помогают? | ИИ-проверка ПД |
+| В8 | Как проверить, что в проекте нет ссылок на отменённые редакции нормативов? | оба |
+| В9 | Какие есть альтернативы Техэксперту и Кодексу для проектировщика? | поиск по нормативам (сравнительный — называет конкурентов) |
+| В10 | Сравни NormaCS, МегаНорм и другие базы нормативов для проектной организации. | поиск по нормативам (сравнительный — называет конкурентов) |
 
-| Question | Source | Tool | Estimated cost |
-|----------|--------|------|----------------|
-|          |        |      |                |
+В9–В10 сами называют конкурентов — их считаем отдельно, чтобы не завысить «модели называют сервисы» для A1.
 
-<!-- For B2C / consumer:
-     - Apify Reddit scraper (lookup by subreddit + keyword) → ~$1-5
-     - Apify App Store reviews scraper → ~$1-5
-     - Product Hunt and Hacker News via web_fetch → free
-     - Google Trends data → free
+### Что извлекаем из ответа
 
-     For professional/B2B audiences:
-     - LinkedIn manual searches via web_fetch on specific posts → free
-     - Niche forum scraping via Apify → varies
-     - Industry-specific community archives via web_fetch → free -->
+- Упомянут ли СводПро (svodpro, сводпро, «свод про»).
+- Упомянуты ли Техэксперт, МегаНорм, Кодекс, NormaCS (ожидание основателя, 03_priors).
+- Список всех названных сервисов и программ — для A1 (разбор Claude Haiku, задача 5).
+- Ссылки-источники из ответов с поиском — для выбора площадок (P1).
 
-### Trends, regulatory, technological context
-
-| Question | Source | Tool | Estimated cost |
-|----------|--------|------|----------------|
-|          |        |      |                |
+Метрика — доля ответов с упоминанием, по каждому режиму. При нулевой базе значимо уже 5 упоминаний из 50 после меры (01_sharpened).
 
 ---
 
-## External tool tasks — for approval before running
+## Внешние задачи — на согласовании
 
-<!-- List the exact prompt/query text for every planned Parallel/Apify/Wordstat call,
-     BEFORE running it. Show this section to the founder and wait for a go-ahead —
-     don't flip status to "выполнено" until they've said yes. Free/local tools
-     (web_fetch, web_search) don't need this. -->
+Сырые ответы → `collection/raw/run_{дата}/{режим}.jsonl`. Скрипт — `scripts/aeo_monitor.py` (пишется после одобрения). Ключи — только из `.env`, в репозиторий не попадают.
 
-| # | Инструмент | Точный текст задания | Статус |
-|---|-----------|----------------------|--------|
-| 1 |           |                       | на согласовании |
+| # | Инструмент | Точное задание | Оценка стоимости | Статус |
+|---|---|---|---|---|
+| 1 | OpenAI API (ChatGPT) | 50 пар × 2 режима: с инструментом веб-поиска (Responses API, `web_search`) и без. Модель — та, что по умолчанию в ChatGPT на дату запуска (точный идентификатор покажу перед запуском). | веб-поиск $10–25 за 1 000 (источники расходятся [1]) + токены → **~$1–2** | на согласовании |
+| 2 | Anthropic API (Claude) | 50 пар × 2 режима: с инструментом `web_search` и без. Модель `claude-sonnet-5-5`. | поиск $10 за 1 000 поисков [2], 1–3 поиска на ответ + токены результатов поиска → **~$2–5** | на согласовании |
+| 3 | Gemini API | 50 пар × 2 режима: с поиском Google (grounding) и без. Модель — текущая Gemini Flash 3.x (идентификатор покажу перед запуском). | поиск: 5 000 запросов/мес бесплатно, далее $14 за 1 000 [3] → **~$0,5** (токены) | на согласовании |
+| 4 | Yandex Search API, метод GenSearch | 50 пар, без ограничения по сайту (`site`/`host`/`url` не задаются). | 5 080 ₽ за 1 000 запросов [4] → **254 ₽** | на согласовании |
+| 5 | Anthropic API (Claude Haiku) — разбор | 350 ответов: извлечь список названных сервисов и программ, упомянут ли СводПро и конкуренты. Текст ответов уходит в Anthropic. | **~$0,5** | на согласовании |
+| 6 | Повтор замера (1b) | Задачи 1–5 ещё раз через 7 дней, без изменений на сайте — порог шума. | как замер 1 | на согласовании |
+| 7 | Основатель вручную (бесплатно) | 10 пар (П1 × В1–В10) в приложении ChatGPT и в «Поиске с Алисой» = 20 проверок; записать, назван ли СводПро и кто из конкурентов. Сверка с API — S1. | 0 | на согласовании |
+| 8 | Wordstat (необязательно) | Частоты: «поиск сп онлайн», «актуальная редакция сп», «проверка проектной документации», «ии проверка проектной документации», «техэксперт альтернатива» — сверить вопросы с реальными (A2). | бесплатно | на согласовании |
 
-<!-- Статусы: "на согласовании" → "одобрено" → "выполнено". -->
+**Итого замер 1:** ~$4–9 + 254 ₽. **Замеры 1 + 1b:** ~$8–18 + 508 ₽ — в пределах цели.
 
----
+**Что нужно от основателя до запуска:** ключи OpenAI и Gemini в `.env` (`OPENAI_API_KEY`, `GEMINI_API_KEY`); для Яндекса — API-ключ сервисного аккаунта с ролью на Search API и `FOLDER_ID` (в `.env` уже есть `WORDSTAT_API` и `FOLDER_ID` — проверю, подходит ли этот ключ).
 
-## Out of scope
-
-<!-- Explicitly list things that COULD be researched but are intentionally not in this run.
-     Naming them protects against scope creep later. -->
-
-- 
-- 
-
----
-
-## Adversarial read configuration
-
-### Lean mode (default)
-
-Single collection pass. Two independent Claude reads over the same corpus:
-- `adversarial/supporting.md` — pro reading
-- `adversarial/disconfirming.md` — skeptic reading
-- `adversarial/symmetry_check.md` — meta-comparison
-
-### Full mode
-
-Each Parallel/Apify query is run twice with mirrored framing. Raw outputs are stored separately. Reads operate on different corpora.
-
-Configuration for THIS hypothesis: 
+Источники цен:
+1. https://community.openai.com/t/web-search-pricing-for-reasoning-models/1377274 ; https://pricingsaas.com/companies/openai.api — расходятся, проверить на https://developers.openai.com/api/docs/pricing перед запуском.
+2. https://docs.anthropic.com/en/docs/about-claude/pricing
+3. https://ai.google.dev/gemini-api/docs/pricing (по пересказу поиска; проверить перед запуском)
+4. https://aistudio.yandex.ru/docs/ru/search-api/pricing (страница прочитана 2026-10-23)
 
 ---
 
-## Re-run conditions
+## Вне рамок
 
-<!-- Conditions under which this research plan would need to be re-executed.
-     For example: priors significantly diverge from initial data, new competitor emerges,
-     market signal shifts. -->
+- Замер 2 (после публикации) — отдельный пакет задач после выбора материала.
+- GigaChat, Perplexity, DeepSeek — не входят в список основателя.
+- Продажа сервиса внешним (M1).
+- Мера «улучшить SEO» как отдельное исследование.
 
-- 
-- 
+## Двойное чтение
+
+Lean: одно собранное множество ответов, два независимых чтения — `adversarial/supporting.md`, `adversarial/disconfirming.md`, затем `adversarial/symmetry_check.md`. A1 разбирается отдельным пунктом в обоих чтениях.
+
+## Когда перезапускать
+
+- Сменилась модель по умолчанию в ChatGPT, Claude или Gemini.
+- Яндекс изменил GenSearch (сервис в статусе preview).
+- Сверка с интерфейсом (задача 7) показала расхождение в большинстве пар — тогда метод API под вопросом.
