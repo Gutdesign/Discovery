@@ -1,116 +1,61 @@
-# 04 — Devil's Advocate (Pre-Research)
+# 04 — Адвокат дьявола (до сбора данных)
 
-> **Zone:** 1_frame (founder + Claude in adversarial mode)
-> **When to fill:** after priors, BEFORE the engine zone starts.
-> **Purpose:** construct the strongest case AGAINST the hypothesis before any data is collected, so the engine zone can honestly test against the strongest counter-position.
-
----
-
-## How to use this file
-
-Open a dialogue with Claude. The prompt is roughly: *"You are a skeptical senior partner. Your job is to argue, in the strongest possible terms, that this hypothesis is wrong. Don't be polite. Use the assumptions and priors files for context."*
-
-Capture the strongest counter-arguments here. These become the questions the engine zone must honestly answer.
-
-If Claude's pushback feels generic ("there's competition", "execution is hard"), push back yourself and demand specifics. Generic adversarial output is worse than none — it gives false confidence.
+> **Статус:** черновик Claude (2026-10-23). Ждёт правки основателя.
+>
+> Внимание: обзор готовых сервисов (`2_engine/collection/competitors.md`) сделан до этого файла и до `03_priors.md` по просьбе основателя. Ожидания основателя о конкурентах в 03 уже не «чистые» — это нужно отметить там.
 
 ---
 
-## Hypothesis type
+## Тип гипотезы
 
-<!-- From 00_intake. Determines which adversarial pattern below to use. -->
-
-Type: product | discovery
+Type: product
 
 ---
 
-## Adversarial pass — PRODUCT type
+## Почему проблемы может не быть
 
-<!-- Use this section if hypothesis_type = product. Skip if discovery. -->
+- СводПро — узкий B2B-инструмент для проектировщиков. Такие инструменты выбирают по совету коллег, в профильных чатах и на форумах (dwg.ru), по привычке к «Техэксперту» / «Кодексу». ИИ-ответ может быть не местом, где принимается решение, а значит видимость в нём не продаёт.
+- Основатель сейчас никак не проверяет видимость и при этом принимает решения о материалах — значит, боль не мешает работе. Это «интересно знать», а не «не могу без этого».
 
-### Why the problem may not be real
+## Почему аудитория может быть неверной
 
-<!-- The hypothesis assumes a specific pain. Is that pain actually felt by the audience,
-     or is it a pain the founder projects onto them? -->
+- Единственный пользователь ступени 1 — сам основатель. Сервис будет подстроен под его вопросы, и это не доказывает, что он нужен кому-то ещё (риск «роль основателя ≠ аудитория» из прошлых гипотез).
+- Для СводПро важнее не «упоминает ли ИИ», а «спрашивают ли проектировщики ИИ вообще». Это меряется не мониторингом, а Метрикой и интервью.
 
-### Why the audience may be wrong
+## Почему готовых решений может хватить
 
-<!-- The targeted audience may not be the right one. Who would feel this pain more acutely?
-     Who would pay more readily? Is the named audience reachable economically? -->
+- Пиксель Тулс видит Алису и ChatGPT; тариф сервиса от 3 790 ₽/мес (сайт, 2026-10-23). Для одного продукта это может быть дешевле, чем время основателя на сборку и поддержку своего сервиса.
+- Для решения «какой материал и где» может хватить 20 вопросов вручную раз в месяц — статистическая значимость нужна, только если основатель действительно будет менять решения по сдвигу в 10–15 п. п.
 
-### Why current solutions may be sufficient
+## Почему конкуренты победят (ступень 2)
 
-<!-- The market may already be served well enough. Argue why existing solutions are
-     "good enough" for the audience to not switch. -->
+- Пиксель Тулс, Rush Analytics, Топвизор, Keys.so уже продают SEO-аудитории и добавили нейросети как модуль: у них есть клиенты, оплата, привычка. Новому сервису нечем перебить их распространение.
+- brandfound позиционируется как самый полный российский сервис (9–10 моделей, обе Алисы) — по утверждению обзоров.
+- Зарубежные (Otterly, Peec, Profound) быстро добавляют модели; если добавят Алису, исчезнет главное отличие российского рынка.
 
-### Why competitors will win
+## Почему время может быть неудачным
 
-<!-- For each plausible competitor: argue why they will outcompete this hypothesis on
-     execution, distribution, capital, or moat. -->
+- Рынок перестраивает цены примерно раз в квартал (утверждение обзора), модели и режимы веб-поиска меняются чаще — сервис придётся постоянно чинить.
+- Yandex GenSearch — preview: условия и поведение могут поменяться; один кейс сообщает, что сервисы почти месяц неверно снимали ответы Алисы после изменений Яндекса.
 
-### Why the timing is wrong
+## Почему экономика может не сойтись
 
-<!-- Argue that this idea is either too early or too late. -->
-
-### Why the unit economics will fail
-
-<!-- Even if the product works, argue why the math won't. CAC too high, LTV too low,
-     payback period too long, market too thin. -->
+- Малый продукт, скорее всего, упоминается почти никогда (доля около 0%). Чтобы увидеть рост до 3–5%, нужно много сотен ответов на модель — замер дорожает, а эффект на продажи остаётся недоказанным.
+- Стоимость замера не посчитана: ~800 вызовов API с веб-поиском × цена вызова у каждого провайдера. Если замер стоит больше, чем месяц готового сервиса, свой сервис теряет смысл.
 
 ---
 
-## Adversarial pass — DISCOVERY type
+## Вопросы, на которые движок ОБЯЗАН ответить
 
-<!-- Use this section if hypothesis_type = discovery. Skip if product. -->
+1. Есть ли у svodpro.ru заходы из ИИ-источников и какая доля (Метрика, 3 месяца)? → A1
+2. Какой сейчас уровень: упоминается ли СводПро вообще и кто из конкурентов занимает ответы (первый замер)? → P1, S2
+3. Совпадают ли ответы API с интерфейсом на 20–30 вопросах, особенно GenSearch и «Поиск с Алисой»? → S1
+4. Сколько стоит один замер (~800 вызовов) по ценам провайдеров на сегодня, и сколько готовый сервис с Алисой за тот же объём? → S3
+5. Насколько расходятся два замера без изменений (порог шума)? → условие подтверждения 1
 
-### Which segments are being ignored
+## Что убедит меня, что скептик прав
 
-<!-- The founder is mapping demand for audience Z. Which slices of Z are likely
-     underrepresented in the founder's view? -->
-
-### Which demand categories are invisible
-
-<!-- The founder has implicit categories of demand. What categories are missing?
-     What might be in demand that the founder isn't even thinking to look for? -->
-
-### Loud voices vs real buyers
-
-<!-- The most active voices in online communities are not always the buyer.
-     Argue that the founder is mistaking loud-online enthusiasm for actual willingness to pay. -->
-
-### Selection bias in current audience
-
-<!-- If the founder already has an existing audience (previous course buyers,
-     newsletter subscribers, etc.), argue why that audience is unrepresentative
-     of the broader market. -->
-
-### The "obvious" answer may be wrong
-
-<!-- Whatever the founder thinks is the obvious in-demand topic — argue it isn't.
-     What's the second-most-obvious answer? What's the contrarian answer? -->
-
-### Saturation risk
-
-<!-- For discovery in a content/education context: argue that the space is already
-     saturated and the founder is late. What would a saturated market look like
-     vs an underserved one? -->
-
----
-
-## Questions the engine zone MUST answer
-
-<!-- Distilled from the adversarial pass above. These become tests for the research plan. -->
-
-1. 
-2. 
-3. 
-4. 
-5. 
-
----
-
-## What I'd need to see to be convinced the skeptic is right
-
-<!-- Important: be specific. "Lots of bad reviews" is not specific. "More than 30% of
-     reviews of comparable products in the last 12 months mention X as the primary
-     dissatisfaction" is specific. -->
+- Доля заходов на svodpro.ru из ИИ-источников < 1% за 3 месяца **и** ни один из 5+ опрошенных проектировщиков не ищет инструменты через ИИ.
+- Два замера без изменений расходятся больше чем на 10 п. п. по доле упоминаний — метрика шумнее любого ожидаемого эффекта.
+- Через 6 недель после публикации материала доля упоминаний в режиме с веб-поиском не сдвинулась значимо (по таблице в 01).
+- Один замер своим сервисом стоит дороже месячного тарифа готового сервиса с Алисой при сопоставимом объёме вопросов.
