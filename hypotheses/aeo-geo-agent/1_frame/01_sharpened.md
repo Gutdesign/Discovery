@@ -1,62 +1,44 @@
-# 01 — Sharpened Hypothesis
+# 01 — Уточнённая гипотеза
 
-> **Zone:** 1_frame (founder-led, with Claude as thinking partner)
-> **When to fill:** after intake, through dialogue with Claude.
-> **Purpose:** convert the raw idea into a testable hypothesis with enough specificity that research can confirm or refute it.
+> **Статус:** черновик Claude (2026-10-23) по уточнениям основателя. Пробелы помечены «?» — заполняем в диалоге.
 
 ---
 
-## The testable hypothesis
+## Проверяемая гипотеза
 
-<!-- Required form: a specific audience, a specific problem, a specific frequency or severity,
-     a specific current behavior.
+Основатель, ведущий несколько своих продуктов (?: какие именно), не знает, называют ли ChatGPT, Яндекс с ИИ-ответами, Claude и Gemini эти продукты в ответах на вопросы покупателя, и не может проверить, сработала ли мера по усилению видимости. Свой сервис мониторинга (вопросы покупателя от лица нескольких персон → несколько моделей с веб-поиском и без → разбор ответов → метрики видимости) даст ему повторяемые метрики, по которым он примет решения о контенте и позиционировании, при расходах не выше ? ₽/$ в месяц.
 
-     Bad:  "People struggle with expense reports."
-     Good: "Finance managers at mid-market SaaS companies spend 4+ hours per week
-            reconciling expense submissions because their current tools don't integrate
-            with their accounting software."
+Вторая ступень (не проверяется сейчас): тот же сервис нужен внешним компаниям, и они готовы за него платить.
 
-     Force this level of specificity. If it can't be written this concretely yet,
-     keep iterating with Claude before moving on. -->
+## Кто именно
 
-## Who exactly
+- **Ступень 1 — сам основатель** как владелец внутренних продуктов: ? (список продуктов, рынок, язык — русский/английский).
+- **Ступень 2 — внешние покупатели** (позже): ? (маркетологи, основатели малых продуктов, агентства?).
 
-<!-- Role, seniority, company type, industry, geography. As specific as possible.
-     If multiple personas, list them separately. -->
+Риск из прошлых гипотез: основатель — одновременно и строитель, и единственный пользователь ступени 1. Его потребность не доказывает потребность ступени 2.
 
-## What problem
+## Какая проблема
 
-<!-- The actual problem, not the symptom. Distinguish between what users complain about
-     and what is actually causing the pain. -->
+Покупатели всё чаще спрашивают ИИ вместо поиска (? — утверждение требует источника). Основатель не видит, попадает ли его продукт в такие ответы, как модели его описывают и с кем сравнивают. Без измерения нельзя понять, работает ли контент.
 
-## How often, how severely
+## Как часто, насколько остро
 
-<!-- Frequency (daily, weekly, monthly) and severity (mild annoyance, blocking work,
-     existential risk). Both matter; together they determine willingness to pay. -->
+? — как часто основатель принимал бы решения по этим метрикам (раз в неделю, при каждом запуске контента?) и что теряет без них.
 
-## What they do today
+## Что делают сейчас
 
-<!-- The current workaround or solution. If they do nothing, why? If they pay for
-     something else, what and how much? This is the baseline you'll be displacing. -->
+- Основатель: ? (вручную задаёт вопросы моделям? ничего?).
+- Рынок: существуют готовые сервисы мониторинга видимости в ответах ИИ — проверить в движке, какие, сколько стоят, поддерживают ли Яндекс и русский язык.
 
-## What "validated" would look like
+## Как выглядит «подтверждено»
 
-<!-- Concrete description of what evidence would confirm this hypothesis.
-     Be specific enough that you'll recognize validation when you see it,
-     and recognize when you're settling for less. -->
+- Сервис выдаёт метрики, которые при повторном прогоне без изменений совпадают в пределах ? (колебания ответов моделей не перекрывают сигнал).
+- По метрикам основатель принял хотя бы одно решение о внутреннем продукте, и следующий прогон показал изменение.
+- Стоимость прогона укладывается в бюджет ?.
+- Для ступени 2 (позже): ? внешних компаний согласны платить.
 
-## Discovery-type variant (if applicable)
+## Эволюция от intake
 
-<!-- For discovery-type hypotheses ("what is in demand among Z"), the form is different:
-
-     Audience: who you're trying to understand
-     Domain:   the topic area where you want to map demand
-     Question: what specifically you want to learn (e.g., "which subtopics drive
-               willingness to pay", "which formats convert", "which pain points are
-               unaddressed by current offerings")
-
-     Fill this section only if hypothesis_type = discovery. -->
-
-## Evolution from intake
-
-<!-- What changed between 00_intake and this file. This is your visible reasoning trail. -->
+- Тип определён: product (было «не определён»).
+- Разделены две ступени: внутренний инструмент сейчас, продажа внешним позже.
+- Серия GoPractice — образец устройства сервиса, не наш контент.
