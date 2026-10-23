@@ -1,102 +1,42 @@
-# Competitive Landscape
+# Готовые сервисы мониторинга видимости в ответах ИИ
 
-> **Zone:** 2_engine (machine-led)
-> **When to fill:** during collection phase, after research_plan is set.
-> **Purpose:** map the competitive space honestly, including the threats easiest to dismiss.
-
----
-
-## Sources used
-
-<!-- List Parallel queries, web searches, scraping runs. Link or reference raw outputs in collection/raw/. -->
-
-- 
-- 
+> **Статус:** предварительный обзор (2026-10-23) по просьбе основателя — до завершения рамки. Цель: решить «собрать или купить». Бесплатный веб-поиск, без платных инструментов.
+>
+> **Качество источников:** обзоры на sostav.ru и vc.ru — блоги, часть явно рекламная (пишут сами сервисы или агентства). Цены меняются часто; всё, что не с сайта сервиса, — «источник утверждает», а не факт.
 
 ---
 
-## Direct competitors
+## С поддержкой Алисы / Яндекса (важно для СводПро)
 
-<!-- Solving the same problem for the same audience with a similar approach. -->
+| Сервис | Ссылка | Модели | Цена | Источник цены |
+|---|---|---|---|---|
+| AI Пиксель Тулс (Пиксель Плюс) | https://tools.pixelplus.ru/tools/geopanel ; ответы Алисы в выдаче: https://tools.pixelplus.ru/tools/ii-otvety | Алиса AI, ChatGPT, Gemini, DeepSeek и др.; Claude — только логотип на странице, в тексте не назван | Отдельной цены за GEO на сайте нет. Тарифы сервиса: Guru 3 790 ₽/мес, Business 24 990 ₽/мес, Enterprise от 35 000 ₽/мес (https://tools.pixelplus.ru/tarifs/). Обзор называет «Профессионал» 1 149 ₽ | сайт сервиса (2026-10-23); обзор [1] |
+| brandfound (бывший GPTFox) | **адрес сайта не подтверждён** (brandfound.ru продаётся как домен) | «Поиск с Алисой» и «Чат с Алисой» отдельно, ChatGPT, Claude, Gemini, Perplexity, Grok, GigaChat, DeepSeek | Противоречиво: тарифы 19 900–149 000 ₽ [1] против оплаты кредитами от 1 900 ₽ [2]; ~2,6 ₽ за замер [3] | только обзоры |
+| Rush Analytics (AI Трекер) | не проверено | Алиса, ChatGPT, Gemini | не указана | обзор [1] |
 
-### [Competitor name]
+Также упоминаются с модулями для нейросетей: Топвизор, Keys.so, Megaindex, Serpstat — поддержка Алисы не проверена [1].
 
-- **What they do:** 
-- **Audience:** 
-- **Pricing model:** 
-- **Strengths:** 
-- **Weaknesses:** 
-- **Why they could outcompete this hypothesis:** 
-  <!-- Force this. The strongest case for them, not the dismissible version. -->
-- **Source(s):** 
+## Зарубежные (Алису, по данным обзора [1], не поддерживают)
 
----
+| Сервис | Ссылка | Модели | Цена | Источник цены |
+|---|---|---|---|---|
+| Otterly.AI | https://otterly.ai/pricing | ChatGPT, Google AI Overviews, Perplexity, Copilot; Gemini (+$9) и Claude (+$29) — платные дополнения | Lite $29/мес (15 вопросов), Standard $189 (100), Premium $489 (400) | сайт сервиса (2026-10-23) |
+| Peec AI | https://peec.ai/pricing | ChatGPT, Perplexity, Gemini, AI Mode | на странице цен нет; обзоры: ~€70–95/мес стартовый | обзоры, противоречат друг другу [4] |
+| Profound | https://www.tryprofound.com (не проверен) | до 10 систем на корпоративном тарифе | обзоры: от $99 до $499/мес, либо только по запросу | обзоры [1][4] |
+| AI Brand Watch (актор Apify) | https://apify.com/desvela/brand-watch | ChatGPT, Claude, Gemini | $0,08 за проверку бренда по всем моделям, без подписки | поиск, страница не открывалась |
 
-## Indirect competitors
+## Что важно для решения «собрать или купить»
 
-<!-- Solving the same problem with a different approach, or solving a different aspect
-     of the same broader pain. -->
+- **Алиса** — ключевая для российского рынка; обзор утверждает, что около трети упоминаний приходится на локальные модели (Алиса, GigaChat) [1] — одно утверждение, не проверено.
+- Российские сервисы с Алисой существуют, поэтому «у своего сервиса нет конкурентов» — неверно.
+- Довод за свой сервис: прозрачность. Обзор методологии brandfound прямо пишет, что у готовых платформ неизвестно, какие вопросы отправляются и включён ли веб-поиск [5]. Для проверки «сработала ли мера» это важно.
+- Один кейс сообщает, что после изменений в выдаче Яндекса сервисы почти месяц снимали позиции некорректно [6] — сбор ответов Алисы хрупкий у всех.
 
-### [Competitor name]
+## Источники
 
-- **What they do:** 
-- **Why they're relevant:** 
-- **How they could displace this hypothesis:** 
-- **Source(s):** 
-
----
-
-## Adjacent players
-
-<!-- Companies in nearby spaces who could move into this market. -->
-
-### [Player name]
-
-- **Current focus:** 
-- **Why they could enter this space:** 
-- **What would trigger their move:** 
-- **Source(s):** 
-
----
-
-## Potential acquirers
-
-<!-- Companies that would benefit from buying a successful version of this hypothesis. -->
-
-- 
-
----
-
-## Competitive density assessment
-
-<!-- Is this market underserved, well-served, or saturated? Evidence for each:
-
-     - Underserved: gaps in current solutions, unaddressed segments, recent
-       customer complaints about limitations.
-     - Well-served: established players, mature feature sets, predictable pricing.
-     - Saturated: many players, undifferentiated offerings, declining margins. -->
-
-Assessment: 
-
-Evidence: 
-
----
-
-## Comparison to priors
-
-<!-- Pull from 1_frame/03_priors.md → "Competitive landscape — expected". How does
-     reality compare? Where did expectations match? Where did they diverge?
-     Where did they match suspiciously well? -->
-
-- 
-- 
-
----
-
-## Open questions
-
-<!-- What couldn't be answered from desk research and would require interviews
-     or further investigation. -->
-
-- 
-- 
+1. https://www.sostav.ru/blogs/291003/90110 — «Топ-7 сервисов мониторинга видимости бренда в нейросетях 2026»
+2. https://www.sostav.ru/blogs/290985/91792 — «Тарифы GEO-платформ в 2026 году»
+3. https://workspace.ru/blog/geo-kak-usluga-kak-agentstvu-vybrat-servis-monitoringa-brendov-v-neyrosetyah/
+4. https://www.ud.hk/en-US/resources/ai/ai-visibility-tools-cost-hk-2026-08-17 ; https://www.11x.ai/guides/ai-visibility-tracking-tools
+5. https://www.sostav.ru/blogs/290985/91228
+6. https://www.sostav.ru/blogs/290985/90864
