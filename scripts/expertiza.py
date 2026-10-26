@@ -335,7 +335,8 @@ def build(src):
             observed_2y = int(last_day - d0 >= 730)
             cohort[dims0 + (observed_2y,)] += 1
             if len(positives) > 1:
-                cohort_rep.append(list(dims0) + [positives[1][0] - d0, observed_2y])
+                n24 = sum(1 for x in positives if x[0] - d0 <= 730)  # positives within 24 months, first included
+                cohort_rep.append(list(dims0) + [positives[1][0] - d0, observed_2y, n24])
         for i, (d, res, obj, dash_, year, form, reg, typ, vid, word) in enumerate(recs):
             if not dash_:
                 continue
@@ -351,7 +352,7 @@ def build(src):
     write_csv("resub.csv", ["y", "f", "r", "t", "v", "back", "days"], sorted(resub_rows, key=lambda x: x[:5]))
     write_csv("korr.csv", ["y", "f", "r", "t", "v", "rep", "word", "n"], [list(k) + [n] for k, n in sorted(korr.items())])
     write_csv("cohort.csv", ["y", "f", "r", "t", "v", "obs2y", "n"], [list(k) + [n] for k, n in sorted(cohort.items())])
-    write_csv("cohort_rep.csv", ["y", "f", "r", "t", "v", "gap", "obs2y"], sorted(cohort_rep))
+    write_csv("cohort_rep.csv", ["y", "f", "r", "t", "v", "gap", "obs2y", "n24"], sorted(cohort_rep))
     print("повторные подачи: отрицательных", len(resub_rows), "вернулись", sum(r[5] for r in resub_rows),
           "| окно до", datetime.date.fromordinal(last_day - RESUB_WINDOW))
     orgs = {}
