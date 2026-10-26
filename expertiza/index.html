@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Реестр экспертизы</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=PT+Serif&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<style>
+  /* layout: one column, filters on top, summary → by year → breakdowns → organizations */
+  :root {
+    --bg: #f6f7f8; --panel: #ffffff; --fg: #1d2329; --muted: #5d6873; --line: #dde2e7;
+    --accent: #2f6f9f; --bad: #b8452f; --grid: #e9edf0;
+    --sans: "Golos Text", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --serif: "PT Serif", Georgia, serif;
+    --radius: 8px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #14181c; --panel: #1c2227; --fg: #e6eaee; --muted: #9aa5b0; --line: #2d353c;
+            --accent: #6aa8d6; --bad: #e07a63; --grid: #262d33; color-scheme: dark; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.45 var(--sans); font-variant-numeric: tabular-nums; }
+  .ex { max-width: 1280px; margin: 0 auto; padding: 24px max(16px, env(safe-area-inset-right, 0px)) 48px max(16px, env(safe-area-inset-left, 0px)); display: grid; gap: 20px; }
+  h1 { font: 400 30px/1.2 var(--serif); margin: 0; text-wrap: balance; }
+  .ex-head p { margin: 6px 0 0; color: var(--muted); max-width: 72ch; }
+  .ex-filters { display: flex; flex-wrap: wrap; gap: 10px; align-items: end; position: sticky; top: 0; z-index: 5; background: var(--bg); padding-block: 10px; border-bottom: 1px solid var(--line); }
+  .ex-filters label { display: grid; gap: 2px; font-size: 12px; color: var(--muted); min-width: 0; }
+  select, .ex-btn, .ex-search { font: inherit; color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 6px 10px; }
+  select { max-width: 17rem; }
+  .ex-btn { cursor: pointer; }
+  .ex-btn:hover { border-color: var(--muted); }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .ex-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); gap: 12px; }
+  .ex-tile, .ex-card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; min-width: 0; }
+  .ex-tile .lbl { font-size: 12px; color: var(--muted); }
+  .ex-tile .val { font: 400 30px/1.15 var(--serif); margin-top: 4px; }
+  .ex-tile .val.bad { color: var(--bad); }
+  .ex-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 28rem), 1fr)); gap: 12px; }
+  h2 { font-size: 17px; font-weight: 500; margin: 0; }
+  .note { font-size: 12.5px; color: var(--muted); margin: 4px 0 12px; }
+  .ex-chart { position: relative; min-height: 280px; }
+  .ex-tip { position: absolute; pointer-events: none; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: 0 4px 16px rgb(0 0 0 / .12); padding: 6px 10px; font-size: 12.5px; white-space: nowrap; }
+  .ex-tip .k { color: var(--muted); }
+  .sw { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 6px; }
+  .ex-legend { display: flex; gap: 16px; font-size: 12.5px; color: var(--muted); margin-bottom: 6px; }
+  .ex-scroll { max-height: 28rem; overflow: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th { position: sticky; top: 0; background: var(--panel); text-align: left; font-weight: 500; font-size: 12px; color: var(--muted); padding: 6px; border-bottom: 1px solid var(--line); z-index: 1; }
+  th button { all: unset; cursor: pointer; }
+  th button:focus-visible { outline: 2px solid var(--accent); }
+  th[aria-sort=descending] button::after, th[aria-sort=ascending] button::after { content: " ↓"; }
+  th[aria-sort=ascending] button::after { content: " ↑"; }
+  td { padding: 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  .num { text-align: right; white-space: nowrap; }
+  tr.click { cursor: pointer; }
+  tr.click:hover td { background: var(--bg); }
+  tr.on td { font-weight: 600; }
+  .ex-bar { display: grid; gap: 3px; min-width: 0; }
+  .ex-bar i { display: block; height: 6px; border-radius: 3px; background: var(--accent); }
+  .bad { color: var(--bad); }
+  .ex-search { width: 100%; margin-bottom: 8px; background: var(--bg); }
+  .ex-toggle { display: flex; gap: 6px; align-items: center; font-size: 12.5px; color: var(--muted); margin-bottom: 8px; }
+  caption { caption-side: bottom; text-align: left; padding-top: 6px; font-size: 12px; color: var(--muted); }
+  .ex-method { font-size: 12.5px; color: var(--muted); max-width: 85ch; line-height: 1.55; }
+  .ex-loading { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="ex">
+  <header class="ex-head">
+    <h1>Реестр экспертизы: площадные объекты</h1>
+    <p id="takeaway" class="ex-loading">Загрузка данных…</p>
+  </header>
+
+  <div class="ex-filters">
+    <label for="f-form">Форма экспертизы<select id="f-form"></select></label>
+    <label for="f-region">Регион<select id="f-region"></select></label>
+    <label for="f-type">Тип объекта<select id="f-type"></select></label>
+    <label for="f-vid">Вид работ<select id="f-vid"></select></label>
+    <label for="f-y0">Год с<select id="f-y0"></select></label>
+    <label for="f-y1">по<select id="f-y1"></select></label>
+    <button class="ex-btn" id="f-reset" type="button">Сбросить</button>
+  </div>
+
+  <section class="ex-tiles">
+    <div class="ex-tile"><div class="lbl">Заключений</div><div class="val" id="k-all">—</div></div>
+    <div class="ex-tile"><div class="lbl">Положительных</div><div class="val" id="k-pos">—</div></div>
+    <div class="ex-tile"><div class="lbl">Отрицательных</div><div class="val bad" id="k-neg">—</div></div>
+    <div class="ex-tile"><div class="lbl">Доля отрицательных</div><div class="val" id="k-share">—</div></div>
+  </section>
+
+  <section class="ex-card">
+    <h2>Заключения по годам</h2>
+    <p class="note">Год — по дате заключения. 2018 неполный (реестр начат в этом году), 2026 — данные по октябрь.</p>
+    <div class="ex-legend"><span><i class="sw" style="background: var(--accent)"></i>Положительные</span><span><i class="sw" style="background: var(--bad)"></i>Отрицательные</span></div>
+    <div class="ex-chart" id="year-chart"></div>
+  </section>
+
+  <div class="ex-grid">
+    <section class="ex-card">
+      <h2>По типу объекта</h2>
+      <p class="note">Нажмите на строку, чтобы отфильтровать по типу. Тип определён по словам в назначении и названии объекта.</p>
+      <div class="ex-scroll"><table id="type-table"></table></div>
+    </section>
+    <section class="ex-card">
+      <h2>По регионам</h2>
+      <p class="note">Нажмите на строку, чтобы отфильтровать по региону.</p>
+      <div class="ex-scroll"><table id="region-table"></table></div>
+    </section>
+  </div>
+
+  <div class="ex-grid">
+    <section class="ex-card">
+      <h2>Генпроектировщики</h2>
+      <p class="note">Первая организация в списке подготовивших документацию. Учитывает фильтры формы, региона, типа и лет; вид работ не учитывает. Показаны организации с 3+ заключениями.</p>
+      <input class="ex-search" id="gp-search" type="search" placeholder="Поиск по названию или ИНН" aria-label="Поиск генпроектировщика">
+      <div class="ex-scroll"><table id="gp-table"></table></div>
+    </section>
+    <section class="ex-card">
+      <h2>Заказчики</h2>
+      <p class="note">Технический заказчик; если он не указан, его функции выполняет застройщик, и учитывается застройщик. Вид работ не учитывается.</p>
+      <label class="ex-toggle" for="zk-explicit"><input type="checkbox" id="zk-explicit"> Только где технический заказчик указан явно</label>
+      <input class="ex-search" id="zk-search" type="search" placeholder="Поиск по названию или ИНН" aria-label="Поиск заказчика">
+      <div class="ex-scroll"><table id="zk-table"></table></div>
+    </section>
+  </div>
+
+  <p class="ex-method">Источник — открытая выгрузка реестра заключений экспертизы (602 223 заключения за 2018–2026). Единица счёта — заключение. Здесь только площадные объекты без капремонта. Линейные объекты (сети, дороги, мосты, ЛЭП) и объекты, где это определить не удалось, исключены. Вид работ до 2020 года в реестре не заполнен и выведен из названия объекта. Разметка автоматическая, по словам; в пограничных случаях возможны ошибки. Ссылка на страницу сохраняет выбранные фильтры.</p>
+</div>
+
+<script>
+(() => {
+  const loc = d3.formatLocale({ decimal: ',', thousands: ' ', grouping: [3], currency: ['', ''] });
+  const fmt = loc.format(',');
+  const pct = loc.format('.1%');
+  const KAP = 'Капитальный ремонт';
+  const POS = 'положительное';
+  const $ = (id) => document.getElementById(id);
+  const DEFAULTS = { form: null, region: null, type: null, vid: null, y0: null, y1: null, zk: false };
+  const state = { ...DEFAULTS };
+  const sortState = { type: 'total', region: 'total' };
+  let D = null;
+
+  // filters live in the URL hash so a link reproduces the view
+  function readHash() {
+    const h = new URLSearchParams(location.hash.slice(1));
+    Object.keys(DEFAULTS).forEach((k) => { state[k] = h.has(k) ? (k === 'zk' ? h.get(k) === '1' : h.get(k)) : DEFAULTS[k]; });
+  }
+  function writeHash() {
+    const h = new URLSearchParams();
+    Object.keys(DEFAULTS).forEach((k) => { if (state[k]) h.set(k, k === 'zk' ? '1' : state[k]); });
+    history.replaceState(null, '', h.toString() ? '#' + h.toString() : location.pathname);
+  }
+  function set(patch) { Object.assign(state, patch); writeHash(); draw(); }
+
+  async function load() {
+    const [facts, of, orgs, dims] = await Promise.all(['facts.csv', 'org_facts.csv', 'orgs.csv', 'dims.csv'].map((f) => d3.csv(f)));
+    const reg = [], typ = [];
+    dims.forEach((r) => { (r['измерение'] === 'регион' ? reg : typ)[+r['код']] = r['значение']; });
+    const f = facts.map((r) => ({ y: +r['год'], res: r['результат'], form: r['форма'], reg: r['регион'], type: r['тип'], vid: r['вид'], n: +r['заключений'] }));
+    const uniq = (k, cmp) => [...new Set(f.map((r) => r[k]))].sort(cmp);
+    const ru = (a, b) => String(a).localeCompare(String(b), 'ru');
+    const o = [];
+    orgs.forEach((r) => { o[+r.o] = { role: r['роль'], key: r['ключ'], name: r['название'] }; });
+    D = {
+      facts: f,
+      years: uniq('y', (a, b) => a - b), forms: uniq('form', ru), regs: uniq('reg', ru), types: uniq('type', ru),
+      vids: uniq('vid', ru).filter((v) => v !== KAP),
+      orgs: o,
+      of: of.map((r) => ({ o: +r.o, y: +r.y, form: r.f === 'г' ? 'Государственная' : 'Негосударственная', reg: reg[+r.r], type: typ[+r.t], p: +r.p, n: +r.n, x: +r.x })),
+    };
+  }
+
+  const keep = (r, skip) =>
+    (!state.form || skip === 'form' || r.form === state.form) &&
+    (!state.region || skip === 'region' || r.reg === state.region) &&
+    (!state.type || skip === 'type' || r.type === state.type) &&
+    (!state.y0 || r.y >= +state.y0) && (!state.y1 || r.y <= +state.y1);
+  const keepVid = (r) => !state.vid || r.vid === state.vid;
+
+  function fillSelect(el, values, current, allLabel) {
+    el.replaceChildren(new Option(allLabel, ''), ...values.map((v) => new Option(String(v), String(v))));
+    el.value = current == null ? '' : String(current);
+  }
+  [['f-form', 'form'], ['f-region', 'region'], ['f-type', 'type'], ['f-vid', 'vid'], ['f-y0', 'y0'], ['f-y1', 'y1']].forEach(([id, k]) =>
+    $(id).addEventListener('change', (e) => set({ [k]: e.target.value || null })));
+  $('f-reset').addEventListener('click', () => { $('gp-search').value = ''; $('zk-search').value = ''; set({ ...DEFAULTS }); });
+  $('zk-explicit').addEventListener('change', (e) => set({ zk: e.target.checked }));
+  $('gp-search').addEventListener('input', () => drawOrgs());
+  $('zk-search').addEventListener('input', () => drawOrgs());
+  window.addEventListener('hashchange', () => { readHash(); draw(); });
+  let rt;
+  window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(draw, 150); });
+
+  const el = (tag, text, cls) => { const e = document.createElement(tag); if (text != null) e.textContent = text; if (cls) e.className = cls; return e; };
+
+  function drawYear(rows, years) {
+    const box = $('year-chart');
+    const css = getComputedStyle(document.documentElement);
+    const cPos = css.getPropertyValue('--accent').trim(), cNeg = css.getPropertyValue('--bad').trim();
+    const data = years.map((y) => {
+      const v = rows.filter((r) => r.y === y);
+      return { y, pos: d3.sum(v, (r) => r.res === POS ? r.n : 0), neg: d3.sum(v, (r) => r.res !== POS ? r.n : 0) };
+    });
+    const W = Math.max(280, box.clientWidth), H = 280;
+    box.replaceChildren();
+    const svg = d3.select(box).append('svg').attr('width', '100%').attr('height', H).attr('viewBox', `0 0 ${W} ${H}`);
+    const y = d3.scaleLinear([0, d3.max(data, (d) => d.pos + d.neg) || 1], [H - 28, 12]).nice();
+    const probe = svg.append('text').attr('font-size', 12).text(fmt(y.domain()[1]));
+    const ml = probe.node().getComputedTextLength() + 12;
+    probe.remove();
+    const x = d3.scaleBand(data.map((d) => d.y), [ml, W - 8]).padding(0.3);
+    const ticks = y.ticks(5);
+    svg.append('g').selectAll('line').data(ticks).join('line').attr('x1', ml).attr('x2', W - 8)
+      .attr('y1', (t) => y(t)).attr('y2', (t) => y(t)).attr('stroke', 'var(--grid)');
+    svg.append('g').selectAll('text').data(ticks).join('text').attr('x', ml - 6).attr('y', (t) => y(t)).attr('dy', '0.32em')
+      .attr('text-anchor', 'end').attr('font-size', 12).attr('fill', 'var(--muted)').text((t) => fmt(t));
+    const bw = Math.min(36, x.bandwidth()), off = (x.bandwidth() - bw) / 2;
+    const g = svg.append('g').selectAll('g').data(data).join('g');
+    g.append('rect').attr('x', (d) => x(d.y) + off).attr('width', bw).attr('y', (d) => y(d.pos)).attr('height', (d) => y(0) - y(d.pos)).attr('fill', cPos);
+    g.append('rect').attr('x', (d) => x(d.y) + off).attr('width', bw).attr('y', (d) => y(d.pos + d.neg)).attr('height', (d) => y(d.pos) - y(d.pos + d.neg)).attr('rx', 3).attr('fill', cNeg);
+    svg.append('g').selectAll('text').data(data).join('text').attr('x', (d) => x(d.y) + x.bandwidth() / 2).attr('y', H - 8)
+      .attr('text-anchor', 'middle').attr('font-size', 12).attr('fill', 'var(--muted)').text((d) => d.y);
+    svg.append('line').attr('x1', ml).attr('x2', W - 8).attr('y1', y(0)).attr('y2', y(0)).attr('stroke', 'var(--muted)');
+    const tip = d3.select(box).append('div').attr('class', 'ex-tip').style('display', 'none');
+    g.append('rect').attr('x', (d) => x(d.y)).attr('width', x.bandwidth()).attr('y', 0).attr('height', H - 20).attr('fill', 'transparent')
+      .on('mousemove', (ev, d) => {
+        const tot = d.pos + d.neg;
+        tip.style('display', null).selectAll('*').remove();
+        tip.append('div').attr('class', 'k').text(d.y);
+        [['Положительные', d.pos, cPos], ['Отрицательные', d.neg, cNeg]].forEach(([n, v, c]) => {
+          const row = tip.append('div');
+          row.append('span').attr('class', 'sw').style('background', c);
+          row.append('span').text(`${n}: ${fmt(v)}`);
+        });
+        tip.append('div').attr('class', 'k').text(`Доля отрицательных: ${tot ? pct(d.neg / tot) : '—'}`);
+        const [px, py] = d3.pointer(ev, box);
+        const tw = tip.node().offsetWidth;
+        tip.style('left', `${Math.min(Math.max(0, px + 12), box.clientWidth - tw)}px`).style('top', `${Math.max(0, py - 64)}px`);
+      })
+      .on('mouseleave', () => tip.style('display', 'none'));
+  }
+
+  function drawBreakdown(tableId, which, rows, keyFn, label) {
+    const m = new Map();
+    rows.forEach((r) => {
+      const k = keyFn(r), v = m.get(k) || { k, pos: 0, neg: 0 };
+      if (r.res === POS) v.pos += r.n; else v.neg += r.n;
+      m.set(k, v);
+    });
+    const data = [...m.values()].map((d) => ({ ...d, total: d.pos + d.neg, share: d.neg / (d.pos + d.neg || 1) }));
+    const s = sortState[which];
+    data.sort((a, b) => s === 'name' ? a.k.localeCompare(b.k, 'ru') : b[s] - a[s]);
+    const max = d3.max(data, (d) => d.total) || 1;
+    const tr = el('tr');
+    [['name', label, ''], ['total', 'Заключений', 'num'], ['neg', 'Отриц.', 'num'], ['share', 'Доля отриц.', 'num']].forEach(([k, t, c]) => {
+      const th = el('th', null, c);
+      th.setAttribute('aria-sort', s === k ? (k === 'name' ? 'ascending' : 'descending') : 'none');
+      const b = el('button', t);
+      b.type = 'button';
+      b.addEventListener('click', () => { sortState[which] = k; draw(); });
+      th.appendChild(b);
+      tr.appendChild(th);
+    });
+    const thead = el('thead'); thead.appendChild(tr);
+    const tbody = el('tbody');
+    data.forEach((d) => {
+      const row = el('tr', null, 'click' + (state[which] === d.k ? ' on' : ''));
+      row.addEventListener('click', () => set({ [which]: state[which] === d.k ? null : d.k }));
+      const name = el('td'), bar = el('div', null, 'ex-bar'), i = el('i');
+      i.style.width = `${(d.total / max) * 100}%`;
+      bar.append(el('span', d.k), i);
+      name.appendChild(bar);
+      row.append(name, el('td', fmt(d.total), 'num'), el('td', fmt(d.neg), 'num'), el('td', pct(d.share), 'num' + (d.share > 0.1 ? ' bad' : '')));
+      tbody.appendChild(row);
+    });
+    $(tableId).replaceChildren(thead, tbody);
+  }
+
+  function drawOrgTable(tableId, role, query) {
+    const explicit = role === 'заказчик' && state.zk;
+    const m = new Map();
+    for (const r of D.of) {
+      const o = D.orgs[r.o];
+      if (!o || o.role !== role || !keep(r)) continue;
+      const v = m.get(r.o) || { o: r.o, pos: 0, neg: 0, x: 0, regs: new Set() };
+      v.pos += r.p; v.neg += r.n; v.x += r.x; v.regs.add(r.reg);
+      m.set(r.o, v);
+    }
+    const q = query.trim().toLowerCase();
+    let data = [...m.values()].map((v) => ({ ...v, total: explicit ? v.x : v.pos + v.neg, org: D.orgs[v.o] }))
+      .filter((v) => v.total > 0 && (!q || v.org.name.toLowerCase().includes(q) || v.org.key.includes(q)));
+    data.sort((a, b) => b.total - a.total);
+    const count = data.length;
+    data = data.slice(0, 300);
+    const cols = explicit
+      ? [['Организация', ''], ['ИНН', ''], ['Заключений (техзаказчик явно)', 'num'], ['Регионов', 'num']]
+      : [['Организация', ''], ['ИНН', ''], ['Заключений', 'num'], ['Отриц.', 'num'], ['Доля отриц.', 'num'], ['Регионов', 'num']];
+    const htr = el('tr');
+    cols.forEach(([t, c]) => htr.appendChild(el('th', t, c)));
+    const thead = el('thead'); thead.appendChild(htr);
+    const tbody = el('tbody');
+    data.forEach((d) => {
+      const inn = d.org.key.startsWith('имя:') ? '—' : d.org.key;
+      const share = d.neg / (d.total || 1);
+      const cells = explicit
+        ? [[d.org.name, ''], [inn, ''], [fmt(d.total), 'num'], [fmt(d.regs.size), 'num']]
+        : [[d.org.name, ''], [inn, ''], [fmt(d.total), 'num'], [fmt(d.neg), 'num'], [pct(share), 'num' + (share > 0.1 ? ' bad' : '')], [fmt(d.regs.size), 'num']];
+      const tr = el('tr');
+      cells.forEach(([t, c]) => tr.appendChild(el('td', t, c)));
+      tbody.appendChild(tr);
+    });
+    const cap = el('caption', count > 300 ? `Показаны 300 из ${fmt(count)} организаций` : `Организаций: ${fmt(count)}`);
+    $(tableId).replaceChildren(cap, thead, tbody);
+  }
+
+  function drawOrgs() {
+    if (!D) return;
+    drawOrgTable('gp-table', 'генпроектировщик', $('gp-search').value);
+    drawOrgTable('zk-table', 'заказчик', $('zk-search').value);
+  }
+
+  function draw() {
+    if (!D) return;
+    fillSelect($('f-form'), D.forms, state.form, 'Все');
+    fillSelect($('f-region'), D.regs, state.region, 'Все регионы');
+    fillSelect($('f-type'), D.types, state.type, 'Все типы');
+    fillSelect($('f-vid'), D.vids, state.vid, 'Все, кроме капремонта');
+    fillSelect($('f-y0'), D.years, state.y0, String(D.years[0]));
+    fillSelect($('f-y1'), D.years, state.y1, String(D.years[D.years.length - 1]));
+    $('zk-explicit').checked = !!state.zk;
+    const rows = D.facts.filter((r) => keep(r) && keepVid(r));
+    const pos = d3.sum(rows, (r) => r.res === POS ? r.n : 0), neg = d3.sum(rows, (r) => r.res !== POS ? r.n : 0), tot = pos + neg;
+    $('k-all').textContent = fmt(tot); $('k-pos').textContent = fmt(pos); $('k-neg').textContent = fmt(neg);
+    $('k-share').textContent = tot ? pct(neg / tot) : '—';
+    const tk = $('takeaway');
+    tk.classList.remove('ex-loading');
+    tk.textContent = tot
+      ? `${fmt(tot)} заключений за ${state.y0 || D.years[0]}–${state.y1 || D.years[D.years.length - 1]} по выбранным фильтрам, из них ${pct(neg / tot)} отрицательных. Капремонт и линейные объекты исключены.`
+      : 'По выбранным фильтрам заключений нет.';
+    drawYear(rows, D.years.filter((y) => (!state.y0 || y >= +state.y0) && (!state.y1 || y <= +state.y1)));
+    drawBreakdown('type-table', 'type', D.facts.filter((r) => keep(r, 'type') && keepVid(r)), (r) => r.type, 'Тип объекта');
+    drawBreakdown('region-table', 'region', D.facts.filter((r) => keep(r, 'region') && keepVid(r)), (r) => r.reg, 'Регион');
+    drawOrgs();
+  }
+
+  readHash();
+  load().then(draw).catch((e) => {
+    const tk = $('takeaway');
+    tk.textContent = 'Не удалось загрузить данные: ' + e.message + '. Страницу нужно открывать с сервера (GitHub Pages), а не как локальный файл.';
+  });
+})();
+</script>
+</body>
+</html>
