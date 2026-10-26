@@ -11,14 +11,14 @@
   /* layout: one column, filters on top, summary → by year → breakdowns → organizations */
   :root {
     --bg: #f6f7f8; --panel: #ffffff; --fg: #1d2329; --muted: #5d6873; --line: #dde2e7;
-    --accent: #2f6f9f; --bad: #b8452f; --grid: #e9edf0;
+    --accent: #2f6f9f; --alt: #d3a03b; --bad: #b8452f; --grid: #e9edf0;
     --sans: "Golos Text", system-ui, -apple-system, "Segoe UI", sans-serif;
     --serif: "PT Serif", Georgia, serif;
     --radius: 8px;
   }
   @media (prefers-color-scheme: dark) {
     :root { --bg: #14181c; --panel: #1c2227; --fg: #e6eaee; --muted: #9aa5b0; --line: #2d353c;
-            --accent: #6aa8d6; --bad: #e07a63; --grid: #262d33; color-scheme: dark; }
+            --accent: #6aa8d6; --alt: #e3b75c; --bad: #e07a63; --grid: #262d33; color-scheme: dark; }
   }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.45 var(--sans); font-variant-numeric: tabular-nums; }
@@ -66,6 +66,14 @@
   .ex-method { font-size: 12.5px; color: var(--muted); max-width: 85ch; line-height: 1.55; }
   .ex-loading { color: var(--muted); }
   .ex-method a { color: var(--accent); }
+  .ex-hscroll { overflow-x: auto; }
+  .ex-heat { border-collapse: separate; border-spacing: 2px; font-size: 13px; }
+  .ex-heat th { position: static; background: none; border: 0; text-align: center; padding: 4px; }
+  .ex-heat th.rowh { text-align: left; font-weight: 400; color: var(--fg); font-size: 13px; white-space: nowrap; max-width: 22rem; overflow: hidden; text-overflow: ellipsis; }
+  .ex-heat td { border: 0; border-radius: 4px; text-align: center; min-width: 3.2rem; padding: 6px 4px; }
+  .ex-heat td.empty { color: var(--muted); }
+  .ex-heat tr.click:hover th.rowh { text-decoration: underline; }
+  .ex-heat tr.on th.rowh { font-weight: 600; }
 </style>
 </head>
 <body>
@@ -98,6 +106,19 @@
     <p class="note">Затенены 2022–2024 годы — мораторий на отрицательные заключения. По приказу Главгосэкспертизы № 46 от 11.03.2022 (в рамках антикризисного постановления Правительства № 579) срок экспертизы можно было продлевать многократно вместо выдачи отрицательного заключения. Это примерно вдвое снизило долю отрицательных, но не отменило их вовсе. С 1 января 2025 года мораторий снят.</p>
     <div class="ex-legend"><span><i class="sw" style="background: var(--accent)"></i>Положительные</span><span><i class="sw" style="background: var(--bad)"></i>Отрицательные</span></div>
     <div class="ex-chart" id="year-chart"></div>
+  </section>
+
+  <section class="ex-card">
+    <h2>Доля отрицательных: государственная и негосударственная экспертиза</h2>
+    <p class="note">Учитывает все фильтры, кроме формы экспертизы. Наведите на столбец, чтобы увидеть число заключений.</p>
+    <div class="ex-legend"><span><i class="sw" style="background: var(--accent)"></i>Государственная</span><span><i class="sw" style="background: var(--alt)"></i>Негосударственная</span></div>
+    <div class="ex-chart" id="form-chart"></div>
+  </section>
+
+  <section class="ex-card">
+    <h2>Доля отрицательных по типам объектов и годам</h2>
+    <p class="note">Зачастую в государственную экспертизу идут проекты особой важности и сложности, это один из факторов, почему доля отрицательных заключений в государственной экспертизе выше. Чтобы сравнивать типы на одной основе, выберите форму экспертизы в фильтре. Учитывает все фильтры, кроме типа; клик по строке фильтрует по типу. Точка — меньше 30 заключений в ячейке.</p>
+    <div class="ex-hscroll"><table class="ex-heat" id="heat-table"></table></div>
   </section>
 
   <div class="ex-grid">
@@ -215,16 +236,7 @@
     probe.remove();
     const x = d3.scaleBand(data.map((d) => d.y), [ml, W - 8]).padding(0.3);
     const ticks = y.ticks(5);
-    // moratorium on negative conclusions, 2022–2024
-    const mYears = data.map((d) => d.y).filter((v) => v >= 2022 && v <= 2024);
-    if (mYears.length) {
-      const pad = x.step() * x.paddingInner() / 2;
-      const x0 = x(mYears[0]) - pad, x1 = x(mYears[mYears.length - 1]) + x.bandwidth() + pad;
-      svg.append('rect').attr('x', x0).attr('width', x1 - x0).attr('y', 4).attr('height', y(0) - 4)
-        .attr('fill', 'var(--grid)').attr('opacity', 0.8);
-      svg.append('text').attr('x', (x0 + x1) / 2).attr('y', 16).attr('text-anchor', 'middle')
-        .attr('font-size', 12).attr('fill', 'var(--muted)').text(x1 - x0 > 150 ? 'мораторий на отрицательные' : 'мораторий');
-    }
+    moratoriumBand(svg, x, data.map((d) => d.y), 4, y(0));
     svg.append('g').selectAll('line').data(ticks).join('line').attr('x1', ml).attr('x2', W - 8)
       .attr('y1', (t) => y(t)).attr('y2', (t) => y(t)).attr('stroke', 'var(--grid)');
     svg.append('g').selectAll('text').data(ticks).join('text').attr('x', ml - 6).attr('y', (t) => y(t)).attr('dy', '0.32em')
@@ -253,6 +265,112 @@
         tip.style('left', `${Math.min(Math.max(0, px + 12), box.clientWidth - tw)}px`).style('top', `${Math.max(0, py - 64)}px`);
       })
       .on('mouseleave', () => tip.style('display', 'none'));
+  }
+
+  function moratoriumBand(svg, x, years, top, bottom) {
+    const m = years.filter((v) => v >= 2022 && v <= 2024);
+    if (!m.length) return;
+    const pad = x.step() * x.paddingInner() / 2;
+    const x0 = x(m[0]) - pad, x1 = x(m[m.length - 1]) + x.bandwidth() + pad;
+    svg.append('rect').attr('x', x0).attr('width', x1 - x0).attr('y', top).attr('height', bottom - top)
+      .attr('fill', 'var(--grid)').attr('opacity', 0.8);
+    svg.append('text').attr('x', (x0 + x1) / 2).attr('y', top + 12).attr('text-anchor', 'middle')
+      .attr('font-size', 12).attr('fill', 'var(--muted)').text(x1 - x0 > 150 ? 'мораторий на отрицательные' : 'мораторий');
+  }
+
+  function drawFormChart(rows, years) {
+    const box = $('form-chart');
+    const css = getComputedStyle(document.documentElement);
+    const forms = [['Государственная', css.getPropertyValue('--accent').trim()], ['Негосударственная', css.getPropertyValue('--alt').trim()]];
+    const data = years.map((y) => ({
+      y,
+      v: forms.map(([f]) => {
+        const s = rows.filter((r) => r.y === y && r.form === f);
+        const tot = d3.sum(s, (r) => r.n), neg = d3.sum(s, (r) => r.res !== POS ? r.n : 0);
+        return { f, tot, neg, share: tot ? neg / tot : null };
+      }),
+    }));
+    const W = Math.max(280, box.clientWidth), H = 280;
+    box.replaceChildren();
+    const svg = d3.select(box).append('svg').attr('width', '100%').attr('height', H).attr('viewBox', `0 0 ${W} ${H}`);
+    const ymax = d3.max(data, (d) => d3.max(d.v, (v) => v.share || 0)) || 0.01;
+    const y = d3.scaleLinear([0, ymax], [H - 28, 26]).nice();
+    const ticks = y.ticks(5);
+    const probe = svg.append('text').attr('font-size', 12).text(pct(y.domain()[1]));
+    const ml = probe.node().getComputedTextLength() + 12;
+    probe.remove();
+    const x = d3.scaleBand(data.map((d) => d.y), [ml, W - 8]).padding(0.25);
+    const xi = d3.scaleBand(forms.map((f) => f[0]), [0, x.bandwidth()]).padding(0.08);
+    moratoriumBand(svg, x, years, 4, y(0));
+    svg.append('g').selectAll('line').data(ticks).join('line').attr('x1', ml).attr('x2', W - 8)
+      .attr('y1', (t) => y(t)).attr('y2', (t) => y(t)).attr('stroke', 'var(--grid)');
+    svg.append('g').selectAll('text').data(ticks).join('text').attr('x', ml - 6).attr('y', (t) => y(t)).attr('dy', '0.32em')
+      .attr('text-anchor', 'end').attr('font-size', 12).attr('fill', 'var(--muted)').text((t) => pct(t));
+    const g = svg.append('g').selectAll('g').data(data).join('g').attr('transform', (d) => `translate(${x(d.y)},0)`);
+    g.selectAll('rect').data((d) => d.v).join('rect')
+      .attr('x', (v) => xi(v.f)).attr('width', xi.bandwidth())
+      .attr('y', (v) => y(v.share || 0)).attr('height', (v) => y(0) - y(v.share || 0)).attr('rx', 2)
+      .attr('fill', (v) => forms.find((f) => f[0] === v.f)[1]);
+    svg.append('g').selectAll('text').data(data).join('text').attr('x', (d) => x(d.y) + x.bandwidth() / 2).attr('y', H - 8)
+      .attr('text-anchor', 'middle').attr('font-size', 12).attr('fill', 'var(--muted)').text((d) => d.y);
+    svg.append('line').attr('x1', ml).attr('x2', W - 8).attr('y1', y(0)).attr('y2', y(0)).attr('stroke', 'var(--muted)');
+    const tip = d3.select(box).append('div').attr('class', 'ex-tip').style('display', 'none');
+    g.append('rect').attr('x', 0).attr('width', x.bandwidth()).attr('y', 0).attr('height', H - 20).attr('fill', 'transparent')
+      .on('mousemove', (ev, d) => {
+        tip.style('display', null).selectAll('*').remove();
+        tip.append('div').attr('class', 'k').text(d.y);
+        d.v.forEach((v) => {
+          const row = tip.append('div');
+          row.append('span').attr('class', 'sw').style('background', forms.find((f) => f[0] === v.f)[1]);
+          row.append('span').text(`${v.f}: ${v.share == null ? '—' : pct(v.share)} (${fmt(v.neg)} из ${fmt(v.tot)})`);
+        });
+        const [px, py] = d3.pointer(ev, box);
+        const tw = tip.node().offsetWidth;
+        tip.style('left', `${Math.min(Math.max(0, px + 12), box.clientWidth - tw)}px`).style('top', `${Math.max(0, py - 60)}px`);
+      })
+      .on('mouseleave', () => tip.style('display', 'none'));
+  }
+
+  function drawHeat(rows, years) {
+    const css = getComputedStyle(document.documentElement);
+    const ramp = d3.interpolateRgb(css.getPropertyValue('--panel').trim(), css.getPropertyValue('--bad').trim());
+    const MAX = 0.25, MIN_N = 30;
+    const cell = new Map(), tot = new Map();
+    rows.forEach((r) => {
+      const k = r.type + '|' + r.y;
+      const c = cell.get(k) || { n: 0, neg: 0 };
+      c.n += r.n; if (r.res !== POS) c.neg += r.n;
+      cell.set(k, c);
+      const t = tot.get(r.type) || { n: 0, neg: 0 };
+      t.n += r.n; if (r.res !== POS) t.neg += r.n;
+      tot.set(r.type, t);
+    });
+    const types = [...tot.keys()].sort((a, b) => tot.get(b).neg / tot.get(b).n - tot.get(a).neg / tot.get(a).n);
+    const thead = el('thead'), htr = el('tr');
+    htr.appendChild(el('th', 'Тип объекта', 'rowh'));
+    years.forEach((y) => htr.appendChild(el('th', String(y))));
+    htr.appendChild(el('th', 'Всего'));
+    thead.appendChild(htr);
+    const paint = (td, c) => {
+      if (!c || c.n < MIN_N) { td.textContent = '·'; td.className = 'empty'; return; }
+      const s = c.neg / c.n, t = Math.min(s / MAX, 1);
+      td.textContent = (s * 100).toFixed(1).replace('.', ',');
+      td.style.background = ramp(t);
+      td.style.color = t > 0.55 ? '#fff' : 'var(--fg)';
+      td.title = `${fmt(c.neg)} отрицательных из ${fmt(c.n)}`;
+    };
+    const tbody = el('tbody');
+    types.forEach((type) => {
+      const tr = el('tr', null, 'click' + (state.type === type ? ' on' : ''));
+      tr.addEventListener('click', () => set({ type: state.type === type ? null : type }));
+      const th = el('th', type, 'rowh');
+      th.title = type;
+      tr.appendChild(th);
+      years.forEach((y) => { const td = el('td'); paint(td, cell.get(type + '|' + y)); tr.appendChild(td); });
+      const td = el('td'); paint(td, tot.get(type)); td.style.fontWeight = '600'; tr.appendChild(td);
+      tbody.appendChild(tr);
+    });
+    $('heat-table').replaceChildren(thead, tbody);
   }
 
   function drawBreakdown(tableId, which, rows, keyFn, label) {
@@ -352,7 +470,10 @@
     tk.textContent = tot
       ? `${fmt(tot)} заключений за ${state.y0 || D.years[0]}–${state.y1 || D.years[D.years.length - 1]} по выбранным фильтрам, из них ${pct(neg / tot)} отрицательных. Капремонт и линейные объекты исключены.`
       : 'По выбранным фильтрам заключений нет.';
-    drawYear(rows, D.years.filter((y) => (!state.y0 || y >= +state.y0) && (!state.y1 || y <= +state.y1)));
+    const yRange = D.years.filter((y) => (!state.y0 || y >= +state.y0) && (!state.y1 || y <= +state.y1));
+    drawYear(rows, yRange);
+    drawFormChart(D.facts.filter((r) => keep(r, 'form') && keepVid(r)), yRange);
+    drawHeat(D.facts.filter((r) => keep(r, 'type') && keepVid(r)), yRange);
     drawBreakdown('type-table', 'type', D.facts.filter((r) => keep(r, 'type') && keepVid(r)), (r) => r.type, 'Тип объекта');
     drawBreakdown('region-table', 'region', D.facts.filter((r) => keep(r, 'region') && keepVid(r)), (r) => r.reg, 'Регион');
     drawOrgs();
