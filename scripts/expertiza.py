@@ -326,6 +326,7 @@ def build(src):
     last_day = max(rec[0] for recs in objects.values() for rec in recs)
     resub_rows, korr = [], Counter()
     cohort, cohort_rep = Counter(), []    # objects by first positive (project docs); second positive gap
+    lookback = defaultdict(lambda: [0, 0])  # (year, f, r, t, v, has repeat) -> [objects, repeat conclusions]
     for recs in objects.values():
         recs.sort()
         positives = [x for x in recs if x[3] and x[1] == "положительное" and "Проектная" in x[2]]
@@ -337,6 +338,14 @@ def build(src):
             if len(positives) > 1:
                 n24 = sum(1 for x in positives if x[0] - d0 <= 730)  # positives within 24 months, first included
                 cohort_rep.append(list(dims0) + [positives[1][0] - d0, observed_2y, n24])
+            # looking back: per year with a positive, was any of them preceded by another positive within 24 months
+            for y in sorted({x[4] for x in positives}):
+                iny = [i for i, x in enumerate(positives) if x[4] == y]
+                first = positives[iny[0]]
+                repeats = sum(1 for i in iny if i > 0 and positives[i][0] - positives[i - 1][0] <= 730)
+                dims_y = (y, form_code.get(first[5], "?"), r_idx[first[6]], t_idx[first[7]], v_idx[first[8]], int(repeats > 0))
+                lookback[dims_y][0] += 1
+                lookback[dims_y][1] += repeats
         for i, (d, res, obj, dash_, year, form, reg, typ, vid, word) in enumerate(recs):
             if not dash_:
                 continue
@@ -353,6 +362,8 @@ def build(src):
     write_csv("korr.csv", ["y", "f", "r", "t", "v", "rep", "word", "n"], [list(k) + [n] for k, n in sorted(korr.items())])
     write_csv("cohort.csv", ["y", "f", "r", "t", "v", "obs2y", "n"], [list(k) + [n] for k, n in sorted(cohort.items())])
     write_csv("cohort_rep.csv", ["y", "f", "r", "t", "v", "gap", "obs2y", "n24"], sorted(cohort_rep))
+    write_csv("lookback.csv", ["y", "f", "r", "t", "v", "rep", "n", "k"], [list(k) + v for k, v in sorted(lookback.items())])
+    print("последняя дата в реестре:", datetime.date.fromordinal(last_day))
     print("повторные подачи: отрицательных", len(resub_rows), "вернулись", sum(r[5] for r in resub_rows),
           "| окно до", datetime.date.fromordinal(last_day - RESUB_WINDOW))
     orgs = {}
@@ -380,7 +391,7 @@ def site(dest):
     """Static GitHub Pages copy: the page template plus the dashboard CSVs."""
     dest.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(Path(__file__).with_name("expertiza_site.html"), dest / "index.html")
-    for name in ("facts.csv", "org_facts.csv", "orgs.csv", "dims.csv", "resub.csv", "korr.csv", "cohort.csv", "cohort_rep.csv"):
+    for name in ("facts.csv", "org_facts.csv", "orgs.csv", "dims.csv", "resub.csv", "korr.csv", "cohort.csv", "cohort_rep.csv", "lookback.csv"):
         shutil.copyfile(OUT / "dashboard" / name, dest / name)
     print("site written to", dest)
 

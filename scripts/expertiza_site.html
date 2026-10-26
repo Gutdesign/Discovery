@@ -228,6 +228,14 @@
       <div class="ex-hscroll"><table id="cohort-table"></table></div>
     </div>
     <div class="ex-card">
+      <h3>У скольких объектов года уже было положительное заключение за предыдущие два года</h3>
+      <p class="sub">Взгляд назад: объекты с положительным заключением в году и доля тех, у кого за предыдущие 24 месяца было другое положительное.</p>
+      <details class="how"><summary>Как считается</summary>
+        <p>Берутся объекты, у которых в году было хотя бы одно положительное заключение по проектной документации. Объект считается повторным, если хотя бы одному его положительному заключению в этом году предшествовало другое положительное не раньше чем за 24 месяца; предыдущее может быть и в том же году. Объект — тот же застройщик, регион, название (без слов «корректировка», «изменения») и почтовый адрес. В отличие от таблицы выше, окно смотрит назад и для свежих лет целиком лежит внутри данных, поэтому 2025 и 2026 годы здесь посчитаны. 2018–2019 годы не показаны: у них нет двух лет истории в реестре. Учитывает все фильтры.</p>
+      </details>
+      <div class="ex-hscroll"><table id="lookback-table"></table></div>
+    </div>
+    <div class="ex-card">
       <h3>Повторные положительные по типам объектов</h3>
       <p class="sub">Учитывает все фильтры, кроме типа.</p>
       <div class="ex-hscroll"><table id="korr-table"></table></div>
@@ -288,8 +296,8 @@
   function set(patch) { Object.assign(state, patch); writeHash(); draw(); }
 
   async function load() {
-    const [facts, of, orgs, dims, resub, korr, cohort, cohortRep] = await Promise.all(
-      ['facts.csv', 'org_facts.csv', 'orgs.csv', 'dims.csv', 'resub.csv', 'korr.csv', 'cohort.csv', 'cohort_rep.csv'].map((f) => d3.csv(f)));
+    const [facts, of, orgs, dims, resub, korr, cohort, cohortRep, lookback] = await Promise.all(
+      ['facts.csv', 'org_facts.csv', 'orgs.csv', 'dims.csv', 'resub.csv', 'korr.csv', 'cohort.csv', 'cohort_rep.csv', 'lookback.csv'].map((f) => d3.csv(f)));
     const dict = { 'регион': [], 'тип': [], 'вид': [] };
     dims.forEach((r) => { dict[r['измерение']][+r['код']] = r['значение']; });
     const reg = dict['регион'], typ = dict['тип'], vidD = dict['вид'];
@@ -310,6 +318,7 @@
       korr: korr.map((r) => ({ ...base(r), rep: r.rep === '1', word: r.word === '1', n: +r.n })),
       cohort: cohort.map((r) => ({ ...base(r), obs2y: r.obs2y === '1', n: +r.n })),
       cohortRep: cohortRep.map((r) => ({ ...base(r), gap: +r.gap, obs2y: r.obs2y === '1', n24: +r.n24 })),
+      lookback: lookback.map((r) => ({ ...base(r), rep: r.rep === '1', n: +r.n, k: +r.k })),
     };
   }
 
@@ -491,6 +500,27 @@
     line('Всего', rows, reps, true);
     const cap = el('caption', 'Доля за 24 месяца — только по объектам, у которых прошло два года наблюдения; доля за 12 месяцев у последнего года ещё растёт.');
     $('cohort-table').replaceChildren(cap, thead, tbody);
+  }
+
+  // years whose data or observation window is incomplete get a footnote mark
+  const PARTIAL = { 2025: '*', 2026: '*' };
+  function drawLookback(rows, years) {
+    const cols = [['Год', ''], ['Объектов с положительным\nзаключением', 'num wrap'], ['Из них с другим положительным\nза предыдущие 24 мес.', 'num wrap'], ['Доля', 'num wrap'], ['Повторных заключений\nна 100 объектов', 'num wrap']];
+    const htr = el('tr');
+    cols.forEach(([t, c]) => htr.appendChild(el('th', t, c)));
+    const thead = el('thead'); thead.appendChild(htr);
+    const tbody = el('tbody');
+    years.forEach((y) => {
+      const s = rows.filter((r) => r.y === y);
+      if (!s.length) return;
+      const n = d3.sum(s, (r) => r.n), rep = d3.sum(s, (r) => r.rep ? r.n : 0), k = d3.sum(s, (r) => r.k);
+      const tr = el('tr');
+      [[String(y) + (PARTIAL[y] || ''), ''], [fmt(n), 'num'], [fmt(rep), 'num'], [n ? pct(rep / n) : '—', 'num'], [n ? loc.format('.1f')(100 * k / n) : '—', 'num']]
+        .forEach(([t, c]) => tr.appendChild(el('td', t, c)));
+      tbody.appendChild(tr);
+    });
+    const cap = el('caption', '* Неполные периоды. 2026 год — данные по 14.10.2026. Для объектов 2025 и 2026 годов ещё не прошли 24 месяца вперёд, поэтому в таблице выше у них прочерк; здесь окно смотрит назад, и доля посчитана по всем объектам, получившим заключение в эти периоды.');
+    $('lookback-table').replaceChildren(cap, thead, tbody);
   }
 
   function drawKorrTable(rows) {
@@ -783,6 +813,7 @@
     drawKorrChart(korr, yRange);
     drawKorrTable(D.korr.filter((r) => keep(r, 'type') && keepVid(r)));
     drawCohort(D.cohort.filter((r) => keep(r) && keepVid(r)), D.cohortRep.filter((r) => keep(r) && keepVid(r)), yRange);
+    drawLookback(D.lookback.filter((r) => keep(r) && keepVid(r)), yRange.filter((y) => y >= 2020));
     drawBreakdown('type-table', 'type', D.facts.filter((r) => keep(r, 'type') && keepVid(r)), (r) => r.type, 'Тип объекта');
     drawBreakdown('region-table', 'region', D.facts.filter((r) => keep(r, 'region') && keepVid(r)), (r) => r.reg, 'Регион');
     drawOrgs();
