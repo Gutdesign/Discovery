@@ -112,6 +112,8 @@
   .ex-method { font-size: 13px; color: var(--muted); line-height: 1.6; border-top: 1px solid var(--line); padding-top: 16px; }
   .ex-method a { color: var(--pos); }
   .ex-loading { color: var(--muted); }
+  td.org { font-size: 13px; line-height: 1.35; }
+  td.org .inn { color: var(--muted); font-size: 12px; margin-top: 2px; }
 </style>
 </head>
 <body>
@@ -643,8 +645,8 @@
     const count = data.length;
     data = data.slice(0, 300);
     const cols = explicit
-      ? [['Организация', ''], ['ИНН', ''], ['Заключений (техзаказчик явно)', 'num'], ['Регионов', 'num']]
-      : [['Организация', ''], ['ИНН', ''], ['Заключений', 'num'], ['Отриц.', 'num'], ['Доля отриц.', 'num'], ['Регионов', 'num']];
+      ? [['Организация, ИНН', ''], ['Заключений\n(техзаказчик явно)', 'num wrap'], ['Регионов', 'num']]
+      : [['Организация, ИНН', ''], ['Заключений', 'num'], ['Отриц.', 'num'], ['Доля\nотриц.', 'num wrap'], ['Регионов', 'num']];
     const htr = el('tr');
     cols.forEach(([t, c]) => htr.appendChild(el('th', t, c)));
     const thead = el('thead'); thead.appendChild(htr);
@@ -653,10 +655,16 @@
       const inn = d.org.key.startsWith('имя:') ? '—' : d.org.key;
       const share = d.neg / (d.total || 1);
       const cells = explicit
-        ? [[d.org.name, ''], [inn, ''], [fmt(d.total), 'num'], [fmt(d.regs.size), 'num']]
-        : [[d.org.name, ''], [inn, ''], [fmt(d.total), 'num'], [fmt(d.neg), 'num'], [share, 'share'], [fmt(d.regs.size), 'num']];
+        ? [[d.org.name + '|' + inn, 'org'], [fmt(d.total), 'num'], [fmt(d.regs.size), 'num']]
+        : [[d.org.name + '|' + inn, 'org'], [fmt(d.total), 'num'], [fmt(d.neg), 'num'], [share, 'share'], [fmt(d.regs.size), 'num']];
       const tr = el('tr');
-      cells.forEach(([t, c]) => tr.appendChild(c === 'share' ? shareCell(t, avg) : el('td', t, c)));
+      cells.forEach(([t, c]) => {
+        if (c === 'share') return tr.appendChild(shareCell(t, avg));
+        if (c !== 'org') return tr.appendChild(el('td', t, c));
+        const i = t.lastIndexOf('|'), td = el('td', null, 'org');
+        td.append(el('div', t.slice(0, i)), el('div', t.slice(i + 1), 'inn'));
+        tr.appendChild(td);
+      });
       tbody.appendChild(tr);
     });
     const cap = explicit ? el('caption') : avgCaption(avg);
