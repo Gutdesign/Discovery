@@ -8,85 +8,110 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <style>
-  /* layout: one column, filters on top, summary → by year → breakdowns → organizations.
-     colour roles: blue = main data series / value scale, orange = focus / second series / active filter,
-     red and green = status only (with a sign), grey = other / inactive. */
+  /* layout: sticky filter bar with section links; four sections (volume, negatives, resubmissions, market),
+     two columns on wide screens. One colour, one meaning across the page:
+     blue = volume / positive, red = negative and its share, grey = comparison series, orange = active filter / selection,
+     green = below average (table shading only). */
   :root {
     --bg: #F5F5F5; --panel: #FFFFFF; --fg: #121212; --muted: #6B6B6B; --line: #E6E6E6; --grid: #E6E6E6;
-    --band: #E0E0E0; --red1: #B0123B; --red2: #E8899D;
-    --accent: #2447D6; --alt: #E5530F; --ok: #178A55; --bad: #B0123B; --other: #9E9E9E;
-    --heat0: #FBE4E9; --heat1: #D0345A; --heat2: #7A0A27; --heat-ink: #FFFFFF;
+    --pos: #2447D6; --neg: #B0123B; --cmp: #9E9E9E; --focus: #E5530F; --ok: #178A55; --hatch: #8A8A8A;
+    --heat0: #FBE4E9; --heat1: #D0345A; --heat2: #7A0A27; --heat-ink: #FFFFFF; --heat-ink-at: 0.45;
     --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
     --radius: 12px;
   }
   @media (prefers-color-scheme: dark) {
     :root { --bg: #000000; --panel: #0D0D0D; --fg: #EDEDED; --muted: #A6A6A6; --line: #262626; --grid: #262626;
-            --band: #262626; --red1: #F0506E; --red2: #8E2B42;
-            --accent: #5B7FF0; --alt: #F2581A; --ok: #21A06A; --bad: #F0506E; --other: #6B6B6B;
-            --heat0: #2A0D14; --heat1: #B02A4B; --heat2: #F7A6B7; --heat-ink: #000000; color-scheme: dark; }
+            --pos: #5B7FF0; --neg: #F0506E; --cmp: #737373; --focus: #F2581A; --ok: #21A06A; --hatch: #8A8A8A;
+            --heat0: #1E0D11; --heat1: #8E1B35; --heat2: #F0506E; --heat-ink: #000000; --heat-ink-at: 0.8; color-scheme: dark; }
   }
   * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
   body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.5 var(--sans); font-variant-numeric: tabular-nums; }
-  .ex { margin: 0 auto; padding: 32px max(16px, env(safe-area-inset-right, 0px)) 48px max(16px, env(safe-area-inset-left, 0px)); display: grid; gap: 24px; }
+  .ex { padding: 32px max(24px, env(safe-area-inset-right, 0px)) 48px max(24px, env(safe-area-inset-left, 0px)); display: grid; gap: 24px; }
+  @media (max-width: 600px) { .ex { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); } }
   h1 { font-size: 28px; line-height: 1.2; font-weight: 800; letter-spacing: -0.01em; margin: 0; text-wrap: balance; }
-  .ex-head p { margin: 8px 0 0; color: var(--muted); max-width: 72ch; }
-  .ex-filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: end; position: sticky; top: 0; z-index: 5; background: var(--bg); padding-block: 8px; border-bottom: 1px solid var(--line); }
-  .ex-filters label { display: grid; gap: 4px; font-size: 12px; color: var(--muted); min-width: 0; }
-  select, .ex-btn { font: inherit; font-size: 14px; color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; max-width: 17rem; cursor: pointer; transition: border-color .15s; }
-  select:hover, .ex-btn:hover, select.on { border-color: var(--alt); }
-  select.on { color: var(--alt); font-weight: 600; }
-  .ex-search { font: inherit; font-size: 14px; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 999px; padding: 8px 16px; width: 100%; margin-bottom: 8px; }
-  .ex-search:hover { border-color: var(--alt); }
-  :focus-visible { outline: 2px solid var(--alt); outline-offset: 1px; }
+  .ex-head p { margin: 8px 0 0; color: var(--muted); max-width: 80ch; }
+
+  /* sticky bar: filters + section links */
+  .ex-bar-top { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); padding-block: 8px; display: grid; gap: 8px; }
+  .ex-filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .ex-filters label { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); min-width: 0; }
+  select, .ex-btn { font: inherit; font-size: 14px; height: 32px; color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 0 12px; max-width: 16rem; cursor: pointer; transition: border-color .15s, color .15s; }
+  select:hover, .ex-btn:hover { border-color: var(--focus); }
+  select.on { border-color: var(--focus); color: var(--focus); font-weight: 600; }
+  .ex-btn:disabled { cursor: default; color: var(--muted); border-color: var(--line); }
+  .ex-btn.on { border-color: var(--focus); color: var(--focus); font-weight: 600; }
+  .ex-spacer { flex: 1; }
+  .ex-nav { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 13px; }
+  .ex-nav button { all: unset; cursor: pointer; color: var(--muted); padding: 2px 0; border-bottom: 2px solid transparent; }
+  .ex-nav button:hover { color: var(--fg); border-bottom-color: var(--focus); }
+  .ex-nav button:focus-visible { outline: 2px solid var(--focus); }
+  :focus-visible { outline: 2px solid var(--focus); outline-offset: 1px; }
+
+  /* sections and cards */
+  .ex-section { display: grid; gap: 16px; scroll-margin-top: 104px; }
+  .ex-section > h2 { font-size: 22px; font-weight: 800; margin: 16px 0 0; letter-spacing: -0.01em; }
+  .ex-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 34rem), 1fr)); gap: 16px; align-items: start; }
   .ex-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr)); gap: 16px; }
   .ex-tile, .ex-card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; min-width: 0; }
   .ex-tile .lbl { font-size: 12px; color: var(--muted); }
   .ex-tile .val { font-size: 36px; line-height: 1.1; font-weight: 800; letter-spacing: -0.02em; margin-top: 8px; }
-  .ex-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 28rem), 1fr)); gap: 16px; }
-  h2 { font-size: 18px; font-weight: 700; margin: 0; }
-  .note { font-size: 13px; color: var(--muted); margin: 8px 0 16px; }
+  h3 { font-size: 16px; font-weight: 700; margin: 0; }
+  .sub { font-size: 13px; color: var(--muted); margin: 4px 0 16px; }
+  details.how { font-size: 13px; color: var(--muted); margin: -8px 0 16px; }
+  details.how summary { cursor: pointer; width: fit-content; color: var(--fg); font-weight: 500; }
+  details.how summary:hover { color: var(--focus); }
+  details.how p { margin: 8px 0 0; max-width: 100ch; line-height: 1.55; }
+
+  /* charts */
   .ex-chart { position: relative; min-height: 280px; }
-  .ex-tip { position: absolute; pointer-events: none; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; box-shadow: 0 4px 16px rgb(0 0 0 / .16); padding: 8px 12px; font-size: 13px; white-space: nowrap; }
+  .ex-tip { position: absolute; pointer-events: none; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; box-shadow: 0 4px 16px rgb(0 0 0 / .16); padding: 8px 12px; font-size: 13px; white-space: nowrap; z-index: 2; }
   .ex-tip .k { color: var(--muted); }
   .sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 8px; vertical-align: -1px; }
+  .sw.hatch { background: repeating-linear-gradient(135deg, var(--hatch) 0 1px, transparent 1px 5px); border: 1px solid var(--line); }
   .ex-legend { display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: 13px; color: var(--fg); margin-bottom: 8px; }
+
+  /* tables */
   .ex-scroll { max-height: 30rem; overflow: auto; }
+  .ex-hscroll { overflow-x: auto; }
   table { width: 100%; border-collapse: collapse; font-size: 14px; }
   th { position: sticky; top: 0; background: var(--panel); text-align: left; font-weight: 500; font-size: 12px; color: var(--muted); padding: 8px; border-bottom: 1px solid var(--line); z-index: 1; }
   th button { all: unset; cursor: pointer; }
-  th button:hover { color: var(--alt); }
-  th button:focus-visible { outline: 2px solid var(--alt); }
+  th button:hover { color: var(--focus); }
+  th button:focus-visible { outline: 2px solid var(--focus); }
   th[aria-sort=descending] button::after { content: " ↓"; }
   th[aria-sort=ascending] button::after { content: " ↑"; }
+  th.wrap { white-space: pre-line; vertical-align: bottom; line-height: 1.3; }
   td { padding: 10px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
   .num { text-align: right; white-space: nowrap; }
   tr.click { cursor: pointer; }
   tr.click:hover td { background: var(--bg); }
   tr.on td { font-weight: 700; }
-  tr.on td:first-child { box-shadow: inset 3px 0 0 var(--alt); }
+  tr.on td:first-child { box-shadow: inset 3px 0 0 var(--focus); }
   .ex-bar { display: grid; gap: 4px; min-width: 0; }
-  .ex-bar i { display: block; height: 6px; border-radius: 0 3px 3px 0; background: var(--accent); }
-  tr.on .ex-bar i { background: var(--alt); }
-  .ex-toggle { display: flex; gap: 8px; align-items: center; font-size: 13px; color: var(--muted); margin-bottom: 8px; }
-  .ex-toggle input { accent-color: var(--alt); }
+  .ex-bar i { display: block; height: 6px; border-radius: 0 3px 3px 0; background: var(--pos); }
+  tr.on .ex-bar i { background: var(--focus); }
   caption { caption-side: bottom; text-align: left; padding-top: 8px; font-size: 12px; color: var(--muted); }
-  .ex-method { font-size: 13px; color: var(--muted); line-height: 1.6; }
-  .ex-loading { color: var(--muted); }
-  .ex-method a { color: var(--accent); }
-  .ex-hscroll { overflow-x: auto; }
+  .ex-search { font: inherit; font-size: 14px; height: 36px; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 999px; padding: 0 16px; width: 100%; margin-bottom: 8px; }
+  .ex-search:hover { border-color: var(--focus); }
+  .ex-toggle { display: flex; gap: 8px; align-items: center; font-size: 13px; color: var(--muted); margin-bottom: 8px; }
+  .ex-toggle input { accent-color: var(--focus); }
   .ex-heat { border-collapse: separate; border-spacing: 2px; font-size: 13px; }
   .ex-heat th { position: static; background: none; border: 0; text-align: center; padding: 4px 8px; }
   .ex-heat th.rowh { text-align: left; font-weight: 500; color: var(--fg); font-size: 13px; white-space: nowrap; max-width: 22rem; overflow: hidden; text-overflow: ellipsis; }
   .ex-heat td { border: 0; border-radius: 4px; text-align: center; min-width: 3.4rem; padding: 10px 6px; font-weight: 500; }
   .ex-heat td.empty { color: var(--muted); font-weight: 400; }
-  .ex-heat tr.click:hover th.rowh { color: var(--alt); }
-  .ex-heat tr.on th.rowh { font-weight: 700; color: var(--alt); }
-  th.wrap { white-space: pre-line; vertical-align: bottom; line-height: 1.3; }
+  .ex-heat tr.click:hover th.rowh { color: var(--focus); }
+  .ex-heat tr.on th.rowh { font-weight: 700; color: var(--focus); }
   .ex-shade { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin-bottom: 4px; color: var(--fg); }
   .ex-shade i { width: 28px; height: 12px; border-radius: 3px; }
   .ex-shade i.lo { background: linear-gradient(90deg, color-mix(in srgb, var(--ok) 40%, transparent), color-mix(in srgb, var(--ok) 10%, transparent)); }
   .ex-shade i.mid { background: var(--panel); border: 1px solid var(--line); }
-  .ex-shade i.hi { background: linear-gradient(90deg, color-mix(in srgb, var(--bad) 10%, transparent), color-mix(in srgb, var(--bad) 40%, transparent)); }
+  .ex-shade i.hi { background: linear-gradient(90deg, color-mix(in srgb, var(--neg) 10%, transparent), color-mix(in srgb, var(--neg) 40%, transparent)); }
+  .ex-method { font-size: 13px; color: var(--muted); line-height: 1.6; border-top: 1px solid var(--line); padding-top: 16px; }
+  .ex-method a { color: var(--pos); }
+  .ex-loading { color: var(--muted); }
 </style>
 </head>
 <body>
@@ -96,86 +121,129 @@
     <p id="takeaway" class="ex-loading">Загрузка данных…</p>
   </header>
 
-  <div class="ex-filters">
-    <label for="f-form">Форма экспертизы<select id="f-form"></select></label>
-    <label for="f-region">Регион<select id="f-region"></select></label>
-    <label for="f-type">Тип объекта<select id="f-type"></select></label>
-    <label for="f-vid">Вид работ<select id="f-vid"></select></label>
-    <label for="f-y0">Год с<select id="f-y0"></select></label>
-    <label for="f-y1">по<select id="f-y1"></select></label>
-    <button class="ex-btn" id="f-reset" type="button">Сбросить</button>
+  <div class="ex-bar-top">
+    <div class="ex-filters">
+      <label for="f-form">Форма<select id="f-form"></select></label>
+      <label for="f-region">Регион<select id="f-region"></select></label>
+      <label for="f-type">Тип<select id="f-type"></select></label>
+      <label for="f-vid">Вид работ<select id="f-vid"></select></label>
+      <label for="f-y0">Годы<select id="f-y0"></select></label>
+      <label for="f-y1">–<select id="f-y1"></select></label>
+      <span class="ex-spacer"></span>
+      <button class="ex-btn" id="f-reset" type="button">Сбросить</button>
+    </div>
+    <nav class="ex-nav" aria-label="Разделы">
+      <button type="button" data-go="s-volume">Объём и результат</button>
+      <button type="button" data-go="s-neg">Отрицательные заключения</button>
+      <button type="button" data-go="s-resub">Повторные подачи и корректировки</button>
+      <button type="button" data-go="s-market">Участники рынка</button>
+    </nav>
   </div>
 
-  <section class="ex-tiles">
-    <div class="ex-tile"><div class="lbl">Заключений</div><div class="val" id="k-all">—</div></div>
-    <div class="ex-tile"><div class="lbl">Положительных</div><div class="val" id="k-pos">—</div></div>
-    <div class="ex-tile"><div class="lbl">Отрицательных</div><div class="val" id="k-neg">—</div></div>
-    <div class="ex-tile"><div class="lbl">Доля отрицательных</div><div class="val" id="k-share">—</div></div>
+  <section class="ex-section" id="s-volume">
+    <h2>Объём и результат</h2>
+    <div class="ex-tiles">
+      <div class="ex-tile"><div class="lbl">Заключений</div><div class="val" id="k-all">—</div></div>
+      <div class="ex-tile"><div class="lbl">Положительных</div><div class="val" id="k-pos">—</div></div>
+      <div class="ex-tile"><div class="lbl">Отрицательных</div><div class="val" id="k-neg">—</div></div>
+      <div class="ex-tile"><div class="lbl">Доля отрицательных</div><div class="val" id="k-share">—</div></div>
+    </div>
+    <div class="ex-card">
+      <h3>Заключения по годам</h3>
+      <p class="sub">Положительные и отрицательные заключения по дате заключения.</p>
+      <details class="how"><summary>Как считается</summary>
+        <p>2018 год неполный — реестр начат в этом году; 2026 — данные по октябрь. Штриховкой отмечены 2022–2024 годы — мораторий на отрицательные заключения: по приказу Главгосэкспертизы № 46 от 11.03.2022 (в рамках антикризисного постановления Правительства № 579) срок экспертизы можно было продлевать многократно вместо выдачи отрицательного заключения. Это примерно вдвое снизило долю отрицательных, но не отменило их вовсе. С 1 января 2025 года мораторий снят.</p>
+      </details>
+      <div class="ex-legend"><span><i class="sw" style="background: var(--pos)"></i>Положительные</span><span><i class="sw" style="background: var(--neg)"></i>Отрицательные</span><span><i class="sw hatch"></i>Мораторий 2022–2024</span></div>
+      <div class="ex-chart" id="year-chart"></div>
+    </div>
   </section>
 
-  <section class="ex-card">
-    <h2>Заключения по годам</h2>
-    <p class="note">Год — по дате заключения. 2018 неполный (реестр начат в этом году), 2026 — данные по октябрь.</p>
-    <p class="note">Затенены 2022–2024 годы — мораторий на отрицательные заключения. По приказу Главгосэкспертизы № 46 от 11.03.2022 (в рамках антикризисного постановления Правительства № 579) срок экспертизы можно было продлевать многократно вместо выдачи отрицательного заключения. Это примерно вдвое снизило долю отрицательных, но не отменило их вовсе. С 1 января 2025 года мораторий снят.</p>
-    <div class="ex-legend"><span><i class="sw" style="background: var(--accent)"></i>Положительные</span><span><i class="sw" style="background: var(--alt)"></i>Отрицательные</span></div>
-    <div class="ex-chart" id="year-chart"></div>
+  <section class="ex-section" id="s-neg">
+    <h2>Отрицательные заключения</h2>
+    <div class="ex-card">
+      <h3>Доля отрицательных: государственная и негосударственная экспертиза</h3>
+      <p class="sub">Негосударственная экспертиза почти не выдаёт отрицательных заключений.</p>
+      <details class="how"><summary>Как считается</summary>
+        <p>Доля отрицательных среди всех заключений года отдельно для каждой формы экспертизы. Учитывает все фильтры, кроме формы. Наведите на столбец, чтобы увидеть число заключений.</p>
+      </details>
+      <div class="ex-legend"><span><i class="sw" style="background: var(--neg)"></i>Государственная</span><span><i class="sw" style="background: var(--cmp)"></i>Негосударственная</span><span><i class="sw hatch"></i>Мораторий 2022–2024</span></div>
+      <div class="ex-chart" id="form-chart"></div>
+    </div>
+    <div class="ex-card">
+      <h3>Доля отрицательных по типам объектов и годам</h3>
+      <p class="sub">Чем насыщеннее красный, тем выше доля отрицательных, %.</p>
+      <details class="how"><summary>Как считается</summary>
+        <p>Зачастую в государственную экспертизу идут проекты особой важности и сложности, это один из факторов, почему доля отрицательных заключений в государственной экспертизе выше. Чтобы сравнивать типы на одной основе, выберите форму экспертизы в фильтре. Учитывает все фильтры, кроме типа. Точка — меньше 30 заключений в ячейке. Шкала насыщается к 25%.</p>
+      </details>
+      <div class="ex-hscroll"><table class="ex-heat" id="heat-table"></table></div>
+    </div>
+    <div class="ex-cols">
+      <div class="ex-card">
+        <h3>По типу объекта</h3>
+        <p class="sub">Тип определён по словам в назначении и названии объекта.</p>
+        <table id="type-table"></table>
+      </div>
+      <div class="ex-card">
+        <h3>По регионам</h3>
+        <p class="sub">Субъект РФ, указанный в заключении.</p>
+        <div class="ex-scroll"><table id="region-table"></table></div>
+      </div>
+    </div>
   </section>
 
-  <section class="ex-card">
-    <h2>Доля отрицательных: государственная и негосударственная экспертиза</h2>
-    <p class="note">Учитывает все фильтры, кроме формы экспертизы. Наведите на столбец, чтобы увидеть число заключений.</p>
-    <div class="ex-legend"><span><i class="sw" style="background: var(--red1)"></i>Государственная</span><span><i class="sw" style="background: var(--red2)"></i>Негосударственная</span></div>
-    <div class="ex-chart" id="form-chart"></div>
+  <section class="ex-section" id="s-resub">
+    <h2>Повторные подачи и корректировки</h2>
+    <div class="ex-cols">
+      <div class="ex-card">
+        <h3>Что происходит после отрицательного заключения</h3>
+        <p class="sub">Сколько объектов позже получили положительное заключение и за какой срок.</p>
+        <details class="how"><summary>Как считается</summary>
+          <p>Для каждого отрицательного заключения ищем более позднее положительное по тому же объекту: тот же застройщик, регион, название и почтовый адрес; слова «корректировка» и «изменения» не учитываются. Это оценка снизу: если между подачами сменился застройщик или название, связь теряется. Отрицательные последних 6 месяцев не учитываются — у них ещё не было времени вернуться. Год — год отрицательного заключения; учитывает все фильтры.</p>
+        </details>
+        <div class="ex-hscroll"><table id="resub-table"></table></div>
+      </div>
+      <div class="ex-card">
+        <h3>Один объект проходит экспертизу несколько раз</h3>
+        <p class="sub">Доля повторных положительных заключений по объекту, обычно после изменений в проекте.</p>
+        <details class="how"><summary>Как считается</summary>
+          <p>Повторное положительное — второе и следующие положительные заключения по тому же объекту (тот же застройщик, регион, название и адрес). Отдельно — доля заключений, в названии которых есть «корректировка» или «изменения». Учитывает все фильтры.</p>
+        </details>
+        <div class="ex-legend"><span><i class="sw" style="background: var(--pos)"></i>Повторное положительное по объекту</span><span><i class="sw" style="background: var(--cmp)"></i>В названии «корректировка» / «изменения»</span></div>
+        <div class="ex-chart" id="korr-chart"></div>
+      </div>
+    </div>
+    <div class="ex-card">
+      <h3>Повторные положительные по типам объектов</h3>
+      <p class="sub">Учитывает все фильтры, кроме типа.</p>
+      <div class="ex-hscroll"><table id="korr-table"></table></div>
+    </div>
   </section>
 
-  <section class="ex-card">
-    <h2>Доля отрицательных по типам объектов и годам</h2>
-    <p class="note">Зачастую в государственную экспертизу идут проекты особой важности и сложности, это один из факторов, почему доля отрицательных заключений в государственной экспертизе выше. Чтобы сравнивать типы на одной основе, выберите форму экспертизы в фильтре. Учитывает все фильтры, кроме типа. Точка — меньше 30 заключений в ячейке.</p>
-    <div class="ex-hscroll"><table class="ex-heat" id="heat-table"></table></div>
+  <section class="ex-section" id="s-market">
+    <h2>Участники рынка</h2>
+    <div class="ex-cols">
+      <div class="ex-card">
+        <h3>Генпроектировщики</h3>
+        <p class="sub">Первая организация в списке подготовивших документацию.</p>
+        <details class="how"><summary>Как считается</summary>
+          <p>Учитывает фильтры формы, региона, типа и лет; вид работ не учитывает. Показаны организации с 3+ заключениями.</p>
+        </details>
+        <input class="ex-search" id="gp-search" type="search" placeholder="Поиск по названию или ИНН" aria-label="Поиск генпроектировщика">
+        <div class="ex-scroll"><table id="gp-table"></table></div>
+      </div>
+      <div class="ex-card">
+        <h3>Заказчики</h3>
+        <p class="sub">Технический заказчик, а если он не указан — застройщик.</p>
+        <details class="how"><summary>Как считается</summary>
+          <p>Если технический заказчик не указан, его функции выполняет застройщик, и учитывается застройщик. Вид работ не учитывается. Показаны организации с 3+ заключениями.</p>
+        </details>
+        <label class="ex-toggle" for="zk-explicit"><input type="checkbox" id="zk-explicit"> Только где технический заказчик указан явно</label>
+        <input class="ex-search" id="zk-search" type="search" placeholder="Поиск по названию или ИНН" aria-label="Поиск заказчика">
+        <div class="ex-scroll"><table id="zk-table"></table></div>
+      </div>
+    </div>
   </section>
-
-  <section class="ex-card">
-    <h2>Повторные подачи: что происходит после отрицательного заключения</h2>
-    <p class="note">Для каждого отрицательного заключения ищем более позднее положительное по тому же объекту: тот же застройщик, регион, название и почтовый адрес; слова «корректировка» и «изменения» не учитываются. Это оценка снизу: если между подачами сменился застройщик или название, связь теряется. Отрицательные последних 6 месяцев не учитываются — у них ещё не было времени вернуться. Год — год отрицательного заключения; учитывает все фильтры.</p>
-    <div class="ex-hscroll"><table id="resub-table"></table></div>
-  </section>
-
-  <section class="ex-card">
-    <h2>Корректировки и изменения: один объект проходит экспертизу несколько раз</h2>
-    <p class="note">Повторное положительное — второе и следующие положительные заключения по тому же объекту (тот же застройщик, регион, название и адрес), обычно после изменений в проекте. Отдельно — доля заключений, в названии которых есть «корректировка» или «изменения».</p>
-    <div class="ex-legend"><span><i class="sw" style="background: var(--accent)"></i>Повторное положительное по объекту</span><span><i class="sw" style="background: var(--alt)"></i>В названии «корректировка» / «изменения»</span></div>
-    <div class="ex-chart" id="korr-chart"></div>
-    <div class="ex-scroll" style="margin-top: 12px"><table id="korr-table"></table></div>
-  </section>
-
-  <div class="ex-grid">
-    <section class="ex-card">
-      <h2>По типу объекта</h2>
-      <p class="note">Тип определён по словам в назначении и названии объекта.</p>
-      <div class="ex-scroll"><table id="type-table"></table></div>
-    </section>
-    <section class="ex-card">
-      <h2>По регионам</h2>
-      <p class="note">Регион — субъект РФ, указанный в заключении.</p>
-      <div class="ex-scroll"><table id="region-table"></table></div>
-    </section>
-  </div>
-
-  <div class="ex-grid">
-    <section class="ex-card">
-      <h2>Генпроектировщики</h2>
-      <p class="note">Первая организация в списке подготовивших документацию. Учитывает фильтры формы, региона, типа и лет; вид работ не учитывает. Показаны организации с 3+ заключениями.</p>
-      <input class="ex-search" id="gp-search" type="search" placeholder="Поиск по названию или ИНН" aria-label="Поиск генпроектировщика">
-      <div class="ex-scroll"><table id="gp-table"></table></div>
-    </section>
-    <section class="ex-card">
-      <h2>Заказчики</h2>
-      <p class="note">Технический заказчик; если он не указан, его функции выполняет застройщик, и учитывается застройщик. Вид работ не учитывается.</p>
-      <label class="ex-toggle" for="zk-explicit"><input type="checkbox" id="zk-explicit"> Только где технический заказчик указан явно</label>
-      <input class="ex-search" id="zk-search" type="search" placeholder="Поиск по названию или ИНН" aria-label="Поиск заказчика">
-      <div class="ex-scroll"><table id="zk-table"></table></div>
-    </section>
-  </div>
 
   <p class="ex-method">Источник — открытая выгрузка <a href="https://egrz.ru/organisation/reestr/latest" target="_blank" rel="noopener">реестра заключений экспертизы ЕГРЗ</a> (602 223 заключения за 2018–2026). Единица счёта — заключение. Здесь только площадные объекты без капремонта. Линейные объекты (сети, дороги, мосты, ЛЭП) и объекты, где это определить не удалось, исключены. Вид работ до 2020 года в реестре не заполнен и выведен из названия объекта. Разметка автоматическая, по словам; в пограничных случаях возможны ошибки. Ссылка на страницу сохраняет выбранные фильтры.</p>
 </div>
@@ -244,6 +312,7 @@
   [['f-form', 'form'], ['f-region', 'region'], ['f-type', 'type'], ['f-vid', 'vid'], ['f-y0', 'y0'], ['f-y1', 'y1']].forEach(([id, k]) =>
     $(id).addEventListener('change', (e) => set({ [k]: e.target.value || null })));
   $('f-reset').addEventListener('click', () => { $('gp-search').value = ''; $('zk-search').value = ''; set({ ...DEFAULTS }); });
+  document.querySelectorAll('[data-go]').forEach((b) => b.addEventListener('click', () => $(b.dataset.go).scrollIntoView()));
   $('zk-explicit').addEventListener('change', (e) => set({ zk: e.target.checked }));
   $('gp-search').addEventListener('input', () => drawOrgs());
   $('zk-search').addEventListener('input', () => drawOrgs());
@@ -256,7 +325,7 @@
   function drawYear(rows, years) {
     const box = $('year-chart');
     const css = getComputedStyle(document.documentElement);
-    const cPos = css.getPropertyValue('--accent').trim(), cNeg = css.getPropertyValue('--alt').trim();
+    const cPos = css.getPropertyValue('--pos').trim(), cNeg = css.getPropertyValue('--neg').trim();
     const data = years.map((y) => {
       const v = rows.filter((r) => r.y === y);
       return { y, pos: d3.sum(v, (r) => r.res === POS ? r.n : 0), neg: d3.sum(v, (r) => r.res !== POS ? r.n : 0) };
@@ -323,8 +392,11 @@
     if (!m.length) return;
     const pad = x.step() * x.paddingInner() / 2;
     const x0 = x(m[0]) - pad, x1 = x(m[m.length - 1]) + x.bandwidth() + pad;
-    svg.append('rect').attr('x', x0).attr('width', x1 - x0).attr('y', top).attr('height', bottom - top)
-      .attr('fill', 'var(--band)');
+    const id = 'hatch-' + Math.random().toString(36).slice(2, 8);
+    svg.append('defs').append('pattern').attr('id', id).attr('width', 6).attr('height', 6)
+      .attr('patternUnits', 'userSpaceOnUse').attr('patternTransform', 'rotate(45)')
+      .append('line').attr('x1', 0).attr('y1', 0).attr('x2', 0).attr('y2', 6).attr('stroke', 'var(--hatch)').attr('stroke-width', 1).attr('opacity', 0.35);
+    svg.append('rect').attr('x', x0).attr('width', x1 - x0).attr('y', top).attr('height', bottom - top).attr('fill', `url(#${id})`);
     svg.append('text').attr('x', (x0 + x1) / 2).attr('y', top + 12).attr('text-anchor', 'middle')
       .attr('font-size', 12).attr('fill', 'var(--muted)').text(x1 - x0 > 150 ? 'мораторий на отрицательные' : 'мораторий');
   }
@@ -337,8 +409,8 @@
       return [d3.sum(s, (r) => r.res !== POS ? r.n : 0), d3.sum(s, (r) => r.n)];
     };
     drawGrouped($('form-chart'), years, [
-      { name: 'Государственная', color: color('--red1'), at: at('Государственная') },
-      { name: 'Негосударственная', color: color('--red2'), at: at('Негосударственная') },
+      { name: 'Государственная', color: color('--neg'), at: at('Государственная') },
+      { name: 'Негосударственная', color: color('--cmp'), at: at('Негосударственная') },
     ]);
   }
 
@@ -348,8 +420,8 @@
       return [d3.sum(s, (r) => r[flag] ? r.n : 0), d3.sum(s, (r) => r.n)];
     };
     drawGrouped($('korr-chart'), years, [
-      { name: 'Повторное положительное', color: color('--accent'), at: at('rep') },
-      { name: '«Корректировка» / «изменения»', color: color('--alt'), at: at('word') },
+      { name: 'Повторное положительное', color: color('--pos'), at: at('rep') },
+      { name: '«Корректировка» / «изменения»', color: color('--cmp'), at: at('word') },
     ]);
   }
 
@@ -454,7 +526,7 @@
   function drawHeat(rows, years) {
     const css = getComputedStyle(document.documentElement);
     const ramp = d3.interpolateRgbBasis(['--heat0', '--heat1', '--heat2'].map((v) => css.getPropertyValue(v).trim()));
-    const MAX = 0.25, MIN_N = 30;
+    const MAX = 0.25, MIN_N = 30, inkAt = parseFloat(css.getPropertyValue('--heat-ink-at')) || 0.45;
     const cell = new Map(), tot = new Map();
     rows.forEach((r) => {
       const k = r.type + '|' + r.y;
@@ -476,7 +548,7 @@
       const s = c.neg / c.n, t = Math.min(s / MAX, 1);
       td.textContent = (s * 100).toFixed(1).replace('.', ',');
       td.style.background = ramp(t);
-      td.style.color = t > 0.45 ? 'var(--heat-ink)' : 'var(--fg)';
+      td.style.color = t > inkAt ? 'var(--heat-ink)' : 'var(--fg)';
       td.title = `${fmt(c.neg)} отрицательных из ${fmt(c.n)}`;
     };
     const tbody = el('tbody');
@@ -501,7 +573,7 @@
     if (Math.abs(diff) > 0.01) {
       // shade grows with the distance from the average, full at 10 p.p.
       const k = Math.round(10 + 30 * Math.min((Math.abs(diff) - 0.01) / 0.09, 1));
-      td.style.background = `color-mix(in srgb, var(${diff > 0 ? '--bad' : '--ok'}) ${k}%, transparent)`;
+      td.style.background = `color-mix(in srgb, var(${diff > 0 ? '--neg' : '--ok'}) ${k}%, transparent)`;
       td.title = `Среднее по таблице ${pct(avg)}`;
     }
     return td;
@@ -607,6 +679,11 @@
     fillSelect($('f-y0'), D.years, state.y0, String(D.years[0]));
     fillSelect($('f-y1'), D.years, state.y1, String(D.years[D.years.length - 1]));
     $('zk-explicit').checked = !!state.zk;
+    const nOn = ['form', 'region', 'type', 'vid', 'y0', 'y1'].filter((k) => state[k]).length + (state.zk ? 1 : 0);
+    const rb = $('f-reset');
+    rb.textContent = nOn ? `Сбросить (${nOn})` : 'Сбросить';
+    rb.disabled = !nOn;
+    rb.classList.toggle('on', nOn > 0);
     const rows = D.facts.filter((r) => keep(r) && keepVid(r));
     const pos = d3.sum(rows, (r) => r.res === POS ? r.n : 0), neg = d3.sum(rows, (r) => r.res !== POS ? r.n : 0), tot = pos + neg;
     $('k-all').textContent = fmt(tot); $('k-pos').textContent = fmt(pos); $('k-neg').textContent = fmt(neg);
