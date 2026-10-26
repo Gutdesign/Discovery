@@ -13,6 +13,7 @@ Outputs (data/expertiza/, ';'-delimited, UTF-8 with BOM):
   dashboard/*.csv       aggregates for the interactive dashboard (facts, org_facts, orgs, dims)
 """
 import csv
+import datetime
 import re
 import shutil
 import sys
@@ -202,9 +203,35 @@ def slim_rows(src):
         yield from r
 
 
+KORR_WORD = re.compile(r"корректировк|изменени")
+KEY_NOISE = re.compile(r"\b(корректировк\w*|изменени\w*|откорректированн\w*|повторн\w*)\b")
+RESUB_WINDOW = 183  # days a negative needs before we judge whether it came back
+
+
+def key_text(s):
+    s = KEY_NOISE.sub(" ", s.lower().replace("ё", "е"))
+    return re.sub(r"[^\w]+", " ", s).strip()
+
+
+def object_key(name, who, reg):
+    """Same object across conclusions: developer + region + name + postal address (the address keeps generic
+    names such as «Капитальный ремонт МКД» apart); «корректировка/изменения» are ignored."""
+    core = ADDR_CUT.split(name, 1)[0]
+    m = re.search(r"почтовый адрес:(.*)", name, re.I)
+    addr = m.group(1) if m else name[len(core):]
+    return (who, reg, key_text(core)[:400], key_text(addr)[:120])
+
+
+def covers(need, have):
+    """A conclusion on `have` answers one on `need`: project docs need project docs, surveys need surveys."""
+    return "Проектная" in have if "Проектная" in need else "изыскан" in have
+
+
 def build(src):
     """Stage 2: classify from slim.csv and write rows, org lists and dashboard sources."""
+    sys.stdout.reconfigure(encoding="utf-8")
     OUT.mkdir(parents=True, exist_ok=True)
+    objects = defaultdict(list)           # object key -> conclusions, for resubmissions and corrections
     names = defaultdict(Counter)          # org key -> name variants
     facts = Counter()                     # (y, res, form, reg, type, vid) -> n
     org_facts = defaultdict(lambda: [0, 0, 0])  # (role, key, y, form, reg, type) -> [pos, neg, explicit техзаказчик]
@@ -233,6 +260,11 @@ def build(src):
                         vid, vid_src, geom, typ, "да" if in_dash else "нет",
                         gp_key, gp_name, n_proj, k_key, k_name, k_src, z_key, z_name,
                         func_raw[:200], name[:300]])
+            who = z_key or k_key
+            if who and res != "н/д" and re.fullmatch(r"\d\d\.\d\d\.\d{4}", date):
+                d = datetime.date(int(date[6:]), int(date[3:5]), int(date[:2])).toordinal()
+                objects[object_key(name, who, reg)].append(
+                    (d, res, obj, in_dash, year, form, reg, typ, vid, bool(KORR_WORD.search(core))))
             if not in_dash:
                 continue
             facts[(year, res, form, reg, typ, vid)] += 1
@@ -284,8 +316,33 @@ def build(src):
     types = sorted({k[4] for k in facts})
     r_idx, t_idx = {v: i for i, v in enumerate(regs)}, {v: i for i, v in enumerate(types)}
     form_code = {"Государственная": "г", "Негосударственная": "н"}
+    vids = sorted({k[5] for k in facts})
+    v_idx = {v: i for i, v in enumerate(vids)}
     write_csv("dims.csv", ["измерение", "код", "значение"],
-              [["регион", i, v] for i, v in enumerate(regs)] + [["тип", i, v] for i, v in enumerate(types)])
+              [["регион", i, v] for i, v in enumerate(regs)] + [["тип", i, v] for i, v in enumerate(types)]
+              + [["вид", i, v] for i, v in enumerate(vids)])
+
+    # resubmissions (negative -> later positive on the same object) and repeat positives (corrections)
+    last_day = max(rec[0] for recs in objects.values() for rec in recs)
+    resub_rows, korr = [], Counter()
+    for recs in objects.values():
+        recs.sort()
+        for i, (d, res, obj, dash_, year, form, reg, typ, vid, word) in enumerate(recs):
+            if not dash_:
+                continue
+            dims_ = [year, form_code.get(form, "?"), r_idx[reg], t_idx[typ], v_idx[vid]]
+            if res == "отрицательное":
+                if d > last_day - RESUB_WINDOW:
+                    continue
+                later = next((x for x in recs[i + 1:] if x[1] == "положительное" and covers(obj, x[2])), None)
+                resub_rows.append(dims_ + ([1, later[0] - d] if later else [0, ""]))
+            else:
+                repeat = any(x[1] == "положительное" and covers(obj, x[2]) for x in recs[:i])
+                korr[tuple(dims_ + [int(repeat), int(word)])] += 1
+    write_csv("resub.csv", ["y", "f", "r", "t", "v", "back", "days"], sorted(resub_rows, key=lambda x: x[:5]))
+    write_csv("korr.csv", ["y", "f", "r", "t", "v", "rep", "word", "n"], [list(k) + [n] for k, n in sorted(korr.items())])
+    print("повторные подачи: отрицательных", len(resub_rows), "вернулись", sum(r[5] for r in resub_rows),
+          "| окно до", datetime.date.fromordinal(last_day - RESUB_WINDOW))
     orgs = {}
     org_rows = []
     for (role, key, year, form, reg, typ), (pos, neg, explicit) in org_facts.items():
@@ -311,7 +368,7 @@ def site(dest):
     """Static GitHub Pages copy: the page template plus the dashboard CSVs."""
     dest.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(Path(__file__).with_name("expertiza_site.html"), dest / "index.html")
-    for name in ("facts.csv", "org_facts.csv", "orgs.csv", "dims.csv"):
+    for name in ("facts.csv", "org_facts.csv", "orgs.csv", "dims.csv", "resub.csv", "korr.csv"):
         shutil.copyfile(OUT / "dashboard" / name, dest / name)
     print("site written to", dest)
 

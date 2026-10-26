@@ -5,75 +5,82 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Реестр экспертизы</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=PT+Serif&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <style>
-  /* layout: one column, filters on top, summary → by year → breakdowns → organizations */
+  /* layout: one column, filters on top, summary → by year → breakdowns → organizations.
+     colour roles: blue = main data series / value scale, orange = focus / second series / active filter,
+     red and green = status only (with a sign), grey = other / inactive. */
   :root {
-    --bg: #f6f7f8; --panel: #ffffff; --fg: #1d2329; --muted: #5d6873; --line: #dde2e7;
-    --accent: #2f6f9f; --alt: #d3a03b; --bad: #b8452f; --grid: #e9edf0;
-    --sans: "Golos Text", system-ui, -apple-system, "Segoe UI", sans-serif;
-    --serif: "PT Serif", Georgia, serif;
-    --radius: 8px;
+    --bg: #F5F5F5; --panel: #FFFFFF; --fg: #121212; --muted: #6B6B6B; --line: #E6E6E6; --grid: #E6E6E6;
+    --band: #EFEFEF;
+    --accent: #2447D6; --alt: #E5530F; --ok: #178A55; --bad: #B0123B; --other: #9E9E9E;
+    --heat0: #DCE4FB; --heat1: #2447D6; --heat2: #142B85; --heat-ink: #FFFFFF;
+    --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --radius: 12px;
   }
   @media (prefers-color-scheme: dark) {
-    :root { --bg: #14181c; --panel: #1c2227; --fg: #e6eaee; --muted: #9aa5b0; --line: #2d353c;
-            --accent: #6aa8d6; --alt: #e3b75c; --bad: #e07a63; --grid: #262d33; color-scheme: dark; }
+    :root { --bg: #000000; --panel: #0D0D0D; --fg: #EDEDED; --muted: #A6A6A6; --line: #262626; --grid: #262626;
+            --band: #161616;
+            --accent: #5B7FF0; --alt: #F2581A; --ok: #21A06A; --bad: #F0506E; --other: #6B6B6B;
+            --heat0: #141E3D; --heat1: #3F63E0; --heat2: #A9BCF8; --heat-ink: #000000; color-scheme: dark; }
   }
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.45 var(--sans); font-variant-numeric: tabular-nums; }
-  .ex { max-width: 1280px; margin: 0 auto; padding: 24px max(16px, env(safe-area-inset-right, 0px)) 48px max(16px, env(safe-area-inset-left, 0px)); display: grid; gap: 20px; }
-  h1 { font: 400 30px/1.2 var(--serif); margin: 0; text-wrap: balance; }
-  .ex-head p { margin: 6px 0 0; color: var(--muted); max-width: 72ch; }
-  .ex-filters { display: flex; flex-wrap: wrap; gap: 10px; align-items: end; position: sticky; top: 0; z-index: 5; background: var(--bg); padding-block: 10px; border-bottom: 1px solid var(--line); }
-  .ex-filters label { display: grid; gap: 2px; font-size: 12px; color: var(--muted); min-width: 0; }
-  select, .ex-btn, .ex-search { font: inherit; color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 6px 10px; }
-  select { max-width: 17rem; }
-  .ex-btn { cursor: pointer; }
-  .ex-btn:hover { border-color: var(--muted); }
-  :focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
-  .ex-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); gap: 12px; }
-  .ex-tile, .ex-card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; min-width: 0; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.5 var(--sans); font-variant-numeric: tabular-nums; }
+  .ex { max-width: 1280px; margin: 0 auto; padding: 32px max(16px, env(safe-area-inset-right, 0px)) 48px max(16px, env(safe-area-inset-left, 0px)); display: grid; gap: 24px; }
+  h1 { font-size: 28px; line-height: 1.2; font-weight: 800; letter-spacing: -0.01em; margin: 0; text-wrap: balance; }
+  .ex-head p { margin: 8px 0 0; color: var(--muted); max-width: 72ch; }
+  .ex-filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: end; position: sticky; top: 0; z-index: 5; background: var(--bg); padding-block: 8px; border-bottom: 1px solid var(--line); }
+  .ex-filters label { display: grid; gap: 4px; font-size: 12px; color: var(--muted); min-width: 0; }
+  select, .ex-btn { font: inherit; font-size: 14px; color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; max-width: 17rem; cursor: pointer; transition: border-color .15s; }
+  select:hover, .ex-btn:hover, select.on { border-color: var(--alt); }
+  select.on { color: var(--alt); font-weight: 600; }
+  .ex-search { font: inherit; font-size: 14px; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 999px; padding: 8px 16px; width: 100%; margin-bottom: 8px; }
+  .ex-search:hover { border-color: var(--alt); }
+  :focus-visible { outline: 2px solid var(--alt); outline-offset: 1px; }
+  .ex-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr)); gap: 16px; }
+  .ex-tile, .ex-card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; min-width: 0; }
   .ex-tile .lbl { font-size: 12px; color: var(--muted); }
-  .ex-tile .val { font: 400 30px/1.15 var(--serif); margin-top: 4px; }
-  .ex-tile .val.bad { color: var(--bad); }
-  .ex-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 28rem), 1fr)); gap: 12px; }
-  h2 { font-size: 17px; font-weight: 500; margin: 0; }
-  .note { font-size: 12.5px; color: var(--muted); margin: 4px 0 12px; }
+  .ex-tile .val { font-size: 36px; line-height: 1.1; font-weight: 800; letter-spacing: -0.02em; margin-top: 8px; }
+  .ex-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 28rem), 1fr)); gap: 16px; }
+  h2 { font-size: 18px; font-weight: 700; margin: 0; }
+  .note { font-size: 13px; color: var(--muted); margin: 8px 0 16px; max-width: 110ch; }
   .ex-chart { position: relative; min-height: 280px; }
-  .ex-tip { position: absolute; pointer-events: none; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: 0 4px 16px rgb(0 0 0 / .12); padding: 6px 10px; font-size: 12.5px; white-space: nowrap; }
+  .ex-tip { position: absolute; pointer-events: none; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; box-shadow: 0 4px 16px rgb(0 0 0 / .16); padding: 8px 12px; font-size: 13px; white-space: nowrap; }
   .ex-tip .k { color: var(--muted); }
-  .sw { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 6px; }
-  .ex-legend { display: flex; gap: 16px; font-size: 12.5px; color: var(--muted); margin-bottom: 6px; }
-  .ex-scroll { max-height: 28rem; overflow: auto; }
+  .sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 8px; vertical-align: -1px; }
+  .ex-legend { display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: 13px; color: var(--fg); margin-bottom: 8px; }
+  .ex-scroll { max-height: 30rem; overflow: auto; }
   table { width: 100%; border-collapse: collapse; font-size: 14px; }
-  th { position: sticky; top: 0; background: var(--panel); text-align: left; font-weight: 500; font-size: 12px; color: var(--muted); padding: 6px; border-bottom: 1px solid var(--line); z-index: 1; }
+  th { position: sticky; top: 0; background: var(--panel); text-align: left; font-weight: 500; font-size: 12px; color: var(--muted); padding: 8px; border-bottom: 1px solid var(--line); z-index: 1; }
   th button { all: unset; cursor: pointer; }
-  th button:focus-visible { outline: 2px solid var(--accent); }
-  th[aria-sort=descending] button::after, th[aria-sort=ascending] button::after { content: " ↓"; }
+  th button:hover { color: var(--alt); }
+  th button:focus-visible { outline: 2px solid var(--alt); }
+  th[aria-sort=descending] button::after { content: " ↓"; }
   th[aria-sort=ascending] button::after { content: " ↑"; }
-  td { padding: 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  td { padding: 10px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
   .num { text-align: right; white-space: nowrap; }
   tr.click { cursor: pointer; }
   tr.click:hover td { background: var(--bg); }
-  tr.on td { font-weight: 600; }
-  .ex-bar { display: grid; gap: 3px; min-width: 0; }
-  .ex-bar i { display: block; height: 6px; border-radius: 3px; background: var(--accent); }
-  .bad { color: var(--bad); }
-  .ex-search { width: 100%; margin-bottom: 8px; background: var(--bg); }
-  .ex-toggle { display: flex; gap: 6px; align-items: center; font-size: 12.5px; color: var(--muted); margin-bottom: 8px; }
-  caption { caption-side: bottom; text-align: left; padding-top: 6px; font-size: 12px; color: var(--muted); }
-  .ex-method { font-size: 12.5px; color: var(--muted); max-width: 85ch; line-height: 1.55; }
+  tr.on td { font-weight: 700; }
+  tr.on td:first-child { box-shadow: inset 3px 0 0 var(--alt); }
+  .ex-bar { display: grid; gap: 4px; min-width: 0; }
+  .ex-bar i { display: block; height: 6px; border-radius: 0 3px 3px 0; background: var(--accent); }
+  tr.on .ex-bar i { background: var(--alt); }
+  .ex-toggle { display: flex; gap: 8px; align-items: center; font-size: 13px; color: var(--muted); margin-bottom: 8px; }
+  .ex-toggle input { accent-color: var(--alt); }
+  caption { caption-side: bottom; text-align: left; padding-top: 8px; font-size: 12px; color: var(--muted); }
+  .ex-method { font-size: 13px; color: var(--muted); max-width: 90ch; line-height: 1.6; }
   .ex-loading { color: var(--muted); }
   .ex-method a { color: var(--accent); }
   .ex-hscroll { overflow-x: auto; }
   .ex-heat { border-collapse: separate; border-spacing: 2px; font-size: 13px; }
-  .ex-heat th { position: static; background: none; border: 0; text-align: center; padding: 4px; }
-  .ex-heat th.rowh { text-align: left; font-weight: 400; color: var(--fg); font-size: 13px; white-space: nowrap; max-width: 22rem; overflow: hidden; text-overflow: ellipsis; }
-  .ex-heat td { border: 0; border-radius: 4px; text-align: center; min-width: 3.2rem; padding: 6px 4px; }
-  .ex-heat td.empty { color: var(--muted); }
-  .ex-heat tr.click:hover th.rowh { text-decoration: underline; }
-  .ex-heat tr.on th.rowh { font-weight: 600; }
+  .ex-heat th { position: static; background: none; border: 0; text-align: center; padding: 4px 8px; }
+  .ex-heat th.rowh { text-align: left; font-weight: 500; color: var(--fg); font-size: 13px; white-space: nowrap; max-width: 22rem; overflow: hidden; text-overflow: ellipsis; }
+  .ex-heat td { border: 0; border-radius: 4px; text-align: center; min-width: 3.4rem; padding: 10px 6px; font-weight: 500; }
+  .ex-heat td.empty { color: var(--muted); font-weight: 400; }
+  .ex-heat tr.click:hover th.rowh { color: var(--alt); }
+  .ex-heat tr.on th.rowh { font-weight: 700; color: var(--alt); }
 </style>
 </head>
 <body>
@@ -96,7 +103,7 @@
   <section class="ex-tiles">
     <div class="ex-tile"><div class="lbl">Заключений</div><div class="val" id="k-all">—</div></div>
     <div class="ex-tile"><div class="lbl">Положительных</div><div class="val" id="k-pos">—</div></div>
-    <div class="ex-tile"><div class="lbl">Отрицательных</div><div class="val bad" id="k-neg">—</div></div>
+    <div class="ex-tile"><div class="lbl">Отрицательных</div><div class="val" id="k-neg">—</div></div>
     <div class="ex-tile"><div class="lbl">Доля отрицательных</div><div class="val" id="k-share">—</div></div>
   </section>
 
@@ -104,7 +111,7 @@
     <h2>Заключения по годам</h2>
     <p class="note">Год — по дате заключения. 2018 неполный (реестр начат в этом году), 2026 — данные по октябрь.</p>
     <p class="note">Затенены 2022–2024 годы — мораторий на отрицательные заключения. По приказу Главгосэкспертизы № 46 от 11.03.2022 (в рамках антикризисного постановления Правительства № 579) срок экспертизы можно было продлевать многократно вместо выдачи отрицательного заключения. Это примерно вдвое снизило долю отрицательных, но не отменило их вовсе. С 1 января 2025 года мораторий снят.</p>
-    <div class="ex-legend"><span><i class="sw" style="background: var(--accent)"></i>Положительные</span><span><i class="sw" style="background: var(--bad)"></i>Отрицательные</span></div>
+    <div class="ex-legend"><span><i class="sw" style="background: var(--accent)"></i>Положительные</span><span><i class="sw" style="background: var(--alt)"></i>Отрицательные</span></div>
     <div class="ex-chart" id="year-chart"></div>
   </section>
 
@@ -119,6 +126,20 @@
     <h2>Доля отрицательных по типам объектов и годам</h2>
     <p class="note">Зачастую в государственную экспертизу идут проекты особой важности и сложности, это один из факторов, почему доля отрицательных заключений в государственной экспертизе выше. Чтобы сравнивать типы на одной основе, выберите форму экспертизы в фильтре. Учитывает все фильтры, кроме типа; клик по строке фильтрует по типу. Точка — меньше 30 заключений в ячейке.</p>
     <div class="ex-hscroll"><table class="ex-heat" id="heat-table"></table></div>
+  </section>
+
+  <section class="ex-card">
+    <h2>Повторные подачи: что происходит после отрицательного заключения</h2>
+    <p class="note">Для каждого отрицательного заключения ищем более позднее положительное по тому же объекту: тот же застройщик, регион, название и почтовый адрес; слова «корректировка» и «изменения» не учитываются. Это оценка снизу: если между подачами сменился застройщик или название, связь теряется. Отрицательные последних 6 месяцев не учитываются — у них ещё не было времени вернуться. Год — год отрицательного заключения; учитывает все фильтры.</p>
+    <div class="ex-hscroll"><table id="resub-table"></table></div>
+  </section>
+
+  <section class="ex-card">
+    <h2>Корректировки и изменения: один объект проходит экспертизу несколько раз</h2>
+    <p class="note">Повторное положительное — второе и следующие положительные заключения по тому же объекту (тот же застройщик, регион, название и адрес), обычно после изменений в проекте. Отдельно — доля заключений, в названии которых есть «корректировка» или «изменения». Реестр начинается в 2018 году, поэтому в ранних годах доля повторных занижена: заключения до 2018 года не видны. Учитывает все фильтры.</p>
+    <div class="ex-legend"><span><i class="sw" style="background: var(--accent)"></i>Повторное положительное по объекту</span><span><i class="sw" style="background: var(--alt)"></i>В названии «корректировка» / «изменения»</span></div>
+    <div class="ex-chart" id="korr-chart"></div>
+    <div class="ex-scroll" style="margin-top: 12px"><table id="korr-table"></table></div>
   </section>
 
   <div class="ex-grid">
@@ -179,9 +200,13 @@
   function set(patch) { Object.assign(state, patch); writeHash(); draw(); }
 
   async function load() {
-    const [facts, of, orgs, dims] = await Promise.all(['facts.csv', 'org_facts.csv', 'orgs.csv', 'dims.csv'].map((f) => d3.csv(f)));
-    const reg = [], typ = [];
-    dims.forEach((r) => { (r['измерение'] === 'регион' ? reg : typ)[+r['код']] = r['значение']; });
+    const [facts, of, orgs, dims, resub, korr] = await Promise.all(
+      ['facts.csv', 'org_facts.csv', 'orgs.csv', 'dims.csv', 'resub.csv', 'korr.csv'].map((f) => d3.csv(f)));
+    const dict = { 'регион': [], 'тип': [], 'вид': [] };
+    dims.forEach((r) => { dict[r['измерение']][+r['код']] = r['значение']; });
+    const reg = dict['регион'], typ = dict['тип'], vidD = dict['вид'];
+    const formOf = (f) => f === 'г' ? 'Государственная' : 'Негосударственная';
+    const base = (r) => ({ y: +r.y, form: formOf(r.f), reg: reg[+r.r], type: typ[+r.t], vid: vidD[+r.v] });
     const f = facts.map((r) => ({ y: +r['год'], res: r['результат'], form: r['форма'], reg: r['регион'], type: r['тип'], vid: r['вид'], n: +r['заключений'] }));
     const uniq = (k, cmp) => [...new Set(f.map((r) => r[k]))].sort(cmp);
     const ru = (a, b) => String(a).localeCompare(String(b), 'ru');
@@ -192,7 +217,9 @@
       years: uniq('y', (a, b) => a - b), forms: uniq('form', ru), regs: uniq('reg', ru), types: uniq('type', ru),
       vids: uniq('vid', ru).filter((v) => v !== KAP),
       orgs: o,
-      of: of.map((r) => ({ o: +r.o, y: +r.y, form: r.f === 'г' ? 'Государственная' : 'Негосударственная', reg: reg[+r.r], type: typ[+r.t], p: +r.p, n: +r.n, x: +r.x })),
+      of: of.map((r) => ({ o: +r.o, y: +r.y, form: formOf(r.f), reg: reg[+r.r], type: typ[+r.t], p: +r.p, n: +r.n, x: +r.x })),
+      resub: resub.map((r) => ({ ...base(r), back: r.back === '1', days: r.days === '' ? null : +r.days })),
+      korr: korr.map((r) => ({ ...base(r), rep: r.rep === '1', word: r.word === '1', n: +r.n })),
     };
   }
 
@@ -206,6 +233,7 @@
   function fillSelect(el, values, current, allLabel) {
     el.replaceChildren(new Option(allLabel, ''), ...values.map((v) => new Option(String(v), String(v))));
     el.value = current == null ? '' : String(current);
+    el.classList.toggle('on', current != null && current !== '');
   }
   [['f-form', 'form'], ['f-region', 'region'], ['f-type', 'type'], ['f-vid', 'vid'], ['f-y0', 'y0'], ['f-y1', 'y1']].forEach(([id, k]) =>
     $(id).addEventListener('change', (e) => set({ [k]: e.target.value || null })));
@@ -222,7 +250,7 @@
   function drawYear(rows, years) {
     const box = $('year-chart');
     const css = getComputedStyle(document.documentElement);
-    const cPos = css.getPropertyValue('--accent').trim(), cNeg = css.getPropertyValue('--bad').trim();
+    const cPos = css.getPropertyValue('--accent').trim(), cNeg = css.getPropertyValue('--alt').trim();
     const data = years.map((y) => {
       const v = rows.filter((r) => r.y === y);
       return { y, pos: d3.sum(v, (r) => r.res === POS ? r.n : 0), neg: d3.sum(v, (r) => r.res !== POS ? r.n : 0) };
@@ -230,7 +258,7 @@
     const W = Math.max(280, box.clientWidth), H = 280;
     box.replaceChildren();
     const svg = d3.select(box).append('svg').attr('width', '100%').attr('height', H).attr('viewBox', `0 0 ${W} ${H}`);
-    const y = d3.scaleLinear([0, d3.max(data, (d) => d.pos + d.neg) || 1], [H - 28, 26]).nice();
+    const y = d3.scaleLinear([0, d3.max(data, (d) => d.pos + d.neg) || 1], [H - 28, 40]).nice();
     const probe = svg.append('text').attr('font-size', 12).text(fmt(y.domain()[1]));
     const ml = probe.node().getComputedTextLength() + 12;
     probe.remove();
@@ -238,13 +266,14 @@
     const ticks = y.ticks(5);
     moratoriumBand(svg, x, data.map((d) => d.y), 4, y(0));
     svg.append('g').selectAll('line').data(ticks).join('line').attr('x1', ml).attr('x2', W - 8)
-      .attr('y1', (t) => y(t)).attr('y2', (t) => y(t)).attr('stroke', 'var(--grid)');
+      .attr('y1', (t) => y(t)).attr('y2', (t) => y(t)).attr('stroke', 'var(--grid)').attr('stroke-dasharray', '3 3');
     svg.append('g').selectAll('text').data(ticks).join('text').attr('x', ml - 6).attr('y', (t) => y(t)).attr('dy', '0.32em')
       .attr('text-anchor', 'end').attr('font-size', 12).attr('fill', 'var(--muted)').text((t) => fmt(t));
     const bw = Math.min(36, x.bandwidth()), off = (x.bandwidth() - bw) / 2;
     const g = svg.append('g').selectAll('g').data(data).join('g');
-    g.append('rect').attr('x', (d) => x(d.y) + off).attr('width', bw).attr('y', (d) => y(d.pos)).attr('height', (d) => y(0) - y(d.pos)).attr('fill', cPos);
-    g.append('rect').attr('x', (d) => x(d.y) + off).attr('width', bw).attr('y', (d) => y(d.pos + d.neg)).attr('height', (d) => y(d.pos) - y(d.pos + d.neg)).attr('rx', 3).attr('fill', cNeg);
+    g.append('path').attr('d', (d) => d.neg ? sq(x(d.y) + off, y(d.pos), bw, y(0) - y(d.pos)) : top4(x(d.y) + off, y(d.pos), bw, y(0) - y(d.pos))).attr('fill', cPos);
+    g.append('path').attr('d', (d) => top4(x(d.y) + off, y(d.pos + d.neg), bw, y(d.pos) - y(d.pos + d.neg))).attr('fill', cNeg);
+    keyLabels(svg, data, (d) => d.pos + d.neg, (d) => x(d.y) + x.bandwidth() / 2, (d) => y(d.pos + d.neg), fmt);
     svg.append('g').selectAll('text').data(data).join('text').attr('x', (d) => x(d.y) + x.bandwidth() / 2).attr('y', H - 8)
       .attr('text-anchor', 'middle').attr('font-size', 12).attr('fill', 'var(--muted)').text((d) => d.y);
     svg.append('line').attr('x1', ml).attr('x2', W - 8).attr('y1', y(0)).attr('y2', y(0)).attr('stroke', 'var(--muted)');
@@ -267,50 +296,135 @@
       .on('mouseleave', () => tip.style('display', 'none'));
   }
 
+  // bar shapes: square, or rounded 4px at the top end only
+  const sq = (x, y, w, h) => `M${x},${y}h${w}v${h}h${-w}Z`;
+  function top4(x, y, w, h) {
+    if (h <= 0 || w <= 0) return '';
+    const r = Math.min(4, w / 2, h);
+    return `M${x},${y + h}V${y + r}Q${x},${y} ${x + r},${y}H${x + w - r}Q${x + w},${y} ${x + w},${y + r}V${y + h}Z`;
+  }
+
+  // value labels only on key points: the maximum and the last bar
+  function keyLabels(svg, data, val, cx, cy, f) {
+    if (!data.length) return;
+    const pick = new Set([data[data.length - 1], data.reduce((a, b) => (val(b) > val(a) ? b : a))]);
+    pick.forEach((d) => svg.append('text').attr('x', cx(d)).attr('y', cy(d) - 6).attr('text-anchor', 'middle')
+      .attr('font-size', 11).attr('font-weight', 600).attr('fill', 'var(--fg)').text(f(val(d))));
+  }
+
   function moratoriumBand(svg, x, years, top, bottom) {
     const m = years.filter((v) => v >= 2022 && v <= 2024);
     if (!m.length) return;
     const pad = x.step() * x.paddingInner() / 2;
     const x0 = x(m[0]) - pad, x1 = x(m[m.length - 1]) + x.bandwidth() + pad;
     svg.append('rect').attr('x', x0).attr('width', x1 - x0).attr('y', top).attr('height', bottom - top)
-      .attr('fill', 'var(--grid)').attr('opacity', 0.8);
+      .attr('fill', 'var(--band)');
     svg.append('text').attr('x', (x0 + x1) / 2).attr('y', top + 12).attr('text-anchor', 'middle')
       .attr('font-size', 12).attr('fill', 'var(--muted)').text(x1 - x0 > 150 ? 'мораторий на отрицательные' : 'мораторий');
   }
 
+  const color = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+
   function drawFormChart(rows, years) {
-    const box = $('form-chart');
-    const css = getComputedStyle(document.documentElement);
-    const forms = [['Государственная', css.getPropertyValue('--accent').trim()], ['Негосударственная', css.getPropertyValue('--alt').trim()]];
+    const at = (f) => (y) => {
+      const s = rows.filter((r) => r.y === y && r.form === f);
+      return [d3.sum(s, (r) => r.res !== POS ? r.n : 0), d3.sum(s, (r) => r.n)];
+    };
+    drawGrouped($('form-chart'), years, [
+      { name: 'Государственная', color: color('--accent'), at: at('Государственная') },
+      { name: 'Негосударственная', color: color('--alt'), at: at('Негосударственная') },
+    ]);
+  }
+
+  function drawKorrChart(rows, years) {
+    const at = (flag) => (y) => {
+      const s = rows.filter((r) => r.y === y);
+      return [d3.sum(s, (r) => r[flag] ? r.n : 0), d3.sum(s, (r) => r.n)];
+    };
+    drawGrouped($('korr-chart'), years, [
+      { name: 'Повторное положительное', color: color('--accent'), at: at('rep') },
+      { name: '«Корректировка» / «изменения»', color: color('--alt'), at: at('word') },
+    ]);
+  }
+
+  function drawResub(rows, years) {
+    const cols = [['Год отрицательного', ''], ['Отрицательных', 'num'], ['Позже получили положительное', 'num'], ['Доля', 'num'], ['Медиана, дней', 'num'], ['75% вернулись за, дней', 'num']];
+    const htr = el('tr');
+    cols.forEach(([t, c]) => htr.appendChild(el('th', t, c)));
+    const thead = el('thead'); thead.appendChild(htr);
+    const tbody = el('tbody');
+    const line = (label, s, bold) => {
+      const back = s.filter((r) => r.back), d = back.map((r) => r.days).sort((a, b) => a - b);
+      const tr = el('tr');
+      [[label, ''], [fmt(s.length), 'num'], [fmt(back.length), 'num'], [s.length ? pct(back.length / s.length) : '—', 'num'],
+       [d.length >= 10 ? fmt(Math.round(d3.median(d))) : '—', 'num'], [d.length >= 10 ? fmt(Math.round(d3.quantile(d, 0.75))) : '—', 'num']]
+        .forEach(([t, c]) => { const td = el('td', t, c); if (bold) td.style.fontWeight = '600'; tr.appendChild(td); });
+      tbody.appendChild(tr);
+    };
+    years.forEach((y) => { const s = rows.filter((r) => r.y === y); if (s.length) line(String(y), s); });
+    line('Всего', rows, true);
+    const cap = el('caption', 'Медиана и 75% — дни от отрицательного до первого положительного заключения, считаются при 10+ вернувшихся.');
+    $('resub-table').replaceChildren(cap, thead, tbody);
+  }
+
+  function drawKorrTable(rows) {
+    const m = new Map();
+    rows.forEach((r) => {
+      const v = m.get(r.type) || { k: r.type, n: 0, rep: 0, word: 0 };
+      v.n += r.n; if (r.rep) v.rep += r.n; if (r.word) v.word += r.n;
+      m.set(r.type, v);
+    });
+    const data = [...m.values()].sort((a, b) => b.rep / b.n - a.rep / a.n);
+    const htr = el('tr');
+    [['Тип объекта', ''], ['Положительных', 'num'], ['Повторных', 'num'], ['Доля повторных', 'num'], ['Со словом', 'num'], ['Доля', 'num']]
+      .forEach(([t, c]) => htr.appendChild(el('th', t, c)));
+    const thead = el('thead'); thead.appendChild(htr);
+    const tbody = el('tbody');
+    data.forEach((d) => {
+      const tr = el('tr');
+      [[d.k, ''], [fmt(d.n), 'num'], [fmt(d.rep), 'num'], [pct(d.rep / d.n), 'num'], [fmt(d.word), 'num'], [pct(d.word / d.n), 'num']]
+        .forEach(([t, c]) => tr.appendChild(el('td', t, c)));
+      tbody.appendChild(tr);
+    });
+    $('korr-table').replaceChildren(thead, tbody);
+  }
+
+  // grouped bars of shares by year; series: [{name, color, at: (year) => [part, total]}]
+  function drawGrouped(box, years, series) {
+    const forms = series.map((s) => [s.name, s.color]);
     const data = years.map((y) => ({
       y,
-      v: forms.map(([f]) => {
-        const s = rows.filter((r) => r.y === y && r.form === f);
-        const tot = d3.sum(s, (r) => r.n), neg = d3.sum(s, (r) => r.res !== POS ? r.n : 0);
-        return { f, tot, neg, share: tot ? neg / tot : null };
+      v: series.map((s) => {
+        const [neg, tot] = s.at(y);
+        return { f: s.name, tot, neg, share: tot ? neg / tot : null };
       }),
     }));
     const W = Math.max(280, box.clientWidth), H = 280;
     box.replaceChildren();
     const svg = d3.select(box).append('svg').attr('width', '100%').attr('height', H).attr('viewBox', `0 0 ${W} ${H}`);
     const ymax = d3.max(data, (d) => d3.max(d.v, (v) => v.share || 0)) || 0.01;
-    const y = d3.scaleLinear([0, ymax], [H - 28, 26]).nice();
+    const y = d3.scaleLinear([0, ymax], [H - 28, 40]).nice();
     const ticks = y.ticks(5);
     const probe = svg.append('text').attr('font-size', 12).text(pct(y.domain()[1]));
     const ml = probe.node().getComputedTextLength() + 12;
     probe.remove();
     const x = d3.scaleBand(data.map((d) => d.y), [ml, W - 8]).padding(0.25);
-    const xi = d3.scaleBand(forms.map((f) => f[0]), [0, x.bandwidth()]).padding(0.08);
+    const xi = d3.scaleBand(forms.map((f) => f[0]), [0, x.bandwidth()]).padding(0);
     moratoriumBand(svg, x, years, 4, y(0));
     svg.append('g').selectAll('line').data(ticks).join('line').attr('x1', ml).attr('x2', W - 8)
-      .attr('y1', (t) => y(t)).attr('y2', (t) => y(t)).attr('stroke', 'var(--grid)');
+      .attr('y1', (t) => y(t)).attr('y2', (t) => y(t)).attr('stroke', 'var(--grid)').attr('stroke-dasharray', '3 3');
     svg.append('g').selectAll('text').data(ticks).join('text').attr('x', ml - 6).attr('y', (t) => y(t)).attr('dy', '0.32em')
       .attr('text-anchor', 'end').attr('font-size', 12).attr('fill', 'var(--muted)').text((t) => pct(t));
     const g = svg.append('g').selectAll('g').data(data).join('g').attr('transform', (d) => `translate(${x(d.y)},0)`);
-    g.selectAll('rect').data((d) => d.v).join('rect')
-      .attr('x', (v) => xi(v.f)).attr('width', xi.bandwidth())
-      .attr('y', (v) => y(v.share || 0)).attr('height', (v) => y(0) - y(v.share || 0)).attr('rx', 2)
+    g.selectAll('path').data((d) => d.v).join('path')
+      .attr('d', (v) => top4(xi(v.f) + 1, y(v.share || 0), xi.bandwidth() - 2, y(0) - y(v.share || 0)))
       .attr('fill', (v) => forms.find((f) => f[0] === v.f)[1]);
+    const last = data[data.length - 1];
+    if (last) last.v.forEach((v) => {
+      if (v.share == null) return;
+      svg.append('text').attr('x', x(last.y) + xi(v.f) + xi.bandwidth() / 2).attr('y', y(v.share) - 6)
+        .attr('text-anchor', 'middle').attr('font-size', 11).attr('font-weight', 600).attr('fill', 'var(--fg)').text(pct(v.share));
+    });
     svg.append('g').selectAll('text').data(data).join('text').attr('x', (d) => x(d.y) + x.bandwidth() / 2).attr('y', H - 8)
       .attr('text-anchor', 'middle').attr('font-size', 12).attr('fill', 'var(--muted)').text((d) => d.y);
     svg.append('line').attr('x1', ml).attr('x2', W - 8).attr('y1', y(0)).attr('y2', y(0)).attr('stroke', 'var(--muted)');
@@ -333,7 +447,7 @@
 
   function drawHeat(rows, years) {
     const css = getComputedStyle(document.documentElement);
-    const ramp = d3.interpolateRgb(css.getPropertyValue('--panel').trim(), css.getPropertyValue('--bad').trim());
+    const ramp = d3.interpolateRgbBasis(['--heat0', '--heat1', '--heat2'].map((v) => css.getPropertyValue(v).trim()));
     const MAX = 0.25, MIN_N = 30;
     const cell = new Map(), tot = new Map();
     rows.forEach((r) => {
@@ -356,7 +470,7 @@
       const s = c.neg / c.n, t = Math.min(s / MAX, 1);
       td.textContent = (s * 100).toFixed(1).replace('.', ',');
       td.style.background = ramp(t);
-      td.style.color = t > 0.55 ? '#fff' : 'var(--fg)';
+      td.style.color = t > 0.45 ? 'var(--heat-ink)' : 'var(--fg)';
       td.title = `${fmt(c.neg)} отрицательных из ${fmt(c.n)}`;
     };
     const tbody = el('tbody');
@@ -403,7 +517,7 @@
       i.style.width = `${(d.total / max) * 100}%`;
       bar.append(el('span', d.k), i);
       name.appendChild(bar);
-      row.append(name, el('td', fmt(d.total), 'num'), el('td', fmt(d.neg), 'num'), el('td', pct(d.share), 'num' + (d.share > 0.1 ? ' bad' : '')));
+      row.append(name, el('td', fmt(d.total), 'num'), el('td', fmt(d.neg), 'num'), el('td', pct(d.share), 'num'));
       tbody.appendChild(row);
     });
     $(tableId).replaceChildren(thead, tbody);
@@ -437,7 +551,7 @@
       const share = d.neg / (d.total || 1);
       const cells = explicit
         ? [[d.org.name, ''], [inn, ''], [fmt(d.total), 'num'], [fmt(d.regs.size), 'num']]
-        : [[d.org.name, ''], [inn, ''], [fmt(d.total), 'num'], [fmt(d.neg), 'num'], [pct(share), 'num' + (share > 0.1 ? ' bad' : '')], [fmt(d.regs.size), 'num']];
+        : [[d.org.name, ''], [inn, ''], [fmt(d.total), 'num'], [fmt(d.neg), 'num'], [pct(share), 'num'], [fmt(d.regs.size), 'num']];
       const tr = el('tr');
       cells.forEach(([t, c]) => tr.appendChild(el('td', t, c)));
       tbody.appendChild(tr);
@@ -474,6 +588,11 @@
     drawYear(rows, yRange);
     drawFormChart(D.facts.filter((r) => keep(r, 'form') && keepVid(r)), yRange);
     drawHeat(D.facts.filter((r) => keep(r, 'type') && keepVid(r)), yRange);
+    const resub = D.resub.filter((r) => keep(r) && keepVid(r));
+    drawResub(resub, yRange);
+    const korr = D.korr.filter((r) => keep(r) && keepVid(r));
+    drawKorrChart(korr, yRange);
+    drawKorrTable(D.korr.filter((r) => keep(r, 'type') && keepVid(r)));
     drawBreakdown('type-table', 'type', D.facts.filter((r) => keep(r, 'type') && keepVid(r)), (r) => r.type, 'Тип объекта');
     drawBreakdown('region-table', 'region', D.facts.filter((r) => keep(r, 'region') && keepVid(r)), (r) => r.reg, 'Регион');
     drawOrgs();
