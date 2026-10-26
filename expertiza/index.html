@@ -65,6 +65,7 @@
   caption { caption-side: bottom; text-align: left; padding-top: 6px; font-size: 12px; color: var(--muted); }
   .ex-method { font-size: 12.5px; color: var(--muted); max-width: 85ch; line-height: 1.55; }
   .ex-loading { color: var(--muted); }
+  .ex-method a { color: var(--accent); }
 </style>
 </head>
 <body>
@@ -94,6 +95,7 @@
   <section class="ex-card">
     <h2>Заключения по годам</h2>
     <p class="note">Год — по дате заключения. 2018 неполный (реестр начат в этом году), 2026 — данные по октябрь.</p>
+    <p class="note">Затенены 2022–2024 годы — мораторий на отрицательные заключения. По приказу Главгосэкспертизы № 46 от 11.03.2022 (в рамках антикризисного постановления Правительства № 579) срок экспертизы можно было продлевать многократно вместо выдачи отрицательного заключения. Это примерно вдвое снизило долю отрицательных, но не отменило их вовсе. С 1 января 2025 года мораторий снят.</p>
     <div class="ex-legend"><span><i class="sw" style="background: var(--accent)"></i>Положительные</span><span><i class="sw" style="background: var(--bad)"></i>Отрицательные</span></div>
     <div class="ex-chart" id="year-chart"></div>
   </section>
@@ -127,7 +129,7 @@
     </section>
   </div>
 
-  <p class="ex-method">Источник — открытая выгрузка реестра заключений экспертизы (602 223 заключения за 2018–2026). Единица счёта — заключение. Здесь только площадные объекты без капремонта. Линейные объекты (сети, дороги, мосты, ЛЭП) и объекты, где это определить не удалось, исключены. Вид работ до 2020 года в реестре не заполнен и выведен из названия объекта. Разметка автоматическая, по словам; в пограничных случаях возможны ошибки. Ссылка на страницу сохраняет выбранные фильтры.</p>
+  <p class="ex-method">Источник — открытая выгрузка <a href="https://egrz.ru/organisation/reestr/latest" target="_blank" rel="noopener">реестра заключений экспертизы ЕГРЗ</a> (602 223 заключения за 2018–2026). Единица счёта — заключение. Здесь только площадные объекты без капремонта. Линейные объекты (сети, дороги, мосты, ЛЭП) и объекты, где это определить не удалось, исключены. Вид работ до 2020 года в реестре не заполнен и выведен из названия объекта. Разметка автоматическая, по словам; в пограничных случаях возможны ошибки. Ссылка на страницу сохраняет выбранные фильтры.</p>
 </div>
 
 <script>
@@ -207,12 +209,22 @@
     const W = Math.max(280, box.clientWidth), H = 280;
     box.replaceChildren();
     const svg = d3.select(box).append('svg').attr('width', '100%').attr('height', H).attr('viewBox', `0 0 ${W} ${H}`);
-    const y = d3.scaleLinear([0, d3.max(data, (d) => d.pos + d.neg) || 1], [H - 28, 12]).nice();
+    const y = d3.scaleLinear([0, d3.max(data, (d) => d.pos + d.neg) || 1], [H - 28, 26]).nice();
     const probe = svg.append('text').attr('font-size', 12).text(fmt(y.domain()[1]));
     const ml = probe.node().getComputedTextLength() + 12;
     probe.remove();
     const x = d3.scaleBand(data.map((d) => d.y), [ml, W - 8]).padding(0.3);
     const ticks = y.ticks(5);
+    // moratorium on negative conclusions, 2022–2024
+    const mYears = data.map((d) => d.y).filter((v) => v >= 2022 && v <= 2024);
+    if (mYears.length) {
+      const pad = x.step() * x.paddingInner() / 2;
+      const x0 = x(mYears[0]) - pad, x1 = x(mYears[mYears.length - 1]) + x.bandwidth() + pad;
+      svg.append('rect').attr('x', x0).attr('width', x1 - x0).attr('y', 4).attr('height', y(0) - 4)
+        .attr('fill', 'var(--grid)').attr('opacity', 0.8);
+      svg.append('text').attr('x', (x0 + x1) / 2).attr('y', 16).attr('text-anchor', 'middle')
+        .attr('font-size', 12).attr('fill', 'var(--muted)').text(x1 - x0 > 150 ? 'мораторий на отрицательные' : 'мораторий');
+    }
     svg.append('g').selectAll('line').data(ticks).join('line').attr('x1', ml).attr('x2', W - 8)
       .attr('y1', (t) => y(t)).attr('y2', (t) => y(t)).attr('stroke', 'var(--grid)');
     svg.append('g').selectAll('text').data(ticks).join('text').attr('x', ml - 6).attr('y', (t) => y(t)).attr('dy', '0.32em')
