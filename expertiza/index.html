@@ -13,21 +13,21 @@
      red and green = status only (with a sign), grey = other / inactive. */
   :root {
     --bg: #F5F5F5; --panel: #FFFFFF; --fg: #121212; --muted: #6B6B6B; --line: #E6E6E6; --grid: #E6E6E6;
-    --band: #EFEFEF;
+    --band: #E0E0E0; --red1: #B0123B; --red2: #E8899D;
     --accent: #2447D6; --alt: #E5530F; --ok: #178A55; --bad: #B0123B; --other: #9E9E9E;
-    --heat0: #DCE4FB; --heat1: #2447D6; --heat2: #142B85; --heat-ink: #FFFFFF;
+    --heat0: #FBE4E9; --heat1: #D0345A; --heat2: #7A0A27; --heat-ink: #FFFFFF;
     --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
     --radius: 12px;
   }
   @media (prefers-color-scheme: dark) {
     :root { --bg: #000000; --panel: #0D0D0D; --fg: #EDEDED; --muted: #A6A6A6; --line: #262626; --grid: #262626;
-            --band: #161616;
+            --band: #262626; --red1: #F0506E; --red2: #8E2B42;
             --accent: #5B7FF0; --alt: #F2581A; --ok: #21A06A; --bad: #F0506E; --other: #6B6B6B;
-            --heat0: #141E3D; --heat1: #3F63E0; --heat2: #A9BCF8; --heat-ink: #000000; color-scheme: dark; }
+            --heat0: #2A0D14; --heat1: #B02A4B; --heat2: #F7A6B7; --heat-ink: #000000; color-scheme: dark; }
   }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.5 var(--sans); font-variant-numeric: tabular-nums; }
-  .ex { max-width: 1280px; margin: 0 auto; padding: 32px max(16px, env(safe-area-inset-right, 0px)) 48px max(16px, env(safe-area-inset-left, 0px)); display: grid; gap: 24px; }
+  .ex { margin: 0 auto; padding: 32px max(16px, env(safe-area-inset-right, 0px)) 48px max(16px, env(safe-area-inset-left, 0px)); display: grid; gap: 24px; }
   h1 { font-size: 28px; line-height: 1.2; font-weight: 800; letter-spacing: -0.01em; margin: 0; text-wrap: balance; }
   .ex-head p { margin: 8px 0 0; color: var(--muted); max-width: 72ch; }
   .ex-filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: end; position: sticky; top: 0; z-index: 5; background: var(--bg); padding-block: 8px; border-bottom: 1px solid var(--line); }
@@ -44,7 +44,7 @@
   .ex-tile .val { font-size: 36px; line-height: 1.1; font-weight: 800; letter-spacing: -0.02em; margin-top: 8px; }
   .ex-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 28rem), 1fr)); gap: 16px; }
   h2 { font-size: 18px; font-weight: 700; margin: 0; }
-  .note { font-size: 13px; color: var(--muted); margin: 8px 0 16px; max-width: 110ch; }
+  .note { font-size: 13px; color: var(--muted); margin: 8px 0 16px; }
   .ex-chart { position: relative; min-height: 280px; }
   .ex-tip { position: absolute; pointer-events: none; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; box-shadow: 0 4px 16px rgb(0 0 0 / .16); padding: 8px 12px; font-size: 13px; white-space: nowrap; }
   .ex-tip .k { color: var(--muted); }
@@ -70,7 +70,7 @@
   .ex-toggle { display: flex; gap: 8px; align-items: center; font-size: 13px; color: var(--muted); margin-bottom: 8px; }
   .ex-toggle input { accent-color: var(--alt); }
   caption { caption-side: bottom; text-align: left; padding-top: 8px; font-size: 12px; color: var(--muted); }
-  .ex-method { font-size: 13px; color: var(--muted); max-width: 90ch; line-height: 1.6; }
+  .ex-method { font-size: 13px; color: var(--muted); line-height: 1.6; }
   .ex-loading { color: var(--muted); }
   .ex-method a { color: var(--accent); }
   .ex-hscroll { overflow-x: auto; }
@@ -81,6 +81,9 @@
   .ex-heat td.empty { color: var(--muted); font-weight: 400; }
   .ex-heat tr.click:hover th.rowh { color: var(--alt); }
   .ex-heat tr.on th.rowh { font-weight: 700; color: var(--alt); }
+  .st { display: inline-block; padding: 2px 8px; border-radius: 999px; font-weight: 600; font-size: 13px; }
+  .st-bad { color: var(--bad); background: color-mix(in srgb, var(--bad) 12%, transparent); }
+  .st-ok { color: var(--ok); background: color-mix(in srgb, var(--ok) 12%, transparent); }
 </style>
 </head>
 <body>
@@ -118,13 +121,13 @@
   <section class="ex-card">
     <h2>Доля отрицательных: государственная и негосударственная экспертиза</h2>
     <p class="note">Учитывает все фильтры, кроме формы экспертизы. Наведите на столбец, чтобы увидеть число заключений.</p>
-    <div class="ex-legend"><span><i class="sw" style="background: var(--accent)"></i>Государственная</span><span><i class="sw" style="background: var(--alt)"></i>Негосударственная</span></div>
+    <div class="ex-legend"><span><i class="sw" style="background: var(--red1)"></i>Государственная</span><span><i class="sw" style="background: var(--red2)"></i>Негосударственная</span></div>
     <div class="ex-chart" id="form-chart"></div>
   </section>
 
   <section class="ex-card">
     <h2>Доля отрицательных по типам объектов и годам</h2>
-    <p class="note">Зачастую в государственную экспертизу идут проекты особой важности и сложности, это один из факторов, почему доля отрицательных заключений в государственной экспертизе выше. Чтобы сравнивать типы на одной основе, выберите форму экспертизы в фильтре. Учитывает все фильтры, кроме типа; клик по строке фильтрует по типу. Точка — меньше 30 заключений в ячейке.</p>
+    <p class="note">Зачастую в государственную экспертизу идут проекты особой важности и сложности, это один из факторов, почему доля отрицательных заключений в государственной экспертизе выше. Чтобы сравнивать типы на одной основе, выберите форму экспертизы в фильтре. Учитывает все фильтры, кроме типа. Точка — меньше 30 заключений в ячейке.</p>
     <div class="ex-hscroll"><table class="ex-heat" id="heat-table"></table></div>
   </section>
 
@@ -136,7 +139,7 @@
 
   <section class="ex-card">
     <h2>Корректировки и изменения: один объект проходит экспертизу несколько раз</h2>
-    <p class="note">Повторное положительное — второе и следующие положительные заключения по тому же объекту (тот же застройщик, регион, название и адрес), обычно после изменений в проекте. Отдельно — доля заключений, в названии которых есть «корректировка» или «изменения». Реестр начинается в 2018 году, поэтому в ранних годах доля повторных занижена: заключения до 2018 года не видны. Учитывает все фильтры.</p>
+    <p class="note">Повторное положительное — второе и следующие положительные заключения по тому же объекту (тот же застройщик, регион, название и адрес), обычно после изменений в проекте. Отдельно — доля заключений, в названии которых есть «корректировка» или «изменения».</p>
     <div class="ex-legend"><span><i class="sw" style="background: var(--accent)"></i>Повторное положительное по объекту</span><span><i class="sw" style="background: var(--alt)"></i>В названии «корректировка» / «изменения»</span></div>
     <div class="ex-chart" id="korr-chart"></div>
     <div class="ex-scroll" style="margin-top: 12px"><table id="korr-table"></table></div>
@@ -145,12 +148,12 @@
   <div class="ex-grid">
     <section class="ex-card">
       <h2>По типу объекта</h2>
-      <p class="note">Нажмите на строку, чтобы отфильтровать по типу. Тип определён по словам в назначении и названии объекта.</p>
+      <p class="note">Тип определён по словам в назначении и названии объекта.</p>
       <div class="ex-scroll"><table id="type-table"></table></div>
     </section>
     <section class="ex-card">
       <h2>По регионам</h2>
-      <p class="note">Нажмите на строку, чтобы отфильтровать по региону.</p>
+      <p class="note">Регион — субъект РФ, указанный в заключении.</p>
       <div class="ex-scroll"><table id="region-table"></table></div>
     </section>
   </div>
@@ -331,8 +334,8 @@
       return [d3.sum(s, (r) => r.res !== POS ? r.n : 0), d3.sum(s, (r) => r.n)];
     };
     drawGrouped($('form-chart'), years, [
-      { name: 'Государственная', color: color('--accent'), at: at('Государственная') },
-      { name: 'Негосударственная', color: color('--alt'), at: at('Негосударственная') },
+      { name: 'Государственная', color: color('--red1'), at: at('Государственная') },
+      { name: 'Негосударственная', color: color('--red2'), at: at('Негосударственная') },
     ]);
   }
 
@@ -348,7 +351,7 @@
   }
 
   function drawResub(rows, years) {
-    const cols = [['Год отрицательного', ''], ['Отрицательных', 'num'], ['Позже получили положительное', 'num'], ['Доля', 'num'], ['Медиана, дней', 'num'], ['75% вернулись за, дней', 'num']];
+    const cols = [['Год отрицательного', ''], ['Отрицательных', 'num'], ['Позже получили положительное', 'num'], ['Доля', 'num'], ['Медиана до положительного после отрицательного, дней', 'num']];
     const htr = el('tr');
     cols.forEach(([t, c]) => htr.appendChild(el('th', t, c)));
     const thead = el('thead'); thead.appendChild(htr);
@@ -357,13 +360,13 @@
       const back = s.filter((r) => r.back), d = back.map((r) => r.days).sort((a, b) => a - b);
       const tr = el('tr');
       [[label, ''], [fmt(s.length), 'num'], [fmt(back.length), 'num'], [s.length ? pct(back.length / s.length) : '—', 'num'],
-       [d.length >= 10 ? fmt(Math.round(d3.median(d))) : '—', 'num'], [d.length >= 10 ? fmt(Math.round(d3.quantile(d, 0.75))) : '—', 'num']]
+       [d.length >= 10 ? fmt(Math.round(d3.median(d))) : '—', 'num']]
         .forEach(([t, c]) => { const td = el('td', t, c); if (bold) td.style.fontWeight = '600'; tr.appendChild(td); });
       tbody.appendChild(tr);
     };
     years.forEach((y) => { const s = rows.filter((r) => r.y === y); if (s.length) line(String(y), s); });
     line('Всего', rows, true);
-    const cap = el('caption', 'Медиана и 75% — дни от отрицательного до первого положительного заключения, считаются при 10+ вернувшихся.');
+    const cap = el('caption', 'Медиана — дни от отрицательного до первого положительного заключения по объекту, считается при 10+ вернувшихся.');
     $('resub-table').replaceChildren(cap, thead, tbody);
   }
 
@@ -376,7 +379,7 @@
     });
     const data = [...m.values()].sort((a, b) => b.rep / b.n - a.rep / a.n);
     const htr = el('tr');
-    [['Тип объекта', ''], ['Положительных', 'num'], ['Повторных', 'num'], ['Доля повторных', 'num'], ['Со словом', 'num'], ['Доля', 'num']]
+    [['Тип объекта', ''], ['Положительных заключений', 'num'], ['Из них повторных по объекту', 'num'], ['Доля повторных', 'num'], ['Из них с «корректировкой» / «изменениями» в названии', 'num'], ['Доля с «корректировкой» / «изменениями»', 'num']]
       .forEach(([t, c]) => htr.appendChild(el('th', t, c)));
     const thead = el('thead'); thead.appendChild(htr);
     const tbody = el('tbody');
@@ -478,7 +481,7 @@
       const tr = el('tr', null, 'click' + (state.type === type ? ' on' : ''));
       tr.addEventListener('click', () => set({ type: state.type === type ? null : type }));
       const th = el('th', type, 'rowh');
-      th.title = type;
+      th.title = `Нажмите, чтобы отфильтровать по типу «${type}»`;
       tr.appendChild(th);
       years.forEach((y) => { const td = el('td'); paint(td, cell.get(type + '|' + y)); tr.appendChild(td); });
       const td = el('td'); paint(td, tot.get(type)); td.style.fontWeight = '600'; tr.appendChild(td);
@@ -486,6 +489,20 @@
     });
     $('heat-table').replaceChildren(thead, tbody);
   }
+
+  // share of negatives as a status: ▲ red if above the table average by more than 1 p.p., ▼ green if below
+  function shareCell(share, avg) {
+    const td = el('td', null, 'num');
+    const diff = share - avg;
+    if (Math.abs(diff) > 0.01) {
+      const s = el('span', (diff > 0 ? '▲ ' : '▼ ') + pct(share), 'st ' + (diff > 0 ? 'st-bad' : 'st-ok'));
+      s.title = `Среднее по таблице ${pct(avg)}`;
+      td.appendChild(s);
+    } else td.textContent = pct(share);
+    return td;
+  }
+  const avgNote = (avg) => `Доля отрицательных: ▲ красным — выше средней (${pct(avg)}) более чем на 1 п.п., ▼ зелёным — ниже более чем на 1 п.п.`;
+  const avgCaption = (avg) => el('caption', avgNote(avg));
 
   function drawBreakdown(tableId, which, rows, keyFn, label) {
     const m = new Map();
@@ -498,6 +515,7 @@
     const s = sortState[which];
     data.sort((a, b) => s === 'name' ? a.k.localeCompare(b.k, 'ru') : b[s] - a[s]);
     const max = d3.max(data, (d) => d.total) || 1;
+    const avg = d3.sum(data, (d) => d.neg) / (d3.sum(data, (d) => d.total) || 1);
     const tr = el('tr');
     [['name', label, ''], ['total', 'Заключений', 'num'], ['neg', 'Отриц.', 'num'], ['share', 'Доля отриц.', 'num']].forEach(([k, t, c]) => {
       const th = el('th', null, c);
@@ -512,15 +530,16 @@
     const tbody = el('tbody');
     data.forEach((d) => {
       const row = el('tr', null, 'click' + (state[which] === d.k ? ' on' : ''));
+      row.title = state[which] === d.k ? 'Нажмите, чтобы снять фильтр' : `Нажмите, чтобы отфильтровать по ${which === 'type' ? 'типу' : 'региону'}`;
       row.addEventListener('click', () => set({ [which]: state[which] === d.k ? null : d.k }));
       const name = el('td'), bar = el('div', null, 'ex-bar'), i = el('i');
       i.style.width = `${(d.total / max) * 100}%`;
       bar.append(el('span', d.k), i);
       name.appendChild(bar);
-      row.append(name, el('td', fmt(d.total), 'num'), el('td', fmt(d.neg), 'num'), el('td', pct(d.share), 'num'));
+      row.append(name, el('td', fmt(d.total), 'num'), el('td', fmt(d.neg), 'num'), shareCell(d.share, avg));
       tbody.appendChild(row);
     });
-    $(tableId).replaceChildren(thead, tbody);
+    $(tableId).replaceChildren(avgCaption(avg), thead, tbody);
   }
 
   function drawOrgTable(tableId, role, query) {
@@ -537,6 +556,7 @@
     let data = [...m.values()].map((v) => ({ ...v, total: explicit ? v.x : v.pos + v.neg, org: D.orgs[v.o] }))
       .filter((v) => v.total > 0 && (!q || v.org.name.toLowerCase().includes(q) || v.org.key.includes(q)));
     data.sort((a, b) => b.total - a.total);
+    const avg = d3.sum(data, (d) => d.neg) / (d3.sum(data, (d) => d.pos + d.neg) || 1);
     const count = data.length;
     data = data.slice(0, 300);
     const cols = explicit
@@ -551,12 +571,12 @@
       const share = d.neg / (d.total || 1);
       const cells = explicit
         ? [[d.org.name, ''], [inn, ''], [fmt(d.total), 'num'], [fmt(d.regs.size), 'num']]
-        : [[d.org.name, ''], [inn, ''], [fmt(d.total), 'num'], [fmt(d.neg), 'num'], [pct(share), 'num'], [fmt(d.regs.size), 'num']];
+        : [[d.org.name, ''], [inn, ''], [fmt(d.total), 'num'], [fmt(d.neg), 'num'], [share, 'share'], [fmt(d.regs.size), 'num']];
       const tr = el('tr');
-      cells.forEach(([t, c]) => tr.appendChild(el('td', t, c)));
+      cells.forEach(([t, c]) => tr.appendChild(c === 'share' ? shareCell(t, avg) : el('td', t, c)));
       tbody.appendChild(tr);
     });
-    const cap = el('caption', count > 300 ? `Показаны 300 из ${fmt(count)} организаций` : `Организаций: ${fmt(count)}`);
+    const cap = el('caption', (count > 300 ? `Показаны 300 из ${fmt(count)} организаций. ` : `Организаций: ${fmt(count)}. `) + (explicit ? '' : avgNote(avg)));
     $(tableId).replaceChildren(cap, thead, tbody);
   }
 
