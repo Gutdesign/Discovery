@@ -220,6 +220,14 @@
       </div>
     </div>
     <div class="ex-card">
+      <h3>Сколько объектов снова идут в экспертизу после положительного заключения</h3>
+      <p class="sub">Объекты по году первого положительного заключения: доля с повторным положительным за 12 и 24 месяца и срок до него.</p>
+      <details class="how"><summary>Как считается</summary>
+        <p>Единица счёта — объект (тот же застройщик, регион, название и почтовый адрес), а не заключение, поэтому объекты с 3–5 подачами не завышают результат. Берутся положительные заключения по проектной документации. «За 24 месяца» считается только по объектам, у которых с первого положительного прошло не меньше двух лет; для более поздних лет стоит прочерк. Медиана — дни от первого до второго положительного. Около 5% пар — два положительных в один день: скорее всего, разные этапы или параллельные подачи. Учитывает все фильтры; год — год первого положительного.</p>
+      </details>
+      <div class="ex-hscroll"><table id="cohort-table"></table></div>
+    </div>
+    <div class="ex-card">
       <h3>Повторные положительные по типам объектов</h3>
       <p class="sub">Учитывает все фильтры, кроме типа.</p>
       <div class="ex-hscroll"><table id="korr-table"></table></div>
@@ -280,8 +288,8 @@
   function set(patch) { Object.assign(state, patch); writeHash(); draw(); }
 
   async function load() {
-    const [facts, of, orgs, dims, resub, korr] = await Promise.all(
-      ['facts.csv', 'org_facts.csv', 'orgs.csv', 'dims.csv', 'resub.csv', 'korr.csv'].map((f) => d3.csv(f)));
+    const [facts, of, orgs, dims, resub, korr, cohort, cohortRep] = await Promise.all(
+      ['facts.csv', 'org_facts.csv', 'orgs.csv', 'dims.csv', 'resub.csv', 'korr.csv', 'cohort.csv', 'cohort_rep.csv'].map((f) => d3.csv(f)));
     const dict = { 'регион': [], 'тип': [], 'вид': [] };
     dims.forEach((r) => { dict[r['измерение']][+r['код']] = r['значение']; });
     const reg = dict['регион'], typ = dict['тип'], vidD = dict['вид'];
@@ -300,6 +308,8 @@
       of: of.map((r) => ({ o: +r.o, y: +r.y, form: formOf(r.f), reg: reg[+r.r], type: typ[+r.t], p: +r.p, n: +r.n, x: +r.x })),
       resub: resub.map((r) => ({ ...base(r), back: r.back === '1', days: r.days === '' ? null : +r.days })),
       korr: korr.map((r) => ({ ...base(r), rep: r.rep === '1', word: r.word === '1', n: +r.n })),
+      cohort: cohort.map((r) => ({ ...base(r), obs2y: r.obs2y === '1', n: +r.n })),
+      cohortRep: cohortRep.map((r) => ({ ...base(r), gap: +r.gap, obs2y: r.obs2y === '1' })),
     };
   }
 
@@ -453,6 +463,31 @@
     line('Всего', rows, true);
     const cap = el('caption', 'Медиана — дни от отрицательного до первого положительного заключения по объекту, считается при 10+ вернувшихся.');
     $('resub-table').replaceChildren(cap, thead, tbody);
+  }
+
+  function drawCohort(rows, reps, years) {
+    const cols = [['Год первого\nположительного', 'wrap'], ['Объектов', 'num wrap'], ['Повторное положительное\nв течение 12 мес.', 'num wrap'], ['Повторное положительное\nв течение 24 мес.', 'num wrap'], ['Медиана до повторного\nположительного, дней', 'num wrap']];
+    const htr = el('tr');
+    cols.forEach(([t, c]) => htr.appendChild(el('th', t, c)));
+    const thead = el('thead'); thead.appendChild(htr);
+    const tbody = el('tbody');
+    const line = (label, objs, rp, bold) => {
+      const n = d3.sum(objs, (r) => r.n), n2 = d3.sum(objs, (r) => r.obs2y ? r.n : 0);
+      const in12 = rp.filter((r) => r.gap <= 365).length, in24 = rp.filter((r) => r.obs2y && r.gap <= 730).length;
+      const gaps = rp.map((r) => r.gap).sort((a, b) => a - b);
+      const tr = el('tr');
+      [[label, ''], [fmt(n), 'num'], [n ? pct(in12 / n) : '—', 'num'], [n2 >= 30 ? pct(in24 / n2) : '—', 'num'],
+       [gaps.length >= 10 ? fmt(Math.round(d3.median(gaps))) : '—', 'num']]
+        .forEach(([t, c]) => { const td = el('td', t, c); if (bold) td.style.fontWeight = '600'; tr.appendChild(td); });
+      tbody.appendChild(tr);
+    };
+    years.forEach((y) => {
+      const o = rows.filter((r) => r.y === y);
+      if (o.length) line(String(y), o, reps.filter((r) => r.y === y));
+    });
+    line('Всего', rows, reps, true);
+    const cap = el('caption', 'Доля за 24 месяца — только по объектам, у которых прошло два года наблюдения; доля за 12 месяцев у последнего года ещё растёт.');
+    $('cohort-table').replaceChildren(cap, thead, tbody);
   }
 
   function drawKorrTable(rows) {
@@ -744,6 +779,7 @@
     const korr = D.korr.filter((r) => keep(r) && keepVid(r));
     drawKorrChart(korr, yRange);
     drawKorrTable(D.korr.filter((r) => keep(r, 'type') && keepVid(r)));
+    drawCohort(D.cohort.filter((r) => keep(r) && keepVid(r)), D.cohortRep.filter((r) => keep(r) && keepVid(r)), yRange);
     drawBreakdown('type-table', 'type', D.facts.filter((r) => keep(r, 'type') && keepVid(r)), (r) => r.type, 'Тип объекта');
     drawBreakdown('region-table', 'region', D.facts.filter((r) => keep(r, 'region') && keepVid(r)), (r) => r.reg, 'Регион');
     drawOrgs();
