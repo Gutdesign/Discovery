@@ -325,8 +325,17 @@ def build(src):
     # resubmissions (negative -> later positive on the same object) and repeat positives (corrections)
     last_day = max(rec[0] for recs in objects.values() for rec in recs)
     resub_rows, korr = [], Counter()
+    cohort, cohort_rep = Counter(), []    # objects by first positive (project docs); second positive gap
     for recs in objects.values():
         recs.sort()
+        positives = [x for x in recs if x[3] and x[1] == "положительное" and "Проектная" in x[2]]
+        if positives:
+            d0, _, _, _, year, form, reg, typ, vid, _ = positives[0]
+            dims0 = (year, form_code.get(form, "?"), r_idx[reg], t_idx[typ], v_idx[vid])
+            observed_2y = int(last_day - d0 >= 730)
+            cohort[dims0 + (observed_2y,)] += 1
+            if len(positives) > 1:
+                cohort_rep.append(list(dims0) + [positives[1][0] - d0, observed_2y])
         for i, (d, res, obj, dash_, year, form, reg, typ, vid, word) in enumerate(recs):
             if not dash_:
                 continue
@@ -341,6 +350,8 @@ def build(src):
                 korr[tuple(dims_ + [int(repeat), int(word)])] += 1
     write_csv("resub.csv", ["y", "f", "r", "t", "v", "back", "days"], sorted(resub_rows, key=lambda x: x[:5]))
     write_csv("korr.csv", ["y", "f", "r", "t", "v", "rep", "word", "n"], [list(k) + [n] for k, n in sorted(korr.items())])
+    write_csv("cohort.csv", ["y", "f", "r", "t", "v", "obs2y", "n"], [list(k) + [n] for k, n in sorted(cohort.items())])
+    write_csv("cohort_rep.csv", ["y", "f", "r", "t", "v", "gap", "obs2y"], sorted(cohort_rep))
     print("повторные подачи: отрицательных", len(resub_rows), "вернулись", sum(r[5] for r in resub_rows),
           "| окно до", datetime.date.fromordinal(last_day - RESUB_WINDOW))
     orgs = {}
@@ -368,7 +379,7 @@ def site(dest):
     """Static GitHub Pages copy: the page template plus the dashboard CSVs."""
     dest.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(Path(__file__).with_name("expertiza_site.html"), dest / "index.html")
-    for name in ("facts.csv", "org_facts.csv", "orgs.csv", "dims.csv", "resub.csv", "korr.csv"):
+    for name in ("facts.csv", "org_facts.csv", "orgs.csv", "dims.csv", "resub.csv", "korr.csv", "cohort.csv", "cohort_rep.csv"):
         shutil.copyfile(OUT / "dashboard" / name, dest / name)
     print("site written to", dest)
 
