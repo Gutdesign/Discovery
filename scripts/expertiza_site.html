@@ -81,9 +81,12 @@
   .ex-heat td.empty { color: var(--muted); font-weight: 400; }
   .ex-heat tr.click:hover th.rowh { color: var(--alt); }
   .ex-heat tr.on th.rowh { font-weight: 700; color: var(--alt); }
-  .st { display: inline-block; padding: 2px 8px; border-radius: 999px; font-weight: 600; font-size: 13px; }
-  .st-bad { color: var(--bad); background: color-mix(in srgb, var(--bad) 12%, transparent); }
-  .st-ok { color: var(--ok); background: color-mix(in srgb, var(--ok) 12%, transparent); }
+  th.wrap { white-space: pre-line; vertical-align: bottom; line-height: 1.3; }
+  .ex-shade { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin-bottom: 4px; color: var(--fg); }
+  .ex-shade i { width: 28px; height: 12px; border-radius: 3px; }
+  .ex-shade i.lo { background: linear-gradient(90deg, color-mix(in srgb, var(--ok) 40%, transparent), color-mix(in srgb, var(--ok) 10%, transparent)); }
+  .ex-shade i.mid { background: var(--panel); border: 1px solid var(--line); }
+  .ex-shade i.hi { background: linear-gradient(90deg, color-mix(in srgb, var(--bad) 10%, transparent), color-mix(in srgb, var(--bad) 40%, transparent)); }
 </style>
 </head>
 <body>
@@ -379,7 +382,7 @@
     });
     const data = [...m.values()].sort((a, b) => b.rep / b.n - a.rep / a.n);
     const htr = el('tr');
-    [['Тип объекта', ''], ['Положительных заключений', 'num'], ['Из них повторных по объекту', 'num'], ['Доля повторных', 'num'], ['Из них с «корректировкой» / «изменениями» в названии', 'num'], ['Доля с «корректировкой» / «изменениями»', 'num']]
+    [['Тип объекта', ''], ['Положительных\nзаключений', 'num wrap'], ['Из них повторных\nпо объекту', 'num wrap'], ['Доля\nповторных', 'num wrap'], ['Из них с «корректировкой» /\n«изменениями» в названии', 'num wrap'], ['Доля с «корректировкой» /\n«изменениями»', 'num wrap']]
       .forEach(([t, c]) => htr.appendChild(el('th', t, c)));
     const thead = el('thead'); thead.appendChild(htr);
     const tbody = el('tbody');
@@ -490,19 +493,27 @@
     $('heat-table').replaceChildren(thead, tbody);
   }
 
-  // share of negatives as a status: ▲ red if above the table average by more than 1 p.p., ▼ green if below
+  // share of negatives shaded against the table average: red above by more than 1 p.p., green below
   function shareCell(share, avg) {
     const td = el('td', null, 'num');
+    td.textContent = pct(share);
     const diff = share - avg;
     if (Math.abs(diff) > 0.01) {
-      const s = el('span', (diff > 0 ? '▲ ' : '▼ ') + pct(share), 'st ' + (diff > 0 ? 'st-bad' : 'st-ok'));
-      s.title = `Среднее по таблице ${pct(avg)}`;
-      td.appendChild(s);
-    } else td.textContent = pct(share);
+      // shade grows with the distance from the average, full at 10 p.p.
+      const k = Math.round(10 + 30 * Math.min((Math.abs(diff) - 0.01) / 0.09, 1));
+      td.style.background = `color-mix(in srgb, var(${diff > 0 ? '--bad' : '--ok'}) ${k}%, transparent)`;
+      td.title = `Среднее по таблице ${pct(avg)}`;
+    }
     return td;
   }
-  const avgNote = (avg) => `Доля отрицательных: ▲ красным — выше средней (${pct(avg)}) более чем на 1 п.п., ▼ зелёным — ниже более чем на 1 п.п.`;
-  const avgCaption = (avg) => el('caption', avgNote(avg));
+  const avgNote = (avg) => `Доля отрицательных: красные оттенки — выше средней (${pct(avg)}) более чем на 1 п.п., зелёные — ниже более чем на 1 п.п.; чем дальше от средней, тем насыщеннее.`;
+  function avgCaption(avg) {
+    const cap = el('caption');
+    const leg = el('span', null, 'ex-shade');
+    leg.append(el('i', null, 'lo'), el('span', `ниже средней` ), el('i', null, 'mid'), el('span', `средняя ${pct(avg)}`), el('i', null, 'hi'), el('span', 'выше средней'));
+    cap.append(leg, el('div', avgNote(avg)));
+    return cap;
+  }
 
   function drawBreakdown(tableId, which, rows, keyFn, label) {
     const m = new Map();
@@ -576,7 +587,8 @@
       cells.forEach(([t, c]) => tr.appendChild(c === 'share' ? shareCell(t, avg) : el('td', t, c)));
       tbody.appendChild(tr);
     });
-    const cap = el('caption', (count > 300 ? `Показаны 300 из ${fmt(count)} организаций. ` : `Организаций: ${fmt(count)}. `) + (explicit ? '' : avgNote(avg)));
+    const cap = explicit ? el('caption') : avgCaption(avg);
+    cap.prepend(el('div', count > 300 ? `Показаны 300 из ${fmt(count)} организаций` : `Организаций: ${fmt(count)}`));
     $(tableId).replaceChildren(cap, thead, tbody);
   }
 
