@@ -20,10 +20,13 @@
     --radius: 12px;
   }
   @media (prefers-color-scheme: dark) {
-    :root { --bg: #000000; --panel: #0D0D0D; --fg: #EDEDED; --muted: #A6A6A6; --line: #262626; --grid: #262626;
+    :root:not([data-theme="light"]) { --bg: #000000; --panel: #0D0D0D; --fg: #EDEDED; --muted: #A6A6A6; --line: #262626; --grid: #262626;
             --pos: #5B7FF0; --neg: #F0506E; --cmp: #737373; --focus: #F2581A; --ok: #21A06A; --hatch: #8A8A8A;
             --heat0: #1E0D11; --heat1: #8E1B35; --heat2: #F0506E; --heat-ink: #000000; --heat-ink-at: 0.8; color-scheme: dark; }
   }
+  :root[data-theme="dark"] { --bg: #000000; --panel: #0D0D0D; --fg: #EDEDED; --muted: #A6A6A6; --line: #262626; --grid: #262626;
+            --pos: #5B7FF0; --neg: #F0506E; --cmp: #737373; --focus: #F2581A; --ok: #21A06A; --hatch: #8A8A8A;
+            --heat0: #1E0D11; --heat1: #8E1B35; --heat2: #F0506E; --heat-ink: #000000; --heat-ink-at: 0.8; color-scheme: dark; }
   * { box-sizing: border-box; }
   html { scroll-behavior: smooth; }
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
@@ -69,7 +72,7 @@
   .ex-tip { position: absolute; pointer-events: none; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; box-shadow: 0 4px 16px rgb(0 0 0 / .16); padding: 8px 12px; font-size: 13px; white-space: nowrap; z-index: 2; }
   .ex-tip .k { color: var(--muted); }
   .sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 8px; vertical-align: -1px; }
-  .sw.hatch { background: repeating-linear-gradient(135deg, var(--hatch) 0 1px, transparent 1px 5px); border: 1px solid var(--line); }
+  .sw.hatch { background: repeating-linear-gradient(135deg, var(--hatch) 0 2px, transparent 2px 5px); }
   .ex-legend { display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: 13px; color: var(--fg); margin-bottom: 8px; }
 
   /* tables */
@@ -112,6 +115,7 @@
   .ex-method { font-size: 13px; color: var(--muted); line-height: 1.6; border-top: 1px solid var(--line); padding-top: 16px; }
   .ex-method a { color: var(--pos); }
   .ex-loading { color: var(--muted); }
+  .ex-title { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between; }
   td.org { font-size: 13px; line-height: 1.35; }
   td.org .inn { color: var(--muted); font-size: 12px; margin-top: 2px; }
 </style>
@@ -119,7 +123,7 @@
 <body>
 <div class="ex">
   <header class="ex-head">
-    <h1>Реестр экспертизы: площадные объекты</h1>
+    <div class="ex-title"><h1>Реестр экспертизы: площадные объекты</h1><button class="ex-btn" id="theme" type="button" aria-label="Сменить тему">Тема: авто</button></div>
     <p id="takeaway" class="ex-loading">Загрузка данных…</p>
   </header>
 
@@ -397,8 +401,10 @@
     const id = 'hatch-' + Math.random().toString(36).slice(2, 8);
     svg.append('defs').append('pattern').attr('id', id).attr('width', 6).attr('height', 6)
       .attr('patternUnits', 'userSpaceOnUse').attr('patternTransform', 'rotate(45)')
-      .append('line').attr('x1', 0).attr('y1', 0).attr('x2', 0).attr('y2', 6).attr('stroke', 'var(--hatch)').attr('stroke-width', 1).attr('opacity', 0.35);
+      .append('line').attr('x1', 0).attr('y1', 0).attr('x2', 0).attr('y2', 6).attr('stroke', 'var(--hatch)').attr('stroke-width', 2).attr('opacity', 0.6);
+    svg.append('rect').attr('x', x0).attr('width', x1 - x0).attr('y', top).attr('height', bottom - top).attr('fill', 'var(--hatch)').attr('opacity', 0.12);
     svg.append('rect').attr('x', x0).attr('width', x1 - x0).attr('y', top).attr('height', bottom - top).attr('fill', `url(#${id})`);
+    svg.append('rect').attr('x', x0).attr('width', x1 - x0).attr('y', top).attr('height', 2).attr('fill', 'var(--hatch)');
     svg.append('text').attr('x', (x0 + x1) / 2).attr('y', top + 12).attr('text-anchor', 'middle')
       .attr('font-size', 12).attr('fill', 'var(--muted)').text(x1 - x0 > 150 ? 'мораторий на отрицательные' : 'мораторий');
   }
@@ -627,6 +633,30 @@
     $(tableId).replaceChildren(avgCaption(avg), thead, tbody);
   }
 
+  // legal forms shortened for display: «ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ» → «ООО»; full name stays in the tooltip
+  const FORMS = [
+    ['федеральное государственное унитарное предприятие', 'ФГУП'], ['федеральное государственное бюджетное учреждение', 'ФГБУ'],
+    ['федеральное государственное казенное учреждение', 'ФГКУ'], ['федеральное государственное автономное учреждение', 'ФГАУ'],
+    ['федеральное автономное учреждение', 'ФАУ'], ['федеральное казенное учреждение', 'ФКУ'], ['федеральное бюджетное учреждение', 'ФБУ'],
+    ['государственное унитарное предприятие', 'ГУП'], ['муниципальное унитарное предприятие', 'МУП'],
+    ['государственное казенное учреждение', 'ГКУ'], ['муниципальное казенное учреждение', 'МКУ'],
+    ['государственное бюджетное учреждение', 'ГБУ'], ['муниципальное бюджетное учреждение', 'МБУ'],
+    ['государственное автономное учреждение', 'ГАУ'], ['муниципальное автономное учреждение', 'МАУ'],
+    ['общество с ограниченной ответственностью', 'ООО'], ['публичное акционерное общество', 'ПАО'],
+    ['непубличное акционерное общество', 'АО'], ['открытое акционерное общество', 'ОАО'], ['закрытое акционерное общество', 'ЗАО'],
+    ['акционерное общество', 'АО'], ['публично-правовая компания', 'ППК'], ['некоммерческая организация', 'НКО'],
+    ['автономная некоммерческая организация', 'АНО'], ['индивидуальный предприниматель', 'ИП'],
+  ].sort((a, b) => b[0].length - a[0].length).map(([f, s]) => [new RegExp(f.replace(/е/g, '[её]').replace(/ /g, '\\s+'), 'gi'), s]);
+  const shortCache = new Map();
+  function shortOrg(name) {
+    if (shortCache.has(name)) return shortCache.get(name);
+    let s = name;
+    FORMS.forEach(([rx, abbr]) => { s = s.replace(rx, abbr); });
+    s = s.replace(/\s*\((ФГУП|ФГБУ|ФГКУ|ФГАУ|ФАУ|ФКУ|ФБУ|ГУП|МУП|ГКУ|МКУ|ГБУ|МБУ|ГАУ|МАУ|ООО|ПАО|ОАО|ЗАО|АО|ППК|НКО|АНО|ИП)(?=[\s"«)])[^)]*\)\s*$/, '').replace(/\s+/g, ' ').trim();
+    shortCache.set(name, s);
+    return s;
+  }
+
   function drawOrgTable(tableId, role, query) {
     const explicit = role === 'заказчик' && state.zk;
     const m = new Map();
@@ -639,7 +669,7 @@
     }
     const q = query.trim().toLowerCase();
     let data = [...m.values()].map((v) => ({ ...v, total: explicit ? v.x : v.pos + v.neg, org: D.orgs[v.o] }))
-      .filter((v) => v.total > 0 && (!q || v.org.name.toLowerCase().includes(q) || v.org.key.includes(q)));
+      .filter((v) => v.total > 0 && (!q || v.org.name.toLowerCase().includes(q) || shortOrg(v.org.name).toLowerCase().includes(q) || v.org.key.includes(q)));
     data.sort((a, b) => b.total - a.total);
     const avg = d3.sum(data, (d) => d.neg) / (d3.sum(data, (d) => d.pos + d.neg) || 1);
     const count = data.length;
@@ -662,7 +692,9 @@
         if (c === 'share') return tr.appendChild(shareCell(t, avg));
         if (c !== 'org') return tr.appendChild(el('td', t, c));
         const i = t.lastIndexOf('|'), td = el('td', null, 'org');
-        td.append(el('div', t.slice(0, i)), el('div', t.slice(i + 1), 'inn'));
+        const full = t.slice(0, i), name = el('div', shortOrg(full));
+        name.title = full;
+        td.append(name, el('div', t.slice(i + 1), 'inn'));
         tr.appendChild(td);
       });
       tbody.appendChild(tr);
@@ -714,6 +746,24 @@
     drawBreakdown('region-table', 'region', D.facts.filter((r) => keep(r, 'region') && keepVid(r)), (r) => r.reg, 'Регион');
     drawOrgs();
   }
+
+  // theme: auto (system) → light → dark; remembered per viewer
+  const THEMES = [['auto', 'Тема: авто'], ['light', 'Тема: светлая'], ['dark', 'Тема: тёмная']];
+  function applyTheme(t) {
+    if (t === 'auto') delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme = t;
+    $('theme').textContent = THEMES.find((x) => x[0] === t)[1];
+    draw();
+  }
+  let theme = 'auto';
+  try { theme = localStorage.getItem('ex-theme') || 'auto'; } catch (e) { /* storage blocked */ }
+  if (!THEMES.some((x) => x[0] === theme)) theme = 'auto';
+  $('theme').addEventListener('click', () => {
+    theme = THEMES[(THEMES.findIndex((x) => x[0] === theme) + 1) % THEMES.length][0];
+    try { localStorage.setItem('ex-theme', theme); } catch (e) { /* storage blocked */ }
+    applyTheme(theme);
+  });
+  applyTheme(theme);
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => { if (theme === 'auto') draw(); });
 
   readHash();
   load().then(draw).catch((e) => {
