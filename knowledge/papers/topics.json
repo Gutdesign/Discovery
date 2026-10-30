@@ -1,0 +1,33 @@
+{
+  "_comment": "Topics for scripts/arxiv_collect.py. A paper matches a topic if it has ANY of `terms` in title/abstract AND (if set) ANY of `require` AND (if set) is in ANY of `cats`. backfill_from = start date for the first run; later runs continue from .state.json.",
+  "topics": [
+    {
+      "slug": "rag",
+      "name": "RAG",
+      "terms": ["retrieval-augmented generation", "retrieval augmented generation", "RAG"],
+      "cats": ["cs.CL", "cs.IR", "cs.AI", "cs.LG"],
+      "backfill_from": "2026-09-01"
+    },
+    {
+      "slug": "mm-rag",
+      "name": "Multimodal RAG",
+      "terms": ["multimodal retrieval-augmented", "multimodal RAG", "multi-modal RAG", "visual RAG", "visual retrieval-augmented", "vision-language retrieval-augmented", "document retrieval vision language model", "visually rich document retrieval"],
+      "cats": ["cs.CL", "cs.IR", "cs.AI", "cs.CV", "cs.LG", "cs.MM"],
+      "backfill_from": "2026-01-01"
+    },
+    {
+      "slug": "ai-aec",
+      "name": "AI in AEC / ConTech",
+      "terms": ["construction industry", "construction site", "construction management", "construction project", "building information modeling", "building information modelling", "BIM", "IFC", "architecture, engineering and construction", "architecture, engineering, and construction", "civil engineering", "building code", "building design", "infrastructure inspection"],
+      "require": ["large language model", "LLM", "language model", "GPT", "retrieval-augmented", "RAG", "vision-language", "foundation model", "generative AI", "agent", "deep learning", "machine learning", "computer vision", "artificial intelligence"],
+      "backfill_from": "2025-01-01"
+    },
+    {
+      "slug": "rag-aec",
+      "name": "RAG × AEC",
+      "terms": ["construction industry", "construction project", "construction domain", "construction engineering", "construction safety", "construction management", "building information modeling", "BIM", "IFC", "civil engineering", "building code", "building regulation"],
+      "require": ["retrieval-augmented", "retrieval augmented", "RAG", "knowledge graph", "question answering"],
+      "backfill_from": "2023-01-01"
+    }
+  ]
+}
