@@ -4,5 +4,14 @@
   "mm-rag": "2026-10-30",
   "ai-aec": "2026-10-30",
   "graph-search": "2026-10-30",
-  "aec-data": "2026-10-30"
+  "aec-data": "2026-10-30",
+  "alphaxiv_folders": {
+    "rag-aec": "01a18bcb-0527-760e-b67a-5071d65a0d9d",
+    "ai-aec": "01a18bcb-040c-765d-a523-9719dfcf22d6",
+    "aec-data": "01a18bcb-0647-7629-9aab-032f404f9695",
+    "reading": "01a18bcb-07bc-7d73-82b1-3e773577a958",
+    "mm-rag": "01a18bcb-0021-7dfe-80cf-bf9cfd34a16f",
+    "graph-search": "01a18bcb-027e-778a-9ba8-a594a3eed6fb",
+    "rag": "01a18bca-ff0a-7951-877d-70b3ec87e6fa"
+  }
 }

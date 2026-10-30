@@ -2,7 +2,7 @@
 
 Сгенерировано `py scripts/arxiv_collect.py build` из `papers.csv` — вручную не править.
 
-## RAG (466)
+## RAG (467)
 
 | дата | статья | авторы | кат. |
 |---|---|---|---|
@@ -44,6 +44,7 @@
 | 2026-10-26 | [Logic Hijacking of RAG: Single-Document Poisoning via Local Optimization](https://arxiv.org/abs/2610.34829) | Hangyi Zhao, Bonan Zhang, Fusen Guo и др. | cs.AI |
 | 2026-10-26 | [Can System-1-Style Decision Models Replace Dedicated Rerankers in RAG? A Systems Evaluation](https://arxiv.org/abs/2610.34816) | Qiaomu Li, Ying Xie | cs.LG |
 | 2026-10-26 | [Topic-Level Fairness in Retrieval-Augmented Generation](https://arxiv.org/abs/2610.34683) | Jaeyoung Park, Hantian Zhang, Kexin Rong и др. | cs.AI |
+| 2026-10-26 | [Retriever-Free Retrieval: Navigating Documents with Decision Models](https://arxiv.org/abs/2610.35868) | Chao Wan, Paul Jünger, Beixi Du и др. | cs.AI |
 | 2026-10-25 | [Large Language Models: A Plain-Language Overview for Engineers](https://arxiv.org/abs/2610.34585) | Bahaeddin Türkoğlu | cs.CL |
 | 2026-10-25 | [Multimodal Requirements Traceability Link Recovery in Industrial Settings](https://arxiv.org/abs/2610.34503) | Haoming Huang, Shinpei Hayashi, Kazuya Kohata и др. | cs.SE |
 | 2026-10-25 | [DuQUAD: A Dual-View Framework with Quality-Aware Evidence Pruning for Multi-Document Question Answering](https://arxiv.org/abs/2610.37701) | Yeonjun Choi, Seyeon Jeong, Jong Wook Kim и др. | cs.IR |
@@ -473,30 +474,37 @@
 | 2026-09-01 | [Feedback-Assisted Trust Propagation over Document Relation Graphs for Retrieval-Augmented Generation](https://arxiv.org/abs/2609.00543) | Zhuoheng Li, Ying Chen | cs.AI |
 | 2026-09-01 | [ISO-RAG: Isoperimetric Noise Control for Retrieval-Augmented Generation](https://arxiv.org/abs/2609.00513) | Siyuan Zhang, Hanchen Wang, Dong Wen и др. | cs.AI |
 
-## Multimodal RAG (107)
+## Multimodal RAG (115)
 
 | дата | статья | авторы | кат. |
 |---|---|---|---|
+| 2026-10-27 | [RouteDRAG: Learning to Route and Control Agentic Execution for Multimodal Document RAG](https://arxiv.org/abs/2610.36444) | Zekai Chen, Hao Zhu, Yu Liu и др. | cs.AI |
+| 2026-10-26 | [Hypergraph-Enhanced Evidence Selection for Long-Context Multimodal Document QA](https://arxiv.org/abs/2610.35542) | Wenxin Zhao, Jiachuan Wang, Xinyi Zhu и др. | cs.IR |
 | 2026-10-20 | [GARRET: Generative Feedback for Region Retrieval in Visual Documents](https://arxiv.org/abs/2610.27829) | Weijian Jian, Siyang Chen, Yuguang Yang и др. | cs.CV |
 | 2026-10-17 | [VisR-RAG-Fin: Benchmarking Multimodal RAG over Visually Rich Financial Documents](https://arxiv.org/abs/2610.24822) | Omar El Bachyr, Laura Maria Bernardy, Saad Ezzini и др. | cs.IR |
 | 2026-10-16 | [Enhancing RAG-based Medical VQA with Gated Multimodal Representations](https://arxiv.org/abs/2610.23588) | Daniela Jimenez-Pano, Hugo Jair Escalante, Delia Irazú Hernández-Farías | cs.CV |
+| 2026-10-15 | [Loud and Clear: Making Visual Evidence Count in Multimodal Document RAG](https://arxiv.org/abs/2610.21318) | Eunchan Jo, Seounghyun Jang, Sangwoo Mo | cs.CV |
 | 2026-10-07 | [RFChipAgent: Multi-Agentic AI Flow for Analog/RF Chip Design](https://arxiv.org/abs/2610.10858) | Awani Khodkumbhe, Yunfei Feng, Raj Rangarajan и др. | cs.AR |
+| 2026-10-07 | [TopoGraphRAG-Bench: Evaluating Multimodal GraphRAG on Layout-Grounded Evidence Reasoning](https://arxiv.org/abs/2610.09360) | Ruochi Li, Jianzhe Lin, Haoxuan Zhang и др. | cs.AI |
 | 2026-10-02 | [CLIMB: Confidence-Guided Complementary Evidence for Multimodal Retrieval-Augmented Generation](https://arxiv.org/abs/2610.03421) | Hang Gao, Wujiang Xu, Zhixing Zhang и др. | cs.CL |
 | 2026-10-01 | [Walking the Embedding Space: Datastore Extraction from Multimodal RAG](https://arxiv.org/abs/2610.01871) | Maria Carmen Jica, Ali Satvaty, Suzan Verberne и др. | cs.CR |
 | 2026-10-01 | [CANOPY: Adaptive-Granularity Evidence Compression for Multimodal RAG](https://arxiv.org/abs/2610.00923) | Hyojeong Yun, Jueun Kim, Wook-Shin Han | cs.IR |
 | 2026-09-29 | [LazySloth: Bounded LLM-based Lazy Tree Search for Fast Long Video Comprehension](https://arxiv.org/abs/2609.37426) | Arka Mukherjee, Kaleen Shrestha, Larissa Zhu и др. | cs.CV |
 | 2026-09-29 | [TAEC: Trajectory-Aware Evidence Coordination for Multi-Step Visual RAG](https://arxiv.org/abs/2609.37349) | Yalun Wu, Bingzhou Wang, Boyang Wang и др. | cs.CV |
 | 2026-09-27 | [From PDF to Evidence: Structure-Aware Retrieval for Clinical Practice Guidelines](https://arxiv.org/abs/2609.33447) | Xingyu Lin, Dehui Du | cs.IR |
+| 2026-09-26 | [PILAR: A Page-Grounded Unified Evidence Representation via an Entity-Linked Assertion Graph for Open-Domain QA Agents over Multimodal Document Corpora](https://arxiv.org/abs/2609.32895) | Joongmin Shin, Gyuho Shim, Jung-hun Lee и др. | cs.IR |
 | 2026-09-21 | [Potential for Enhanced Learning in Machine Learning Classes by Using Wiki LLM Indexing](https://arxiv.org/abs/2609.25303) | Brian Wright | cs.AI |
 | 2026-09-16 | [Less Is More: Graph-free Multimodal RAG via Multi-signal Late Fusion](https://arxiv.org/abs/2609.19417) | Tithi Rakshit, Hongkuan Zhou, Lavdim Halilaj и др. | cs.CL |
 | 2026-09-14 | [Navigating Sparse Evidence: Agentic Visual RAG via Explicit Context Selection and Consolidation](https://arxiv.org/abs/2609.15800) | Yucheng Shen, Lingyong Yan, Jiulong Wu и др. | cs.AI |
 | 2026-09-11 | [Beyond the Query: Do Retrieval Signals Improve Adaptive Multimodal RAG Routing?](https://arxiv.org/abs/2609.12437) | Qiaomu Li, Qiuyuan Zhang, Nong Ming | cs.LG |
 | 2026-09-08 | [Bridging the Semantic-Utility Gap in Multimodal RAG via Generator-in-the-Loop Alignment](https://arxiv.org/abs/2609.08188) | Zhan-Lun Chang, Dong-Jun Han, Seyyedali Hosseinalipour и др. | cs.AI |
 | 2026-09-04 | [Beyond Maintenance Manual Multimodal RAG: Suggesting What Tool](https://arxiv.org/abs/2609.05116) | Seongjun Ha, Md Rashedul Islam | cs.ET |
+| 2026-09-02 | [ViSAR: Training-Free Adaptive-$k$ Retrieval for Visual Document Question Answering](https://arxiv.org/abs/2609.02486) | Adrien Mialland, Marc Plantevit, Julien Gallois и др. | cs.IR |
 | 2026-09-01 | [Same Semantics, Different Outcome: On the Modality Robustness of Multimodal LLMs under Knowledge Conflict](https://arxiv.org/abs/2609.00550) | Jungyeon Lee, Yejin Yoon, Taeuk Kim | cs.CL |
 | 2026-08-31 | [CrossModalQA: A Cross-modal and Multi-hop Benchmark for Multimodal Retrieval-augmented Generation](https://arxiv.org/abs/2609.05518) | Jiacheng Cai, Zijin Hong, Zheng Yuan и др. | cs.CV |
 | 2026-08-31 | [Doc-REFRAG: Rethinking Multimodal Document Retrieval-Augmented Generation](https://arxiv.org/abs/2608.30163) | Ruofan Hu, Shengyang Xu, Minjie Hong и др. | cs.IR |
 | 2026-08-26 | [PlanSightRAG: A Visual-First Multimodal RAG for Automating Question Answering and Compliance Checking for Civil Standard Plans](https://arxiv.org/abs/2608.26091) | Nabaraj Subedi, Shuvo Dip Datta, Ahmed Abdelaty и др. | cs.IR |
+| 2026-08-24 | [Evaluating Modern RAG: Textual, Multimodal, Dense, and Late Interaction Pipelines](https://arxiv.org/abs/2608.23176) | Emre Kuru, Mehmet Onur Keskin | cs.IR |
 | 2026-08-22 | [MCite-RL: Towards Reliable Multimodal RAG via Citation-enhanced Agentic Reinforcement Learning](https://arxiv.org/abs/2608.21808) | Suifeng Zhao, Zida Liu, Xinyu Lei и др. | cs.CL |
 | 2026-08-21 | [Vis-Poison: Poisoning Visual Knowledge in Multimodal Retrieval-Augmented Generation](https://arxiv.org/abs/2608.20756) | Rujin Liang, Zhongpu Chen, Yuhao Lei и др. | cs.CV |
 | 2026-08-19 | [Reducing Technician Search Burden: A Multimodal RAG for Cessna 172 Maintenance Manual](https://arxiv.org/abs/2608.18465) | Seongjun Ha, Md Rashedul Islam, Gaurav Nanda и др. | cs.HC |
@@ -507,6 +515,7 @@
 | 2026-08-16 | [ConceptFormer: Learning Adaptive Latent Concepts for Query-Document Alignment in Visual Document Retrieval](https://arxiv.org/abs/2608.15698) | Chunyi Peng, Zhipeng Xu, Yukun Yan и др. | cs.CV |
 | 2026-08-15 | [GraphLoom: Reliability-Calibrated Graph Evidence Routing for Multimodal KG-RAG](https://arxiv.org/abs/2608.15056) | Zafar Ali, Asad Khan, Aalia Malik и др. | cs.AI |
 | 2026-08-14 | [HAM-RAG: Hierarchy-Aware Multimodal RAG for Structure-Faithful Interleaved Generation](https://arxiv.org/abs/2608.14032) | Yin Li, Ziyang Hu, Zhiyu Guo и др. | cs.IR |
+| 2026-08-14 | [What the Reranker Sees: Multi-Aspect Page Annotation for Long-Document Multimodal Question Answering](https://arxiv.org/abs/2608.14841) | Guanchen Wu, Jiayuan Ding, Subhabrata Mukherjee и др. | cs.AI |
 | 2026-08-07 | [Does More Retrieved Evidence Help Visual Retrieval-Augmented Generation with Diffusion Language Models?](https://arxiv.org/abs/2608.07006) | Jiankun Wang, Yisen Gao, Ziwei Zhang и др. | cs.CL |
 | 2026-08-02 | [MRAFnd: Multimodal Retrieval-Augmented Framework for Zero-Shot Fake News Detection](https://arxiv.org/abs/2608.01430) | Lehan Zhang, Yinlei Cheng, Shiqi Hu Yiheng Zhou и др. | cs.AI |
 | 2026-07-30 | [DualG-MRAG: Decoupling Macro-Reasoning and Micro-Matching for Multimodal Retrieval-Augmented Generation](https://arxiv.org/abs/2607.28580) | Jiacheng Tao, Qingyun Sun, Haonan Yuan и др. | cs.AI |
@@ -585,13 +594,15 @@
 | 2026-01-13 | [ViDoRe V3: A Comprehensive Evaluation of Retrieval Augmented Generation in Complex Real-World Scenarios](https://arxiv.org/abs/2601.08620) | António Loison, Quentin Macé, Antoine Edy и др. | cs.AI |
 | 2026-01-12 | [BayesRAG: Probabilistic Mutual Evidence Corroboration for Multimodal Retrieval-Augmented Generation](https://arxiv.org/abs/2601.07329) | Xuan Li, Yining Wang, Haocai Luo и др. | cs.CL |
 
-## Graph search / GraphRAG (194)
+## Graph search / GraphRAG (203)
 
 | дата | статья | авторы | кат. |
 |---|---|---|---|
 | 2026-10-29 | [Efficient LLM-based Subgraph Retrieval for Multi-Hop Knowledge Base Question Answering](https://arxiv.org/abs/2610.39667) | Duanyang Yuan, Sihang Zhou, Xiaoshu Chen и др. | cs.IR |
+| 2026-10-28 | [On Worst-Case Guarantees for Graph-Based Nearest-Neighbor Search](https://arxiv.org/abs/2610.38133) | Majid Daliri, Mohammadreza Daneshvaramoli, Purna Dutta и др. | cs.DS |
 | 2026-10-27 | [DeFT-RAG: Incrementally Decomposing Multi-Hop Questions into Self-Contained Sub-Questions with Reusable Answers](https://arxiv.org/abs/2610.37826) | Dingyi Kang, Bingzhe Li | cs.CL |
 | 2026-10-27 | [Beyond Similarity Search: Knowledge Graph Metadata Enrichment for Enterprise Retrieval-Augmented Generation](https://arxiv.org/abs/2610.37728) | Fakabbir Amin | cs.IR |
+| 2026-10-27 | [SpectRAG: Weighted Chunk Graphs for Token-Budgeted Context Selection in Multi-Hop Retrieval-Augmented Generation](https://arxiv.org/abs/2610.36991) | Zafer Sahinoglu, Abdulazeez Mohammed, Buse Yaren Kazangirler и др. | cs.AI |
 | 2026-10-27 | [GraphRAGProv: GraphRAG Meets How-Provenance](https://arxiv.org/abs/2610.37237) | Wadie El Amrani, Luis Galárraga | cs.AI |
 | 2026-10-27 | [Retrieve to Act: Motion Primitive Graph Retrieval for Robust VLA Execution](https://arxiv.org/abs/2610.37215) | Pham Tri Quang, Bao-Ngoc Dao, Minh Duc Nguyen и др. | cs.RO |
 | 2026-10-27 | [TACO-Graph: Automated Construction of Text-Atributed Graphs](https://arxiv.org/abs/2610.36650) | Amiri Hayes, Kristina Wicke | cs.LG |
@@ -599,6 +610,7 @@
 | 2026-10-26 | [UniGFM-RAG: Unify Graph Foundation Models and Large Language Models for End-to-End Retrieval and Reasoning](https://arxiv.org/abs/2610.34866) | Zicheng Zhao, Linhao Luo, Zongji Yu и др. | cs.AI |
 | 2026-10-26 | [The Right Fact, the Wrong Decision: SciValidityBench for Scientific Agent Memory](https://arxiv.org/abs/2610.34767) | Yuexi Pan, Yongchao Chen | cs.AI |
 | 2026-10-26 | [Knowing When the Evidence Is Enough: Requirement-Directed Search with Horn-Closure Certificates](https://arxiv.org/abs/2610.34684) | Xinyu Zhang, Weiwei Sun | cs.IR |
+| 2026-10-26 | [Retriever-Free Retrieval: Navigating Documents with Decision Models](https://arxiv.org/abs/2610.35868) | Chao Wan, Paul Jünger, Beixi Du и др. | cs.AI |
 | 2026-10-24 | [Towards a Learnable Retriever for Textual Graph Question Answering](https://arxiv.org/abs/2610.33511) | Kaifeng Jin, Yuchen Yan, Zhichen Zeng и др. | cs.CL |
 | 2026-10-24 | [Schema-Free Text-to-SQL: Learning Enterprise Database Structure from Query Logs](https://arxiv.org/abs/2610.33946) | Ömer Faruk Akgül, Nikhil Kapahi, Prajit Reddy Muppidi | cs.CL |
 | 2026-10-24 | [Are We Done with UMLS Injection into Language Models for Medical Question Answering?](https://arxiv.org/abs/2610.33801) | Yiran Zeng, Giacomo Frisoni, Lorenzo Molfetta и др. | cs.AI |
@@ -607,8 +619,10 @@
 | 2026-10-22 | [Automated Enrichment Analysis with GraphRAG: Efficient Multi-Database ORA Extraction and Biological Interpretation](https://arxiv.org/abs/2610.30710) | Guangcan Li, Shuyuan Zheng, Jiayao Liu и др. | cs.IR |
 | 2026-10-22 | [Better Reasoning, Not Just Bigger Models: A Structure-Grounded Framework for Efficient and Reliable Inference](https://arxiv.org/abs/2610.30611) | Amirhossein Aghaei, Liangyan Li, Shiyi Yang и др. | cs.AI |
 | 2026-10-22 | [Multi-Token Prediction and Alternative Tokenization Improve Learning Latent Multi-Hop Graph Search at Scale](https://arxiv.org/abs/2610.31439) | Arvid Frydenlund, FuTe Wong, Katherine Lambert и др. | cs.LG |
+| 2026-10-21 | [Getting a GRIP on Graph-Based Search for Learned Sparse Retrieval](https://arxiv.org/abs/2610.30425) | Vihan Lakshman, Franco Maria Nardini, Cosimo Rulli и др. | cs.IR |
 | 2026-10-20 | [RANGER: Retrieval Agent for Navigating Graphs with Semantic Evaluation Rewards](https://arxiv.org/abs/2610.28010) | Artem Mikhaylov, Pavel Konoplev, Nikolay Efanov и др. | cs.LG |
 | 2026-10-19 | [SweepANN: A GPU-Accelerated Large-K Approximate Vector Search for Drug Discovery](https://arxiv.org/abs/2610.27306) | Zhenyu Zhang, Qi Lin, Nan Zhang и др. | cs.DB |
+| 2026-10-18 | [Outcome-Anchored Credit Reallocation for Agentic Knowledge Graph Question Answering](https://arxiv.org/abs/2610.25384) | Mingyuan Li, Yucheng Li, Xiaxia Wang и др. | cs.AI |
 | 2026-10-16 | [FuseRAG: Fusing Structure and Evidence into Inference for Cost-Efficient Graph-based RAG](https://arxiv.org/abs/2610.22818) | Tingqi Wang, Yingshu Li, Zhipeng Cai | cs.DB |
 | 2026-10-15 | [CARA: Causally Guided Retrieval Agent for Question Answering](https://arxiv.org/abs/2610.22017) | Weicheng Liu, Xiangcheng Wu, Depeng Xu и др. | cs.AI |
 | 2026-10-15 | [Lean Graph Search for Formal Theorem Proving](https://arxiv.org/abs/2610.22339) | Yihan Xu, Jia-Chen Gu, Junyi Zhang и др. | cs.LG |
@@ -621,9 +635,12 @@
 | 2026-10-09 | [PRIME: Pre-Retrieval Index Modeling Enhancement for Structured Document Retrieval-Real](https://arxiv.org/abs/2610.13296) | Cheuk Hei Chung, Li Liu | cs.IR |
 | 2026-10-09 | [Locate, Judge, Read: Role-Specialized Tool Agents over a Knowledge-Point Index for Open-Domain Multimodal Document QA](https://arxiv.org/abs/2610.13128) | Wenlin Lin, Fanzhe Wei | cs.AI |
 | 2026-10-09 | [CliQ-RRG: Clinical-Knowledge Guided Disease-aware Visual-Textual Alignment for QA-Style Radiology Report Generation](https://arxiv.org/abs/2610.13059) | Chandravardhan Singh Raghaw, Shahid Shafi Dar, Arnav Nishith Sharma и др. | cs.CL |
+| 2026-10-08 | [From Retrieval to Reconstruction: Constructing Evolvable Cognitive Memory for Long-Term Dialogue](https://arxiv.org/abs/2610.11314) | Zirui Liao, Zhengxian Wu, Zhuohong Chen и др. | cs.CL |
 | 2026-10-08 | [Multimodal Graph Retrieval-Augmented Sequential Recommendation via Collaborative Filtering Paths](https://arxiv.org/abs/2610.11228) | Jason Marcell Setiadi, Xin Cao, Lina Yao | cs.LG |
 | 2026-10-07 | [TopoGraphRAG-Bench: Evaluating Multimodal GraphRAG on Layout-Grounded Evidence Reasoning](https://arxiv.org/abs/2610.09360) | Ruochi Li, Jianzhe Lin, Haoxuan Zhang и др. | cs.AI |
 | 2026-10-06 | [BEACON-SP: Ontology-Grounded GraphRAG Framework for Clinical Suicide Risk Assessment](https://arxiv.org/abs/2610.09026) | Kemal Davaslioglu, Nathan Conger, Sastry Kompella и др. | cs.AI |
+| 2026-10-06 | [Foresight-over-Graph: Reasoning Beyond Local Horizons for Knowledge Base Question Answering](https://arxiv.org/abs/2610.08388) | Yang Hong, Yajun Yang, Xin Wang и др. | cs.CL |
+| 2026-10-06 | [RiftANN: Efficient Graph Traversal for Vector Search with RDMA-Based Memory Disaggregation](https://arxiv.org/abs/2610.08990) | Qi Lin, Zhenyu Zhang, Jun Kong и др. | cs.DB |
 | 2026-10-05 | [Wikidata Search Traces: A Dataset for Training Knowledge Graph Search Agents](https://arxiv.org/abs/2610.06650) | Mohamed Chenene, Carlos Rosas-Hinostroza, Anastasia Stasenko и др. | cs.CL |
 | 2026-10-04 | [GRAM: Correcting Frozen Time-Series Foundation Models via Graph-Retrieved Amplitude Memory](https://arxiv.org/abs/2610.04827) | Xiaoyun Yu, Xiangfei Qiu, Yonggui Huang и др. | cs.LG |
 | 2026-10-01 | [Hop-Decayed Influence: New Vulnerabilities of Structural Auxiliary Indexing in GraphRAG Pipelines with LLM](https://arxiv.org/abs/2610.02373) | Jisung Park, John Le, Heath Cooper | cs.CR |
@@ -635,6 +652,7 @@
 | 2026-09-28 | [Better Nearest Neighbor Graph Indices via (Efficient) LLM-Guided Pruning](https://arxiv.org/abs/2609.36359) | Fangzhou Wu, Haike Xu, Sandeep Silwal | cs.AI |
 | 2026-09-28 | [Signal or Noise? Modality Contribution and Cooperation in Multimodal GraphRAG](https://arxiv.org/abs/2609.35304) | Antonios Georgakopoulos, Paul Groth, Lise Stork | cs.IR |
 | 2026-09-28 | [M3OS: A Monte Carlo Graph Search-Orchestrated Multi-Agent LLM System for Evidence-Traced Molecular Optimization](https://arxiv.org/abs/2609.34491) | Junjie Wang, Yaowei Jin, Ruohui Tang и др. | cs.LG |
+| 2026-09-26 | [HyperReCo: Retrieving and Connecting Evidence with Hypergraph Neural Networks for LLM Multi-hop Reasoning](https://arxiv.org/abs/2609.32327) | Zicheng Zhao, Linhao Luo, Junnan Dong и др. | cs.AI |
 | 2026-09-26 | [SkillVine: Agent Skill Evolution via Branching Exploration](https://arxiv.org/abs/2609.32731) | Kaiwei Liu, Jiqian Dong, Liran Dong и др. | cs.AI |
 | 2026-09-26 | [From Scene Graphs to Answers: Selective Neuro-Symbolic Reasoning for Autonomous Driving](https://arxiv.org/abs/2609.32645) | Yiyao Wang, Pei Liu, Fangzhou Liu и др. | cs.AI |
 | 2026-09-26 | [Graph Memory: Spectral Associative Memory via Dirichlet Energy](https://arxiv.org/abs/2609.32365) | Zhaoyang Shi | cs.LG |
@@ -784,16 +802,19 @@
 | 2026-06-02 | [SkillDAG: Self-Evolving Typed Skill Graphs for LLM Skill Selection at Scale](https://arxiv.org/abs/2606.03056) | Tong Bai, Zhenglin Wan, Pengfei Zhou и др. | cs.AI |
 | 2026-06-01 | [LAANN: I/O-Aware Look-Ahead Search for Disk-Based Approximate Nearest Neighbor Search](https://arxiv.org/abs/2606.02784) | Dingyi Kang, Juncheng Yang, Bingzhe Li | cs.DB |
 
-## AI in AEC / ConTech (246)
+## AI in AEC / ConTech (254)
 
 | дата | статья | авторы | кат. |
 |---|---|---|---|
 | 2026-10-29 | [Engineering process plants as code in the age of agentic AI](https://arxiv.org/abs/2610.40239) | Artur M. Schweidtmann, Davy Demeyer | cs.CE |
+| 2026-10-27 | [LM-DSB: A Lightweight Multi-agent System for Automated Daily Safety Bulletin Generation in Construction](https://arxiv.org/abs/2610.36433) | Xianxiang Zhao, Advik Mehta, Falak Sethi и др. | cs.AI |
 | 2026-10-27 | [3Dtrees.earth: community research infrastructure for tree and forest analysis using close-range LiDAR data](https://arxiv.org/abs/2610.37803) | Janusch Vajna-Jehle, Kilian Gerberding, Daniel Lusk и др. | cs.DL |
 | 2026-10-25 | [T-ConSG: A LiDAR-Based Real-Time Temporal Construction Scene Graph for Dynamic and Evolving Environments](https://arxiv.org/abs/2610.34041) | Yilong Chen, Yong K. Cho | cs.RO |
 | 2026-10-24 | [A SegFormer-based model for spatial Daylight Factor prediction with comprehensive obstruction encoding and regulatory validation](https://arxiv.org/abs/2610.33737) | Stanislava Fedorova, Alejandro Pacheco Diéguez, Christoph Berkmiller и др. | cs.CV |
 | 2026-10-22 | [IFC-SSL-Bench: Benchmarking Self-Supervised Learning for Annotation-Efficient Multispectral Imaging Flow Cytometry](https://arxiv.org/abs/2610.31848) | Angelo Jovin Yamachui Sitcheu, Roxana-Teodora Fetescu, Thomas Lautenschlager и др. | cs.CV |
+| 2026-10-22 | [Can AI Co-Design Structures? An AI Agent for Early-Stage Structural Design](https://arxiv.org/abs/2610.31113) | Ricardo Maia Avelino, Mennatallah El-Assady, Tom Van Mele и др. | cs.AI |
 | 2026-10-21 | [IFC-MCQ: Automatically Generating Multiple-Choice Benchmarks for Evaluating LLM Agents on IFC Data Retrieval](https://arxiv.org/abs/2610.30533) | Rabindra Lamsal, Sisi Zlatanova, Xuesong Shen | cs.CL |
+| 2026-10-19 | [What Is Under the Hood? A Cross-Ecosystem Study of Vulnerable Dependencies in Construction Software](https://arxiv.org/abs/2610.25774) | Mahzabin Tamanna, S M Jamil Uddin | cs.SE |
 | 2026-10-18 | [Residential Construction Image Dataset Using CSI Divisions for Deep Learning-based Object Detection](https://arxiv.org/abs/2610.25535) | Fahad Iqbal, Shayan Mirzabeigi | cs.CV |
 | 2026-10-16 | [Large language model and reinforcement learning based autonomous construction and progress updates](https://arxiv.org/abs/2610.26899) | Yifei Xiao, Huasheng Lin, T. Y. Yang | cs.AI |
 | 2026-10-16 | [DICL-Qwen3VL: Decoupled Confidence Calibration for Interpretable Workwear Detection](https://arxiv.org/abs/2610.22929) | Meng Wang, Wu Zeng, Mei Li и др. | cs.CV |
@@ -809,6 +830,7 @@
 | 2026-09-29 | [EngiWorld: What Can Frontier Agents Deliver in Professional Engineering Environments?](https://arxiv.org/abs/2609.37686) | Hongcheng Gao, Hailong Qu, Yu Lei и др. | cs.AI |
 | 2026-09-28 | [K-OPSD: Verifiable On-Policy Self-Distillation for Post-Training Vision-Language Models on AEC Drawings](https://arxiv.org/abs/2609.34082) | Yunfei Bai, Enrico Chionna, Akash Amol и др. | cs.AI |
 | 2026-09-25 | [KnottedGraph: Scalable knotted-graph topology for scientific and mathematical discovery](https://arxiv.org/abs/2609.31152) | Hakan Akgün, Xianquan Yan, Kehan Liu и др. | cs.MS |
+| 2026-09-22 | [Skill Sequence Planning for Collaborative Multi-Robot Construction](https://arxiv.org/abs/2609.25649) | Xi Wang, Bo Fu, Carol C. Menassa и др. | cs.RO |
 | 2026-09-21 | [A paired synthetic construction-site image dataset for robust computer vision under adverse conditions](https://arxiv.org/abs/2609.24075) | Viet Huy Duong, Ruoxin Xiong, Md Abdullah Al Forhad и др. | cs.CV |
 | 2026-09-17 | [Where the LLM Ends and Reliable Decisions Begin](https://arxiv.org/abs/2609.19545) | Priyadarshan Patil, Abhishek Basu, Vikas Reddy и др. | math.OC |
 | 2026-09-16 | [CARES: A Conversational AI System for Regulation-Grounded Safety Reporting in Construction Education](https://arxiv.org/abs/2609.19429) | Fan Yang, Jiabin Wu, Yuan Tian и др. | cs.HC |
@@ -862,6 +884,7 @@
 | 2026-05-21 | [Ishigaki-IDS-Bench: A Benchmark for Generating Information Delivery Specification from BIM Information Requirements](https://arxiv.org/abs/2605.22079) | Ryo Kanazawa, Koyo Hidaka, Teppei Miyamoto и др. | cs.CL |
 | 2026-05-18 | [A No-Defense Defense Against Gradient-Based Adversarial Attacks on ML-NIDS: Is Less More?](https://arxiv.org/abs/2605.18666) | Mohamed elShehaby, Ashraf Matrawy | cs.LG |
 | 2026-05-18 | [Cracks in the Foundation: A Civil Infrastructure Dataset to Challenge Vision Foundation Models](https://arxiv.org/abs/2605.18413) | Nicola Farronato, Niccolo Avogaro, Thomas Frick и др. | cs.CV |
+| 2026-05-15 | [Hybrid LLM-based Intelligent Framework for Robot Task Scheduling](https://arxiv.org/abs/2605.15486) | Swayamjit Saha, Subhabrata Das, Haonan Duan и др. | cs.RO |
 | 2026-05-13 | [IfcLLM: Natural Language Querying of IFC Models through Complementary Relational and Graph Representations](https://arxiv.org/abs/2605.13236) | Rabindra Lamsal, Sisi Zlatanova, Haowen Xu и др. | cs.CL |
 | 2026-05-11 | [Geospatial-Temporal Sensemaking of Remote Sensing Activity Detections with Multimodal Large Language Model](https://arxiv.org/abs/2605.10739) | David F. Ramirez, Tim Overman, Kristen Jaskie и др. | eess.IV |
 | 2026-05-08 | [VLM-based automatic multi-granularity graph representation of building layouts for design informatics](https://arxiv.org/abs/2608.24886) | Song Guo, Zhuoshi Chen, Maosu Li и др. | cs.AI |
@@ -887,6 +910,7 @@
 | 2026-03-13 | [Marker-Based 3D Reconstruction of Aggregates with a Comparative Analysis of 2D and 3D Morphologies](https://arxiv.org/abs/2603.12667) | Haohang Huang, Jiayi Luo, Issam Qamhia и др. | cs.CV |
 | 2026-03-11 | [StructDamage:A Large Scale Unified Crack and Surface Defect Dataset for Robust Structural Damage Detection](https://arxiv.org/abs/2603.10484) | Misbah Ijaz, Saif Ur Rehman Khan, Abd Ur Rehman и др. | cs.CV |
 | 2026-03-08 | [Underwater Embodied Intelligence for Autonomous Robots: A Constraint-Coupled Perspective on Planning, Control, and Deployment](https://arxiv.org/abs/2603.07393) | Jingzehua Xu, Guanwen Xie, Jiwei Tang и др. | cs.RO |
+| 2026-03-08 | [A Novel Multi-Agent Architecture to Reduce Hallucinations of Large Language Models in Multi-Step Structural Modeling](https://arxiv.org/abs/2603.07728) | Ziheng Geng, Jiachen Liu, Ran Cao и др. | cs.AI |
 | 2026-03-04 | [Field imaging framework for morphological characterization of aggregates with computer vision: Algorithms and applications](https://arxiv.org/abs/2603.03654) | Haohang Huang | cs.CV |
 | 2026-02-24 | [Qwen-BIM: developing large language model for BIM-based design with domain-specific benchmark and dataset](https://arxiv.org/abs/2602.20812) | Jia-Rui Lin, Yun-Hong Cai, Xiang-Rui Ni и др. | cs.AI |
 | 2026-02-17 | [Enhancing Building Semantics Preservation in AI Model Training with Large Language Model Encodings](https://arxiv.org/abs/2602.15791) | Suhyung Jang, Ghang Lee, Jaekun Lee и др. | cs.AI |
@@ -904,6 +928,7 @@
 | 2026-01-19 | [Semantic Communication for the Internet of Underwater Things: Architectures, Applications, Challenges, and Future Directions](https://arxiv.org/abs/2601.13289) | Ruhul Amin Khalil, Asiya Jehangir, Hanane Lamaazi и др. | eess.SP |
 | 2026-01-16 | [UAV-Based Infrastructure Inspections: A Literature Review and Proposed Framework for AEC+FM](https://arxiv.org/abs/2601.11665) | Amir Farzin Nikkhah, Dong Chen, Bradford Campbell и др. | cs.CV |
 | 2026-01-12 | [Towards Verifiably Safe Tool Use for LLM Agents](https://arxiv.org/abs/2601.08012) | Aarya Doshi, Yining Hong, Congying Xu и др. | cs.SE |
+| 2026-01-02 | [Toward Open Science in the AEC Community: An Ecosystem for Sustainable Digital Knowledge Sharing and Reuse](https://arxiv.org/abs/2601.00788) | Ruoxin Xiong, Yanyu Wang, Jiannan Cai и др. | cs.CY |
 | 2025-12-21 | [A Modular Reference Architecture for MCP-Servers Enabling Agentic BIM Interaction](https://arxiv.org/abs/2601.00809) | Tobias Heimig-Elschner, Changyu Du, Anna Scheuvens и др. | cs.OH |
 | 2025-12-17 | [SemanticBridge - A Dataset for 3D Semantic Segmentation of Bridges and Domain Gap Analysis](https://arxiv.org/abs/2512.15369) | Maximilian Kellner, Mariana Ferrandon Cervantes, Yuandong Pan и др. | cs.CV |
 | 2025-12-16 | [Transfer Learning-Based Surrogate Modeling for Nonlinear Time-History Response Analysis of High-Fidelity Structural Models](https://arxiv.org/abs/2512.14161) | Keiichi Ishikawa, Yuma Matsumoto, Taro Yaoyama и др. | cs.CE |
@@ -932,6 +957,7 @@
 | 2025-10-25 | [The AI Tutor in Engineering Education: Design, Results, and Redesign of an Experience in Hydrology at an Argentine University](https://arxiv.org/abs/2510.22279) | Hugo Roger Paz | cs.CY |
 | 2025-10-20 | [Mapping Hidden Heritage: Self-supervised Pre-training on High-Resolution LiDAR DEM Derivatives for Archaeological Stone Wall Detection](https://arxiv.org/abs/2510.17644) | Zexian Huang, Mashnoon Islam, Brian Armstrong и др. | cs.CV |
 | 2025-10-20 | [Integrating BIM and UAV-based photogrammetry for Automated 3D Structure Model Segmentation](https://arxiv.org/abs/2510.17609) | Siqi Chen, Shanyue Guan | cs.CV |
+| 2025-10-18 | [BuildArena: A Physics-Aligned Interactive Benchmark of LLMs for Engineering Construction](https://arxiv.org/abs/2510.16559) | Tian Xia, Tianrun Gao, Wenhao Deng и др. | cs.AI |
 | 2025-10-17 | [MedBuild AI: An Agent-Based Hybrid Intelligence Framework for Reshaping Agency in Healthcare Infrastructure Planning through Generative Design for Medical Architecture](https://arxiv.org/abs/2511.11587) | Yiming Zhang, Yuejia Xu, Ziyao Wang и др. | cs.HC |
 | 2025-10-16 | [Sketch2BIM: A Multi-Agent Human-AI Collaborative Pipeline to Convert Hand-Drawn Floor Plans to 3D BIM](https://arxiv.org/abs/2510.20838) | Abir Khan Ratul, Sanjay Acharjee, Somin Park и др. | cs.AI |
 | 2025-10-14 | [Towards General Urban Monitoring with Vision-Language Models: A Review, Evaluation, and a Research Agenda](https://arxiv.org/abs/2510.12400) | André Torneiro, Diogo Monteiro, Paulo Novais и др. | cs.CV |
@@ -1035,22 +1061,34 @@
 | 2025-01-10 | [ScooterLab: A Programmable and Participatory Sensing Research Testbed using Micromobility Vehicles](https://arxiv.org/abs/2501.06177) | Ubaidullah Khan, Raveen Wijewickrama, Buddhi Ashan M. K. и др. | cs.ET |
 | 2025-01-09 | [A Look into How Machine Learning is Reshaping Engineering Models: the Rise of Analysis Paralysis, Optimal yet Infeasible Solutions, and the Inevitable Rashomon Paradox](https://arxiv.org/abs/2501.04894) | MZ Naser | cs.LG |
 
-## RAG × AEC (47)
+## RAG × AEC (60)
 
 | дата | статья | авторы | кат. |
 |---|---|---|---|
 | 2026-10-27 | [LM-DSB: A Lightweight Multi-agent System for Automated Daily Safety Bulletin Generation in Construction](https://arxiv.org/abs/2610.36433) | Xianxiang Zhao, Advik Mehta, Falak Sethi и др. | cs.AI |
 | 2026-10-25 | [A Domain-Aware Pipeline for Structured Extraction and Retrieval-Augmented Question Answering over arXiv Superconductivity Literature](https://arxiv.org/abs/2610.34391) | Ivan Iorsh, Aleksandr Kapitonov, Ivan Filianin и др. | cs.IR |
+| 2026-10-23 | [GEMS-RAG: Graph-grounded Engineering Multimodal Standards Retrieval-Augmented Generation](https://arxiv.org/abs/2610.33277) | Abdul Hannan Azad, Irvin Wang, Jiwan Jiang и др. | cs.AI |
+| 2026-10-20 | [A Multimodal Engineering GraphRAG Framework for Post-Wind-Event Building Assessment and Recovery Inference](https://arxiv.org/abs/2610.28216) | Seyedeh Fatemeh Mirfakhar, Reda Snaiki, Rocio Lilen Segura | physics.app-ph |
 | 2026-10-09 | [NEAR: Neighborhood-Aware Residuals for Memory Retrieval](https://arxiv.org/abs/2610.13314) | Han Luo, Zhan Zhuang, Xu He и др. | cs.IR |
 | 2026-09-16 | [CARES: A Conversational AI System for Regulation-Grounded Safety Reporting in Construction Education](https://arxiv.org/abs/2609.19429) | Fan Yang, Jiabin Wu, Yuan Tian и др. | cs.HC |
+| 2026-08-28 | [PermitGPT: A Unified Generative-AI Pipeline for Construction Hazard Forecasting, Permit Prediction, and Community Impact](https://arxiv.org/abs/2608.28728) | Mohd Ruhul Ameen, Farjana Aktar, Akif Islam и др. | cs.AI |
+| 2026-08-26 | [PlanSightRAG: A Visual-First Multimodal RAG for Automating Question Answering and Compliance Checking for Civil Standard Plans](https://arxiv.org/abs/2608.26091) | Nabaraj Subedi, Shuvo Dip Datta, Ahmed Abdelaty и др. | cs.IR |
+| 2026-08-19 | [BIMScript: Material-Aware Structured Scene Programs for BIM Ingestion](https://arxiv.org/abs/2608.21447) | Prakash Kondibhau Naikade, Thomas B. Moeslund, Andreas Møgelmose | cs.CV |
 | 2026-08-17 | [AISA: AI Safety Assistant Framework for Continuous Improvement of Highway Construction](https://arxiv.org/abs/2608.17184) | Mason Smetana, Trevor Neece, Lev Khazanovich | cs.CL |
+| 2026-08-15 | [Handoff-H1: An Orchestrated Vision-Agent System for Material Quantity Takeoff from Construction Blueprints](https://arxiv.org/abs/2608.15032) | Bruno Chicelli, Henrique Alves, Rodrigo Anselmo и др. | cs.CL |
 | 2026-08-02 | [Intelligent Identification and Repair of Design Defects in BIM via Domain-Specific Large Language Models](https://arxiv.org/abs/2608.28629) | Jia-Rui Lin, Yun-Hong Cai, Xiang-Rui Ni и др. | cs.CL |
+| 2026-08-02 | [BEST-KAG: Enhancing Question Answering of Building Engineering Standards with Multimodal Knowledge Graph Modeling and Large Language Model](https://arxiv.org/abs/2608.11244) | Jia-Rui Lin, Junxi Guo, Keyin Chen и др. | cs.AI |
 | 2026-07-31 | [Evidence-Grounded Constraint Checking in Construction Documents](https://arxiv.org/abs/2607.29058) | Rashid Mushkani, Hugo Berard, Shin Koseki | cs.AI |
 | 2026-07-28 | [CLBench-V: Evaluating Multimodal Context Learning from Grounding to Knowledge Acquisition](https://arxiv.org/abs/2607.25294) | Lai Wei, Chengqi Li, Jiapeng Li и др. | cs.CV |
+| 2026-07-24 | [Towards Trustworthy and Cost-Efficient Data Integration: From Naïve RAG to Agentic RAG](https://arxiv.org/abs/2607.22319) | Chuangtao Ma, Arijit Khan | cs.DB |
 | 2026-07-16 | [DrawingVQA: A Real-World Benchmark for Multi-Depth Visual-Textual Reasoning on Construction Drawings](https://arxiv.org/abs/2607.15418) | Yoonhwa Jung, Junryu Fu, Mani Golparvar-Fard | cs.AI |
+| 2026-07-13 | [IFCMemoryBench: Evaluating Long-Term Memory of LLM-Based Agents in BIM Information Retrieval](https://arxiv.org/abs/2607.26072) | Changyu Du, Alexander Vosseler, Filippo Mazza и др. | cs.IR |
 | 2026-06-27 | [Customized Generative AI Agent for Transportation Engineering Practice: A Development and Continued Pre-training Guideline](https://arxiv.org/abs/2606.29014) | Dianwei Chen, Yuan-Zheng Lei, Zifan Zhang и др. | cs.AI |
 | 2026-06-22 | [Graph-Enhanced Large Language Models for Spatial Search](https://arxiv.org/abs/2606.22909) | Nicole R. Schneider, Kent O'Sullivan, Hanan Samet | cs.DB |
+| 2026-06-18 | [BIM-Edit: Benchmarking Large Language Models for IFC-Based Building Information Modeling](https://arxiv.org/abs/2606.20146) | Bharathi Kannan Nithyanantham, Clemens Kujat, Tobias Sesterhenn и др. | cs.AI |
 | 2026-06-10 | [Automating Geometry-Intensive Compliance Checking in BIM: Graph-Based Semantic Reasoning Framework](https://arxiv.org/abs/2606.12065) | Zixuan Xiao, Pei Troh Koh, Jun Ma и др. | cs.AI |
+| 2026-05-18 | [Retrieval-Augmented Generation to Support Railways Engineering Tasks: A Case Study](https://arxiv.org/abs/2607.01244) | Andrea Gerardo Russo, Federico Ruggeri, Ivan Tomarchio и др. | cs.IR |
+| 2026-05-13 | [IfcLLM: Natural Language Querying of IFC Models through Complementary Relational and Graph Representations](https://arxiv.org/abs/2605.13236) | Rabindra Lamsal, Sisi Zlatanova, Haowen Xu и др. | cs.CL |
 | 2026-05-03 | [BIM Information Extraction Through LLM-based Adaptive Exploration](https://arxiv.org/abs/2605.01698) | Sylvain Hellin, Suhyung Jang, Stefan Fuchs и др. | cs.CL |
 | 2026-03-25 | [Chronological Knowledge Retrieval: A Retrieval-Augmented Generation Approach to Construction Project Documentation](https://arxiv.org/abs/2604.14169) | Ioannis-Aris Kostis, Natalia Sanchiz, Steeve De Schryver и др. | cs.CL |
 | 2026-02-04 | [ARIA: Adaptive Retrieval Intelligence Assistant -- A Multimodal RAG Framework for Domain-Specific Engineering Education](https://arxiv.org/abs/2604.06179) | Yue Luo, Dibakar Roy Sarkar, Rachel Herring Sangree и др. | cs.IR |
@@ -1086,8 +1124,9 @@
 | 2023-09-01 | [NeMig -- A Bilingual News Collection and Knowledge Graph about Migration](https://arxiv.org/abs/2309.00550) | Andreea Iana, Mehwish Alam, Alexander Grote и др. | cs.IR |
 | 2023-07-25 | [BIM-to-BRICK: Using graph modeling for IoT/BMS and spatial semantic data interoperability within digital data models of buildings](https://arxiv.org/abs/2307.13197) | Filippo Vittori, Chuan Fu Tan, Anna Laura Pisello и др. | eess.SY |
 | 2023-04-23 | [CBIM: A Graph-based Approach to Enhance Interoperability Using Semantic Enrichment](https://arxiv.org/abs/2304.11672) | Zijian Wang, Huaquan Ying, Rafael Sacks и др. | cs.SE |
+| 2023-04-18 | [BIM-GPT: a Prompt-Based Virtual Assistant Framework for BIM Information Retrieval](https://arxiv.org/abs/2304.09333) | Junwen Zheng, Martin Fischer | cs.CL |
 
-## AEC data & formats (IFC, DXF, DWG, RVT) (102)
+## AEC data & formats (IFC, DXF, DWG, RVT) (105)
 
 | дата | статья | авторы | кат. |
 |---|---|---|---|
@@ -1125,6 +1164,7 @@
 | 2026-05-21 | [Ishigaki-IDS-Bench: A Benchmark for Generating Information Delivery Specification from BIM Information Requirements](https://arxiv.org/abs/2605.22079) | Ryo Kanazawa, Koyo Hidaka, Teppei Miyamoto и др. | cs.CL |
 | 2026-05-18 | [Fixed External Cameras as Common Prior Maps for Active 3D Scene Graph Generation](https://arxiv.org/abs/2605.18184) | Giorgia Modi, Davide Buoso, Giuseppe Averta и др. | cs.RO |
 | 2026-05-13 | [IfcLLM: Natural Language Querying of IFC Models through Complementary Relational and Graph Representations](https://arxiv.org/abs/2605.13236) | Rabindra Lamsal, Sisi Zlatanova, Haowen Xu и др. | cs.CL |
+| 2026-05-09 | [Extrusion Segmentation Strategy to improve CAD Reconstruction from Point Cloud](https://arxiv.org/abs/2605.08971) | Said Harb, Mehdi Maboudi, Markus Gerke | cs.CV |
 | 2026-05-08 | [VLM-based automatic multi-granularity graph representation of building layouts for design informatics](https://arxiv.org/abs/2608.24886) | Song Guo, Zhuoshi Chen, Maosu Li и др. | cs.AI |
 | 2026-05-03 | [BIM Information Extraction Through LLM-based Adaptive Exploration](https://arxiv.org/abs/2605.01698) | Sylvain Hellin, Suhyung Jang, Stefan Fuchs и др. | cs.CL |
 | 2026-04-27 | [BIMStruct3D: A Fully Automated Hybrid Learning Scan-to-BIM Pipeline with Integrated Topology Refinement](https://arxiv.org/abs/2604.24311) | Mahdi Chamseddine, Fabian Kaufmann, Marius Schellen и др. | cs.CV |
@@ -1133,6 +1173,7 @@
 | 2026-02-20 | [Context-Aware Mapping of 2D Drawing Annotations to 3D CAD Features Using LLM-Assisted Reasoning for Manufacturing Automation](https://arxiv.org/abs/2602.18296) | Muhammad Tayyab Khan, Lequn Chen, Wenhe Feng и др. | cs.CE |
 | 2026-02-09 | [Raster2Seq: Polygon Sequence Generation for Floorplan Reconstruction](https://arxiv.org/abs/2602.09016) | Hao Phung, Hadar Averbuch-Elor | cs.CV |
 | 2026-02-02 | [Boundary-Constrained Diffusion Models for Floorplan Generation: Balancing Realism and Diversity](https://arxiv.org/abs/2602.01949) | Leonardo Stoppani, Davide Bacciu, Shahab Mokarizadeh | cs.LG |
+| 2026-01-23 | [A Fully Automated DM-BIM-BEM Pipeline Enabling Graph-Based Intelligence, Interoperability, and Performance-Driven Early Design](https://arxiv.org/abs/2601.16813) | Jun Xiao, Qiong Wang, Yihui Li и др. | stat.CO |
 | 2026-01-08 | [AECV-Bench: Benchmarking Multimodal Models on Architectural and Engineering Drawings Understanding](https://arxiv.org/abs/2601.04819) | Aleksei Kondratenko, Mussie Birhane, Houssame E. Hsain и др. | cs.AI |
 | 2025-12-21 | [A Modular Reference Architecture for MCP-Servers Enabling Agentic BIM Interaction](https://arxiv.org/abs/2601.00809) | Tobias Heimig-Elschner, Changyu Du, Anna Scheuvens и др. | cs.OH |
 | 2025-12-12 | [RoomPilot: Controllable Indoor Scene Synthesis via Multimodal Semantic Parsing](https://arxiv.org/abs/2512.11234) | Wentang Chen, Shougao Zhang, Yiman Zhang и др. | cs.CV |
@@ -1192,4 +1233,5 @@
 | 2024-04-17 | [Pixel-Wise Symbol Spotting via Progressive Points Location for Parsing CAD Images](https://arxiv.org/abs/2404.10985) | Junbiao Pang, Zailin Dong, Jiaxin Deng и др. | cs.CV |
 | 2024-04-11 | [DesignQA: A Multimodal Benchmark for Evaluating Large Language Models' Understanding of Engineering Documentation](https://arxiv.org/abs/2404.07917) | Anna C. Doris, Daniele Grandi, Ryan Tomich и др. | cs.AI |
 | 2024-03-29 | [Sketch-to-Architecture: Generative AI-aided Architectural Design](https://arxiv.org/abs/2403.20186) | Pengzhi Li, Baijuan Li, Zhiheng Li | cs.CV |
+| 2024-03-17 | [Advanced Knowledge Extraction of Physical Design Drawings, Translation and conversion to CAD formats using Deep Learning](https://arxiv.org/abs/2403.11291) | Jesher Joshua M, Ragav V, Syed Ibrahim S P | cs.CV |
 | 2024-01-19 | [Symbol as Points: Panoptic Symbol Spotting via Point-based Representation](https://arxiv.org/abs/2401.10556) | Wenlong Liu, Tianyu Yang, Yuhan Wang и др. | cs.CV |
