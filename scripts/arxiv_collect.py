@@ -4,6 +4,10 @@
       query the public arXiv API, append new papers to papers.csv, write a digest of what was added
   py scripts/arxiv_collect.py merge --topic SLUG [--source alphaxiv] ID [ID ...]
       add papers found elsewhere (e.g. alphaXiv MCP) by arXiv id; metadata is pulled from arXiv
+  py scripts/arxiv_collect.py ids --topic SLUG [--added YYYY-MM-DD] [--source alphaxiv]
+      print arXiv ids added on/after the date (default today) — for saving to alphaXiv folders
+  py scripts/arxiv_collect.py folder --topic SLUG [--id UUID]
+      show or remember the alphaXiv folder_id of a topic (kept in .state.json)
   py scripts/arxiv_collect.py build
       regenerate knowledge/papers/papers.md from papers.csv
   py scripts/arxiv_collect.py stats
@@ -270,6 +274,21 @@ def cmd_merge(args):
     print(f"получено {len(found)}, новых {len(new)}" + (f", не найдены на arXiv: {', '.join(sorted(missing))}" if missing else ""))
 
 
+def cmd_ids(args):
+    rows = [r for r in read_rows() if args.topic in r["темы"].split(", ") and r["добавлено"] >= args.added
+            and (not args.source or args.source in r["источник"].split(", "))]
+    print(" ".join(r["arxiv_id"] for r in rows))
+
+
+def cmd_folder(args):
+    state = load_state()
+    folders = state.setdefault("alphaxiv_folders", {})
+    if args.id:
+        folders[args.topic] = args.id
+        STATE_PATH.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(folders.get(args.topic, ""))
+
+
 def cmd_stats(_):
     rows = read_rows()
     print(f"всего: {len(rows)}")
@@ -293,10 +312,18 @@ def main():
     m.add_argument("--topic", required=True)
     m.add_argument("--source", default="alphaxiv")
     m.add_argument("ids", nargs="+")
+    i = sub.add_parser("ids")
+    i.add_argument("--topic", required=True)
+    i.add_argument("--added", default=date.today().isoformat(), help="добавленные в этот день или позже")
+    i.add_argument("--source", help="только с этим источником, напр. alphaxiv")
+    fo = sub.add_parser("folder")
+    fo.add_argument("--topic", required=True)
+    fo.add_argument("--id", help="сохранить folder_id alphaXiv для темы; без него — показать")
     sub.add_parser("build")
     sub.add_parser("stats")
     args = p.parse_args()
-    {"fetch": cmd_fetch, "merge": cmd_merge, "build": lambda a: build(), "stats": cmd_stats}[args.cmd](args)
+    {"fetch": cmd_fetch, "merge": cmd_merge, "ids": cmd_ids, "folder": cmd_folder,
+     "build": lambda a: build(), "stats": cmd_stats}[args.cmd](args)
 
 
 if __name__ == "__main__":

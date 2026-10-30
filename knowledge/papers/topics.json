@@ -1,33 +1,61 @@
 {
-  "_comment": "Topics for scripts/arxiv_collect.py. A paper matches a topic if it has ANY of `terms` in title/abstract AND (if set) ANY of `require` AND (if set) is in ANY of `cats`. backfill_from = start date for the first run; later runs continue from .state.json.",
+  "_comment": "Topics for scripts/arxiv_collect.py. A paper matches a topic if it has ANY of `terms` in title/abstract AND (if set) ANY of `require` AND (if set) is in ANY of `cats`. backfill_from = start date for the first run; later runs continue from .state.json. folder = which new papers go to the alphaXiv folder: all | alphaxiv (only those found by alphaXiv search).",
   "topics": [
     {
       "slug": "rag",
       "name": "RAG",
       "terms": ["retrieval-augmented generation", "retrieval augmented generation", "RAG"],
       "cats": ["cs.CL", "cs.IR", "cs.AI", "cs.LG"],
-      "backfill_from": "2026-09-01"
+      "backfill_from": "2026-09-01",
+      "folder": "alphaxiv",
+      "alphaxiv": {"question": "new retrieval-augmented generation methods", "keywords": ["RAG"]}
     },
     {
       "slug": "mm-rag",
       "name": "Multimodal RAG",
       "terms": ["multimodal retrieval-augmented", "multimodal RAG", "multi-modal RAG", "visual RAG", "visual retrieval-augmented", "vision-language retrieval-augmented", "document retrieval vision language model", "visually rich document retrieval"],
       "cats": ["cs.CL", "cs.IR", "cs.AI", "cs.CV", "cs.LG", "cs.MM"],
-      "backfill_from": "2026-01-01"
+      "backfill_from": "2026-01-01",
+      "folder": "all",
+      "alphaxiv": {"question": "multimodal RAG over images, documents and diagrams", "keywords": ["multimodal RAG"]}
+    },
+    {
+      "slug": "graph-search",
+      "name": "Graph search / GraphRAG",
+      "terms": ["GraphRAG", "graph RAG", "graph-based RAG", "graph retrieval-augmented", "graph-based retrieval", "graph retrieval", "knowledge graph retrieval", "graph search", "graph traversal retrieval", "subgraph retrieval"],
+      "require": ["language model", "LLM", "retrieval", "question answering", "RAG"],
+      "cats": ["cs.CL", "cs.IR", "cs.AI", "cs.LG", "cs.DB"],
+      "backfill_from": "2026-06-01",
+      "folder": "all",
+      "alphaxiv": {"question": "graph search and graph-based retrieval for LLMs", "keywords": ["graph search"]}
     },
     {
       "slug": "ai-aec",
       "name": "AI in AEC / ConTech",
       "terms": ["construction industry", "construction site", "construction management", "construction project", "building information modeling", "building information modelling", "BIM", "IFC", "architecture, engineering and construction", "architecture, engineering, and construction", "civil engineering", "building code", "building design", "infrastructure inspection"],
       "require": ["large language model", "LLM", "language model", "GPT", "retrieval-augmented", "RAG", "vision-language", "foundation model", "generative AI", "agent", "deep learning", "machine learning", "computer vision", "artificial intelligence"],
-      "backfill_from": "2025-01-01"
+      "backfill_from": "2025-01-01",
+      "folder": "all",
+      "alphaxiv": {"question": "AI and LLMs in architecture, engineering and construction (AEC, ConTech)", "keywords": ["AEC", "ConTech", "construction"]}
     },
     {
       "slug": "rag-aec",
       "name": "RAG × AEC",
       "terms": ["construction industry", "construction project", "construction domain", "construction engineering", "construction safety", "construction management", "building information modeling", "BIM", "IFC", "civil engineering", "building code", "building regulation"],
       "require": ["retrieval-augmented", "retrieval augmented", "RAG", "knowledge graph", "question answering"],
-      "backfill_from": "2023-01-01"
+      "backfill_from": "2023-01-01",
+      "folder": "all",
+      "alphaxiv": {"question": "RAG for construction documents, BIM and building codes", "keywords": ["RAG", "BIM", "building codes"]}
+    },
+    {
+      "slug": "aec-data",
+      "name": "AEC data & formats (IFC, DXF, DWG, RVT)",
+      "terms": ["IFC", "Industry Foundation Classes", "DXF", "DWG", "RVT", "Revit", "AutoCAD", "CAD drawing", "CAD drawings", "construction drawing", "construction drawings", "engineering drawing", "floor plan", "floorplan", "BIM model", "BIM data", "gbXML", "COBie"],
+      "require": ["building information", "building model", "building design", "building layout", "construction industry", "construction drawing", "construction project", "architectural drawing", "architectural design", "BIM", "AEC", "CAD"],
+      "cats": ["cs.CV", "cs.AI", "cs.CL", "cs.LG", "cs.SE", "cs.DB", "cs.GR", "cs.CE", "cs.IR", "cs.HC", "cs.MA"],
+      "backfill_from": "2024-01-01",
+      "folder": "all",
+      "alphaxiv": {"question": "extracting and converting data from building formats and CAD/BIM systems: IFC, DXF, DWG, RVT", "keywords": ["IFC", "DXF", "DWG", "RVT"]}
     }
   ]
 }

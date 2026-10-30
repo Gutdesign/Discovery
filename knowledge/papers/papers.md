@@ -585,6 +585,205 @@
 | 2026-01-13 | [ViDoRe V3: A Comprehensive Evaluation of Retrieval Augmented Generation in Complex Real-World Scenarios](https://arxiv.org/abs/2601.08620) | António Loison, Quentin Macé, Antoine Edy и др. | cs.AI |
 | 2026-01-12 | [BayesRAG: Probabilistic Mutual Evidence Corroboration for Multimodal Retrieval-Augmented Generation](https://arxiv.org/abs/2601.07329) | Xuan Li, Yining Wang, Haocai Luo и др. | cs.CL |
 
+## Graph search / GraphRAG (194)
+
+| дата | статья | авторы | кат. |
+|---|---|---|---|
+| 2026-10-29 | [Efficient LLM-based Subgraph Retrieval for Multi-Hop Knowledge Base Question Answering](https://arxiv.org/abs/2610.39667) | Duanyang Yuan, Sihang Zhou, Xiaoshu Chen и др. | cs.IR |
+| 2026-10-27 | [DeFT-RAG: Incrementally Decomposing Multi-Hop Questions into Self-Contained Sub-Questions with Reusable Answers](https://arxiv.org/abs/2610.37826) | Dingyi Kang, Bingzhe Li | cs.CL |
+| 2026-10-27 | [Beyond Similarity Search: Knowledge Graph Metadata Enrichment for Enterprise Retrieval-Augmented Generation](https://arxiv.org/abs/2610.37728) | Fakabbir Amin | cs.IR |
+| 2026-10-27 | [GraphRAGProv: GraphRAG Meets How-Provenance](https://arxiv.org/abs/2610.37237) | Wadie El Amrani, Luis Galárraga | cs.AI |
+| 2026-10-27 | [Retrieve to Act: Motion Primitive Graph Retrieval for Robust VLA Execution](https://arxiv.org/abs/2610.37215) | Pham Tri Quang, Bao-Ngoc Dao, Minh Duc Nguyen и др. | cs.RO |
+| 2026-10-27 | [TACO-Graph: Automated Construction of Text-Atributed Graphs](https://arxiv.org/abs/2610.36650) | Amiri Hayes, Kristina Wicke | cs.LG |
+| 2026-10-26 | [Read the Route: Attention-Steered Hypergraph Retrieval for Multi-hop RAG](https://arxiv.org/abs/2610.35412) | Jiate Liu, Liuyi Chen, Xiaofei Yuan и др. | cs.IR |
+| 2026-10-26 | [UniGFM-RAG: Unify Graph Foundation Models and Large Language Models for End-to-End Retrieval and Reasoning](https://arxiv.org/abs/2610.34866) | Zicheng Zhao, Linhao Luo, Zongji Yu и др. | cs.AI |
+| 2026-10-26 | [The Right Fact, the Wrong Decision: SciValidityBench for Scientific Agent Memory](https://arxiv.org/abs/2610.34767) | Yuexi Pan, Yongchao Chen | cs.AI |
+| 2026-10-26 | [Knowing When the Evidence Is Enough: Requirement-Directed Search with Horn-Closure Certificates](https://arxiv.org/abs/2610.34684) | Xinyu Zhang, Weiwei Sun | cs.IR |
+| 2026-10-24 | [Towards a Learnable Retriever for Textual Graph Question Answering](https://arxiv.org/abs/2610.33511) | Kaifeng Jin, Yuchen Yan, Zhichen Zeng и др. | cs.CL |
+| 2026-10-24 | [Schema-Free Text-to-SQL: Learning Enterprise Database Structure from Query Logs](https://arxiv.org/abs/2610.33946) | Ömer Faruk Akgül, Nikhil Kapahi, Prajit Reddy Muppidi | cs.CL |
+| 2026-10-24 | [Are We Done with UMLS Injection into Language Models for Medical Question Answering?](https://arxiv.org/abs/2610.33801) | Yiran Zeng, Giacomo Frisoni, Lorenzo Molfetta и др. | cs.AI |
+| 2026-10-23 | [GEMS-RAG: Graph-grounded Engineering Multimodal Standards Retrieval-Augmented Generation](https://arxiv.org/abs/2610.33277) | Abdul Hannan Azad, Irvin Wang, Jiwan Jiang и др. | cs.AI |
+| 2026-10-22 | [Federated Graph Retrieval-Augmented Generation](https://arxiv.org/abs/2610.30728) | Xiaobao Wang, Renda Han, Zhiliang Xia и др. | cs.LG |
+| 2026-10-22 | [Automated Enrichment Analysis with GraphRAG: Efficient Multi-Database ORA Extraction and Biological Interpretation](https://arxiv.org/abs/2610.30710) | Guangcan Li, Shuyuan Zheng, Jiayao Liu и др. | cs.IR |
+| 2026-10-22 | [Better Reasoning, Not Just Bigger Models: A Structure-Grounded Framework for Efficient and Reliable Inference](https://arxiv.org/abs/2610.30611) | Amirhossein Aghaei, Liangyan Li, Shiyi Yang и др. | cs.AI |
+| 2026-10-22 | [Multi-Token Prediction and Alternative Tokenization Improve Learning Latent Multi-Hop Graph Search at Scale](https://arxiv.org/abs/2610.31439) | Arvid Frydenlund, FuTe Wong, Katherine Lambert и др. | cs.LG |
+| 2026-10-20 | [RANGER: Retrieval Agent for Navigating Graphs with Semantic Evaluation Rewards](https://arxiv.org/abs/2610.28010) | Artem Mikhaylov, Pavel Konoplev, Nikolay Efanov и др. | cs.LG |
+| 2026-10-19 | [SweepANN: A GPU-Accelerated Large-K Approximate Vector Search for Drug Discovery](https://arxiv.org/abs/2610.27306) | Zhenyu Zhang, Qi Lin, Nan Zhang и др. | cs.DB |
+| 2026-10-16 | [FuseRAG: Fusing Structure and Evidence into Inference for Cost-Efficient Graph-based RAG](https://arxiv.org/abs/2610.22818) | Tingqi Wang, Yingshu Li, Zhipeng Cai | cs.DB |
+| 2026-10-15 | [CARA: Causally Guided Retrieval Agent for Question Answering](https://arxiv.org/abs/2610.22017) | Weicheng Liu, Xiangcheng Wu, Depeng Xu и др. | cs.AI |
+| 2026-10-15 | [Lean Graph Search for Formal Theorem Proving](https://arxiv.org/abs/2610.22339) | Yihan Xu, Jia-Chen Gu, Junyi Zhang и др. | cs.LG |
+| 2026-10-14 | [GraphRAG-LTM: A Layered Threat Modeling Framework for Attacks on Graph Retrieval-Augmented Generation](https://arxiv.org/abs/2610.19549) | Yining Tang, Junyu Zhang, Haomiao Qiu и др. | cs.CL |
+| 2026-10-14 | [Beyond Reachability: A Relation-Semantic Reasoning Framework for Biomedical Multi-hop QA](https://arxiv.org/abs/2610.19754) | Ziyang Ling, Ziyi Chen, Ronald X. Xu и др. | cs.CL |
+| 2026-10-13 | [Knowledge Graphs as Files: An Agent Harness Where Tool Creation and Tool Use Co-Evolve](https://arxiv.org/abs/2610.18616) | Yuyang Bai, Yu Wang, Yu Zhang | cs.CL |
+| 2026-10-13 | [Graph-free Retrieval with Graph-Modified Embeddings](https://arxiv.org/abs/2610.18410) | Federica Santi, Vasilije Marković, Daniel Scott и др. | cs.IR |
+| 2026-10-10 | [SEEK: Agentic Knowledge Graph Retrieval for Secure Code Generation](https://arxiv.org/abs/2610.14968) | Varun Gadey, Markus Tohn, Lichao Wu и др. | cs.CR |
+| 2026-10-10 | [RES-MR: Risk-Aware Reasoning for Explainable and Safe Medication Recommendation](https://arxiv.org/abs/2610.14474) | Cong Wang, Jin Li, Shoujin Wang и др. | cs.LG |
+| 2026-10-09 | [PRIME: Pre-Retrieval Index Modeling Enhancement for Structured Document Retrieval-Real](https://arxiv.org/abs/2610.13296) | Cheuk Hei Chung, Li Liu | cs.IR |
+| 2026-10-09 | [Locate, Judge, Read: Role-Specialized Tool Agents over a Knowledge-Point Index for Open-Domain Multimodal Document QA](https://arxiv.org/abs/2610.13128) | Wenlin Lin, Fanzhe Wei | cs.AI |
+| 2026-10-09 | [CliQ-RRG: Clinical-Knowledge Guided Disease-aware Visual-Textual Alignment for QA-Style Radiology Report Generation](https://arxiv.org/abs/2610.13059) | Chandravardhan Singh Raghaw, Shahid Shafi Dar, Arnav Nishith Sharma и др. | cs.CL |
+| 2026-10-08 | [Multimodal Graph Retrieval-Augmented Sequential Recommendation via Collaborative Filtering Paths](https://arxiv.org/abs/2610.11228) | Jason Marcell Setiadi, Xin Cao, Lina Yao | cs.LG |
+| 2026-10-07 | [TopoGraphRAG-Bench: Evaluating Multimodal GraphRAG on Layout-Grounded Evidence Reasoning](https://arxiv.org/abs/2610.09360) | Ruochi Li, Jianzhe Lin, Haoxuan Zhang и др. | cs.AI |
+| 2026-10-06 | [BEACON-SP: Ontology-Grounded GraphRAG Framework for Clinical Suicide Risk Assessment](https://arxiv.org/abs/2610.09026) | Kemal Davaslioglu, Nathan Conger, Sastry Kompella и др. | cs.AI |
+| 2026-10-05 | [Wikidata Search Traces: A Dataset for Training Knowledge Graph Search Agents](https://arxiv.org/abs/2610.06650) | Mohamed Chenene, Carlos Rosas-Hinostroza, Anastasia Stasenko и др. | cs.CL |
+| 2026-10-04 | [GRAM: Correcting Frozen Time-Series Foundation Models via Graph-Retrieved Amplitude Memory](https://arxiv.org/abs/2610.04827) | Xiaoyun Yu, Xiangfei Qiu, Yonggui Huang и др. | cs.LG |
+| 2026-10-01 | [Hop-Decayed Influence: New Vulnerabilities of Structural Auxiliary Indexing in GraphRAG Pipelines with LLM](https://arxiv.org/abs/2610.02373) | Jisung Park, John Le, Heath Cooper | cs.CR |
+| 2026-10-01 | [From Rules to Neural Graphs: Scalable Structured Prediction for Patent Prior Art Search](https://arxiv.org/abs/2610.01553) | Nikolai Zenovkin, Sebastian Björkqvist | cs.IR |
+| 2026-09-30 | [Concept-Grounded Attention: A Controlled Evaluation of Graph-Injected Attention, Temporal Versioning, and Epistemic Status](https://arxiv.org/abs/2609.38684) | Sachin Dev Duggal, Pradyumna Swarnalatha Ramanna, Alexandros Vassiliades | cs.AI |
+| 2026-09-29 | [Corpus-Guided Dual-Path Propagation for Graph Retrieval-Augmented Generation](https://arxiv.org/abs/2609.37661) | Baoxian Liu, Tong Wei | cs.CL |
+| 2026-09-29 | [Lost in Conversation or Lost in Translation? Diagnosing Multi-Turn Degradation in RAG](https://arxiv.org/abs/2609.36700) | Pranav Handa, Ariful Azad | cs.CL |
+| 2026-09-29 | [TAGGRAPH: Tag-Augmented Graphs for Graph Retrieval of Agent Persistent Histories](https://arxiv.org/abs/2609.38353) | Yu-Shu Chen, Yu-Jung Liang, Pengtao Xie | cs.IR |
+| 2026-09-28 | [Better Nearest Neighbor Graph Indices via (Efficient) LLM-Guided Pruning](https://arxiv.org/abs/2609.36359) | Fangzhou Wu, Haike Xu, Sandeep Silwal | cs.AI |
+| 2026-09-28 | [Signal or Noise? Modality Contribution and Cooperation in Multimodal GraphRAG](https://arxiv.org/abs/2609.35304) | Antonios Georgakopoulos, Paul Groth, Lise Stork | cs.IR |
+| 2026-09-28 | [M3OS: A Monte Carlo Graph Search-Orchestrated Multi-Agent LLM System for Evidence-Traced Molecular Optimization](https://arxiv.org/abs/2609.34491) | Junjie Wang, Yaowei Jin, Ruohui Tang и др. | cs.LG |
+| 2026-09-26 | [SkillVine: Agent Skill Evolution via Branching Exploration](https://arxiv.org/abs/2609.32731) | Kaiwei Liu, Jiqian Dong, Liran Dong и др. | cs.AI |
+| 2026-09-26 | [From Scene Graphs to Answers: Selective Neuro-Symbolic Reasoning for Autonomous Driving](https://arxiv.org/abs/2609.32645) | Yiyao Wang, Pei Liu, Fangzhou Liu и др. | cs.AI |
+| 2026-09-26 | [Graph Memory: Spectral Associative Memory via Dirichlet Energy](https://arxiv.org/abs/2609.32365) | Zhaoyang Shi | cs.LG |
+| 2026-09-25 | [EngramRAG: Dynamic Usage-Weighted Topology and Synaptic Consolidation for Multi-Hop Agentic Memory](https://arxiv.org/abs/2609.32049) | Bhavyateja Potineni, Lohit Giri, Anu Jain и др. | cs.AI |
+| 2026-09-25 | [BioDyad: Synchronize Biomedical Discovery and Machine Learning Engineering](https://arxiv.org/abs/2609.31939) | Xingbo Du, Fadli Aulawi Al Ghiffari, Leonard Song и др. | cs.AI |
+| 2026-09-22 | [LEGO: Synergizing Expert GraphRAG and Expert Chain-of-Thought for Legal Reasoning](https://arxiv.org/abs/2609.27009) | Qingjing Chen, Junkai Zhang, Shaochun Wang и др. | cs.CL |
+| 2026-09-21 | [LADDER: Graph-Guided Diffusion Language Models for Efficient Multi-Hop Reasoning](https://arxiv.org/abs/2609.24346) | Senlei Zhang, Linhao Luo, Qian-Wen Zhang и др. | cs.AI |
+| 2026-09-20 | [TRACE: Deployable Tree-Relational Structure Enhancement for Oncology LLMs](https://arxiv.org/abs/2609.35810) | Jizheng Lai, Yingyun Li, Ying Qin и др. | cs.CL |
+| 2026-09-17 | [RAFT: A Stateful Retrieval-Augmented Framework for Troubleshooting Agents](https://arxiv.org/abs/2609.20754) | Mingxuan Zhang, Xiaowen Wang, Anupma Sharan и др. | cs.AI |
+| 2026-09-17 | [Geometric Gain Graph: Zero-Token Graph Construction for Multi-Hop RAG](https://arxiv.org/abs/2609.19622) | Zeliang Li, Xiaofen Xing, Kailing Guo и др. | cs.IR |
+| 2026-09-16 | [Less Is More: Graph-free Multimodal RAG via Multi-signal Late Fusion](https://arxiv.org/abs/2609.19417) | Tithi Rakshit, Hongkuan Zhou, Lavdim Halilaj и др. | cs.CL |
+| 2026-09-16 | [Knowledge-Graph Based Augmentation versus Retrieval Augmented Generation for Cultural-Related Question Answering](https://arxiv.org/abs/2609.18317) | Pablo Poulenard, Yannis Karmim, Valentin Barrière | cs.CL |
+| 2026-09-16 | [When Is Graph Structure Worth Its Cost? The Case for Structure Pricing in Retrieval-Augmented Generation](https://arxiv.org/abs/2609.18099) | Yuzhong Zhang, Haoyang Ma, Chao Peng и др. | cs.AI |
+| 2026-09-13 | [Channel-Adaptive Region Adjacency Graph Carriers for Semantic Image Communication](https://arxiv.org/abs/2609.14616) | Karim Abdallah, Maria Slim, Mariette Awad и др. | eess.SP |
+| 2026-09-13 | [Retrieval-Driven Memory Reconsolidation for Long-Term LLM Agents](https://arxiv.org/abs/2609.16053) | Yuanyi Song, Yukai Wang, Xinbei Ma и др. | cs.CL |
+| 2026-09-11 | [Beyond Vector Similarity: Hierarchical Context-Aware Graph RAG vs Standard RAG in Enterprise Code Migration](https://arxiv.org/abs/2609.12464) | Nilesh Jaiswal, Aniket Agrawal, Arjit Shukla и др. | cs.AI |
+| 2026-09-10 | [Decoupling Error Attribution in Cloud-Native Graph-RAG: A Data Integrity Diagnostic Framework](https://arxiv.org/abs/2609.13324) | Shuai Yan, Yuhang Wu, Xiaodong Huang и др. | cs.IR |
+| 2026-09-10 | [MOSAIC: Query-Aware Exploration Policy Adaptation for GraphRAG](https://arxiv.org/abs/2609.11065) | EunKyeong Lee, Kyeong-Jin Oh, Jinwon Kim и др. | cs.AI |
+| 2026-09-09 | [LiteRAG: Cost-Efficient Graph-Based Retrieval-Augmented Generation](https://arxiv.org/abs/2609.10239) | Daniel Alejandro Coll Tejeda, Pedro García López, Daniel Barcelona-Pons | cs.IR |
+| 2026-09-09 | [The Answer Path and the Grounding Instruction in LLM Question Answering over Knowledge Graphs](https://arxiv.org/abs/2609.10237) | Arquimedes Canedo | cs.CL |
+| 2026-09-06 | [Building Trustworthy Graph-Agentic RAG for Social Good: Architectures, Failure Propagation, and Assurance by Construction](https://arxiv.org/abs/2609.06391) | Vijay Bommireddy, Raviteja Bommireddy | cs.AI |
+| 2026-09-04 | [NS-ST-GraphRAG: Neuro-Symbolic Spatio-Temporal GraphRAG for Literary Knowledge Processing](https://arxiv.org/abs/2609.05139) | Zheng Kui Lin | cs.CL |
+| 2026-09-03 | [GRASP: Graph-Retrieval Automated Scoring Pipeline for Label-Free Multi-Topic Essay Grading](https://arxiv.org/abs/2609.03857) | Aafreen Husain, Samar Shailendra, Saad Sajid Hashmi | cs.IR |
+| 2026-09-02 | [Seed-Anchored Budget-Bounded Graph Rendering for Question Answering on Industry-Standard Power-Grid Information and Exchange Models](https://arxiv.org/abs/2609.02011) | Jayakumar Manoharan, Yamini Sehgal | eess.SY |
+| 2026-09-01 | [ExpArt-KG: Artwork Image Description Generation through Iterative Exploration of Knowledge Graphs](https://arxiv.org/abs/2609.00629) | Yuta Kato, Shintaro Ozaki, Kazuki Hayashi и др. | cs.CL |
+| 2026-09-01 | [NeuroGraph: An AI Graph-Driven Neuro-Symbolic Framework for Explainable Threat Reasoning in Advanced Manufacturing](https://arxiv.org/abs/2609.00604) | Padmeswari Nandiya, Ahmad Mohsin, Ahmed Ibrahim и др. | cs.CR |
+| 2026-09-01 | [ISO-RAG: Isoperimetric Noise Control for Retrieval-Augmented Generation](https://arxiv.org/abs/2609.00513) | Siyuan Zhang, Hanchen Wang, Dong Wen и др. | cs.AI |
+| 2026-08-31 | [Hi-Q: Hierarchical Evidence-guided Query Refinement for Multi-Hop Question Answering](https://arxiv.org/abs/2608.30468) | Jueun Kim, Sungho Park, Wook-Shin Han | cs.CL |
+| 2026-08-31 | [EvLink: Source-Grounded Evidence Linking for Graph RAG](https://arxiv.org/abs/2609.29695) | Linyao Zheng, Xuhang Shi, Zhifang Mao и др. | cs.IR |
+| 2026-08-30 | [PAGE-RAG: Provenance-Aware Graph Evidence Promotion for Fixed-Budget Multi-hop Retrieval-Augmented Generation](https://arxiv.org/abs/2608.29753) | Haokun Deng, Xunkai Li, Hongchao Qin и др. | cs.AI |
+| 2026-08-30 | [Towards Agentic Cloud Engineering: Graph and Loop Engineering with a Zero-Trust Agent Harness](https://arxiv.org/abs/2609.00050) | Sagar Srinivas Sakhinana, Venkataramana Runkana | cs.SE |
+| 2026-08-28 | [The Vocabulary Gap Is an Equity Gap: Register Mismatch in Retrieval Systems for Public-Benefits Access](https://arxiv.org/abs/2609.01645) | Krish Sapru | cs.IR |
+| 2026-08-28 | [Propagating construction-time knowledge quality into medical question answering: A framework grounded in clinical guidelines](https://arxiv.org/abs/2608.28360) | Jie Hu, Junjie Wang, Shan Lu и др. | cs.AI |
+| 2026-08-28 | [Entity-Memory Graph Retrieval Improves Evidence Coverage in Long-Conversation Question Answering](https://arxiv.org/abs/2608.27925) | Shumao Sun | cs.CL |
+| 2026-08-26 | [Multi-Granularity Context-Enhanced RAG over Multimodal Knowledge Graphs](https://arxiv.org/abs/2608.25986) | Zongyu Wu, Yilong Wang, Xiaochen Wang и др. | cs.AI |
+| 2026-08-26 | [LivingRAG: Augmenting Graph RAG with Experience](https://arxiv.org/abs/2608.25960) | Yuzhuo Cui, Zongye Zhang, Qingjie Liu | cs.AI |
+| 2026-08-26 | [Query-Side Attacks on GNN-Based KGQA: Tracing Failures from Entity Linking to Answer Generation](https://arxiv.org/abs/2608.25922) | Pankaj Kumar, Subhankar Mishra | cs.CL |
+| 2026-08-26 | [CaSKG: Counterfactual-Causal Skill Graphs for Scalable Agent Skill Retrieval](https://arxiv.org/abs/2608.25500) | Zhiyuan Li, Linyuan Gao, Xuechun Ding и др. | cs.AI |
+| 2026-08-26 | [A Storage-Retrieval Gap in Parametric Knowledge Graph Memory](https://arxiv.org/abs/2608.25489) | Martino M. L. Pulici, Cuong Xuan Chu, Evgeny Kharlamov и др. | cs.LG |
+| 2026-08-25 | [SelfGraphRAG: Bridging the Supervision Gap in Graph-Based RAG with Synthetic QA Generation](https://arxiv.org/abs/2608.25123) | Ben Lagnese, Manas Gaur | cs.CL |
+| 2026-08-25 | [CareGraph: An Auditable Hybrid AI Framework for Evidence-Grounded Personalized Longitudinal Health Intelligence](https://arxiv.org/abs/2608.27484) | Pratik Ghawate, Tanvi Patil | cs.AI |
+| 2026-08-25 | [BiGraph-Diffuse: A Bidirectional Diffusion Language Model with Graph-Structured Retrieval For Mental Health Counseling](https://arxiv.org/abs/2609.29519) | Yuxiang Cheng, Quanwei Tang, Lvhui Lu и др. | cs.AI |
+| 2026-08-25 | [Don't Just Listen, Try Planning: Graph-based Retrieval-Generation Agent for Long-form Audio Meeting Understanding](https://arxiv.org/abs/2608.24048) | Quanwei Tang, Dong Zhang, Shoushan Li и др. | cs.SD |
+| 2026-08-24 | [Coarse Indexing, Fine Evidence: Decoupling Temporal Granularity in Long-Video RAG](https://arxiv.org/abs/2608.23011) | Zhe Jin, Zhimin Lin, Bin Zheng и др. | cs.CV |
+| 2026-08-22 | [Search Broadly, Seek Evidence on Both Sides, Decide Narrowly: Evidence-Admissible GraphRAG for Longitudinal Clinical Event Verification](https://arxiv.org/abs/2608.22062) | Xingtao Lin, Yubo Feng, Weixin Liu и др. | cs.AI |
+| 2026-08-22 | [SAFE-G: Structure-aware Faithful Evidence-guided Generation for Knowledge-based Visual Question Answering](https://arxiv.org/abs/2608.21796) | Long Shu, Shuochen Liu, Wei Chen и др. | cs.CV |
+| 2026-08-19 | [rEDMRec: Distilling Large Language Model Reasoning into an Editable Experience Memory for Recommendation](https://arxiv.org/abs/2608.18952) | Minh Hoang Nguyen, Tung Le, Huy Tien Nguyen | cs.IR |
+| 2026-08-19 | [FinRCA-Bench: Benchmarking Evidence Retrieval and Reasoning for Financial AI Systems](https://arxiv.org/abs/2608.18534) | Pratik Ghawate | cs.AI |
+| 2026-08-19 | [MissDiag: Diagnostic Evaluation of Incomplete-Knowledge Robustness in KGQA and KG-RAG](https://arxiv.org/abs/2608.18489) | Hang Wang, Hang Dong, Lu Liu и др. | cs.CL |
+| 2026-08-18 | [LabourCrew: A Multi-Agent RAG Framework for Trustworthy Adversarial Deliberation and Statutory Reasoning over Labour Law](https://arxiv.org/abs/2609.27814) | Fatema Tuj Johora Faria, Mukaffi Bin Moin, Jubayer Al Mahmud и др. | cs.CL |
+| 2026-08-17 | [The Commercial Tax: Rent-vs-Own Blind Spots in Multi-Hop Retrieval Benchmarks](https://arxiv.org/abs/2608.16096) | Luis M. Sanchez, Kosrow Dehnad | cs.IR |
+| 2026-08-17 | [LineageRAG: Harnessing GraphRAG by Constructing Evidence Lineages with Source Grounding](https://arxiv.org/abs/2608.16004) | Linyao Zheng, Xuhang Shi, Zhifang Mao и др. | cs.IR |
+| 2026-08-16 | [Noesis: Bidirectional Graph-RAG with Adaptive Parallelism and Cross-Knowledge-Base Semantic Discovery](https://arxiv.org/abs/2608.15919) | Nicola Cogotti | cs.IR |
+| 2026-08-15 | [GraphLoom: Reliability-Calibrated Graph Evidence Routing for Multimodal KG-RAG](https://arxiv.org/abs/2608.15056) | Zafar Ali, Asad Khan, Aalia Malik и др. | cs.AI |
+| 2026-08-14 | [post-graph-rag: A PostgreSQL-Native Bi-Temporal Graph RAG Engine with Temporal Grounding at Synthesis](https://arxiv.org/abs/2608.24921) | Chandan Rajah | cs.AI |
+| 2026-08-13 | [CLAIR-Fin: An Adversarial Multi-Agent Framework for Claim-Level Verification and Adaptive Debate in Cross-Modal Financial QA](https://arxiv.org/abs/2608.13706) | Fatema Tuj Johora Faria, Mukaffi Bin Moin, Jubayer Al Mahmud и др. | cs.CL |
+| 2026-08-13 | [Operationalizing Cyber Threat Intelligence with GraphRAG](https://arxiv.org/abs/2608.13050) | Atul Kabra, Prakhar Paliwal, Manjesh K. Hanawal | cs.CR |
+| 2026-08-13 | [EviReform: Evidence-Guided Query Reformulation for Multi-Hop Graph Retrieval](https://arxiv.org/abs/2608.13006) | Xinlong Xu, Yoshua Y. Li | cs.CL |
+| 2026-08-12 | [ABAI at COLIEE 2026 Task 1: Multi-Stage Retrieval with GraphRAG-Enhanced Meta-Learning, and a Post-Hoc Study of the Cross-Validation-to-Test Gap](https://arxiv.org/abs/2609.26237) | Minhan Cho, Soyoung Park, Daejin Choi и др. | cs.IR |
+| 2026-08-12 | [From Extraction to Governed Memory: Multi-Agent Knowledge Graph Construction with Domain-Expert Review](https://arxiv.org/abs/2608.28642) | Pranav Bykampadi, Neel Mokaria, Vishesh Narayan и др. | cs.AI |
+| 2026-08-10 | [VeriForge: Mitigating Latent Knowledge Gaps in Narrative Drafting via Mixed-Initiative Scaffolding](https://arxiv.org/abs/2608.09698) | Ruqi Sun, Jiaping Li, Wenhui Tao и др. | cs.HC |
+| 2026-08-10 | [AkasicDB: Demonstrating Omni RAG with a Unified Vector-Graph-Relational DBMS](https://arxiv.org/abs/2608.09214) | Geonho Lee, Jeongho Park, Donghyoung Han и др. | cs.DB |
+| 2026-08-10 | [PreGress: Ranking-Native Pre-training and Prompting for Graph Node Ranking](https://arxiv.org/abs/2608.09016) | Lujie Ban, Jiasheng shi, Yingli Zhou и др. | cs.IR |
+| 2026-08-09 | [Integrated Multimodal AI System for Retrieval-Augmented Reasoning, Object Sensing, and Damage Analysis](https://arxiv.org/abs/2608.08935) | Kalelo Dukuray, Israel Pina, Evan Perez и др. | cs.AI |
+| 2026-08-08 | [VDGR-RAG: Vectors, Directories, Graphs, and Reflection Are All You Need for Unified Reasoning over Hierarchical Enterprise Knowledge](https://arxiv.org/abs/2608.07994) | Wenqi Chen, Haofei Yang, Rui Yang и др. | cs.AI |
+| 2026-08-08 | [KGCache: Amortized Subgraph Retrieval for KG Reasoning with LLMs](https://arxiv.org/abs/2608.07954) | Uros Stanic, Changcheng Yuan, Sabuj Laskar и др. | cs.AI |
+| 2026-08-04 | [TSG Suggester: Tree-Structured Knowledge-Graph Retrieval for Troubleshooting Guide Recommendation in Cloud Incident Management](https://arxiv.org/abs/2609.35780) | Shawn Pan, PavanUttej Ravva, Walt Williams и др. | cs.IR |
+| 2026-08-04 | [VISPATH: Visual-Intent-Guided Path Reasoning for Multimodal Knowledge Graph Question Answering](https://arxiv.org/abs/2609.20843) | Jinke Wu, Zhengpin Li, Mengzhe Jia и др. | cs.CL |
+| 2026-08-03 | [Effective and Efficient Context Retrieval via Partial Dependency Graph for Repository-Level Code Generation](https://arxiv.org/abs/2608.01927) | Zhongxin Liu, Zhonghao Jiang, Zhifan Ye и др. | cs.SE |
+| 2026-08-03 | [X-KGRank: A Knowledge Graph RAG Framework for Explainable Recommendations via Pattern Mining and LLM Re-Ranking](https://arxiv.org/abs/2608.01732) | Meenakshi Rajpurohit, Jainish Patel | cs.IR |
+| 2026-08-03 | [GABench: A Comprehensive Benchmark for Evaluating LLM Agents on Graph Analysis Tasks](https://arxiv.org/abs/2608.01684) | Jiarui Tan, Zhongjian Zhang, YaBo Guo и др. | cs.AI |
+| 2026-08-03 | [DocNavRAG: Document-Structured Graph RAG with Stateful Evidence Construction for Complex Document Question Answering](https://arxiv.org/abs/2608.01565) | Dongyang Xie, Yao Tian, Hao Zhang и др. | cs.CL |
+| 2026-08-02 | [ACE-GraphRAG: Agentic Context Engineering for Hierarchical GraphRAG](https://arxiv.org/abs/2608.01269) | Yongfeng Huang, Yuren Lai, Ruiying Chen и др. | cs.CL |
+| 2026-08-02 | [BEST-KAG: Enhancing Question Answering of Building Engineering Standards with Multimodal Knowledge Graph Modeling and Large Language Model](https://arxiv.org/abs/2608.11244) | Jia-Rui Lin, Junxi Guo, Keyin Chen и др. | cs.AI |
+| 2026-08-01 | [CADIR: A Cross-Backend Editable Intermediate Representation for Agentic CAD Generation](https://arxiv.org/abs/2608.00891) | Yu Liu, Jingzhe Ni, Yiming Chen и др. | cs.AI |
+| 2026-08-01 | [A Triple-Robustness Analysis of Retrieval-Augmented Generation for Multi-Hop Requirements Traceability](https://arxiv.org/abs/2608.00705) | Meftun Akarsu, Burak Özdemir, Doğancan Büyükçolak и др. | cs.IR |
+| 2026-07-31 | [MERIT: Efficient In-Place Deletion for Dynamic Graph-Based Approximate Nearest Neighbor Indexes](https://arxiv.org/abs/2607.29173) | Zekai Wu, Jiabao Jin, Peng Cheng и др. | cs.DB |
+| 2026-07-30 | [GLM-RAG: Graph Language Models for Graph-Based Retrieval-Augmented Generation](https://arxiv.org/abs/2607.28397) | Maya Arseven, Anette Frank, Beni Egressy и др. | cs.AI |
+| 2026-07-30 | [An Exploration Graph with Continuous Refinement for Efficient Multimedia Retrieval](https://arxiv.org/abs/2607.27623) | Nico Hezel, Kai Uwe Barthel, Konstantin Schall и др. | cs.IR |
+| 2026-07-29 | [KAMR: Grounding Generation via Knowledge-Aligned Multi-hop Retrieval](https://arxiv.org/abs/2607.27136) | Xiaochen Wang, Yuan Zhong, Haoyu Wang и др. | cs.IR |
+| 2026-07-29 | [BM25 Wins at Scale: A Scaling Study of Retrieval-Augmented Generation Paradigms](https://arxiv.org/abs/2607.26497) | Pengyu Wang, Benfeng Xu, Shaohan Wang и др. | cs.CL |
+| 2026-07-27 | [DeCoRAG: Cognitive Decoupling and Semantic-Aware Cropping for Complex Document Understanding](https://arxiv.org/abs/2607.24554) | Shuo Wang, Kai Zhang, Wenyuan Huang и др. | cs.IR |
+| 2026-07-27 | [Automatic Knowledge Graph Construction and Query for Earthquake Catalogs](https://arxiv.org/abs/2607.24984) | Yuxin Zhou, Huai Zhang, S. Mostafa Mousavi | physics.geo-ph |
+| 2026-07-27 | [A corrective agentic hybrid RAG and an operations-grounded evaluation for a scientific facility](https://arxiv.org/abs/2607.24663) | Rajat Sainju, Dariusz Jarosz, Hairong Shang и др. | physics.acc-ph |
+| 2026-07-27 | [Robust Interpretation of Historical Documents in Knowledge Graphs Through Query Inference and Execution](https://arxiv.org/abs/2607.24475) | Sebastià Nicolau, Adrià Molina, Oriol Ramos Terrades и др. | cs.IR |
+| 2026-07-26 | [HVM-GraphRAG: Holistic-View Multimodal Graph Retrieval-Augmented Generation on Complex Document](https://arxiv.org/abs/2607.24861) | Xin He, Yili Wang, Wenqi Fan и др. | cs.IR |
+| 2026-07-24 | [Towards Trustworthy and Cost-Efficient Data Integration: From Naïve RAG to Agentic RAG](https://arxiv.org/abs/2607.22319) | Chuangtao Ma, Arijit Khan | cs.DB |
+| 2026-07-24 | [What Softmax Throws Away: Mass-Aware Attention for Evidence Accumulation](https://arxiv.org/abs/2607.22781) | Minwoo Yu, Young-guk Ha | cs.LG |
+| 2026-07-23 | [GRADRAG: Cross-Component Prompt Adaptation for Coordinated Multi-Agent RAG](https://arxiv.org/abs/2607.21324) | Paolo Pedinotti, Enrico Santus | cs.CL |
+| 2026-07-23 | [DMG: A Scalable and Efficient Memory-Disaggregated Graph Processing System](https://arxiv.org/abs/2607.20881) | Yizou Chen, Tsun-Yu Yang, Zhisheng Hu и др. | cs.DB |
+| 2026-07-21 | [PAGE-RAG: Evidence-Grounded Adaptive Graph Retrieval for Long-Document Question Answering](https://arxiv.org/abs/2607.19301) | Xingyu Chen, Junxiu An, Jun Guo и др. | cs.IR |
+| 2026-07-20 | [Aethel: A Reproducible Graph-Retrieval Framework for Multi-Hop Financial Diligence](https://arxiv.org/abs/2607.24826) | Krish Sapru | cs.IR |
+| 2026-07-17 | [Chronofy: A Temporal-Logical Decay Architecture for Information Validity in Time-Aware Retrieval-Augmented Generation](https://arxiv.org/abs/2607.20560) | Muntaser Syed, Marius Silaghi, Sheikh Abujar и др. | cs.LG |
+| 2026-07-17 | [Cache-Aware Prompt Compression:A Two-Tier Cost Model for LLM API Caching](https://arxiv.org/abs/2607.15516) | Yan Song | cs.LG |
+| 2026-07-16 | [SmartRAG: Native Graph-Based RAG for Mobile Device](https://arxiv.org/abs/2607.14661) | Zhihan Jiang, Meng Li, Shenghao Liu и др. | cs.AI |
+| 2026-07-13 | [RAGU: A Multi-Step GraphRAG Engine with a Compact Domain-Adapted LLM](https://arxiv.org/abs/2607.11683) | Mikhail Komarov, Ivan Bondarenko, Stanislav Shtuka и др. | cs.CL |
+| 2026-07-13 | [FAIR GraphRAG: A Retrieval-Augmented Generation Approach for Semantic Data Analysis](https://arxiv.org/abs/2607.11464) | Marlena Flüh, Soo-Yon Kim, Carolin Victoria Schneider и др. | cs.IR |
+| 2026-07-13 | [NGM-RAG: Neural Graph Matching based Retrieval-Augmented Generation](https://arxiv.org/abs/2607.11159) | Guo Chen, Ziwen Li, Maolin Zheng и др. | cs.IR |
+| 2026-07-11 | [TGMS: An Agent-Native Bi-Temporal Graph Management System](https://arxiv.org/abs/2607.10265) | Xiaofei Zhang | cs.DB |
+| 2026-07-09 | [PolyUQuest: Verifiable Structure-Aware Web RAG over Heterogeneous Graphs](https://arxiv.org/abs/2607.08269) | Ying Liu, Yi Ye, Quanyu Feng и др. | cs.AI |
+| 2026-07-08 | [RegDivergence-101: An LLM Benchmark for Cross-Jurisdiction Regulatory Contradiction Detection in Life Sciences](https://arxiv.org/abs/2608.28607) | Chuchu Wu, Zhiyin Zhou, Jingzhuo Hu и др. | cs.AI |
+| 2026-07-06 | [Narrative World Model: Narratology-Grounded Writer Memory for Long-Form Fiction](https://arxiv.org/abs/2607.05577) | Mohammad Saifullah, Thomas Kornmaier, Taaha Kazi и др. | cs.AI |
+| 2026-07-06 | [When Thinking Before Retrieval Hurts: TraceBound Diagnostics for Adaptive Knowledge-Graph Retrieval](https://arxiv.org/abs/2607.24800) | Partha Sarathi Purkayastha | cs.IR |
+| 2026-07-04 | [HyGRL: Adaptive Hybrid Graph Reasoning for Multi-Entity Questions](https://arxiv.org/abs/2607.19398) | Junyi Wang | cs.AI |
+| 2026-07-03 | [TRIAGE: Trustworthy Retrieval Instrumentation And Graph Evaluation](https://arxiv.org/abs/2607.03447) | Axel TahmasebiMoradi, Lucas Schott, Martin Royer | cs.IR |
+| 2026-07-02 | [Optimizing Hypergraph-Based RAG: Toward Better Fact Extraction and Chunk Retrieval](https://arxiv.org/abs/2607.20506) | Houda Khrouf, Pedro Fillastre, Sebastiao Correia | cs.AI |
+| 2026-07-01 | [RACORN-1: Adaptive Recall-Preserving Speedup for Low-Selectivity Filtered Vector Search](https://arxiv.org/abs/2607.00768) | Yoonseok Kim, Gyusik Choe | cs.DB |
+| 2026-07-01 | [R$^{2}$Adapter: A Routing and Rewriting Adapter for Efficient Hybrid RAG](https://arxiv.org/abs/2609.02894) | Yucan Guo, Miao Su, Saiping Guan и др. | cs.CL |
+| 2026-07-01 | [Auditing Forgetting in Limited Memory Language Models](https://arxiv.org/abs/2607.00605) | Arya Raeesi, Hanna Roed | cs.CL |
+| 2026-07-01 | [When RAG Meets Query Planning: Logical Query Trees for Resolving Exploratory Reasoning Problems](https://arxiv.org/abs/2607.00508) | Ganlin Xu, Linghao Zhang, Zhitao Yin и др. | cs.IR |
+| 2026-06-30 | [AGE: Adaptive-masking for Graph Embedding in Graph Retrieval-Augmented Generation](https://arxiv.org/abs/2607.00052) | Bao Long Nguyen Huu, Atsushi Hashimoto | cs.IR |
+| 2026-06-29 | [Grounding LLM Reasoning under Incomplete Graph Evidence](https://arxiv.org/abs/2606.30247) | Jiaqi Li, Fanghui Song | cs.CL |
+| 2026-06-29 | [Query-Aware Spreading Activation for Multi-Hop Retrieval over Knowledge Graphs](https://arxiv.org/abs/2606.30133) | Illia Makarov, Mykola Glybovets | cs.LG |
+| 2026-06-29 | [Efficient Retrieval-Augmented Generation via Token Co-occurrence Graphs](https://arxiv.org/abs/2606.30093) | Gianluca Bonifazi, Christopher Buratti, Michele Marchetti и др. | cs.CL |
+| 2026-06-29 | [Experience Graphs: The Data Foundation for Self-Improving Agents](https://arxiv.org/abs/2606.29823) | Gang Liao, Yujia He, Abdullah Ozturk и др. | cs.DB |
+| 2026-06-28 | [LLM-Guided Planning for Multi-hop Reasoning over Multimodal Nuclear Regulatory Documents](https://arxiv.org/abs/2606.29399) | Mingyu Jeon, Bokyeong Kim, Suwan Cho и др. | cs.AI |
+| 2026-06-27 | [Multimodal Graph RAG for Long-range Visually Rich Document Understanding](https://arxiv.org/abs/2606.28780) | Yi-Cheng Wang, Chu-Song Chen | cs.IR |
+| 2026-06-26 | [From Detection to Action: Using LLM Agents for Fault-Tolerant Control](https://arxiv.org/abs/2606.28011) | Javal Vyas, Milapji Singh Gill, Artan Markaj и др. | eess.SY |
+| 2026-06-26 | [SemFlowRAG: Directed Semantic Flow from Abstraction to Evidence for Complex Reasoning](https://arxiv.org/abs/2606.28447) | Houyuan Qin, Rong Wu, Qinyuan Qin и др. | cs.IR |
+| 2026-06-24 | [MKG-RAG-Bench: Benchmarking Retrieval in Multimodal Knowledge Graph-Augmented Generation](https://arxiv.org/abs/2606.26458) | Xiaochen Wang, Bao Hoang, Han Liu и др. | cs.AI |
+| 2026-06-24 | [Is GraphRAG Needed? From Basic RAG to Graph-/Agentic Solutions with Context Optimization](https://arxiv.org/abs/2606.25656) | Long Chen, Ryan Razkenari, Yuxuan Zhou и др. | cs.CL |
+| 2026-06-24 | [Hybrid-IR: Dual-Path Hybrid Retrieval with Iterative Reasoning for Complex Medical Question Answering](https://arxiv.org/abs/2606.25338) | Sheng Wan, Jiahui Zhang, Zicheng Zhao и др. | cs.CL |
+| 2026-06-23 | [Unified Dominance Graph for Interval-Predicate Approximate Nearest Neighbor Search](https://arxiv.org/abs/2606.24204) | Kwun Hang Lau, Ruiyuan Zhang, Elton Chun-Chai Li и др. | cs.DB |
+| 2026-06-22 | [TTFT-Aware Graph Chain-of-Thought:Distance-Indexed Neural A* for Low-Hallucination Multi-Hop Medical Reasoning](https://arxiv.org/abs/2606.23108) | Bechir Dardouri, Kaïs Zhioua, Yassine Msaddak | cs.AI |
+| 2026-06-22 | [When Confidence Takes the Wrong Path: Diagnosing Retrieval-State Lock-In in RAG](https://arxiv.org/abs/2606.22728) | Sahib Julka | cs.CL |
+| 2026-06-20 | [FeLoG: Scalable and Efficient Distributed Graph Embedding with Feedback Loop Mechanism](https://arxiv.org/abs/2606.22180) | Peng Fang, Arijit Khan, Ziqiang Wu и др. | cs.DC |
+| 2026-06-19 | [LEDGER: Scaling Agentic Document Editing with Dependency-aware Graph Retrieval](https://arxiv.org/abs/2606.28379) | Mike Hang Wang, Utkarsh Garg, Reza Davari и др. | cs.IR |
+| 2026-06-16 | [RankGraph-2: Lifecycle Co-Design for Billion-Node Graph Learning in Recommendation](https://arxiv.org/abs/2606.18379) | Renzhi Wu, Zikun Cui, Junjie Yang и др. | cs.IR |
+| 2026-06-16 | [A Unified Framework for Context-Aware and Relation-Aware Graph Retrieval-Augmented Generation](https://arxiv.org/abs/2606.18075) | Haoyang Zhong, Yifei Sun, Antong Zhang и др. | cs.AI |
+| 2026-06-16 | [FlowRAG: Synergizing Explicit Reasoning via Frequency-Aware Multi-Granularity Graph Flow](https://arxiv.org/abs/2606.17856) | Bihao Zhan, Zongsheng Cao, Jie Zhou и др. | cs.AI |
+| 2026-06-15 | [PathRouter: Aligning Rewards with Retrieval Quality in Agentic Graph Retrieval-Augmented Generation](https://arxiv.org/abs/2606.16409) | Bo Wang, Heyan Huang, Yaolin Li и др. | cs.CL |
+| 2026-06-15 | [What Should a Streaming Video Model Remember?](https://arxiv.org/abs/2606.16353) | Haonan Ge, Yiwei Wang, Hang Wu и др. | cs.CV |
+| 2026-06-12 | [HyCE-RAG: Hypergraph Chain-of-Evidence Retrieval-Augmented Generation for Explainable Multi-hop Question Answering](https://arxiv.org/abs/2607.22597) | Hong-Yu An, Yun-Jian Zhang, Chen-Wei Liang и др. | cs.AI |
+| 2026-06-11 | [Agents-K1: Towards Agent-native Knowledge Orchestration](https://arxiv.org/abs/2606.13669) | Zongsheng Cao, Bihao Zhan, Jinxin Shi и др. | cs.AI |
+| 2026-06-10 | [Structure Over Scale: Schema-Constrained Causal Graphs for RAG](https://arxiv.org/abs/2607.22592) | Marc Saouda, Rajprakash Bale, Eren Aldis и др. | cs.AI |
+| 2026-06-10 | [An Ontology-Guided Multi-Anchor Graph Retrieval Framework for Traffic Legal Liability Determination](https://arxiv.org/abs/2606.11910) | Xu Li, Shuqi Tian, Xun Han и др. | cs.CL |
+| 2026-06-10 | [GraphInfer-Bench: Benchmarking LLM's Inference Capability on Graphs](https://arxiv.org/abs/2606.11562) | Zhuoyi Peng, Jingzhou Jiang, Hanlin Gu и др. | cs.LG |
+| 2026-06-08 | [Enhancing LLMs with Context-Specific Knowledge for Mitigating Misinformation in SMEs: A RAG-based Modeling and Analysis](https://arxiv.org/abs/2608.00006) | Md. Samiul Islam, Iqbal H. Sarker, Chadni Islam и др. | cs.AI |
+| 2026-06-05 | [GraphContainer: A Unified Platform for Comparing and Debugging Graph RAG Methods](https://arxiv.org/abs/2607.19362) | Seonho An, Chaejeong Hyun, Min-Soo Kim | cs.AI |
+| 2026-06-04 | [IA-RAG: Interval-Algebra-Driven Temporal Reasoning for Dynamic Knowledge Retrieval](https://arxiv.org/abs/2606.06044) | Xiaoman Wang, Yaoze Zhang, Wenzhuo Fan и др. | cs.CL |
+| 2026-06-04 | [Reducing Hallucinations in Complex Question Answering using Simple Graph-based Retrieval-Augmented Generation (long version)](https://arxiv.org/abs/2606.05901) | Christopher J. Wedge, Joshua Stutter, Danny Dixon и др. | cs.CL |
+| 2026-06-03 | [Autonomous heterogeneous catalyst discovery with a self-evolving multi-agent digital twin](https://arxiv.org/abs/2606.05050) | Zhilong Song, Zongmin Zhang, Lixue Cheng | cond-mat.mtrl-sci |
+| 2026-06-03 | [HyperSU: Corpus-Driven Semantic-Unit Hypergraph for Retrieval-Augmented Generation](https://arxiv.org/abs/2606.28351) | Jiate Liu, Liuyi Chen, Zhengyi Yang и др. | cs.IR |
+| 2026-06-03 | [QO-Bench: Diagnosing Query-Operator-Preserving Retrieval over Typed Event Tuples](https://arxiv.org/abs/2606.04646) | Mengao Zhang, Xiang Yang, Chang Liu и др. | cs.CL |
+| 2026-06-03 | [HC-RAG: Evidence-Centric Retrieval-Augmented Generation over Heterogeneous Financial Filings](https://arxiv.org/abs/2608.12335) | Siyuan Chen, Huaye Tan, You Li и др. | cs.CL |
+| 2026-06-02 | [SCAIR: Schema-Conditioned Agentic Iterative Reasoning for Enterprise Knowledge Graphs](https://arxiv.org/abs/2607.22571) | Prateek Chaturvedi, Yuqicheng Zhu, Hongkuan Zhou и др. | cs.AI |
+| 2026-06-02 | [SkillDAG: Self-Evolving Typed Skill Graphs for LLM Skill Selection at Scale](https://arxiv.org/abs/2606.03056) | Tong Bai, Zhenglin Wan, Pengfei Zhou и др. | cs.AI |
+| 2026-06-01 | [LAANN: I/O-Aware Look-Ahead Search for Disk-Based Approximate Nearest Neighbor Search](https://arxiv.org/abs/2606.02784) | Dingyi Kang, Juncheng Yang, Bingzhe Li | cs.DB |
+
 ## AI in AEC / ConTech (246)
 
 | дата | статья | авторы | кат. |
@@ -887,3 +1086,110 @@
 | 2023-09-01 | [NeMig -- A Bilingual News Collection and Knowledge Graph about Migration](https://arxiv.org/abs/2309.00550) | Andreea Iana, Mehwish Alam, Alexander Grote и др. | cs.IR |
 | 2023-07-25 | [BIM-to-BRICK: Using graph modeling for IoT/BMS and spatial semantic data interoperability within digital data models of buildings](https://arxiv.org/abs/2307.13197) | Filippo Vittori, Chuan Fu Tan, Anna Laura Pisello и др. | eess.SY |
 | 2023-04-23 | [CBIM: A Graph-based Approach to Enhance Interoperability Using Semantic Enrichment](https://arxiv.org/abs/2304.11672) | Zijian Wang, Huaquan Ying, Rafael Sacks и др. | cs.SE |
+
+## AEC data & formats (IFC, DXF, DWG, RVT) (102)
+
+| дата | статья | авторы | кат. |
+|---|---|---|---|
+| 2026-10-21 | [IFC-MCQ: Automatically Generating Multiple-Choice Benchmarks for Evaluating LLM Agents on IFC Data Retrieval](https://arxiv.org/abs/2610.30533) | Rabindra Lamsal, Sisi Zlatanova, Xuesong Shen | cs.CL |
+| 2026-10-21 | [CRAB: Cuboid-based Representation for As-built BIM from Point Clouds](https://arxiv.org/abs/2610.29257) | Haoran Xiong, Jing Wang, Shanshan Pan и др. | cs.CV |
+| 2026-10-17 | [IndustrialCAD-1400: Benchmarking Detailed Industrial Assemblies from Text](https://arxiv.org/abs/2610.24789) | Hebao Zhu, Kang An, Zhuoke Liao и др. | cs.AI |
+| 2026-10-13 | [TempFit: Panoptic Symbol Spotting via Template Fitting](https://arxiv.org/abs/2610.17776) | Honghao Xu, Hao Wang, Xiang Liu и др. | cs.GR |
+| 2026-10-12 | [ModRes: A modification of the ResPlan dataset ready for floor plan analysis and graph machine learning](https://arxiv.org/abs/2610.17178) | Emma Shelley, Wassim Jabi, Thomas Woolley и др. | cs.LG |
+| 2026-10-07 | [Why VLMs Miss Small Objects, and When Zooming In Is Safe](https://arxiv.org/abs/2610.09313) | Junzhe Shi, Yuan Gan, Shida Jiang | cs.CV |
+| 2026-09-28 | [DrawingsDreamer: A Unified Multi-View Engineering Drawings Generation Model](https://arxiv.org/abs/2609.35242) | Shurui Liu, Weide Chen, Changwang Yi и др. | cs.CV |
+| 2026-09-22 | [Evidence-gated multimodal parsing and vectorization of architectural floor plans](https://arxiv.org/abs/2609.25615) | Hongxuan Chen, Wenda Wang, Jiachen Lu и др. | cs.CV |
+| 2026-09-19 | [Same Pattern, Different Answer: A Reference Semantics and Divergence Map for GQL and SQL/PGQ Path Patterns](https://arxiv.org/abs/2609.23032) | Madhulatha Mandarapu, Sandeep Kunkunuru | cs.DB |
+| 2026-09-17 | [SlugTrails: An Egocentric Benchmark for Floor Plan Localization in Large Buildings](https://arxiv.org/abs/2609.19876) | Yunqian Cheng, Roberto Manduchi | cs.CV |
+| 2026-09-13 | [A Building as a Repository: KIR, a Typed Intermediate Representation for Agent-Authored Building Information Models](https://arxiv.org/abs/2609.14578) | Dmitry Kuklev | cs.CV |
+| 2026-09-11 | [Multimodal Floorplan Encoding: Learning Dense Modality-Invariant Representations](https://arxiv.org/abs/2609.12723) | Xavier Anadón, Rémi Pautrat, Rui Wang | cs.CV |
+| 2026-09-03 | [RealCADBench: Benchmarking Parametric CAD Modeling from Industrial Design Intents](https://arxiv.org/abs/2609.03773) | Guanlin Li, Zhichao Huang, Huimu Yu и др. | cs.CV |
+| 2026-08-25 | [Design-to-Plan: A Large Language Model-Based Multi-Agent Framework for Manufacturing Process Planning from 3D CAD Models and 2D Engineering Drawings](https://arxiv.org/abs/2608.24039) | Muhammad Tayyab Khan, Lequn Chen, Wenhe Feng и др. | cs.RO |
+| 2026-08-21 | [MechReason: Benchmarking Multi-Image Multi-Hop Reasoning in Mechanical Engineering](https://arxiv.org/abs/2609.16012) | Tengyue Wang, Kang An, Chenxu Du и др. | cs.CV |
+| 2026-08-19 | [BIMScript: Material-Aware Structured Scene Programs for BIM Ingestion](https://arxiv.org/abs/2608.21447) | Prakash Kondibhau Naikade, Thomas B. Moeslund, Andreas Møgelmose | cs.CV |
+| 2026-08-14 | [Intelligent Detection of Mechanical, Electrical, and Plumbing (MEP) Metrics Based on 2D Floor Plans](https://arxiv.org/abs/2608.14317) | Tarandeep Singh Mandhiratta, ANK Zaman, Abdul-Rahman Mawlood-Yunis | cs.CV |
+| 2026-08-12 | [PolarSym: Polar Geometry-aware Attention for CAD Floorplan Parsing](https://arxiv.org/abs/2608.11793) | Kerui Chen, Yiqing Wang, Kangzhou Xin и др. | cs.CV |
+| 2026-08-06 | [OmniMech: All-in-one Multimodal Mechanical Benchmark for 3D Reconstruction](https://arxiv.org/abs/2608.05539) | Taiting Lu, Runze Liu, Ziwei Dong и др. | cs.CV |
+| 2026-08-02 | [Intelligent Identification and Repair of Design Defects in BIM via Domain-Specific Large Language Models](https://arxiv.org/abs/2608.28629) | Jia-Rui Lin, Yun-Hong Cai, Xiang-Rui Ni и др. | cs.CL |
+| 2026-07-30 | [IndustryForge-27B: A Domain-Enhanced Multimodal Foundation Model for Industrial CAD](https://arxiv.org/abs/2607.28050) | Nianchen Deng, Jiaxin Ai, Tao Hu и др. | cs.AI |
+| 2026-07-30 | [Drawing-Recode: Annotation Grounding for Parametric CAD Code Generation from Raster 2D CAD Drawings](https://arxiv.org/abs/2607.27558) | Mingi Kim, Yongjun Kim, Hyungki Kim | cs.CV |
+| 2026-07-21 | [Benchmarking Deep Learning Approaches for AEC Engineering Drawing Layout Detection and Information Extraction](https://arxiv.org/abs/2607.18997) | Tianyang Huang, Alessio Lombardi, Ahmed Elnagar и др. | cs.CV |
+| 2026-07-16 | [DrawingVQA: A Real-World Benchmark for Multi-Depth Visual-Textual Reasoning on Construction Drawings](https://arxiv.org/abs/2607.15418) | Yoonhwa Jung, Junryu Fu, Mani Golparvar-Fard | cs.AI |
+| 2026-07-14 | [Text-Aided Multi-Modal Panoptic Symbol Spotting for CAD Floor Plan Drawings](https://arxiv.org/abs/2607.12678) | Yan Gong, Bohao Li, Bowen Du и др. | cs.CV |
+| 2026-07-13 | [IFCMemoryBench: Evaluating Long-Term Memory of LLM-Based Agents in BIM Information Retrieval](https://arxiv.org/abs/2607.26072) | Changyu Du, Alexander Vosseler, Filippo Mazza и др. | cs.IR |
+| 2026-06-30 | [ShellMaker: Language-Guided Exterior Completion under Structural Constraints](https://arxiv.org/abs/2606.31680) | Ruiqi Xu, Daniel Aliaga | cs.CV |
+| 2026-06-19 | [DPLAN: Minimal Connectivity to Floorplan Generation](https://arxiv.org/abs/2606.21159) | Rohit Lohani, Krishnendra Shekhawat | cs.CG |
+| 2026-06-18 | [BIM-Edit: Benchmarking Large Language Models for IFC-Based Building Information Modeling](https://arxiv.org/abs/2606.20146) | Bharathi Kannan Nithyanantham, Clemens Kujat, Tobias Sesterhenn и др. | cs.AI |
+| 2026-06-11 | [IterCAD: An Iterative Multimodal Agent for Visually-Grounded CAD Generation and Editing](https://arxiv.org/abs/2606.13368) | Tao Hu, Jiaxin Ai, Licheng Wen и др. | cs.AI |
+| 2026-06-10 | [Automating Geometry-Intensive Compliance Checking in BIM: Graph-Based Semantic Reasoning Framework](https://arxiv.org/abs/2606.12065) | Zixuan Xiao, Pei Troh Koh, Jun Ma и др. | cs.AI |
+| 2026-05-21 | [Ishigaki-IDS-Bench: A Benchmark for Generating Information Delivery Specification from BIM Information Requirements](https://arxiv.org/abs/2605.22079) | Ryo Kanazawa, Koyo Hidaka, Teppei Miyamoto и др. | cs.CL |
+| 2026-05-18 | [Fixed External Cameras as Common Prior Maps for Active 3D Scene Graph Generation](https://arxiv.org/abs/2605.18184) | Giorgia Modi, Davide Buoso, Giuseppe Averta и др. | cs.RO |
+| 2026-05-13 | [IfcLLM: Natural Language Querying of IFC Models through Complementary Relational and Graph Representations](https://arxiv.org/abs/2605.13236) | Rabindra Lamsal, Sisi Zlatanova, Haowen Xu и др. | cs.CL |
+| 2026-05-08 | [VLM-based automatic multi-granularity graph representation of building layouts for design informatics](https://arxiv.org/abs/2608.24886) | Song Guo, Zhuoshi Chen, Maosu Li и др. | cs.AI |
+| 2026-05-03 | [BIM Information Extraction Through LLM-based Adaptive Exploration](https://arxiv.org/abs/2605.01698) | Sylvain Hellin, Suhyung Jang, Stefan Fuchs и др. | cs.CL |
+| 2026-04-27 | [BIMStruct3D: A Fully Automated Hybrid Learning Scan-to-BIM Pipeline with Integrated Topology Refinement](https://arxiv.org/abs/2604.24311) | Mahdi Chamseddine, Fabian Kaufmann, Marius Schellen и др. | cs.CV |
+| 2026-04-09 | [What a Comfortable World: Ergonomic Principles Guided Apartment Layout Generation](https://arxiv.org/abs/2604.08411) | Piotr Nieciecki, Aleksander Plocharski, Przemyslaw Musialski | cs.GR |
+| 2026-02-26 | [Rethinking Floorplan Generation with Space Syntax: From Design Theory to Model Improvement](https://arxiv.org/abs/2602.22507) | Zhuoyang Jiang, Dongqing Zhang, Qingxiang Liu и др. | cs.LG |
+| 2026-02-20 | [Context-Aware Mapping of 2D Drawing Annotations to 3D CAD Features Using LLM-Assisted Reasoning for Manufacturing Automation](https://arxiv.org/abs/2602.18296) | Muhammad Tayyab Khan, Lequn Chen, Wenhe Feng и др. | cs.CE |
+| 2026-02-09 | [Raster2Seq: Polygon Sequence Generation for Floorplan Reconstruction](https://arxiv.org/abs/2602.09016) | Hao Phung, Hadar Averbuch-Elor | cs.CV |
+| 2026-02-02 | [Boundary-Constrained Diffusion Models for Floorplan Generation: Balancing Realism and Diversity](https://arxiv.org/abs/2602.01949) | Leonardo Stoppani, Davide Bacciu, Shahab Mokarizadeh | cs.LG |
+| 2026-01-08 | [AECV-Bench: Benchmarking Multimodal Models on Architectural and Engineering Drawings Understanding](https://arxiv.org/abs/2601.04819) | Aleksei Kondratenko, Mussie Birhane, Houssame E. Hsain и др. | cs.AI |
+| 2025-12-21 | [A Modular Reference Architecture for MCP-Servers Enabling Agentic BIM Interaction](https://arxiv.org/abs/2601.00809) | Tobias Heimig-Elschner, Changyu Du, Anna Scheuvens и др. | cs.OH |
+| 2025-12-12 | [RoomPilot: Controllable Indoor Scene Synthesis via Multimodal Semantic Parsing](https://arxiv.org/abs/2512.11234) | Wentang Chen, Shougao Zhang, Yiman Zhang и др. | cs.CV |
+| 2025-11-29 | [GreenPlanner: Practical Floorplan Layout Generation via an Energy-Aware and Function-Feasible Generative Framework](https://arxiv.org/abs/2512.00406) | Pengyu Zeng, Yuqin Dai, Jun Yin и др. | cs.AI |
+| 2025-11-24 | [FilmSceneDesigner: Chaining Set Design for Procedural Film Scene Generation](https://arxiv.org/abs/2511.19137) | Zhifeng Xie, Keyi Zhang, Yiye Yan и др. | cs.CV |
+| 2025-11-03 | [Semantic BIM enrichment for firefighting assets: Fire-ART dataset and panoramic image-based 3D reconstruction](https://arxiv.org/abs/2511.01399) | Ya Wen, Yutong Qiao, Chi Chiu Lam и др. | cs.CV |
+| 2025-10-29 | [MCP4IFC: IFC-Based Building Design Using Large Language Models](https://arxiv.org/abs/2511.05533) | Bharathi Kannan Nithyanantham, Tobias Sesterhenn, Ashwin Nedungadi и др. | cs.CL |
+| 2025-10-23 | [A Multi-Stage Hybrid Framework for Automated Interpretation of Multi-View Engineering Drawings Using Vision Language Model](https://arxiv.org/abs/2510.21862) | Muhammad Tayyab Khan, Zane Yong, Lequn Chen и др. | cs.CV |
+| 2025-10-22 | [Machine Learning-Based Localization Accuracy of RFID Sensor Networks via RSSI Decision Trees and CAD Modeling for Defense Applications](https://arxiv.org/abs/2510.20019) | Curtis Lee Shull, Merrick Green | cs.LG |
+| 2025-10-20 | [Integrating BIM and UAV-based photogrammetry for Automated 3D Structure Model Segmentation](https://arxiv.org/abs/2510.17609) | Siqi Chen, Shanyue Guan | cs.CV |
+| 2025-10-16 | [Sketch2BIM: A Multi-Agent Human-AI Collaborative Pipeline to Convert Hand-Drawn Floor Plans to 3D BIM](https://arxiv.org/abs/2510.20838) | Abir Khan Ratul, Sanjay Acharjee, Somin Park и др. | cs.AI |
+| 2025-10-13 | [Text-Enhanced Panoptic Symbol Spotting in CAD Drawings](https://arxiv.org/abs/2510.11091) | Xianlin Liu, Yan Gong, Bohao Li и др. | cs.CV |
+| 2025-09-19 | [FloorSAM: SAM-Guided Floorplan Reconstruction with Semantic-Geometric Fusion](https://arxiv.org/abs/2509.15750) | Han Ye, Haofu Wang, Yunchi Zhang и др. | cs.CV |
+| 2025-09-14 | [BIGNet: Pretrained Graph Neural Network for Embedding Semantic, Spatial, and Topological Data in BIM Models](https://arxiv.org/abs/2509.11104) | Jin Han, Xin-Zheng Lu, Jia-Rui Lin | cs.LG |
+| 2025-09-03 | [LayoutGKN: Graph Similarity Learning of Floor Plans](https://arxiv.org/abs/2509.03737) | Casper van Engelenburg, Jan van Gemert, Seyran Khademi | cs.CV |
+| 2025-08-30 | [Text-to-Layout: A Generative Workflow for Drafting Architectural Floor Plans Using LLMs](https://arxiv.org/abs/2509.00543) | Jayakrishna Duggempudi, Lu Gao, Ahmed Senouci и др. | cs.AI |
+| 2025-08-28 | [SYNBUILD-3D: A large, multi-modal, and semantically rich synthetic dataset of 3D building models at Level of Detail 4](https://arxiv.org/abs/2508.21169) | Kevin Mayer, Alex Vesel, Xinyi Zhao и др. | cs.CV |
+| 2025-08-26 | [Drawing2CAD: Sequence-to-Sequence Learning for CAD Generation from Vector Drawings](https://arxiv.org/abs/2508.18733) | Feiwei Qin, Shichao Lu, Junhao Hou и др. | cs.CV |
+| 2025-08-22 | [CEQuest: Benchmarking Large Language Models for Construction Estimation](https://arxiv.org/abs/2508.16081) | Yanzhao Wu, Lufan Wang, Rui Liu | cs.CL |
+| 2025-08-17 | [Machine Learning-Based Manufacturing Cost Prediction from 2D Engineering Drawings via Geometric Features](https://arxiv.org/abs/2508.12440) | Ahmet Bilal Arıkan, Şener Özönder, Mustafa Taha Koçyiğit и др. | cs.LG |
+| 2025-08-14 | [SkeySpot: Automating Service Key Detection for Digital Electrical Layout Plans in the Construction Industry](https://arxiv.org/abs/2508.10449) | Dhruv Dosi, Rohit Meena, Param Rajpura и др. | cs.CV |
+| 2025-08-10 | [An Embodied AR Navigation Agent: Integrating BIM with Retrieval-Augmented Generation for Language Guidance](https://arxiv.org/abs/2508.16602) | Hsuan-Kung Yang, Tsu-Ching Hsiao, Ryoichiro Oka и др. | cs.HC |
+| 2025-08-05 | [Domain-Specific Fine-Tuning and Prompt-Based Learning: A Comparative Study for developing Natural Language-Based BIM Information Retrieval Systems](https://arxiv.org/abs/2508.05676) | Han Gao, Timo Hartmann, Botao Zhong и др. | cs.IR |
+| 2025-08-02 | [Perspective from a Broader Context: Can Room Style Knowledge Help Visual Floorplan Localization?](https://arxiv.org/abs/2508.01216) | Bolei Chen, Shengsheng Yan, Yongzheng Cui и др. | cs.CV |
+| 2025-07-23 | [Lumina-mGPT 2.0: Stand-Alone AutoRegressive Image Modeling](https://arxiv.org/abs/2507.17801) | Yi Xin, Juncheng Yan, Qi Qin и др. | cs.CV |
+| 2025-07-14 | [FGSSNet: Feature-Guided Semantic Segmentation of Real World Floorplans](https://arxiv.org/abs/2507.10343) | Hugo Norrby, Gabriel Färm, Kevin Hernandez-Diaz и др. | cs.CV |
+| 2025-07-06 | [Integrating Generative AI in BIM Education: Insights from Classroom Implementation](https://arxiv.org/abs/2507.05296) | Islem Sahraoui, Kinam Kim, Lu Gao и др. | cs.CY |
+| 2025-06-25 | [Large Language Model-Driven Code Compliance Checking in Building Information Modeling](https://arxiv.org/abs/2506.20551) | Soumya Madireddy, Lu Gao, Zia Din и др. | cs.SE |
+| 2025-06-12 | [FloorPlan-DeepSeek (FPDS): A multimodal approach to floorplan generation using vector-based next room prediction](https://arxiv.org/abs/2506.21562) | Jun Yin, Pengyu Zeng, Jing Zhong и др. | cs.CL |
+| 2025-06-10 | [FloorplanMAE:A self-supervised framework for complete floorplan generation from partial inputs](https://arxiv.org/abs/2506.08363) | Jun Yin, Jing Zhong, Pengyu Zeng и др. | cs.AI |
+| 2025-05-29 | [Point or Line? Using Line-based Representation for Panoptic Symbol Spotting in CAD Drawings](https://arxiv.org/abs/2505.23395) | Xingguang Wei, Haomin Wang, Shenglong Ye и др. | cs.CV |
+| 2025-05-13 | [CAD-Coder:Text-Guided CAD Files Code Generation](https://arxiv.org/abs/2505.08686) | Changqi He, Shuhan Zhang, Liguo Zhang и др. | cs.GR |
+| 2025-05-08 | [Unified Network-Based Representation of BIM Models for Embedding Semantic, Spatial, and Topological Data](https://arxiv.org/abs/2505.22670) | Jin Han, Xin-Zheng Lu, Jia-Rui Lin | cs.CE |
+| 2025-04-23 | [LLM-assisted Graph-RAG Information Extraction from IFC Data](https://arxiv.org/abs/2504.16813) | Sima Iranmanesh, Hadeel Saadany, Edlira Vakaj | cs.CL |
+| 2025-04-13 | [Computer-Aided Layout Generation for Building Design: A Review](https://arxiv.org/abs/2504.09694) | Jiachen Liu, Yuan Xue, Haomiao Ni и др. | cs.CV |
+| 2025-03-28 | [ArchCAD-400K: A Large-Scale CAD drawings Dataset and New Baseline for Panoptic Symbol Spotting](https://arxiv.org/abs/2503.22346) | Ruifeng Luo, Zhengjie Liu, Tianxiao Cheng и др. | cs.CV |
+| 2025-03-23 | [PHT-CAD: Efficient CAD Parametric Primitive Analysis with Progressive Hierarchical Tuning](https://arxiv.org/abs/2503.18147) | Ke Niu, Yuwen Chen, Haiyang Yu и др. | cs.CV |
+| 2025-03-14 | [Open-source automatic pipeline for efficient conversion of large-scale point clouds to IFC format](https://arxiv.org/abs/2503.11498) | Slávek Zbirovský, Václav Nežerka | cs.CV |
+| 2025-02-20 | [CrossOver: 3D Scene Cross-Modal Alignment](https://arxiv.org/abs/2502.15011) | Sayan Deb Sarkar, Ondrej Miksik, Marc Pollefeys и др. | cs.CV |
+| 2025-02-12 | [AR Glulam: Accurate Augmented Reality Using Multiple Fiducial Markers for Glulam Fabrication](https://arxiv.org/abs/2502.08566) | Alexander Htet Kyaw, Arvin Xu, Sasa Zivkovic и др. | cs.ET |
+| 2024-12-16 | [From 2D CAD Drawings to 3D Parametric Models: A Vision-Language Approach](https://arxiv.org/abs/2412.11892) | Xilin Wang, Jia Zheng, Yuanchao Hu и др. | cs.CV |
+| 2024-12-10 | [CADSpotting: Robust Panoptic Symbol Spotting on Large-Scale CAD Drawings](https://arxiv.org/abs/2412.07377) | Fuyi Yang, Jiazuo Mu, Yanshun Zhang и др. | cs.CV |
+| 2024-12-09 | [Generating floorplans for various building functionalities via latent diffusion model](https://arxiv.org/abs/2412.06859) | Mohamed R. Ibrahim, Josef Musil, Irene Gallou | cs.LG |
+| 2024-11-15 | [A natural-language-based approach to intelligent data retrieval and representation for cloud BIM](https://arxiv.org/abs/2411.09951) | Jia-Rui Lin, Zhen-Zhong Hu, Jian-Ping Zhang и др. | cs.HC |
+| 2024-09-26 | [A Generalized LLM-Augmented BIM Framework: Application to a Speech-to-BIM system](https://arxiv.org/abs/2409.18345) | Ghang Lee, Suhyung Jang, Seokho Hyun | cs.CL |
+| 2024-08-29 | [GSDiff: Synthesizing Vector Floorplans via Geometry-enhanced Structural Graph Generation](https://arxiv.org/abs/2408.16258) | Sizhe Hu, Wenming Wu, Yuntao Wang и др. | cs.GR |
+| 2024-08-15 | [Text2BIM: Generating Building Models Using a Large Language Model-based Multi-Agent Framework](https://arxiv.org/abs/2408.08054) | Changyu Du, Sebastian Esser, Stavros Nousias и др. | cs.AI |
+| 2024-07-28 | [BEMTrace: Visualization-driven approach for deriving Building Energy Models from BIM](https://arxiv.org/abs/2407.19464) | Andreas Walch, Attila Szabo, Harald Steinlechner и др. | cs.HC |
+| 2024-07-14 | [MSD: A Benchmark Dataset for Floor Plan Generation of Building Complexes](https://arxiv.org/abs/2407.10121) | Casper van Engelenburg, Fatemeh Mostafavi, Emanuel Kuhn и др. | cs.CV |
+| 2024-07-02 | [AHMsys: An Automated HVAC Modeling System for BIM Project](https://arxiv.org/abs/2407.01987) | Long Hoang Dang, Duy-Hung Nguyen, Thai Quang Le и др. | cs.CV |
+| 2024-07-02 | [SymPoint Revolutionized: Boosting Panoptic Symbol Spotting with Layer Feature Enhancement](https://arxiv.org/abs/2407.01928) | Wenlong Liu, Tianyu Yang, Qizhi Yu и др. | cs.CV |
+| 2024-06-26 | [Human-Aware 3D Scene Generation with Spatially-constrained Diffusion Models](https://arxiv.org/abs/2406.18159) | Xiaolin Hong, Hongwei Yi, Fazhi He и др. | cs.CV |
+| 2024-06-25 | [SE-VGAE: Unsupervised Disentangled Representation Learning for Interpretable Architectural Layout Design Graph Generation](https://arxiv.org/abs/2406.17418) | Jielin Chen, Rudi Stouffs | cs.LG |
+| 2024-06-03 | [Towards Automating the Retrospective Generation of BIM Models: A Unified Framework for 3D Semantic Reconstruction of the Built Environment](https://arxiv.org/abs/2406.01480) | Ka Lung Cheung, Chi Chung Lee | cs.CV |
+| 2024-06-02 | [Towards commands recommender system in BIM authoring tool using transformers](https://arxiv.org/abs/2406.10237) | Changyu Du, Zihan Deng, Stavros Nousias и др. | cs.IR |
+| 2024-05-25 | [Cypher4BIM: Releasing the Power of Graph for Building Knowledge Discovery](https://arxiv.org/abs/2405.16345) | Junxiang Zhu, Nicholas Nisbet, Mengtian Yin и др. | cs.DB |
+| 2024-04-17 | [Pixel-Wise Symbol Spotting via Progressive Points Location for Parsing CAD Images](https://arxiv.org/abs/2404.10985) | Junbiao Pang, Zailin Dong, Jiaxin Deng и др. | cs.CV |
+| 2024-04-11 | [DesignQA: A Multimodal Benchmark for Evaluating Large Language Models' Understanding of Engineering Documentation](https://arxiv.org/abs/2404.07917) | Anna C. Doris, Daniele Grandi, Ryan Tomich и др. | cs.AI |
+| 2024-03-29 | [Sketch-to-Architecture: Generative AI-aided Architectural Design](https://arxiv.org/abs/2403.20186) | Pengzhi Li, Baijuan Li, Zhiheng Li | cs.CV |
+| 2024-01-19 | [Symbol as Points: Panoptic Symbol Spotting via Point-based Representation](https://arxiv.org/abs/2401.10556) | Wenlong Liu, Tianyu Yang, Yuhan Wang и др. | cs.CV |
